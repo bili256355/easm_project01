@@ -1,0 +1,4 @@
+﻿baseline_config,pre_start,pre_end,post_start,post_end,search_start,search_end,diagnostic_start,diagnostic_end,role,notes
+C0_full_stage,0,39,49,74,35,53,0,74,main_candidate_full_non_transition_stage_unified_expanded_search,Use the full non-accepted-transition intervals before and after W45 as pre/post; use W45 ±5d expanded event-search window to avoid treating the accepted core as the full event search window.
+C1_buffered_stage,0,34,54,69,35,53,0,74,buffered_sensitivity_candidate,Exclude five-day buffers around W45 and before W003/day81.
+C2_immediate_pre,25,34,54,69,35,53,0,74,immediate_pre_sensitivity_candidate,Use the near-W45 pre-core to test dependence on immediate background state.

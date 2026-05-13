@@ -1,0 +1,130 @@
+{
+  "foundation": {
+    "project_root": "D:\\easm_project01",
+    "foundation_layer": "foundation",
+    "foundation_version": "V1",
+    "preprocess_output_tag": "baseline_a"
+  },
+  "profile": {
+    "lat_step_deg": 2.0,
+    "p_lon_range": [
+      105.0,
+      125.0
+    ],
+    "p_lat_range": [
+      15.0,
+      39.0
+    ],
+    "v_lon_range": [
+      105.0,
+      125.0
+    ],
+    "v_lat_range": [
+      10.0,
+      30.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "je_lon_range": [
+      120.0,
+      150.0
+    ],
+    "je_lat_range": [
+      25.0,
+      45.0
+    ],
+    "jw_lon_range": [
+      80.0,
+      110.0
+    ],
+    "jw_lat_range": [
+      25.0,
+      45.0
+    ]
+  },
+  "state": {
+    "standardize": true,
+    "block_equal_contribution": true,
+    "trim_invalid_days": true
+  },
+  "detector": {
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "fixed_n_bkps": null,
+    "pen": 4.0,
+    "epsilon": null,
+    "local_peak_min_distance_days": 3,
+    "nearest_peak_search_radius_days": 10
+  },
+  "bootstrap": {
+    "n_bootstrap": 1000,
+    "random_seed": 42,
+    "progress": true,
+    "strict_match_max_abs_offset_days": 2,
+    "match_max_abs_offset_days": 5,
+    "near_max_abs_offset_days": 8
+  },
+  "band": {
+    "min_band_half_width_days": 2,
+    "max_band_half_width_days": 10,
+    "peak_floor_quantile": 0.35,
+    "prominence_ratio_threshold": 0.5,
+    "respect_candidate_boundaries": true,
+    "truncate_at_intervening_candidate": true,
+    "truncate_at_local_valley": true,
+    "allow_band_merge": true,
+    "merge_gap_days": 1,
+    "close_neighbor_exemption_days": 4,
+    "protect_significant_peaks_from_merge": true,
+    "significant_peak_threshold": 0.95
+  },
+  "uncertainty": {
+    "interval_match_types": [
+      "strict",
+      "matched",
+      "near"
+    ],
+    "emit_width80": true,
+    "emit_width95": true
+  },
+  "reference": {
+    "source_v6_output_tag": "mainline_v6_a",
+    "source_v6_1_output_tag": "mainline_v6_1_a",
+    "strict_accepted_windows": [
+      [
+        "W045",
+        45,
+        40,
+        48
+      ],
+      [
+        "W081",
+        81,
+        75,
+        87
+      ],
+      [
+        "W113",
+        113,
+        108,
+        118
+      ],
+      [
+        "W160",
+        160,
+        155,
+        165
+      ]
+    ]
+  },
+  "output_tag": "joint_main_window_reproduce_v10_1"
+}

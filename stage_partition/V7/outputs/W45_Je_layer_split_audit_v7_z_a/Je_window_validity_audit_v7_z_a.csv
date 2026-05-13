@@ -1,0 +1,5 @@
+﻿event,phase,start_day,end_day,n_days_requested,within_raw_range
+day33_shape_peak,before,27,32,6,True
+day33_shape_peak,after,34,39,6,True
+day46_raw_peak,before,40,45,6,True
+day46_raw_peak,after,47,52,6,True

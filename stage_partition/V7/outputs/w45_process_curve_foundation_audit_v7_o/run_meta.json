@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "created_at": "2026-05-03T11:30:45",
+  "output_tag": "w45_process_curve_foundation_audit_v7_o",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "fields": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ],
+  "input_representation": "current_v7e_progress_profile",
+  "does_not_claim_absolute_correctness": true,
+  "state_rebuild_status": "success",
+  "outputs": {
+    "field_prepost_foundation": "w45_field_prepost_foundation_v7_o.csv",
+    "field_transition_direction": "w45_field_transition_direction_audit_v7_o.csv",
+    "field_projection_validity": "w45_field_projection_progress_validity_v7_o.csv",
+    "field_single_curve_adequacy": "w45_field_single_curve_adequacy_v7_o.csv",
+    "pair_phase_comparability": "w45_pair_phase_comparability_v7_o.csv",
+    "pair_artifact_risk": "w45_pair_relation_artifact_risk_v7_o.csv",
+    "field_decision": "w45_process_curve_foundation_decision_fields_v7_o.csv",
+    "pair_decision": "w45_process_curve_foundation_decision_pairs_v7_o.csv",
+    "summary": "w45_process_curve_foundation_summary_v7_o.md"
+  }
+}

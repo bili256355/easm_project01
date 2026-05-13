@@ -1,0 +1,22 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V3",
+  "phase_name": "mainline_v3_a",
+  "foundation_dependency": {
+    "layer": "foundation",
+    "version": "V1",
+    "required_artifact": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz"
+  },
+  "python_dependencies": [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "ruptures"
+  ],
+  "notes": [
+    "V3 reuses the accepted raw-smoothed detector backbone from V2 but rewrites support/retention audits at the window-object level.",
+    "V3 does not depend on MovingWindow.",
+    "V3 does not read old V2 support_summary.json or old retention tables to define main windows."
+  ]
+}

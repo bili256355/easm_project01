@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,raw_profile_window_family,state_distance_family,state_pattern_family,growth_distance_family,growth_pattern_family,profile_2d_mirror_family,selected_window_overlap_fraction,co_transition_veto
+W081,H,Je,unresolved,A_tendency,B_supported,unresolved,B_supported,A_supported,0.9047619047619048,True
+W081,H,Jw,unresolved,B_tendency,B_supported,B_tendency,B_tendency,B_supported,0.8571428571428571,True
+W081,H,P,unresolved,unresolved,unresolved,unresolved,unresolved,A_supported,0.8571428571428571,True
+W081,H,V,unresolved,B_supported,B_supported,B_supported,B_supported,A_supported,0.0,False
+W081,Je,Jw,unresolved,B_supported,B_tendency,B_tendency,unresolved,B_supported,0.7619047619047619,True
+W081,Je,P,unresolved,unresolved,A_tendency,unresolved,A_supported,A_supported,0.9523809523809523,True
+W081,Je,V,unresolved,B_supported,unresolved,B_supported,unresolved,A_supported,0.0,False
+W081,Jw,P,unresolved,A_supported,A_supported,A_tendency,A_tendency,A_supported,0.7142857142857143,True
+W081,Jw,V,unresolved,B_tendency,A_tendency,B_tendency,unresolved,A_supported,0.0,False
+W081,P,V,unresolved,B_supported,B_supported,B_supported,B_supported,A_supported,0.0,False

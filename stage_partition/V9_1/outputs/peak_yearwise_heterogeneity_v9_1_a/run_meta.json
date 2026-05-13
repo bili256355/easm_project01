@@ -1,0 +1,26 @@
+{
+  "version": "v9_1_peak_yearwise_heterogeneity_a",
+  "output_tag": "peak_yearwise_heterogeneity_v9_1_a",
+  "parent_version": "V9 peak_all_windows_v9_a",
+  "modifies_v9": false,
+  "reads_v9_outputs": true,
+  "v9_output_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_all_windows_v9_a",
+  "windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "excluded_windows": [
+    "W135"
+  ],
+  "state_included": false,
+  "growth_included": false,
+  "process_a_included": false,
+  "mode_merge_gap_days": 2,
+  "cluster_k_values": [
+    2,
+    3
+  ],
+  "started_at": "2026-05-08 15:43:46"
+}

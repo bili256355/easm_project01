@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "created_at": "2026-04-28T19:48:32",
+  "input_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+  "n_rows": 2772,
+  "stability_judgement_counts": {
+    "not_supported": 2524,
+    "stable_lag_dominant": 135,
+    "significant_lagged_but_tau0_coupled": 100,
+    "audit_sensitive": 13
+  },
+  "use_class_counts": {
+    "not_candidate": 2524,
+    "core_stable_lag_candidate": 135,
+    "temporal_candidate_with_tau0_coupling": 100,
+    "sensitive_candidate_keep_separate": 13
+  },
+  "lag_vs_tau0_label_counts": {
+    "lag_tau0_close_or_coupled": 2195,
+    "stable_tau0_dominant": 351,
+    "stable_lag_dominant": 226
+  },
+  "interpretation": "V1 stability judgement is a post-processing layer. It formalizes lag-vs-tau0 and forward-vs-reverse stability using existing V1 diagnostics. It does not rerun correlations, surrogates, or establish causality/pathways."
+}

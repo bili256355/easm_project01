@@ -1,0 +1,6 @@
+window_id,legacy_window_id,start_day,end_day,center_day,width_days,main_peak_day,origin_detector,window_build_version,source_primary_point_ids,source_support_band_ids,is_main_window,window_status,status_reason,catalog_match_status,notes
+W001,RW01,43,47,45,5,45,ruptures_window,window_native_v3_a,RP001,RB001,True,main,from_current_v3_ruptures_primary_windows,advisory_only,V3 primary main-window table is the only formal downstream window-object source
+W002,RW02,76,85,81,10,81,ruptures_window,window_native_v3_a,RP002,RB002,True,main,from_current_v3_ruptures_primary_windows,advisory_only,V3 primary main-window table is the only formal downstream window-object source
+W003,RW03,109,116,113,8,113,ruptures_window,window_native_v3_a,RP003,RB003,True,main,from_current_v3_ruptures_primary_windows,advisory_only,V3 primary main-window table is the only formal downstream window-object source
+W004,RW04,135,135,135,1,135,ruptures_window,window_native_v3_a,RP004,RB004,True,main,from_current_v3_ruptures_primary_windows,advisory_only,V3 primary main-window table is the only formal downstream window-object source
+W005,RW05,156,163,160,8,160,ruptures_window,window_native_v3_a,RP005,RB005,True,main,from_current_v3_ruptures_primary_windows,advisory_only,V3 primary main-window table is the only formal downstream window-object source

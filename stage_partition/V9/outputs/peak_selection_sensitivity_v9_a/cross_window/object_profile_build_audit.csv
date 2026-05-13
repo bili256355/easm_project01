@@ -1,0 +1,11 @@
+﻿smoothing,source_file,object,role,profile_shape,lat_min,lat_max,n_profile_lat,used_v7_profile_helper
+smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,P,precip,45x183x97,15.0,39.0,97,False
+smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,V,v850,45x183x81,10.0,30.0,81,False
+smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,H,z500,45x183x81,15.0,35.0,81,False
+smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,Je,u200,45x183x81,25.0,45.0,81,False
+smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,Jw,u200,45x183x81,25.0,45.0,81,False
+smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,P,precip,45x183x97,15.0,39.0,97,False
+smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,V,v850,45x183x81,10.0,30.0,81,False
+smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,H,z500,45x183x81,15.0,35.0,81,False
+smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,Je,u200,45x183x81,25.0,45.0,81,False
+smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,Jw,u200,45x183x81,25.0,45.0,81,False

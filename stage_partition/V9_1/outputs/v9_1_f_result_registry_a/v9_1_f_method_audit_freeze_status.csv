@@ -1,0 +1,13 @@
+﻿audit_item,status,details,freeze_decision
+V9 replay audit,pass,60/60 pass,freeze_ok
+boundary NaN feature audit,pass,20 object-window blocks audited; all-NaN boundary features explicitly handled,freeze_ok
+evidence_v3,pass,15 targets in evidence_v3,freeze_ok
+permutation audit,pass,15/15 pass-prefix strict_99,freeze_ok
+signflip direction null,pass,15/15 pass-prefix direction_specific,freeze_ok
+mode stability,pass,15/15 stable,freeze_ok
+year leverage audit,pass,0/15 extreme-year dominated,freeze_ok
+target specificity audit,pass,59 rows from bootstrap_composite_mca_target_specificity_all_windows.csv,freeze_ok
+cross-target null,pass,44 rows from bootstrap_composite_mca_cross_target_null_all_windows.csv,freeze_ok
+quantile sensitivity,pass,60 rows from bootstrap_composite_mca_quantile_sensitivity_all_windows.csv,freeze_ok
+score-gradient audit,pass,15 rows from bootstrap_composite_mca_score_gradient_summary_all_windows.csv,freeze_ok
+pattern summary,pass,75 rows from bootstrap_composite_mca_pattern_summary_all_windows.csv,freeze_ok

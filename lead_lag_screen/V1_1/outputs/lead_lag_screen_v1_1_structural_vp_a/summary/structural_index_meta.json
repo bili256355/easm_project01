@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "input_smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+  "input_v1_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+  "generated_index_raw": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_raw.csv",
+  "generated_index_anomalies": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_doy_anomaly.csv",
+  "field_shape": [
+    45,
+    183,
+    201,
+    521
+  ],
+  "lat_min": 10.0,
+  "lat_max": 60.0,
+  "lon_min": 20.0,
+  "lon_max": 150.0,
+  "index_value_mode_for_screen": "day-of-season anomaly",
+  "v_positive_threshold_abs": 0.1,
+  "v_positive_threshold_fraction_of_max": 0.1
+}

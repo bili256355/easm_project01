@@ -1,0 +1,155 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "input_v1_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+    "input_v1_index_values_smoothed": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+    "input_smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+    "previous_v1_stability_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables",
+    "generated_index_anomalies_name": "v1_1_index_values_doy_anomaly.csv",
+    "generated_index_raw_name": "v1_1_index_values_raw.csv",
+    "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_current_107_117_len11",
+    "random_seed": 20260530,
+    "max_lag": 5,
+    "diagnostic_max_lag": 10,
+    "write_diagnostic_lags": true,
+    "n_surrogates": 1000,
+    "n_direction_bootstrap": 1000,
+    "surrogate_chunk_size": 100,
+    "bootstrap_chunk_size": 100,
+    "surrogate_mode": "pooled_window_variable_ar1",
+    "run_audit_surrogate_null": true,
+    "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+    "n_audit_surrogates": 1000,
+    "min_valid_year_fraction": 0.7,
+    "min_pairs": 30,
+    "p_supported": 0.05,
+    "p_marginal": 0.1,
+    "q_within_window_supported": 0.1,
+    "old_v_indices": [
+      "V_strength",
+      "V_pos_centroid_lat",
+      "V_NS_diff"
+    ],
+    "old_p_indices": [
+      "P_main_band_share",
+      "P_south_band_share_18_24",
+      "P_main_minus_south",
+      "P_spread_lat",
+      "P_north_band_share_35_45",
+      "P_north_minus_main_35_45",
+      "P_total_centroid_lat_10_50"
+    ],
+    "new_v_indices": [
+      "V_pos_north_edge_lat",
+      "V_pos_south_edge_lat",
+      "V_pos_band_width",
+      "V_pos_centroid_lat_recomputed",
+      "V_highlat_35_55_mean",
+      "V_lowlat_20_30_mean",
+      "V_high_minus_low_35_55_minus_20_30",
+      "V_lowlat_weakening_proxy_20_30"
+    ],
+    "new_p_indices": [
+      "P_main_28_35_mean",
+      "P_south_10_25_mean",
+      "P_scs_10_20_mean",
+      "P_highlat_40_60_mean",
+      "P_highlat_35_60_mean",
+      "P_highlat_minus_main",
+      "P_south_minus_main",
+      "P_south_plus_highlat_minus_main"
+    ],
+    "index_lon_range": [
+      100.0,
+      135.0
+    ],
+    "p_main_lat_range": [
+      28.0,
+      35.0
+    ],
+    "p_main_lon_range": [
+      100.0,
+      125.0
+    ],
+    "p_south_lat_range": [
+      10.0,
+      25.0
+    ],
+    "p_south_lon_range": [
+      105.0,
+      130.0
+    ],
+    "p_scs_lat_range": [
+      10.0,
+      20.0
+    ],
+    "p_scs_lon_range": [
+      105.0,
+      130.0
+    ],
+    "p_highlat_40_60_lat_range": [
+      40.0,
+      60.0
+    ],
+    "p_highlat_35_60_lat_range": [
+      35.0,
+      60.0
+    ],
+    "v_highlat_lat_range": [
+      35.0,
+      55.0
+    ],
+    "v_lowlat_lat_range": [
+      20.0,
+      30.0
+    ],
+    "v_positive_threshold_abs": 0.1,
+    "v_positive_threshold_fraction_of_max": 0.1,
+    "v_positive_min_consecutive_grid": 2,
+    "include_same_family_pairs": false,
+    "windows": {
+      "T3_current": [
+        107,
+        117
+      ]
+    },
+    "variable_families": {
+      "V_strength": "V",
+      "V_pos_centroid_lat": "V",
+      "V_NS_diff": "V",
+      "V_pos_north_edge_lat": "V",
+      "V_pos_south_edge_lat": "V",
+      "V_pos_band_width": "V",
+      "V_pos_centroid_lat_recomputed": "V",
+      "V_highlat_35_55_mean": "V",
+      "V_lowlat_20_30_mean": "V",
+      "V_high_minus_low_35_55_minus_20_30": "V",
+      "V_lowlat_weakening_proxy_20_30": "V",
+      "P_main_band_share": "P",
+      "P_south_band_share_18_24": "P",
+      "P_main_minus_south": "P",
+      "P_spread_lat": "P",
+      "P_north_band_share_35_45": "P",
+      "P_north_minus_main_35_45": "P",
+      "P_total_centroid_lat_10_50": "P",
+      "P_main_28_35_mean": "P",
+      "P_south_10_25_mean": "P",
+      "P_scs_10_20_mean": "P",
+      "P_highlat_40_60_mean": "P",
+      "P_highlat_35_60_mean": "P",
+      "P_highlat_minus_main": "P",
+      "P_south_minus_main": "P",
+      "P_south_plus_highlat_minus_main": "P"
+    }
+  },
+  "method_contract": {
+    "window_assignment": "target-side Y(t) belongs to W",
+    "year_pairing": "same-year only; no cross-year concatenation",
+    "statistical_support": "main AR(1) surrogate max-stat for positive lags",
+    "main_surrogate_mode": "pooled_window_variable_ar1",
+    "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+    "audit_surrogate_role": "diagnostic null only; does not alter main lead_lag_label",
+    "directional_robustness": "year-block bootstrap of null-relative positive-vs-negative and positive-vs-lag0 evidence",
+    "same_day_rule": "lag0 is diagnostic same-day coupling, not lead evidence"
+  }
+}

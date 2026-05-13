@@ -1,0 +1,6 @@
+﻿object,window_id,object_peak_day,object_window_start,object_window_end,overlap_with_system_W45_day40_48,overlap_days_with_W45,is_pre_W45_peak,is_within_W45_peak,is_post_W45_peak,bootstrap_match_fraction,window_status,interpretation
+H,W001,38,34,41,True,2,True,False,False,1.0,accepted_pattern_window_95,object_peak_before_system_W45
+H,W002,48,46,50,True,3,False,True,False,0.62,weak_pattern_window_50,object_peak_within_system_W45
+H,W003,58,56,60,False,0,False,False,True,0.609,weak_pattern_window_50,object_peak_after_system_W45
+Jw,W001,16,14,18,False,0,True,False,False,0.645,weak_pattern_window_50,object_peak_before_system_W45
+Jw,W002,40,35,47,True,8,False,True,False,0.921,candidate_pattern_window_80,object_peak_within_system_W45

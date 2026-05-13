@@ -1,0 +1,6 @@
+point_id,point_day,month_day,reference_rank,point_role_group,point_role_detail,is_formal_primary,is_headline_primary,neighbor_group_id,source_run_tag,raw_point_day,matched_peak_day,peak_score,peak_prominence
+RP001,45,05-16,1,formal_primary,headline_primary,True,True,,mainline_v4_a,44,45,5.878578493131532,
+RP002,81,06-21,2,formal_primary,headline_primary,True,True,,mainline_v4_a,80,81,9.238311473412097,
+RP003,113,07-23,3,formal_primary,headline_primary,True,True,,mainline_v4_a,112,113,9.678099825113602,
+RP004,135,08-14,4,formal_primary,headline_primary,True,True,,mainline_v4_a,134,135,3.7666081070788318,
+RP005,160,09-08,5,formal_primary,headline_primary,True,True,,mainline_v4_a,159,160,7.120567750300529,

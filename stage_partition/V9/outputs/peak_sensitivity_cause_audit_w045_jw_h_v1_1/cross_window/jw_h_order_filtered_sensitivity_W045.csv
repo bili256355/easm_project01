@@ -1,0 +1,7 @@
+﻿filter_name,n_config_pairs,n_jw_after_h,n_jw_before_h,n_near_tie,frac_jw_after_h,frac_jw_before_h,frac_near_tie,median_lag,iqr_lag,lag_min,lag_max,dominant_order_class,order_stability_status,excluded_config_count,main_exclusion_reason,interpretation_allowed,filter_sensitive_vs_all
+F0_all_configs,72,62,6,4,0.8611111111111112,0.08333333333333333,0.05555555555555555,11.0,12.0,-5.0,57.0,Jw_after_H,ORDER_STABLE_JW_AFTER_H,0,filter_0_all_configs,True,False
+F1_exclude_outside_system,14,4,6,4,0.2857142857142857,0.42857142857142855,0.2857142857142857,0.0,8.5,-5.0,6.0,Jw_before_H,NEAR_TIE_DOMINATED,58,filter_1_exclude_outside_system,False,True
+F2_exclude_max_score,54,44,6,4,0.8148148148148148,0.1111111111111111,0.07407407407407407,10.0,9.0,-5.0,18.0,Jw_after_H,ORDER_STABLE_JW_AFTER_H,18,filter_2_exclude_max_score,True,False
+F3_exclude_max_score_or_outside,14,4,6,4,0.2857142857142857,0.42857142857142855,0.2857142857142857,0.0,8.5,-5.0,6.0,Jw_before_H,NEAR_TIE_DOMINATED,58,filter_3_exclude_max_score_or_outside,False,True
+F4_core_configs_only,14,4,6,4,0.2857142857142857,0.42857142857142855,0.2857142857142857,0.0,8.5,-5.0,6.0,Jw_before_H,NEAR_TIE_DOMINATED,58,filter_4_core_configs_only,False,True
+F5_strict_core_configs,14,4,6,4,0.2857142857142857,0.42857142857142855,0.2857142857142857,0.0,8.5,-5.0,6.0,Jw_before_H,NEAR_TIE_DOMINATED,58,filter_5_strict_core_configs,False,True

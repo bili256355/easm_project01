@@ -1,0 +1,92 @@
+{
+  "object_summary": [
+    {
+      "object": "H",
+      "n_candidates": 8,
+      "candidate_days": "19;35;57;77;95;115;129;155",
+      "n_object_derived_windows": 8,
+      "object_window_main_peak_days": "19;35;57;77;95;115;129;155",
+      "n_object_strong_candidates": 1,
+      "n_object_candidate": 5,
+      "n_object_weak_candidates": 2,
+      "n_candidates_near_joint_non_strict": 3,
+      "n_candidates_near_joint_strict": 3,
+      "n_v10_window_conditioned_main_matches": 4
+    },
+    {
+      "object": "Je",
+      "n_candidates": 8,
+      "candidate_days": "26;33;46;81;94;111;136;162",
+      "n_object_derived_windows": 8,
+      "object_window_main_peak_days": "26;33;46;81;94;111;136;162",
+      "n_object_strong_candidates": 3,
+      "n_object_candidate": 2,
+      "n_object_weak_candidates": 3,
+      "n_candidates_near_joint_non_strict": 2,
+      "n_candidates_near_joint_strict": 4,
+      "n_v10_window_conditioned_main_matches": 4
+    },
+    {
+      "object": "Jw",
+      "n_candidates": 5,
+      "candidate_days": "41;83;104;130;152",
+      "n_object_derived_windows": 5,
+      "object_window_main_peak_days": "41;83;104;130;152",
+      "n_object_strong_candidates": 0,
+      "n_object_candidate": 4,
+      "n_object_weak_candidates": 1,
+      "n_candidates_near_joint_non_strict": 1,
+      "n_candidates_near_joint_strict": 2,
+      "n_v10_window_conditioned_main_matches": 4
+    },
+    {
+      "object": "P",
+      "n_candidates": 10,
+      "candidate_days": "18;34;45;65;82;95;113;126;138;158",
+      "n_object_derived_windows": 10,
+      "object_window_main_peak_days": "18;34;45;65;82;95;113;126;138;158",
+      "n_object_strong_candidates": 2,
+      "n_object_candidate": 5,
+      "n_object_weak_candidates": 3,
+      "n_candidates_near_joint_non_strict": 3,
+      "n_candidates_near_joint_strict": 4,
+      "n_v10_window_conditioned_main_matches": 4
+    },
+    {
+      "object": "V",
+      "n_candidates": 9,
+      "candidate_days": "16;30;45;69;80;95;114;136;161",
+      "n_object_derived_windows": 8,
+      "object_window_main_peak_days": "16;30;45;80;95;114;136;161",
+      "n_object_strong_candidates": 1,
+      "n_object_candidate": 5,
+      "n_object_weak_candidates": 3,
+      "n_candidates_near_joint_non_strict": 3,
+      "n_candidates_near_joint_strict": 4,
+      "n_v10_window_conditioned_main_matches": 4
+    }
+  ],
+  "run_meta": {
+    "status": "success",
+    "started_at": "2026-05-12T07:18:50.241661+00:00",
+    "finished_at": "2026-05-12T07:20:56.195231+00:00",
+    "output_tag": "object_native_peak_discovery_v10_2",
+    "scope": "P/V/H/Je/Jw object-native full-season peak discovery",
+    "does_not_import_stage_partition_v6_v6_1_v7_v9": true,
+    "does_not_redefine_strict_accepted_windows": true,
+    "does_not_perform_sensitivity_testing": true,
+    "does_not_perform_physical_interpretation": true,
+    "n_objects": 5,
+    "objects": [
+      "P",
+      "V",
+      "H",
+      "Je",
+      "Jw"
+    ],
+    "n_bootstrap": 1000,
+    "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "joint_lineage_rows_used": 8,
+    "v10_window_conditioned_selection_rows_used": 20
+  }
+}

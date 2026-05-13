@@ -1,0 +1,5 @@
+﻿method_component,status,evidence,can_continue_to_all_fields,reason,next_action
+state_framework_status,usable_for_H_Jw,hard_state_decisions=1; invalid_state_events=0,True,State layer has hard decision(s).,extend_state_framework_after_review
+growth_framework_status,partially_usable_tendency_only,hard_growth_decisions=0; invalid_growth_events=0,False,Growth layer lacks hard decision for H/Jw.,do_not_extend_growth_framework_yet
+projection_method_status,reference_only,P_proj outputs are retained only in old projection comparison.,False,V7-t showed P_proj cannot independently bear order/synchrony adjudication.,do_not_use_projection_as_main_decision
+overall_method_status,partially_usable,hard_state=1; hard_growth=0,False,At least one layer lacks hard decisions.,only_extend_the_layer_with_hard_decisions

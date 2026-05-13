@@ -1,0 +1,49 @@
+{
+  "version": "v7_z_je_audit_a",
+  "output_tag": "W45_Je_layer_split_audit_v7_z_a",
+  "created_at": "2026-05-05T14:43:04",
+  "project_root": "D:\\easm_project01",
+  "v7_root": "D:\\easm_project01\\stage_partition\\V7",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "v7z_result_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\W45_multi_object_prepost_stat_validation_v7_z",
+  "u200_key": "u200_smoothed",
+  "Je_lon_range": [
+    120.0,
+    150.0
+  ],
+  "Je_lat_range": [
+    25.0,
+    45.0
+  ],
+  "lat_step_deg": 2.0,
+  "system_W45": [
+    40,
+    48
+  ],
+  "audit_range": [
+    0,
+    70
+  ],
+  "day33_before": [
+    27,
+    32
+  ],
+  "day33_after": [
+    34,
+    39
+  ],
+  "day46_before": [
+    40,
+    45
+  ],
+  "day46_after": [
+    47,
+    52
+  ],
+  "write_figures": true,
+  "save_by_year": false,
+  "outputs": {
+    "decision": "Je_layer_split_audit_decision_v7_z_a.csv",
+    "summary": "Je_layer_split_audit_summary_v7_z_a.md"
+  }
+}

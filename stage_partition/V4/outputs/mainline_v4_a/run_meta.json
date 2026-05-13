@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-22T13:15:46.771783+00:00",
+  "ended_at_utc": "2026-04-22T13:16:20.292918+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V4",
+  "run_label": "mainline_v4_a",
+  "foundation_dependency": "V1",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V4 mainline_v4_a is a clean point-layer B-track-only branch.",
+    "A-track does not enter V4.",
+    "Window-layer and pathway-layer logic do not enter V4 stage one.",
+    "B-track backend mode is independent_recompute and does not read V3 outputs.",
+    "Candidate universe now deduplicates formal-primary/local-peak aliases.",
+    "Yearwise exact_hit now counts strict_match only."
+  ]
+}

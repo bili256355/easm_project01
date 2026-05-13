@@ -1,0 +1,2 @@
+neighbor_group_id,pair_id,point_a_id,point_b_id,n_records,pair_ambiguous_rate,point_a_dominant_rate,point_b_dominant_rate,both_matched_rate
+NG001,NP001,RP004,LP006,200,0.475,0.125,0.115,0.49

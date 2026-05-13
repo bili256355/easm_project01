@@ -1,0 +1,6 @@
+{
+  "n_state_rows": 60,
+  "n_growth_rows": 60,
+  "n_consensus_rows": 10,
+  "n_interpretation_rows": 10
+}

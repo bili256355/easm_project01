@@ -1,0 +1,4 @@
+name,pre_start,pre_end,post_start,post_end,role
+C0_full_stage,0,39,49,74,main_full_stage
+C1_buffered_stage,0,34,54,69,buffered_sensitivity
+C2_immediate_pre,25,34,54,69,immediate_pre_sensitivity

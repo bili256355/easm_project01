@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-21T15:11:28.974227Z",
+  "ended_at_utc": "2026-04-21T15:11:55.944777Z",
+  "layer_name": "stage_partition",
+  "version_name": "V3",
+  "run_label": "mainline_v3_b",
+  "foundation_dependency": "V1",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V3 patch A adds yearwise diagnostics and strict-overlap support matching.",
+    "Ruptures.Window remains the only active detector in V3 patch A.",
+    "stage_partition_main_windows.csv remains the only formal downstream window-object table.",
+    "window_support_audit.csv and window_retention_audit.csv in mainline_v3_b are computed from strict support matching."
+  ]
+}

@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,raw_profile_window_family,state_distance_family,state_pattern_family,growth_distance_family,growth_pattern_family,profile_2d_mirror_family,selected_window_overlap_fraction,co_transition_veto,final_structure_class,evidence_level
+W160,H,Je,unresolved,B_tendency,A_tendency,unresolved,unresolved,B_supported,1.0,True,co_transition,Level3_window_overlap
+W160,H,Jw,unresolved,B_tendency,A_supported,unresolved,A_tendency,A_supported,1.0,True,co_transition_with_A_curve_tendency,Level2_curve_tendency_only
+W160,H,P,unresolved,B_tendency,A_tendency,unresolved,A_tendency,A_supported,0.5454545454545454,True,co_transition_with_A_curve_tendency,Level2_curve_tendency_only
+W160,H,V,unresolved,unresolved,unresolved,unresolved,unresolved,A_tendency,0.9090909090909091,True,co_transition,Level3_window_overlap
+W160,Je,Jw,unresolved,unresolved,A_tendency,unresolved,A_tendency,A_tendency,1.0,True,co_transition_with_A_curve_tendency,Level2_curve_tendency_only
+W160,Je,P,unresolved,A_tendency,A_tendency,B_tendency,A_tendency,A_supported,0.6666666666666666,True,co_transition_with_A_curve_tendency,Level2_curve_tendency_only
+W160,Je,V,unresolved,unresolved,unresolved,unresolved,unresolved,A_tendency,0.9333333333333333,True,co_transition,Level3_window_overlap
+W160,Jw,P,unresolved,A_tendency,unresolved,unresolved,unresolved,A_supported,0.6666666666666666,True,co_transition_with_A_curve_tendency,Level2_curve_tendency_only
+W160,Jw,V,unresolved,unresolved,unresolved,unresolved,unresolved,B_tendency,0.9333333333333333,True,co_transition,Level3_window_overlap
+W160,P,V,unresolved,unresolved,unresolved,A_tendency,unresolved,A_supported,0.8947368421052632,True,co_transition_with_A_curve_tendency,Level2_curve_tendency_only

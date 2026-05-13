@@ -1,0 +1,111 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V6",
+  "run_scope": "selection_frequency_experiment_only",
+  "experiment_output_tag": "selection_frequency_v6_b",
+  "headline_metric": "bootstrap_selection_frequency_by_day",
+  "raw_frequency_definition": "fraction of bootstrap replicates in which the detector selected a local peak at this day",
+  "smoothed_frequency_definition": "3-day centered rolling mean of raw selection frequency",
+  "window_judgement_included": false,
+  "competition_included": false,
+  "parameter_path_included": false,
+  "final_judgement_included": false,
+  "n_bootstrap_replicates_requested": 1000,
+  "n_bootstrap_replicates_summarized": 1000,
+  "n_local_maxima_reported": 10,
+  "curve_png_written": true,
+  "curve_png_status": "written",
+  "curve_png_path": "D:\\easm_project01\\stage_partition\\V6\\outputs\\selection_frequency_v6_b\\bootstrap_selection_frequency_curve.png",
+  "top_frequency_days": [
+    {
+      "day": 45,
+      "month_day": "05-16",
+      "selection_frequency_raw": 0.398,
+      "selection_frequency_smooth": 0.2753333333333334
+    },
+    {
+      "day": 46,
+      "month_day": "05-17",
+      "selection_frequency_raw": 0.225,
+      "selection_frequency_smooth": 0.21633333333333338
+    },
+    {
+      "day": 114,
+      "month_day": "07-24",
+      "selection_frequency_raw": 0.214,
+      "selection_frequency_smooth": 0.17600000000000002
+    },
+    {
+      "day": 65,
+      "month_day": "06-05",
+      "selection_frequency_raw": 0.21,
+      "selection_frequency_smooth": 0.12366666666666666
+    },
+    {
+      "day": 44,
+      "month_day": "05-15",
+      "selection_frequency_raw": 0.203,
+      "selection_frequency_smooth": 0.2166666666666667
+    },
+    {
+      "day": 161,
+      "month_day": "09-09",
+      "selection_frequency_raw": 0.198,
+      "selection_frequency_smooth": 0.1646666666666667
+    },
+    {
+      "day": 113,
+      "month_day": "07-23",
+      "selection_frequency_raw": 0.194,
+      "selection_frequency_smooth": 0.19666666666666668
+    },
+    {
+      "day": 19,
+      "month_day": "04-20",
+      "selection_frequency_raw": 0.186,
+      "selection_frequency_smooth": 0.14733333333333334
+    },
+    {
+      "day": 112,
+      "month_day": "07-22",
+      "selection_frequency_raw": 0.182,
+      "selection_frequency_smooth": 0.16
+    },
+    {
+      "day": 95,
+      "month_day": "07-05",
+      "selection_frequency_raw": 0.182,
+      "selection_frequency_smooth": 0.13033333333333336
+    },
+    {
+      "day": 160,
+      "month_day": "09-08",
+      "selection_frequency_raw": 0.167,
+      "selection_frequency_smooth": 0.1506666666666667
+    },
+    {
+      "day": 18,
+      "month_day": "04-19",
+      "selection_frequency_raw": 0.142,
+      "selection_frequency_smooth": 0.131
+    },
+    {
+      "day": 136,
+      "month_day": "08-15",
+      "selection_frequency_raw": 0.131,
+      "selection_frequency_smooth": 0.11833333333333335
+    },
+    {
+      "day": 162,
+      "month_day": "09-10",
+      "selection_frequency_raw": 0.129,
+      "selection_frequency_smooth": 0.12700000000000003
+    },
+    {
+      "day": 34,
+      "month_day": "05-05",
+      "selection_frequency_raw": 0.127,
+      "selection_frequency_smooth": 0.08800000000000001
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+target_day,radius,movingwindow_nearest_day,movingwindow_score_at_nearest,movingwindow_retention_result,movingwindow_retention_peak_day,ruptures_nearest_day,ruptures_profile_at_nearest,ruptures_retention_result,ruptures_retention_peak_day
+45,10,45,-278.2567206307584,dropped,44,45,5.878578493131532,primary,45

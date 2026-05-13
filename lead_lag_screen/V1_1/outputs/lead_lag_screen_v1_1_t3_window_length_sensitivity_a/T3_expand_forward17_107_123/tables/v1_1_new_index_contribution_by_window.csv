@@ -1,0 +1,9 @@
+﻿window,source_variable,target_variable,source_index_type,target_index_type,positive_peak_lag,positive_peak_signed_r,positive_peak_abs_r,p_pos_surrogate,q_pos_within_window,v1_stability_judgement,is_new_source,is_new_target,interpretation_tag_derived_not_claim
+T3_forw17,V_NS_diff,P_south_band_share_18_24,old_v1,old_v1,3,-0.3381729060382698,0.3381729060382698,0.0029970029970029,0.0353218210361067,stable_lag_dominant,False,False,south_p_target
+T3_forw17,V_NS_diff,P_spread_lat,old_v1,old_v1,3,0.3860538790145015,0.3860538790145015,0.0009990009990009,0.0235478806907378,stable_lag_dominant,False,False,old_or_unlabeled
+T3_forw17,V_NS_diff,P_south_10_25_mean,old_v1,new_v1_1,1,-0.3599990927482394,0.3599990927482394,0.0069930069930069,0.0678733031674208,stable_lag_dominant,False,True,south_p_target
+T3_forw17,V_pos_north_edge_lat,P_highlat_40_60_mean,new_v1_1,new_v1_1,4,0.256786764089579,0.256786764089579,0.0029970029970029,0.0353218210361067,stable_lag_dominant,True,True,boundary_or_latband_v;highlat_p_target
+T3_forw17,V_pos_south_edge_lat,P_spread_lat,new_v1_1,old_v1,2,0.2570680554888863,0.2570680554888863,0.0019980019980019,0.0299700299700299,stable_lag_dominant,True,False,old_or_unlabeled
+T3_forw17,V_pos_band_width,P_highlat_40_60_mean,new_v1_1,new_v1_1,4,0.2589458469323302,0.2589458469323302,0.0029970029970029,0.0353218210361067,stable_lag_dominant,True,True,boundary_or_latband_v;highlat_p_target
+T3_forw17,V_highlat_35_55_mean,P_highlat_40_60_mean,new_v1_1,new_v1_1,3,0.4567793453302207,0.4567793453302207,0.0009990009990009,0.0235478806907378,stable_lag_dominant,True,True,highlat_p_target
+T3_forw17,V_highlat_35_55_mean,P_highlat_35_60_mean,new_v1_1,new_v1_1,3,0.3707425140387763,0.3707425140387763,0.0019980019980019,0.0299700299700299,stable_lag_dominant,True,True,highlat_p_target

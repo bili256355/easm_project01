@@ -1,0 +1,6 @@
+﻿object,n_candidates,candidate_days,n_object_derived_windows,object_window_main_peak_days,n_object_strong_candidates,n_object_candidate,n_object_weak_candidates,n_candidates_near_joint_non_strict,n_candidates_near_joint_strict,n_v10_window_conditioned_main_matches
+H,8,19;35;57;77;95;115;129;155,8,19;35;57;77;95;115;129;155,1,5,2,3,3,4
+Je,8,26;33;46;81;94;111;136;162,8,26;33;46;81;94;111;136;162,3,2,3,2,4,4
+Jw,5,41;83;104;130;152,5,41;83;104;130;152,0,4,1,1,2,4
+P,10,18;34;45;65;82;95;113;126;138;158,10,18;34;45;65;82;95;113;126;138;158,2,5,3,3,4,4
+V,9,16;30;45;69;80;95;114;136;161,8,16;30;45;80;95;114;136;161,1,5,3,3,4,4

@@ -1,0 +1,6 @@
+window_id,legacy_window_id,start_day,end_day,center_day,width_days,main_peak_day,origin_detector,window_build_version,source_primary_point_ids,source_support_band_ids,is_main_window,window_status,status_reason,catalog_match_status,notes
+W001,RW01,43,47,45,5,45,ruptures_window,window_native_v1,RP001,RB01,True,main,from_ruptures_primary_windows,exact_match,catalog is advisory only; primary_windows is authoritative main-object source
+W002,RW02,76,85,81,10,81,ruptures_window,window_native_v1,RP002,RB02,True,main,from_ruptures_primary_windows,exact_match,catalog is advisory only; primary_windows is authoritative main-object source
+W003,RW03,109,116,113,8,113,ruptures_window,window_native_v1,RP003,RB03,True,main,from_ruptures_primary_windows,exact_match,catalog is advisory only; primary_windows is authoritative main-object source
+W004,RW04,135,135,135,1,135,ruptures_window,window_native_v1,RP004,RB04,True,main,from_ruptures_primary_windows,exact_match,catalog is advisory only; primary_windows is authoritative main-object source
+W005,RW05,156,163,160,8,160,ruptures_window,window_native_v1,RP005,RB05,True,main,from_ruptures_primary_windows,exact_match,catalog is advisory only; primary_windows is authoritative main-object source

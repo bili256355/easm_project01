@@ -1,0 +1,17 @@
+﻿marker,unweighted_delta_Jw_minus_H,weighted_delta_Jw_minus_H,unweighted_H_earlier_fraction,weighted_H_earlier_fraction,unweighted_Jw_earlier_fraction,weighted_Jw_earlier_fraction,unweighted_overlap_score,weighted_near_equal_fraction,weight_sensitivity_label,interpretation
+departure90,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.9703524813670901,weight_robust,H/Jw departure90: weight_robust; weighted values use |dF| contribution.
+departure95,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.9703524813670901,weight_robust,H/Jw departure95: weight_robust; weighted values use |dF| contribution.
+t10,2.0,2.0,1.0,1.0,0.09090909090909091,0.018268791517093905,0.0,0.1616213490912654,weight_robust,H/Jw t10: weight_robust; weighted values use |dF| contribution.
+t15,2.0,2.0,1.0,1.0,0.09090909090909091,0.018268791517093905,0.0,0.12092980643593276,weight_robust,H/Jw t15: weight_robust; weighted values use |dF| contribution.
+t20,3.0,3.0,1.0,1.0,0.09090909090909091,0.018268791517093905,0.0,0.03989520724703077,weight_robust,H/Jw t20: weight_robust; weighted values use |dF| contribution.
+t25,2.0,2.0,1.0,1.0,0.09090909090909091,0.018268791517093905,0.0,0.062357099231059435,weight_robust,H/Jw t25: weight_robust; weighted values use |dF| contribution.
+t30,2.0,2.0,1.0,1.0,0.09090909090909091,0.018268791517093905,0.0,0.08381812155928164,weight_robust,H/Jw t30: weight_robust; weighted values use |dF| contribution.
+t35,3.0,3.0,1.0,1.0,0.09090909090909091,0.018268791517093905,0.0,0.062357099231059435,weight_robust,H/Jw t35: weight_robust; weighted values use |dF| contribution.
+t40,4.0,4.0,0.8181818181818182,0.8939843383720582,0.09090909090909091,0.018268791517093905,0.0,0.062357099231059435,weight_robust,H/Jw t40: weight_robust; weighted values use |dF| contribution.
+t45,6.0,6.0,0.8181818181818182,0.8939843383720582,0.0,0.0,0.0,0.031546808485748666,weight_robust,H/Jw t45: weight_robust; weighted values use |dF| contribution.
+t50,6.0,6.0,0.7272727272727273,0.8084028709515686,0.0,0.0,0.05555555555555555,0.031546808485748666,weight_robust,H/Jw t50: weight_robust; weighted values use |dF| contribution.
+t75,4.0,6.0,0.6363636363636364,0.6366305882854986,0.2727272727272727,0.15483539979969665,0.8333333333333334,0.06212533243620408,weighted_stronger_than_unweighted,H/Jw t75: weighted_stronger_than_unweighted; weighted values use |dF| contribution.
+peak_smooth3,6.0,2.0,0.9090909090909091,0.98183016699656,0.0,0.0,0.0,0.0,unweighted_only_signal,H/Jw peak_smooth3: unweighted_only_signal; weighted values use |dF| contribution.
+duration_25_75,-1.0,2.0,0.45454545454545453,0.5599016508105359,0.6363636363636364,0.6246619970862496,0.45,0.30426476492371557,weighted_stronger_than_unweighted,H/Jw duration_25_75: weighted_stronger_than_unweighted; weighted values use |dF| contribution.
+tail_50_75,-1.0,-1.0,0.18181818181818182,0.07819900180156335,0.5454545454545454,0.3257789097516834,0.375,0.5611933779855944,weight_robust,H/Jw tail_50_75: weight_robust; weighted values use |dF| contribution.
+early_span_25_50,2.0,2.0,0.7272727272727273,0.8084028709515686,0.0,0.0,0.6,0.17111639518590982,weight_robust,H/Jw early_span_25_50: weight_robust; weighted values use |dF| contribution.

@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "started_at": "2026-04-21T10:35:48",
+  "finished_at": "2026-04-21T10:36:41",
+  "elapsed_seconds": 52.584,
+  "layer_name": "stage_partition",
+  "version_name": "V1",
+  "foundation_root": "D:\\easm_project01\\foundation\\V1",
+  "output_root": "D:\\easm_project01\\stage_partition\\V1\\outputs\\baseline_a"
+}

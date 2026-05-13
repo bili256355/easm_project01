@@ -1,0 +1,10 @@
+﻿window,old_v1_vp_n_total,old_v1_vp_n_stable_lag,v1_1_old_indices_n_total,v1_1_old_indices_n_stable_lag,v1_1_newV_oldP_n_total,v1_1_newV_oldP_n_stable_lag,v1_1_oldV_newP_n_total,v1_1_oldV_newP_n_stable_lag,v1_1_newV_newP_n_total,v1_1_newV_newP_n_stable_lag,v1_1_any_new_index_n_stable_lag,recovery_gain_from_new_indices_vs_v1_1_old_only
+S1,21,12,21,11,56,16,24,12,64,17,45,34
+T1,21,0,21,0,56,4,24,2,64,6,12,12
+S2,21,9,21,9,56,12,24,9,64,12,33,24
+T2,21,13,21,12,56,11,24,10,64,14,35,23
+S3,21,8,21,8,56,9,24,4,64,8,21,13
+T3,21,2,21,1,56,0,24,0,64,6,6,5
+S4,21,6,21,7,56,3,24,1,64,8,12,5
+T4,21,3,21,5,56,8,24,3,64,9,20,15
+S5,21,6,21,6,56,19,24,8,64,18,45,39

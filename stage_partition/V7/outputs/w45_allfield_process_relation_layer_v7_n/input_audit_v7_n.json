@@ -1,0 +1,44 @@
+{
+  "status": "checked",
+  "created_at": "2026-05-03T11:01:29",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "fields_required": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ],
+  "observed_curve_fields_found": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "bootstrap_curve_fields_found": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "bootstrap_marker_fields_found": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "observed_curves_complete": true,
+  "bootstrap_curves_complete": true,
+  "bootstrap_markers_complete": true,
+  "observed_curve_rows": 155,
+  "bootstrap_curve_rows": 155000,
+  "bootstrap_marker_rows": 5000,
+  "input_representation": "current_v7e_progress_profile_via_v7m_curves",
+  "v7e_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e",
+  "v7m_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_allfield_transition_marker_definition_audit_v7_m",
+  "output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_allfield_process_relation_layer_v7_n"
+}

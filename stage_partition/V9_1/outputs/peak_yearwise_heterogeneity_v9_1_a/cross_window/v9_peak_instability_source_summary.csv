@@ -1,0 +1,61 @@
+﻿window_id,scope,object_or_pair,v9_bootstrap_width_q025_q975,bootstrap_mode_type,jackknife_max_abs_shift,yearwise_peak_spread_q025_q975,likely_instability_source,recommended_interpretation,v9_order_status,n_within_type_orders_ge90
+W045,object,P,7.0,single_compact_mode,1.0,13.799999999999997,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W045,object,V,9.0,single_compact_mode,1.0,12.899999999999999,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W045,object,H,24.0,single_broad_mode,1.0,15.799999999999997,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W045,object,Je,8.0,single_compact_mode,0.0,17.799999999999997,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W045,object,Jw,12.0,single_compact_mode,4.0,14.799999999999997,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W045,pair,P-V,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W045,pair,P-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W045,pair,P-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W045,pair,P-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W045,pair,V-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W045,pair,V-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W045,pair,V-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W045,pair,H-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W045,pair,H-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W045,pair,Je-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W081,object,P,11.025000000000006,single_compact_mode,2.0,13.900000000000006,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W081,object,V,16.0,single_broad_mode,2.0,20.700000000000003,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W081,object,H,13.0,single_compact_mode,1.0,14.900000000000006,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W081,object,Je,18.0,single_broad_mode,3.0,22.599999999999994,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W081,object,Jw,15.0,single_broad_mode,2.0,13.800000000000011,flat_or_weak_peak_candidate,audit-only; do not replace V9 peak result,,
+W081,pair,P-V,,,,,year_type_may_refine_order,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,1.0
+W081,pair,P-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W081,pair,P-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W081,pair,P-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,peak_order_unresolved,0.0
+W081,pair,V-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W081,pair,V-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,peak_order_unresolved,0.0
+W081,pair,V-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W081,pair,H-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W081,pair,H-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W081,pair,Je-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W113,object,P,16.0,single_broad_mode,1.0,18.60000000000001,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W113,object,V,13.0,single_compact_mode,1.0,14.800000000000011,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W113,object,H,7.0,single_compact_mode,1.0,19.5,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W113,object,Je,9.0,single_compact_mode,2.0,18.900000000000006,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W113,object,Jw,13.0,single_compact_mode,5.0,19.60000000000001,high_jackknife_year_influence_candidate,audit-only; do not replace V9 peak result,,
+W113,pair,P-V,,,,,year_type_may_refine_order,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,2.0
+W113,pair,P-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W113,pair,P-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W113,pair,P-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W113,pair,V-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,peak_order_unresolved,0.0
+W113,pair,V-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W113,pair,V-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W113,pair,H-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W113,pair,H-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W113,pair,Je-Jw,,,,,year_type_may_refine_order,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,1.0
+W160,object,P,12.0,single_compact_mode,1.0,9.900000000000006,insufficient_or_low_instability_evidence,audit-only; do not replace V9 peak result,,
+W160,object,V,18.0,single_broad_mode,1.0,15.599999999999994,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W160,object,H,17.0,single_broad_mode,1.0,14.700000000000017,flat_or_weak_peak_candidate,audit-only; do not replace V9 peak result,,
+W160,object,Je,9.0,single_compact_mode,1.0,16.69999999999999,yearwise_peak_spread_candidate,audit-only; do not replace V9 peak result,,
+W160,object,Jw,25.0,single_broad_mode,13.0,17.0,high_jackknife_year_influence_candidate,audit-only; do not replace V9 peak result,,
+W160,pair,P-V,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W160,pair,P-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W160,pair,P-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W160,pair,P-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W160,pair,V-H,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W160,pair,V-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W160,pair,V-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W160,pair,H-Je,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,A_peak_earlier_tendency,0.0
+W160,pair,H-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0
+W160,pair,Je-Jw,,,,,no_clear_year_type_stabilization,audit-only; compare with V9 full-sample order before scientific use,B_peak_earlier_tendency,0.0

@@ -1,0 +1,112 @@
+{
+  "foundation": {
+    "project_root": "D:\\easm_project01",
+    "foundation_layer": "foundation",
+    "foundation_version": "V1",
+    "preprocess_output_tag": "baseline_a"
+  },
+  "profile": {
+    "lat_step_deg": 2.0,
+    "p_lon_range": [
+      105.0,
+      125.0
+    ],
+    "p_lat_range": [
+      15.0,
+      39.0
+    ],
+    "v_lon_range": [
+      105.0,
+      125.0
+    ],
+    "v_lat_range": [
+      10.0,
+      30.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "je_lon_range": [
+      120.0,
+      150.0
+    ],
+    "je_lat_range": [
+      25.0,
+      45.0
+    ],
+    "jw_lon_range": [
+      80.0,
+      110.0
+    ],
+    "jw_lat_range": [
+      25.0,
+      45.0
+    ]
+  },
+  "state": {
+    "standardize": true,
+    "block_equal_contribution": true
+  },
+  "movingwindow": {
+    "enabled": false,
+    "bandwidth": 15,
+    "threshold_scale": 2.0,
+    "level": 0.01,
+    "min_detection_interval": 1
+  },
+  "ruptures_window": {
+    "enabled": true,
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "fixed_n_bkps": null,
+    "pen": 4.0,
+    "epsilon": null
+  },
+  "edge": {
+    "min_distance_days": 3,
+    "prominence_quantile": 0.8,
+    "nearest_peak_search_radius": 10
+  },
+  "ruptures_window_construction": {
+    "nearest_peak_search_radius": 10,
+    "support_rel_prominence": 0.35,
+    "support_floor_quantile": 0.6,
+    "support_floor_ratio": 0.15,
+    "merge_gap_days": 3,
+    "min_band_width_days": 1,
+    "valley_relief_tolerance": 0.1
+  },
+  "support": {
+    "enable_param_path": true,
+    "enable_bootstrap": true,
+    "enable_permutation": true,
+    "bootstrap_reps": 100,
+    "random_seed": 42,
+    "ruptures_width_grid": [
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "ruptures_pen_grid": [
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "permutation_reps": 200
+  },
+  "output": {
+    "output_tag": "baseline_a",
+    "write_plots": true
+  }
+}

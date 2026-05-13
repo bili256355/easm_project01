@@ -1,0 +1,22 @@
+{
+  "version": "v9_1_peak_yearwise_heterogeneity_a",
+  "elapsed_seconds": 46.89121103286743,
+  "output_root": "D:\\easm_project01\\stage_partition\\V9_1\\outputs\\peak_yearwise_heterogeneity_v9_1_a",
+  "v9_output_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_all_windows_v9_a",
+  "smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "windows_processed": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "n_years": 45,
+  "mode_merge_gap_days": 2,
+  "cluster_k_values": [
+    2,
+    3
+  ],
+  "modifies_v9": false,
+  "boundary": "audit-only; no state/growth/prepost/process outputs",
+  "source_v7_module_version": "v7_z_multiwin_a_hotfix06_w45_profile_order"
+}

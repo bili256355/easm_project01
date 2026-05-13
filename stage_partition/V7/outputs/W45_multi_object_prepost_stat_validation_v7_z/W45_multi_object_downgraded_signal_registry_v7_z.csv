@@ -1,0 +1,2 @@
+﻿signal_id,object,object_A,object_B,signal_description,observed_evidence,why_not_final,possible_interpretation,next_test_needed
+P_Jw_A_curve_tendency_only,,P,Jw,P-Jw: A_curve_tendency_only,raw_profile_window_family=B_tendency;shape_pattern_window_family=B_tendency;state_distance_family=A_supported;state_pattern_family=unresolved;growth_distance_family=A_supported;growth_pattern_family=unresolved,downgraded_by_hardened_gate,retain as downgraded signal; do not use as final claim,inspect family-level evidence and selected main-window table

@@ -1,0 +1,72 @@
+{
+  "status": "success",
+  "started_at": "2026-05-04T13:46:13",
+  "ended_at": "2026-05-04T13:53:12",
+  "version": "v7_y",
+  "output_tag": "H_Jw_pattern_only_detector_v7_y",
+  "primary_goal": "shape-normalized pattern-only V6_1-style detector for H and Jw over day0-70",
+  "system_W45_reference": {
+    "window_id": "W002",
+    "anchor_day": 45,
+    "accepted_window": [
+      40,
+      48
+    ]
+  },
+  "method_reuse": "V6_1/W45 ruptures.Window + local peaks + candidate bands + bootstrap matching",
+  "input_transformation": "yearwise daywise raw profile -> weighted lat-demeaned and weighted norm-normalized shape profile",
+  "changed_parameters_only": {
+    "object_scope": [
+      "H",
+      "Jw"
+    ],
+    "detector_day_range": [
+      0,
+      70
+    ]
+  },
+  "unchanged_core_parameters": {
+    "profile_lat_step_deg": 2.0,
+    "standardization_scope": "full_season",
+    "detector": {
+      "width": 20,
+      "model": "l2",
+      "min_size": 2,
+      "jump": 1,
+      "selection_mode": "pen",
+      "pen": 4.0,
+      "fixed_n_bkps": null,
+      "epsilon": null,
+      "local_peak_min_distance_days": 3,
+      "nearest_peak_search_radius_days": 10
+    },
+    "band": {
+      "min_band_half_width_days": 2,
+      "max_band_half_width_days": 10,
+      "peak_floor_quantile": 0.35,
+      "prominence_ratio_threshold": 0.5,
+      "respect_candidate_boundaries": true,
+      "truncate_at_intervening_candidate": true,
+      "truncate_at_local_valley": true,
+      "allow_band_merge": true,
+      "merge_gap_days": 1,
+      "close_neighbor_exemption_days": 4,
+      "protect_significant_peaks_from_merge": true,
+      "significant_peak_threshold": 0.95
+    },
+    "bootstrap": {
+      "n_bootstrap": 1000,
+      "random_seed": 42,
+      "strict_match_max_abs_offset_days": 2,
+      "match_max_abs_offset_days": 5,
+      "near_max_abs_offset_days": 8,
+      "progress": true
+    }
+  },
+  "notes": [
+    "This is not a pre/post progress run.",
+    "This is not a raw025 2D field-speed run.",
+    "This run intentionally reuses the original W45 detector skeleton while changing detector input to shape-normalized profile pattern.",
+    "Shape-pattern windows are compared to system W45 day40-48 only after detection."
+  ]
+}

@@ -1,0 +1,4 @@
+﻿window_id,target_name,object_A,object_B,Y_definition,target_priority,target_source_reason,method_role
+W081,W081_P_vs_V_delta_peak,P,V,delta_B_minus_A = peak_B - peak_A; positive means A earlier than B,default_priority,V9/V9.1_e exposed order heterogeneity candidate,bootstrap_composite_MCA_target_not_physical_type
+W081,W081_V_vs_Jw_delta_peak,V,Jw,delta_B_minus_A = peak_B - peak_A; positive means A earlier than B,default_priority,V9/V9.1_e exposed order heterogeneity candidate,bootstrap_composite_MCA_target_not_physical_type
+W081,W081_H_vs_Jw_delta_peak,H,Jw,delta_B_minus_A = peak_B - peak_A; positive means A earlier than B,default_priority,V9/V9.1_e exposed order heterogeneity candidate,bootstrap_composite_MCA_target_not_physical_type

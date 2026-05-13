@@ -1,0 +1,60 @@
+{
+  "n_points_audited": 6,
+  "n_strict_core_significant": 0,
+  "n_strict_local_significant": 0,
+  "n_strict_borderline": 4,
+  "n_strict_weak_or_unresolved": 2,
+  "n_significant_points_global": 0,
+  "n_significant_points_local": 0,
+  "n_points_local_exist_frequent": 6,
+  "n_points_local_conditional_strong": 0,
+  "strong_vs_weak_gradient_present": true,
+  "strong_vs_weak_gradient_present_conditional": true,
+  "local_decomposition_by_point": {
+    "RP001": {
+      "point_day": 45,
+      "p_exist_local": 0.442,
+      "p_exceed_local_conditional": 1.0,
+      "local_joint_challenge_score": 0.442,
+      "strict_local_interpretation": "common_peak_and_observed_not_outstanding"
+    },
+    "RP002": {
+      "point_day": 81,
+      "p_exist_local": 0.43,
+      "p_exceed_local_conditional": 0.9814814814814815,
+      "local_joint_challenge_score": 0.42203703703703704,
+      "strict_local_interpretation": "common_peak_and_observed_not_outstanding"
+    },
+    "RP003": {
+      "point_day": 113,
+      "p_exist_local": 0.41,
+      "p_exceed_local_conditional": 0.9466019417475728,
+      "local_joint_challenge_score": 0.38810679611650484,
+      "strict_local_interpretation": "common_peak_and_observed_not_outstanding"
+    },
+    "LP006": {
+      "point_day": 132,
+      "p_exist_local": 0.384,
+      "p_exceed_local_conditional": 1.0,
+      "local_joint_challenge_score": 0.384,
+      "strict_local_interpretation": "common_peak_and_observed_not_outstanding"
+    },
+    "RP004": {
+      "point_day": 135,
+      "p_exist_local": 0.38,
+      "p_exceed_local_conditional": 1.0,
+      "local_joint_challenge_score": 0.38,
+      "strict_local_interpretation": "common_peak_and_observed_not_outstanding"
+    },
+    "RP005": {
+      "point_day": 160,
+      "p_exist_local": 0.368,
+      "p_exceed_local_conditional": 0.9891891891891892,
+      "local_joint_challenge_score": 0.3640216216216216,
+      "strict_local_interpretation": "common_peak_and_observed_not_outstanding"
+    }
+  },
+  "point_null_scale_warning_count": 6,
+  "neighbor_competition_closed_pairs": 1,
+  "neighbor_competition_ties": 1
+}

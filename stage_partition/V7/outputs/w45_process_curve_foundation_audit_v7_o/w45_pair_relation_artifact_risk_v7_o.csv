@@ -1,0 +1,11 @@
+﻿field_a,field_b,projection_distance_sign_consistency_fraction,n_v7n_phases,v7n_has_crossing_phase,relation_artifact_risk_label,artifact_risk_interpretation
+P,V,0.6451612903225806,5,False,high_projection_artifact_risk,high_projection_artifact_risk
+P,H,0.8064516129032258,8,False,moderate_artifact_risk,moderate_artifact_risk
+P,Je,0.7741935483870968,8,False,moderate_artifact_risk,moderate_artifact_risk
+P,Jw,0.8064516129032258,6,False,moderate_artifact_risk,moderate_artifact_risk
+V,H,0.7419354838709677,6,False,moderate_artifact_risk,moderate_artifact_risk
+V,Je,0.6774193548387096,8,False,moderate_artifact_risk,moderate_artifact_risk
+V,Jw,0.7419354838709677,10,False,moderate_artifact_risk,moderate_artifact_risk
+H,Je,0.7741935483870968,9,False,moderate_artifact_risk,moderate_artifact_risk
+H,Jw,0.6774193548387096,5,False,moderate_artifact_risk,moderate_artifact_risk
+Je,Jw,0.7419354838709677,10,False,moderate_artifact_risk,moderate_artifact_risk

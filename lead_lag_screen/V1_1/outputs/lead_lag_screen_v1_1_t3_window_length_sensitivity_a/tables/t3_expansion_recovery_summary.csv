@@ -1,0 +1,6 @@
+﻿variant,family,comparison_role,window_name,start_day,end_day,duration_days,reference,n_pairs_total,n_stable_total,n_highlat_structural_stable,oldV_oldP_n_total,oldV_oldP_n_stable,newV_oldP_n_total,newV_oldP_n_stable,oldV_newP_n_total,oldV_newP_n_stable,newV_newP_n_total,newV_newP_n_stable,unknown_n_total,unknown_n_stable,any_new_index_n_stable,judgement_count__not_supported,judgement_count__stable_lag_dominant,judgement_count__significant_lagged_but_tau0_coupled,judgement_count__audit_sensitive
+T3_current_107_117_len11,T3_current,baseline_T3_current,T3_current,107,117,11,current V1_1 T3 window,165,9,6,21,2,56,1,24,0,64,6,0,0,7,149,9,7,
+T3_expand_symmetric17_104_120,T3_expansion,T3_symmetric_expansion_17day,T3_expand17,104,120,17,T3 expanded 3 days backward and forward,165,11,5,21,3,56,2,24,1,64,5,0,0,8,146,11,8,
+T3_expand_symmetric23_101_123,T3_expansion,T3_symmetric_expansion_23day,T3_expand23,101,123,23,T3 expanded 6 days backward and forward,165,17,5,21,8,56,2,24,2,64,5,0,0,9,136,17,9,3.0
+T3_expand_backward17_101_117,T3_expansion,T3_backward_expansion_17day,T3_back17,101,117,17,T3 expanded only backward toward S3,165,19,4,21,8,56,3,24,3,64,5,0,0,11,133,19,9,4.0
+T3_expand_forward17_107_123,T3_expansion,T3_forward_expansion_17day,T3_forw17,107,123,17,T3 expanded only forward toward S4,165,8,4,21,2,56,1,24,1,64,4,0,0,6,149,8,8,

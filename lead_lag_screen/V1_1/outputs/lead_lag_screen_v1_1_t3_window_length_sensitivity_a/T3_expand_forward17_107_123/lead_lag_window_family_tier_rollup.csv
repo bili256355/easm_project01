@@ -1,0 +1,2 @@
+﻿window,source_family,target_family,n_total_pairs,n_main_yes,n_audit_stable_yes,n_tier1,n_tier2,n_tier3,n_ambiguous,n_reverse,n_same_day_only,tier1_fraction,audit_stable_fraction_among_main_yes,same_day_coupling_fraction,high_persistence_risk_fraction
+T3_forw17,V,P,165,16,5,5,11,0,27,2,7,0.030303030303030304,0.3125,0.18787878787878787,0.18181818181818182

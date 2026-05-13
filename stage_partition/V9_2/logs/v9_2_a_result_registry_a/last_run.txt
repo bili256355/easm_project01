@@ -1,0 +1,2 @@
+completed v9_2_a_result_registry_a at 2026-05-10T18:05:54
+output=D:\easm_project01\stage_partition\V9_2\outputs\v9_2_a_result_registry_a\cross_window

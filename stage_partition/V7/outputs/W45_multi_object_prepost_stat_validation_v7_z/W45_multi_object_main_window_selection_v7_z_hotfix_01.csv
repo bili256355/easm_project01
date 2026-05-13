@@ -1,0 +1,11 @@
+﻿object,detector_type,selected_candidate_id,selected_peak_day,selected_window_start,selected_window_end,selected_support_class,selected_bootstrap_support,selected_relation_to_W45,selection_reason,excluded_candidates
+P,raw_profile,CP001,45,35,55,accepted_window,0.985,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP002:day34/weak_window;CP003:day18/weak_window
+P,shape_pattern,CP001,44,34,54,accepted_window,0.968,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP002:day22/candidate_window;CP003:day17/weak_window;CP004:day57/weak_window
+V,raw_profile,CP001,45,35,55,accepted_window,0.984,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP002:day30/weak_window;CP003:day16/weak_window
+V,shape_pattern,CP001,45,35,55,accepted_window,0.986,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP003:day28/candidate_window;CP002:day23/candidate_window
+H,raw_profile,CP002,35,25,45,candidate_window,0.908,W45_front_overlap,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP003:day57/weak_window;CP001:day19/weak_window
+H,shape_pattern,CP001,38,28,48,accepted_window,1.0,W45_front_overlap,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP003:day48/weak_window;CP002:day58/weak_window
+Je,raw_profile,CP001,46,36,56,accepted_window,0.978,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP002:day26/candidate_window;CP003:day33/weak_window
+Je,shape_pattern,CP001,33,23,43,accepted_window,0.957,W45_front_overlap,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP003:day45/candidate_window;CP002:day20/weak_window
+Jw,raw_profile,CP001,41,31,51,candidate_window,0.913,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,
+Jw,shape_pattern,CP001,40,30,50,candidate_window,0.921,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP002:day16/weak_window

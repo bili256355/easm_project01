@@ -1,0 +1,481 @@
+﻿window_id,basis,object_A,object_B,metric_family,delta_definition,delta_observed,baseline_config
+W160,2d_field,H,Je,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.04600232711456409,C0_full_stage
+W160,2d_field,H,Je,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.03609325808758712,C0_full_stage
+W160,2d_field,H,Je,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.022129527997936438,C0_full_stage
+W160,2d_field,H,Je,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.09679050920904098,C0_full_stage
+W160,2d_field,H,Je,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.2875667994380535,C0_full_stage
+W160,2d_field,H,Je,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.09298355628086741,C0_full_stage
+W160,2d_field,H,Je,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.07625939967007411,C0_full_stage
+W160,2d_field,H,Je,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.009981608021342014,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.03196733285639208,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,-0.041567232894505035,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.046793890081191725,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,0.09660596427240964,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,2.35765560041699,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.0073413909477485495,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.053043316845272206,C0_full_stage
+W160,2d_field,H,Je,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,0.012237288756661233,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.06103766631628771,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.04574250307728667,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.007071037521626078,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.10871280683208528,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.40979783448867124,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.057352173852608435,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.05865198226208515,C0_full_stage
+W160,2d_field,H,Jw,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.018835669260405807,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.10162331511473965,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.03917248963380138,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.21631260310737677,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,0.09526056780009584,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,6.726983385307506,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.13149816791945249,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.018878150828958537,C0_full_stage
+W160,2d_field,H,Jw,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.0654728703973502,C0_full_stage
+W160,2d_field,H,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.022562979467298128,C0_full_stage
+W160,2d_field,H,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.011392508100592558,C0_full_stage
+W160,2d_field,H,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.039090858425207264,C0_full_stage
+W160,2d_field,H,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.07072575356950683,C0_full_stage
+W160,2d_field,H,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.0065469480763908905,C0_full_stage
+W160,2d_field,H,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.14977523246170743,C0_full_stage
+W160,2d_field,H,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.19060417561834667,C0_full_stage
+W160,2d_field,H,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.06554453254016168,C0_full_stage
+W160,2d_field,H,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.10880160729485522,C0_full_stage
+W160,2d_field,H,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.14686329590603275,C0_full_stage
+W160,2d_field,H,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.2603962450294703,C0_full_stage
+W160,2d_field,H,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.020216863957091324,C0_full_stage
+W160,2d_field,H,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,6.483640127276175,C0_full_stage
+W160,2d_field,H,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.10184108379918716,C0_full_stage
+W160,2d_field,H,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1334006456138067,C0_full_stage
+W160,2d_field,H,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.07833652426510779,C0_full_stage
+W160,2d_field,H,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.028712892477420482,C0_full_stage
+W160,2d_field,H,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.018287569921445812,C0_full_stage
+W160,2d_field,H,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.07177432814600632,C0_full_stage
+W160,2d_field,H,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.1360056872503428,C0_full_stage
+W160,2d_field,H,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.09974797422924553,C0_full_stage
+W160,2d_field,H,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.08941152255795809,C0_full_stage
+W160,2d_field,H,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.075328941536325,C0_full_stage
+W160,2d_field,H,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.06578832492290221,C0_full_stage
+W160,2d_field,H,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.05517871683047204,C0_full_stage
+W160,2d_field,H,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.06205261685204755,C0_full_stage
+W160,2d_field,H,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.1995792437530608,C0_full_stage
+W160,2d_field,H,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.03833549934465641,C0_full_stage
+W160,2d_field,H,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,1.268462737247006,C0_full_stage
+W160,2d_field,H,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.05573036582718263,C0_full_stage
+W160,2d_field,H,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.041468578400708125,C0_full_stage
+W160,2d_field,H,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.15798491438430995,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.015035339201723619,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.009649244989699546,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.029200565519562516,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.011922297623044309,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.12223103505061772,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.03563138242825897,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.017607417407988962,C0_full_stage
+W160,2d_field,Je,Jw,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.008854061239063793,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.06965598225834757,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.08073972252830641,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.16951871302618504,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.0013453964723137979,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,4.369327784890515,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.12415677697170394,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.03416516601631367,C0_full_stage
+W160,2d_field,Je,Jw,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.07771015915401143,C0_full_stage
+W160,2d_field,Je,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.023439347647265962,C0_full_stage
+W160,2d_field,Je,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.024700749986994563,C0_full_stage
+W160,2d_field,Je,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.016961330427270827,C0_full_stage
+W160,2d_field,Je,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,0.026064755639534143,C0_full_stage
+W160,2d_field,Je,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.2941137475144444,C0_full_stage
+W160,2d_field,Je,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.05679167618084002,C0_full_stage
+W160,2d_field,Je,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.11434477594827255,C0_full_stage
+W160,2d_field,Je,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.05556292451881967,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.07683427443846313,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.1884305288005378,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.21360235494827856,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.11682282822950096,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,4.125984526859185,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.09449969285143861,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1864439624590789,C0_full_stage
+W160,2d_field,Je,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.09057381302176902,C0_full_stage
+W160,2d_field,Je,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.017289434637143608,C0_full_stage
+W160,2d_field,Je,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.05438082800903293,C0_full_stage
+W160,2d_field,Je,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.04964480014806988,C0_full_stage
+W160,2d_field,Je,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.03921517804130181,C0_full_stage
+W160,2d_field,Je,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.38731477366729905,C0_full_stage
+W160,2d_field,Je,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.003572033722909318,C0_full_stage
+W160,2d_field,Je,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.000930458133749118,C0_full_stage
+W160,2d_field,Je,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.07576993294424422,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.023211383974079958,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.10361984974655258,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.15278535367186907,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.13494146361706605,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-1.089192863169984,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.04838897487943408,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.09451189524598033,C0_full_stage
+W160,2d_field,Je,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.1702222031409712,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.03847468684898958,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.03434999497669411,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.04616189594683334,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,0.03798705326257845,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.41634478256506213,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.092423058609099,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.13195219335626152,C0_full_stage
+W160,2d_field,Jw,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.046708863279755874,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.007178292180115564,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.10769080627223138,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.04408364192209352,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.11547743175718717,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-0.24334325803133083,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.029657084120265326,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.15227879644276524,C0_full_stage
+W160,2d_field,Jw,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.01286365386775759,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.03232477383886723,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.06403007299873248,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.0788453656676324,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.027292880418257504,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.5095458087179168,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.032059348705349655,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.016676959274239844,C0_full_stage
+W160,2d_field,Jw,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.08462399418330802,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.04644459828426761,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.02288012721824617,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.01673335935431597,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.13359606714475225,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-5.4585206480604995,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.07576780209226985,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.06034672922966666,C0_full_stage
+W160,2d_field,Jw,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.09251204398695975,C0_full_stage
+W160,2d_field,P,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.006149913010122354,C0_full_stage
+W160,2d_field,P,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.02968007802203837,C0_full_stage
+W160,2d_field,P,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.03268346972079905,C0_full_stage
+W160,2d_field,P,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.06527993368083596,C0_full_stage
+W160,2d_field,P,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.09320102615285464,C0_full_stage
+W160,2d_field,P,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.06036370990374934,C0_full_stage
+W160,2d_field,P,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.11527523408202167,C0_full_stage
+W160,2d_field,P,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.1313328574630639,C0_full_stage
+W160,2d_field,P,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.05362289046438318,C0_full_stage
+W160,2d_field,P,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,-0.0848106790539852,C0_full_stage
+W160,2d_field,P,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.06081700127640949,C0_full_stage
+W160,2d_field,P,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.018118635387565085,C0_full_stage
+W160,2d_field,P,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-5.215177390029169,C0_full_stage
+W160,2d_field,P,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.04611071797200453,C0_full_stage
+W160,2d_field,P,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.09193206721309857,C0_full_stage
+W160,2d_field,P,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.07964839011920216,C0_full_stage
+W160,2d_field,H,Je,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.05705580325874854,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.04167348031787732,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.0016065969290723348,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.10763556631231241,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-1.0075488769194862,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.06482700862512891,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.06863952584846564,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.013083633611345291,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.06685567830530881,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,-0.012408941005641438,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.08649164830265166,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,0.1343387156178535,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,2.2943159436636904,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.0051717387247649516,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.05429161273797911,C1_buffered_stage
+W160,2d_field,H,Je,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,0.012105296487539177,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.07395292444633539,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.05191928180884592,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.02611693664270759,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.12468815976600156,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-1.4216496935437988,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.03912574696137558,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.05202451232822933,C1_buffered_stage
+W160,2d_field,H,Jw,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.007271155339621305,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.11417503820586639,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.047825831678717234,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.22048195689533207,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,0.11674009351933612,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,6.688869862775817,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.13174830518565114,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.02164986300900762,C1_buffered_stage
+W160,2d_field,H,Jw,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.06451115337317972,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.04368950804352795,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.02811216793008381,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.00012278952059302517,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.08555422669544444,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.10919586811971271,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.09327151599891392,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.1457361099090758,C1_buffered_stage
+W160,2d_field,H,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.07045409370857597,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.10023343077056474,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.12551086848415793,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.22828889271262626,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.0018772841082654868,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,6.7038735181911875,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.0838569776297236,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.12103662193515968,C1_buffered_stage
+W160,2d_field,H,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.060828724650652366,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.0596850265860131,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.001742082271341594,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.030420851887319078,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.17169149798468408,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.8944538598137797,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.055897913193296095,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.07965349374823447,C1_buffered_stage
+W160,2d_field,H,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.10578037550509173,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.03348345388191576,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.051501539015282705,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.1662239249431926,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.06417891388821728,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,1.8484295859212523,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.05979761628429253,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.05246544640496373,C1_buffered_stage
+W160,2d_field,H,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.15946981958122988,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.01689712118758685,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.010245801490968598,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.027723533571779924,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.017052593453689147,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.41410081662431253,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.025701261663753333,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.01661501352023631,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.0058124782717239865,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.04731935990055758,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.06023477268435867,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.1339903085926804,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.01759862209851737,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,4.394553919112127,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.1265765664608862,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.03264174972897149,C1_buffered_stage
+W160,2d_field,Je,Jw,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.0766164498607189,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.013366295215220592,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.013561312387793512,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.0014838074084793096,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,0.02208133961686798,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.8983530087997735,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.02844450737378501,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.07709658406061015,C1_buffered_stage
+W160,2d_field,Je,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.08353772731992126,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.03337775246525593,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.13791980948979937,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.1417972444099746,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.13621599972611897,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,4.409557574527497,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.07868523890495865,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1753282346731388,C1_buffered_stage
+W160,2d_field,Je,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.07293402113819154,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.0026292233272645626,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.03993139804653573,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.028814254958246743,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.06405593167237167,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.11309501710570657,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.008929095431832818,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.011013967899768828,C1_buffered_stage
+W160,2d_field,Je,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.09269674189374644,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.03337222442339305,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.06391048002092414,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.07973227664054094,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.19851762950607077,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-0.4458863577424381,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.05462587755952758,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.10675705914294284,C1_buffered_stage
+W160,2d_field,Je,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.17157511606876907,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.03026341640280744,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.02380711387876211,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.026239726163300614,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,0.039133933070557125,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,1.312453825424086,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.054145769037538344,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.09371159758084646,C1_buffered_stage
+W160,2d_field,Jw,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.07772524904819728,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.01394160743530165,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.0776850368054407,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.007806935817294192,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.1186173776276016,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,0.015003655415370076,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.04789132755592754,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1426864849441673,C1_buffered_stage
+W160,2d_field,Jw,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,0.003682428722527359,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.014267897860322287,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.050177199537504324,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.05653778853002667,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.04700333821868252,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.5271958337300191,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.016772166231920516,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.02762898142000514,C1_buffered_stage
+W160,2d_field,Jw,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.09850922016547042,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.08069158432395063,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.0036757073365654702,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.05425803195213946,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.1809190074075534,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-4.840440276854565,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.07195068890135861,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.07411530941397135,C1_buffered_stage
+W160,2d_field,Jw,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.09495866620805016,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.015995518542485154,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.026370085658742215,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.030298062366726053,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.08613727128923965,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.785257991694067,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.03737360280561783,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.06608261616084132,C1_buffered_stage
+W160,2d_field,P,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.1762344692136677,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.06674997688864898,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,-0.07400932946887523,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.062064967769433654,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.062301629779951795,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-4.855443932269935,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.024059361345431074,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.06857117553019595,C1_buffered_stage
+W160,2d_field,P,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.09864109493057752,C1_buffered_stage
+W160,2d_field,H,Je,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.013151568375428802,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.025469242787935276,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.047674424956843264,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.08826797553815602,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.6365364008134691,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.06765869779333089,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.09475989322444493,C2_immediate_pre
+W160,2d_field,H,Je,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.03933714919420572,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.0761781305868518,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,-0.010644979741649296,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.1059215172435427,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,0.14515520892133815,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,2.4572754564177615,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.002475490350864029,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.05296410487185253,C2_immediate_pre
+W160,2d_field,H,Je,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,0.006479224572730979,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.01974054449132112,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.030081231494027583,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.03314334593630902,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.10129265473324811,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,0.4884079028073529,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.055557380160781766,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.08744389616060706,C2_immediate_pre
+W160,2d_field,H,Jw,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.03669647205909371,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.15333789559172867,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.0940711067058772,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.2763078366400792,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,0.13882271984856975,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,6.24018947350811,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.13746465448169143,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.015134845238682734,C2_immediate_pre
+W160,2d_field,H,Jw,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.05199351194290003,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.057943515170546356,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.025382949315857134,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.03299453736857039,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.10547346770642141,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-1.253400751599628,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.04374997723629265,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.1277632593994647,C2_immediate_pre
+W160,2d_field,H,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.10845437703971547,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.09142939565878894,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.12649778492626063,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.21505146973728223,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.017812238055778917,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,7.158922964691584,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.06271802637268803,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1254779377429148,C2_immediate_pre
+W160,2d_field,H,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.04079834511587199,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.036098291843437935,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.04122201000483178,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.06385773989458954,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.1733922127345241,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.1780705699514442,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.09534228108868917,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.10713290091551163,C2_immediate_pre
+W160,2d_field,H,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.12230058682190359,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.061974680452974384,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.100506738709793,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.2052741422576933,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.06253705488667571,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,3.7010783367474005,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.08711675064358906,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.11173466622784695,C2_immediate_pre
+W160,2d_field,H,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.15075557303567103,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.00658897611589232,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.004611988706092307,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.014531079020534243,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.013024679195092093,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.14812849800611616,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.012101317632549125,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.00731599706383787,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.002640677135112013,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.07715976500487687,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.1047160864475265,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.17038631939653648,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.006332489072768399,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,3.7829140170903486,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.1349891641308274,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.0378292596331698,C2_immediate_pre
+W160,2d_field,Je,Jw,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.05847273651563101,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.044791946795117554,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.05085219210379241,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.08066896232541365,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.01720549216826539,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-1.889937152413097,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.023908720557038243,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.03300336617501978,C2_immediate_pre
+W160,2d_field,Je,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.1477915262339212,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,0.015251265071937137,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.13714276466790992,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.10912995249373952,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.16296744697711707,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,4.7016475082738225,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.060242536021824,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.17844204261476732,C2_immediate_pre
+W160,2d_field,Je,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.04727756968860297,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.022946723468009134,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.0157527672168965,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.016183314937746274,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.08512423719636808,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.8146069707649133,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.027683583295358277,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.012373007691066695,C2_immediate_pre
+W160,2d_field,Je,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.08296343762769787,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.014203450133877416,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.1111517184514423,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,0.0993526250141506,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.20769226380801387,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,1.243802880329639,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.08464126029272503,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1646987710996995,C2_immediate_pre
+W160,2d_field,Je,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.157234797608402,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.038202970679225234,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,-0.05546418080988472,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,-0.06613788330487941,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.004180812973173298,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-1.7418086544069808,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,-0.011807402924489119,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.04031936323885765,C2_immediate_pre
+W160,2d_field,Jw,P,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,0.14515084909880918,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.06190849993293973,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.032426678220383434,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.061256366902796955,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.15663495790434867,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,0.9187334911834739,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.0747466281090034,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.14061278298159752,C2_immediate_pre
+W160,2d_field,Jw,P,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,0.011195166827028036,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,-0.016357747352116814,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.011140778510804195,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.030714393958280517,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.07209955800127599,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,-0.6664784727587971,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.0397849009279074,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,-0.019689004754904565,C2_immediate_pre
+W160,2d_field,Jw,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.08560411476280988,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.09136321513875428,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,0.006435632003915795,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.07103369438238588,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.20135977473524547,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-2.5391111367607095,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,-0.050347903838102365,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,-0.1268695114665297,C2_immediate_pre
+W160,2d_field,Jw,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.098762061092771,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_state_compare,dist_mean_compare_A_minus_B; positive means A higher/ahead,0.02184522332710842,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_state_early,dist_mean_early_A_minus_B; positive means A higher/ahead,0.06660495932068891,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_state_core,dist_mean_core_A_minus_B; positive means A higher/ahead,0.09685227726315992,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_state_late,dist_mean_late_A_minus_B; positive means A higher/ahead,-0.06791874502810269,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_growth_center,dist_growth_center_B_minus_A; positive means A earlier growth,1.0753301816481837,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_early_growth_share,dist_early_growth_share_A_minus_B; positive means A larger share,0.05159230385239652,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_core_growth_share,dist_core_growth_share_A_minus_B; positive means A larger share,0.020630358483953087,C2_immediate_pre
+W160,2d_field,P,V,2d_dist_late_growth_share,dist_late_growth_share_A_minus_B; positive means A larger share,-0.23075496386161906,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_state_compare,pattern_mean_compare_A_minus_B; positive means A higher/ahead,-0.029454715205814552,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_state_early,pattern_mean_early_A_minus_B; positive means A higher/ahead,-0.02599104621646764,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_state_core,pattern_mean_core_A_minus_B; positive means A higher/ahead,-0.009777327479588926,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_state_late,pattern_mean_late_A_minus_B; positive means A higher/ahead,-0.044724816830896796,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_growth_center,pattern_growth_center_B_minus_A; positive means A earlier growth,-3.4578446279441835,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_early_growth_share,pattern_early_growth_share_A_minus_B; positive means A larger share,0.024398724270901034,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_core_growth_share,pattern_core_growth_share_A_minus_B; positive means A larger share,0.01374327151506785,C2_immediate_pre
+W160,2d_field,P,V,2d_pattern_late_growth_share,pattern_late_growth_share_A_minus_B; positive means A larger share,-0.10995722791979903,C2_immediate_pre

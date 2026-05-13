@@ -1,0 +1,91 @@
+{
+  "version": "v7_x",
+  "output_tag": "H_Jw_pattern_similarity_window_audit_v7_x",
+  "primary_goal": "targeted side audit of H/Jw early pattern-similarity signal from V7-v curves",
+  "input_curve_csv": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_Jw_baseline_sensitive_state_growth_v7_v\\w45_H_Jw_state_progress_curves_v7_v.csv",
+  "input_is_existing_V7v_output": true,
+  "fields": [
+    "H",
+    "Jw"
+  ],
+  "baseline_configs": [
+    "C0_full_stage",
+    "C1_buffered_stage",
+    "C2_immediate_pre"
+  ],
+  "signals": [
+    "R_diff",
+    "S_pattern"
+  ],
+  "segments": [
+    {
+      "name": "pre_early_25_29",
+      "start_day": 25,
+      "end_day": 29
+    },
+    {
+      "name": "early_30_39",
+      "start_day": 30,
+      "end_day": 39
+    },
+    {
+      "name": "core_40_45",
+      "start_day": 40,
+      "end_day": 45
+    },
+    {
+      "name": "late_46_53",
+      "start_day": 46,
+      "end_day": 53
+    },
+    {
+      "name": "search_35_53",
+      "start_day": 35,
+      "end_day": 53
+    },
+    {
+      "name": "broad_30_53",
+      "start_day": 30,
+      "end_day": 53
+    }
+  ],
+  "detector_day_range": [
+    0,
+    70
+  ],
+  "state_detector": {
+    "type": "one_dimensional_local_before_after_window_score",
+    "window_width_days": 20,
+    "local_peak_min_distance_days": 3,
+    "candidate_band_max_half_width_days": 10,
+    "note": "This is a pattern-similarity targeted side audit, not a replacement for V7-w profile-object detection."
+  },
+  "growth_detector": {
+    "signals": [
+      "dRdiff_smooth3",
+      "dSpattern_smooth3"
+    ],
+    "threshold_quantile": 0.75,
+    "role": "diagnostic_only"
+  },
+  "external_references": {
+    "system_W45": [
+      40,
+      48
+    ],
+    "H_V7w_object_window": [
+      32,
+      37
+    ],
+    "Jw_V7w_object_window": [
+      37,
+      49
+    ]
+  },
+  "not_done": [
+    "No raw field recomputation",
+    "No P/V/Je",
+    "No profile-object window replacement",
+    "No causality or pathway interpretation"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿window_id,object,domain,nominal_start_day,nominal_end_day,finite_start_day,finite_end_day,n_nominal_days,n_finite_days,leading_nan_days,trailing_nan_days,internal_nan_days,valid_day_fraction,boundary_nan_warning
+W113,P,analysis,88,154,88,154,67,67,0,0,0,1.0,none
+W113,P,detector,88,149,88,149,62,62,0,0,0,1.0,none
+W113,P,system_window,108,118,108,118,11,11,0,0,0,1.0,none
+W113,V,analysis,88,154,88,154,67,67,0,0,0,1.0,none
+W113,V,detector,88,149,88,149,62,62,0,0,0,1.0,none
+W113,V,system_window,108,118,108,118,11,11,0,0,0,1.0,none
+W113,H,analysis,88,154,88,154,67,67,0,0,0,1.0,none
+W113,H,detector,88,149,88,149,62,62,0,0,0,1.0,none
+W113,H,system_window,108,118,108,118,11,11,0,0,0,1.0,none
+W113,Je,analysis,88,154,88,154,67,67,0,0,0,1.0,none
+W113,Je,detector,88,149,88,149,62,62,0,0,0,1.0,none
+W113,Je,system_window,108,118,108,118,11,11,0,0,0,1.0,none
+W113,Jw,analysis,88,154,88,154,67,67,0,0,0,1.0,none
+W113,Jw,detector,88,149,88,149,62,62,0,0,0,1.0,none
+W113,Jw,system_window,108,118,108,118,11,11,0,0,0,1.0,none

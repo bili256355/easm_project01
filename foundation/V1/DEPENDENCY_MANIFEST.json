@@ -1,0 +1,18 @@
+{
+  "layer": "foundation",
+  "version": "V1",
+  "status": "active_runnable",
+  "parent_version": null,
+  "depends_on": {
+    "raw_data_root": "D:\\工作目录\\data\\my_data"
+  },
+  "writes_to": {
+    "outputs_root": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a",
+    "logs_root": "D:\\easm_project01\\foundation\\V1\\logs\\baseline_a\\mainline"
+  },
+  "hard_constraints": {
+    "no_stage_partition_generation": true,
+    "no_window_detection": true,
+    "no_pathway_inference": true
+  }
+}

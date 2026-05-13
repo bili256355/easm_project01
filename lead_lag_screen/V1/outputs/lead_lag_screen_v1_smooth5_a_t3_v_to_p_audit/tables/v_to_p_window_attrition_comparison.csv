@@ -1,0 +1,10 @@
+﻿window,n_all_v_to_p_pairs,n_stable_lag_dominant,n_tau0_coupled,n_stable_tau0_dominant,n_audit_sensitive,n_failed_or_not_candidate,n_positive_surrogate_pass_p05,n_positive_fdr_pass_q10,n_audit_pass_p05,n_forward_over_reverse_stable,n_lag_over_tau0_stable,n_tau0_competitive_or_close,stage_passed_stable_lag,stage_direction_uncertain,stage_passed_tau0_coupled,stage_tau0_competitive,stage_positive_not_surrogate_significant,stage_reverse_competitive,stage_positive_fdr_not_supported,stage_audit_sensitive_candidate,stage_audit_not_stable
+S1,21,12,4,0,0,5,21,21,21,17,12,9,12.0,4,4,1.0,,,,,
+T1,21,0,14,0,0,7,19,18,20,14,0,21,,4,14,,2.0,,1.0,,
+S2,21,9,7,0,0,5,20,20,20,16,9,12,9.0,4,7,,1.0,,,,
+T2,21,13,2,0,0,6,20,20,20,15,13,8,13.0,5,2,,1.0,,,,
+S3,21,8,4,0,0,9,17,17,17,12,8,13,8.0,3,4,,4.0,2.0,,,
+T3,21,2,2,0,0,17,9,7,6,4,4,17,2.0,1,2,,12.0,2.0,1.0,,1.0
+S4,21,6,3,0,0,12,14,11,11,11,8,13,6.0,1,3,,7.0,1.0,3.0,,
+T4,21,3,6,0,0,12,17,16,16,9,5,16,3.0,7,6,,4.0,,1.0,,
+S5,21,6,5,0,2,8,15,14,12,15,10,11,6.0,1,5,,6.0,,1.0,2.0,

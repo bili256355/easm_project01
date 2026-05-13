@@ -1,0 +1,12 @@
+﻿window_id,object,candidate_id,peak_day,band_start_day,band_end_day,peak_score,peak_prominence,peak_rank,overlap_days_with_W45,overlap_fraction_with_W45,left_stop_reason,right_stop_reason,bootstrap_support,support_class,relation_to_system_window
+W113,P,CP001,113,103,123,26.616812351441734,13.671071573827309,1,11,1.0,floor_or_width,floor_or_width,0.915,candidate_window,within_system_window
+W113,P,CP002,126,116,136,5.946778876241709,2.2733764861211645,2,3,0.2727272727272727,floor_or_width,floor_or_width,0.837,candidate_window,post_window
+W113,P,CP003,138,138,138,5.071550450487186,0.37371254621692085,3,0,0.0,floor_or_width,floor_or_width,0.626,weak_window,post_window
+W113,V,CP001,114,104,124,20.004865865386734,16.643147862922163,1,11,1.0,floor_or_width,floor_or_width,0.929,candidate_window,within_system_window
+W113,V,CP002,136,126,139,8.498506242322458,1.7277229760912505,2,0,0.0,floor_or_width,floor_or_width,0.747,weak_window,post_window
+W113,H,CP001,115,105,125,34.607065236011024,30.349487281431234,1,11,1.0,floor_or_width,floor_or_width,0.988,accepted_window,within_system_window
+W113,H,CP002,129,129,139,4.241067494898854,3.690235040788872,2,0,0.0,floor_or_width,floor_or_width,0.889,candidate_window,post_window
+W113,Je,CP001,111,101,121,16.652666002833563,8.937961169634281,1,11,1.0,floor_or_width,floor_or_width,0.976,accepted_window,within_system_window
+W113,Je,CP002,136,126,139,14.318820217804232,1.086621386814107,2,0,0.0,floor_or_width,floor_or_width,0.686,weak_window,post_window
+W113,Jw,CP001,104,98,114,25.06998583750547,8.778219173255653,1,7,0.6363636363636364,floor_or_width,floor_or_width,0.885,candidate_window,front_or_early
+W113,Jw,CP002,130,120,139,21.9408475625849,11.950109920478052,2,0,0.0,floor_or_width,floor_or_width,0.92,candidate_window,post_window

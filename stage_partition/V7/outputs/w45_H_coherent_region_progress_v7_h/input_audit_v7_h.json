@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-05-02T16:20:53",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "field": "H",
+  "checks": {
+    "smoothed_fields_exists": true,
+    "v7e_output_dir_exists": true,
+    "v7f_output_dir_exists": true,
+    "v7g_output_dir_exists": true,
+    "window_source": "field_transition_progress_timing_v7_e/accepted_windows_used_v7_e.csv"
+  },
+  "window": {
+    "window_id": "W002",
+    "anchor_day": 45,
+    "accepted_window_start": 40,
+    "accepted_window_end": 48,
+    "analysis_window_start": 30,
+    "analysis_window_end": 60,
+    "pre_period_start": 30,
+    "pre_period_end": 37,
+    "post_period_start": 53,
+    "post_period_end": 60,
+    "source": "field_transition_progress_timing_v7_e/accepted_windows_used_v7_e.csv"
+  }
+}

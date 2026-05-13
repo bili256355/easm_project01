@@ -1,0 +1,16 @@
+﻿object,detector_type,candidate_id,peak_day,peak_score,peak_prominence,peak_rank,window_start,window_end,relation_to_W45,overlap_days_with_W45,window_id,center_day,observed_peak_day,bootstrap_match_fraction,strict_match_fraction,near_match_fraction,return_day_median,return_day_q05,return_day_q95,return_day_q025,return_day_q975,n_valid_matches,support_class
+P,shape_pattern,CP001,44,5.996713002115678,5.701654072314752,1,34,54,overlap_W45,9,P_shape_pattern_CP001,44.0,44.0,0.968,0.65,0.968,44.0,40.0,48.0,40.0,48.0,968,accepted_window
+P,shape_pattern,CP002,22,1.0036752492011942,0.5725665638336763,2,14,32,pre_W45,0,P_shape_pattern_CP002,23.0,22.0,0.892,0.697,0.892,22.0,18.0,26.0,17.0,27.0,892,candidate_window
+P,shape_pattern,CP003,17,0.6726238827777918,0.018745331814648547,3,14,27,pre_W45,0,P_shape_pattern_CP003,20.5,17.0,0.723,0.474,0.723,17.0,15.0,22.0,15.0,22.0,723,weak_window
+P,shape_pattern,CP004,57,0.6680378396411253,0.14478522754711176,4,57,60,post_W45,0,P_shape_pattern_CP004,58.5,57.0,0.558,0.532,0.558,57.0,55.0,59.0,54.0,59.0,558,weak_window
+V,shape_pattern,CP001,45,9.082103819983407,8.993471647094504,1,35,55,overlap_W45,9,V_shape_pattern_CP001,45.0,45.0,0.986,0.804,0.986,45.0,42.0,48.0,42.0,49.0,986,accepted_window
+V,shape_pattern,CP002,23,0.48771566300403413,0.1300022991266988,2,14,33,pre_W45,0,V_shape_pattern_CP002,23.5,23.0,0.942,0.656,0.942,23.0,18.0,27.0,18.0,28.0,942,candidate_window
+V,shape_pattern,CP003,28,0.41854130482688345,0.049903463703641626,3,18,38,pre_W45,0,V_shape_pattern_CP003,28.0,28.0,0.815,0.479,0.815,27.0,23.0,31.0,23.0,32.0,815,candidate_window
+H,shape_pattern,CP001,38,0.2829520409536669,0.2768176722601712,1,28,48,overlap_W45,9,H_shape_pattern_CP001,38.0,38.0,1.0,0.981,1.0,38.0,36.0,39.049999999999955,36.0,40.0,1000,accepted_window
+H,shape_pattern,CP002,58,0.06265965540176048,0.003996074700059429,2,48,60,overlap_W45,1,H_shape_pattern_CP002,54.0,58.0,0.609,0.464,0.609,56.0,54.0,59.0,53.0,59.0,609,weak_window
+H,shape_pattern,CP003,48,0.008775803099103932,0.0015481834657063015,3,48,48,within_W45,1,H_shape_pattern_CP003,48.0,48.0,0.62,0.514,0.62,48.0,46.0,52.0,46.0,53.0,620,weak_window
+Je,shape_pattern,CP001,33,7.550033871833324,5.864856393172103,1,23,43,overlap_W45,4,Je_shape_pattern_CP001,33.0,33.0,0.957,0.88,0.957,33.0,30.0,35.0,29.0,36.0,957,accepted_window
+Je,shape_pattern,CP002,20,2.921014376083699,0.8721847998369197,2,14,30,pre_W45,0,Je_shape_pattern_CP002,22.0,20.0,0.794,0.506,0.794,19.0,15.0,22.0,15.0,22.0,794,weak_window
+Je,shape_pattern,CP003,45,1.1331629578350277,0.4998555187311924,3,35,55,overlap_W45,9,Je_shape_pattern_CP003,45.0,45.0,0.914,0.84,0.914,45.0,43.0,48.0,43.0,49.0,914,candidate_window
+Jw,shape_pattern,CP001,40,14.495777682247258,12.722490701922755,1,30,50,overlap_W45,9,Jw_shape_pattern_CP001,40.0,40.0,0.921,0.692,0.921,40.0,37.0,44.0,37.0,45.0,921,candidate_window
+Jw,shape_pattern,CP002,16,3.754820009644006,0.1679647490333025,2,14,26,pre_W45,0,Jw_shape_pattern_CP002,20.0,16.0,0.645,0.405,0.645,18.0,15.0,20.0,15.0,20.0,645,weak_window

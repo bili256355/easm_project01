@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "created_at": "2026-05-02T17:52:15",
+  "output_tag": "w45_H_timing_marker_audit_v7_k",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "field": "H",
+  "v7_root": "D:\\easm_project01\\stage_partition\\V7",
+  "input_v7e_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e",
+  "input_v7j_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_raw025_threeband_progress_v7_j",
+  "audit_type": "timing_marker_stability",
+  "does_not_change_region": true,
+  "does_not_recompute_progress": true,
+  "does_not_change_threshold": true,
+  "n_units": 4,
+  "outputs": {
+    "input_audit": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\input_audit_v7_k.json",
+    "marker_stability": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\w45_H_timing_marker_stability_v7_k.csv",
+    "observed_shape": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\w45_H_observed_timing_shape_v7_k.csv",
+    "censoring_audit": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\w45_H_window_censoring_audit_v7_k.csv",
+    "marker_decision": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\w45_H_timing_marker_decision_v7_k.csv",
+    "window_summary": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\w45_H_timing_marker_window_summary_v7_k.csv",
+    "summary_md": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_timing_marker_audit_v7_k\\w45_H_timing_marker_audit_summary_v7_k.md"
+  }
+}

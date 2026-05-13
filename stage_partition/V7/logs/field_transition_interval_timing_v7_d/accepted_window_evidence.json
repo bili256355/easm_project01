@@ -1,0 +1,158 @@
+{
+  "windows_df": "  window_id  start_day  end_day  ...  max_member_bootstrap_match_fraction  merge_reason  protected_split_flag\n0      W002         40       48  ...                                0.993   non_overlap                 False\n1      W003         75       86  ...                                0.951   non_overlap                 False\n2      W005        107      117  ...                                0.987   non_overlap                 False\n3      W007        155      164  ...                                0.962   final_group                 False\n\n[4 rows x 10 columns]",
+  "bootstrap_df": "  candidate_id  point_day  ...  median_bootstrap_matched_peak_score  median_bootstrap_abs_offset_days\n0        CP001         18  ...                             3.962321                               2.0\n1        CP002         45  ...                             6.509541                               1.0\n2        CP003         81  ...                            10.602443                               2.0\n3        CP004         96  ...                             8.365786                               2.0\n4        CP005        113  ...                            10.551466                               1.0\n5        CP006        132  ...                             5.152466                               3.0\n6        CP007        135  ...                             5.132862                               3.0\n7        CP008        160  ...                             8.207705                               2.0\n\n[8 rows x 8 columns]",
+  "evidence": {
+    "v6_update_log_path": "D:\\easm_project01\\stage_partition\\V6\\UPDATE_LOG_V6.md",
+    "v6_1_update_log_path": "D:\\easm_project01\\stage_partition\\V6_1\\UPDATE_LOG_V6_1.md",
+    "v6_log_relevant_excerpt": "\n- 18\n- 45\n- 81\n- 96\n- 113\n- 132\n- 135\n- 160\n\n\u5176\u4e2d `is_formal_primary` \u4ec5\u4f5c\u4e3a\u6ce8\u8bb0\uff0c\u4e0d\u518d\u4f5c\u4e3a\u662f\u5426\u8fdb\u5165 bootstrap \u4e3b\u7b5b\u7684\u524d\u7f6e\u95e8\u69db\u3002\n- **bootstrap \u6b21\u6570\uff1a1000**\n- **\u4e3b\u5339\u914d\u53e3\u5f84\uff1a\u00b15 \u5929**\n- **\u4e3b\u663e\u8457\u6027\u5224\u65ad\uff1a\u4ee5 bootstrap \u4e3a\u4e3b**\n- **yearwise\uff1a\u4ec5\u8f85\u52a9\uff0c\u4e0d\u8fdb\u5165\u4e3b\u663e\u8457\u6027\u51b3\u7b56**\n\n### 3. \u9ed8\u8ba4\u4e3b\u7ebf\u8f93\u51fa\u56fa\u5b9a\u56de `mainline_v6_a`\n\n### 4. \u70b9\u5c42\u4e3b\u7ed3\u679c\u5f53\u524d\u6682\u5b9a\n\u6309 **1000 \u6b21 bootstrap + 5 \u5929\u53e3\u5f84**\uff0c\u5f53\u524d\u901a\u8fc7\u4e3b\u663e\u8457\u6027\u7684\u70b9\u4e3a\uff1a\n\n- **45**\n- **81**\n- **113**\n- **160**\n\n\u5f53\u524d\u672a\u4f5c\u4e3a\u4e3b\u8def\u5f84\u951a\u70b9\u63a8\u8fdb\u7684\u70b9\uff1a\n- 18\n- 96\n- 132\n- 135\n\n\u5176\u4e2d\uff1a\n\n- `132 / 135` \u6682\u4e0d\u4f5c\u4e3a\u5f53\u524d\u4e3b\u8def\u5f84\u5c42\u91cd\u70b9\u5bf9\u8c61\n- \u5b83\u4eec\u4fdd\u7559\u8bb0\u5f55\uff0c\u540e\u7eed\u9700\u8981\u65f6\u518d\u56de\u770b\n\n## \u5f53\u524d\u4e3b\u7ebf\u7ed3\u8bba\n`V6` \u5f53\u524d\u5df2\u53ef\u4f5c\u4e3a\u70b9\u5c42\u4e3b\u7b5b\u7ed3\u679c\u4f7f\u7528\u3002  \n\u540e\u7eed\u8def\u5f84\u5c42\u9ed8\u8ba4\u4f18\u5148\u56f4\u7ed5\u56db\u4e2a\u5df2\u8fc7\u663e\u8457\u6027\u7684\u70b9\u63a8\u8fdb\uff1a\n\n- 45\n- 81\n- 113\n- 160",
+    "v6_1_log_relevant_excerpt": "`V6_1` \u4e0d\u627f\u62c5\uff1a\n\n- \u7b2c\u4e8c\u5957\u70b9\u5c42\u4e3b\u663e\u8457\u6027\u88c1\u51b3\n- competition\n- parameter-path\n\u521d\u7248 `V6_1` \u4e2d\u66fe\u51fa\u73b0\uff1a\n\n- `CP005 (113) -> 66\u2013119`\n\n\u5e76\u9519\u8bef\u5730\u628a `81` \u548c `113` \u5e76\u8fdb\u540c\u4e00\u7a97\u53e3\u3002  \n\u5df2\u786e\u8ba4\u539f\u56e0\u6709\u4e24\u5c42\uff1a\n\n- \u4fee\u590d merge \u7684\u7ec4\u53f3\u8fb9\u754c bug\n- \u5bf9\u5df2\u8fc7\u70b9\u5c42\u4e3b\u7b5b\u7684\u4e3b\u70b9\u589e\u52a0\u4fdd\u62a4\uff0c\u4e0d\u518d\u8f7b\u6613\u88ab\u8bef\u5e76\u7a97\n- \u8fd1\u90bb\u70b9\u4ecd\u5141\u8bb8\u5171\u4eab\u7a97\u53e3\uff0c\u56e0\u6b64 `132/135` \u4ecd\u53ef\u81ea\u7136\u5408\u7a97\n\n### 4. \u5f53\u524d\u7a97\u53e3\u7ed3\u679c\u5df2\u660e\u663e\u5408\u7406\u5316\n\u5f53\u524d\u5df2\u786e\u8ba4\uff1a\n\n- `45` \u5355\u72ec\u6210\u7a97\n- `81` \u5355\u72ec\u6210\u7a97\n- `113` \u5355\u72ec\u6210\u7a97\n- `160` \u5355\u72ec\u6210\u7a97\n- `132 / 135` \u5171\u4eab\u4e00\u4e2a\u7a97\u53e3\n- \u4e0d\u786e\u5b9a\u6027\u5c42\u4ecd\u7136\u53ea\u662f\u7a97\u53e3\u5c5e\u6027\uff0c\u6ca1\u6709\u957f\u6210\u7b2c\u4e8c\u5957\u7a97\u53e3\u5bf9\u8c61\n\n\u4e5f\u5c31\u662f\u8bf4\uff0c`81` \u4e0e `113` \u7684\u9519\u8bef\u5408\u5e76\u5df2\u7ecf\u88ab\u4fee\u6389\u3002\n\n### 5. \u5f53\u524d\u7a97\u53e3\u4e3b\u7ebf\u4f7f\u7528\u5efa\u8bae\n\u540e\u7eed\u8def\u5f84\u5c42\u5f53\u524d\u4f18\u5148\u4f7f\u7528\u7684\u7a97\u53e3\u5bf9\u8c61\u4e3a\uff1a\n\n- **45 \u5bf9\u5e94\u7a97\u53e3**\n- **81 \u5bf9\u5e94\u7a97\u53e3**\n- **113 \u5bf9\u5e94\u7a97\u53e3**\n- **160 \u5bf9\u5e94\u7a97\u53e3**\n\n`132 / 135` \u7684\u5171\u4eab\u7a97\u5f53\u524d\u5148\u4fdd\u7559\u8bb0\u5f55\uff0c\u6682\u4e0d\u4f5c\u4e3a\u4e3b\u8def\u5f84\u5c42\u91cd\u70b9\u5bf9\u8c61\u3002  \n\u5176\u4e3b\u5cf0\u662f `132` \u8fd8\u662f `135`\uff0c\u5f53\u524d\u4e0d\u5f71\u54cd\u4e3b\u7ebf\u63a8\u8fdb\uff0c\u540e\u7eed\u9700\u8981\u65f6\u518d\u56de\u770b\u3002\n\n### 6. \u4e94\u9636\u6bb5\u4f7f\u7528\u539f\u5219\n\u5f53\u524d\u540e\u7eed\u8def\u5f84\u5c42\u53ef\u91c7\u7528\uff1a\n\n- **4 \u4e2a\u5df2\u8fc7\u663e\u8457\u6027\u7684\u8f6c\u6362\u7a97\u53e3**\n- \u4e3b\u7ebf\u5148\u56f4\u7ed5\u56db\u4e2a\u8fc7\u663e\u8457\u6027\u7684\u8f6c\u6362\u7a97\u53e3\u63a8\u8fdb\n- \u4e94\u9636\u6bb5\u662f\u7531\u8fd9\u4e9b\u7a97\u53e3\u5207\u5206\u51fa\u6765\u7684\u9636\u6bb5\u5bf9\u8c61\n- \u4e0d\u518d\u8ba9 `132 / 135` \u8fd9\u7c7b\u672a\u8fc7\u4e3b\u663e\u8457\u6027\u7684\u8fd1\u90bb\u5bf9\u8c61\u5e72\u6270\u4e3b\u7ebf\n\n## \u5f53\u524d\u4e3b\u7ebf\u7ed3\u8bba\n`V6_1` \u5f53\u524d\u5df2\u7ecf\u57fa\u672c\u8fbe\u5230\u201c\u53ef\u7528\u4e8e\u540e\u7eed\u8def\u5f84\u5c42\u65f6\u95f4\u5bf9\u8c61\u5c42\u201d\u7684\u7a0b\u5ea6\u3002  \n\u5f53\u524d\u53ef\u5148\u5b9a\u4f4f\u7684\u4e3b\u7ed3\u6784\u662f\uff1a\n",
+    "accepted_points": [
+      45,
+      81,
+      113,
+      160
+    ],
+    "excluded_candidate_days": [
+      18,
+      96,
+      132,
+      135
+    ],
+    "bootstrap_match_threshold": 0.95,
+    "accepted_bootstrap_records": [
+      {
+        "candidate_id": "CP002",
+        "point_day": 45,
+        "bootstrap_strict_fraction": 0.901,
+        "bootstrap_match_fraction": 0.993,
+        "bootstrap_near_fraction": 0.006,
+        "bootstrap_no_match_fraction": 0.001,
+        "median_bootstrap_matched_peak_score": 6.509541424571214,
+        "median_bootstrap_abs_offset_days": 1.0
+      },
+      {
+        "candidate_id": "CP003",
+        "point_day": 81,
+        "bootstrap_strict_fraction": 0.574,
+        "bootstrap_match_fraction": 0.951,
+        "bootstrap_near_fraction": 0.043,
+        "bootstrap_no_match_fraction": 0.006,
+        "median_bootstrap_matched_peak_score": 10.602442900771202,
+        "median_bootstrap_abs_offset_days": 2.0
+      },
+      {
+        "candidate_id": "CP005",
+        "point_day": 113,
+        "bootstrap_strict_fraction": 0.814,
+        "bootstrap_match_fraction": 0.987,
+        "bootstrap_near_fraction": 0.005,
+        "bootstrap_no_match_fraction": 0.008,
+        "median_bootstrap_matched_peak_score": 10.551466230461433,
+        "median_bootstrap_abs_offset_days": 1.0
+      },
+      {
+        "candidate_id": "CP008",
+        "point_day": 160,
+        "bootstrap_strict_fraction": 0.7,
+        "bootstrap_match_fraction": 0.962,
+        "bootstrap_near_fraction": 0.029,
+        "bootstrap_no_match_fraction": 0.009,
+        "median_bootstrap_matched_peak_score": 8.207705103010262,
+        "median_bootstrap_abs_offset_days": 2.0
+      }
+    ],
+    "excluded_bootstrap_records": [
+      {
+        "candidate_id": "CP001",
+        "point_day": 18,
+        "bootstrap_strict_fraction": 0.582,
+        "bootstrap_match_fraction": 0.745,
+        "bootstrap_near_fraction": 0.025,
+        "bootstrap_no_match_fraction": 0.23,
+        "median_bootstrap_matched_peak_score": 3.962321284033028,
+        "median_bootstrap_abs_offset_days": 2.0
+      },
+      {
+        "candidate_id": "CP004",
+        "point_day": 96,
+        "bootstrap_strict_fraction": 0.551,
+        "bootstrap_match_fraction": 0.807,
+        "bootstrap_near_fraction": 0.041,
+        "bootstrap_no_match_fraction": 0.152,
+        "median_bootstrap_matched_peak_score": 8.365785708333403,
+        "median_bootstrap_abs_offset_days": 2.0
+      },
+      {
+        "candidate_id": "CP006",
+        "point_day": 132,
+        "bootstrap_strict_fraction": 0.467,
+        "bootstrap_match_fraction": 0.899,
+        "bootstrap_near_fraction": 0.082,
+        "bootstrap_no_match_fraction": 0.019,
+        "median_bootstrap_matched_peak_score": 5.152466035000627,
+        "median_bootstrap_abs_offset_days": 3.0
+      },
+      {
+        "candidate_id": "CP007",
+        "point_day": 135,
+        "bootstrap_strict_fraction": 0.485,
+        "bootstrap_match_fraction": 0.854,
+        "bootstrap_near_fraction": 0.133,
+        "bootstrap_no_match_fraction": 0.013,
+        "median_bootstrap_matched_peak_score": 5.1328621956521285,
+        "median_bootstrap_abs_offset_days": 3.0
+      }
+    ],
+    "selected_windows": [
+      {
+        "window_id": "W002",
+        "start_day": 40,
+        "end_day": 48,
+        "center_day": 44,
+        "main_peak_day": 45,
+        "n_member_points": 1,
+        "member_candidate_ids": "CP002",
+        "max_member_bootstrap_match_fraction": 0.993,
+        "merge_reason": "non_overlap",
+        "protected_split_flag": false
+      },
+      {
+        "window_id": "W003",
+        "start_day": 75,
+        "end_day": 86,
+        "center_day": 80,
+        "main_peak_day": 81,
+        "n_member_points": 1,
+        "member_candidate_ids": "CP003",
+        "max_member_bootstrap_match_fraction": 0.951,
+        "merge_reason": "non_overlap",
+        "protected_split_flag": false
+      },
+      {
+        "window_id": "W005",
+        "start_day": 107,
+        "end_day": 117,
+        "center_day": 112,
+        "main_peak_day": 113,
+        "n_member_points": 1,
+        "member_candidate_ids": "CP005",
+        "max_member_bootstrap_match_fraction": 0.987,
+        "merge_reason": "non_overlap",
+        "protected_split_flag": false
+      },
+      {
+        "window_id": "W007",
+        "start_day": 155,
+        "end_day": 164,
+        "center_day": 160,
+        "main_peak_day": 160,
+        "n_member_points": 1,
+        "member_candidate_ids": "CP008",
+        "max_member_bootstrap_match_fraction": 0.962,
+        "merge_reason": "final_group",
+        "protected_split_flag": false
+      }
+    ],
+    "source_note": "Logs are audited as evidence and cross-checked with V6 bootstrap summary and V6_1 derived window registry. They are not treated as automatic truth."
+  }
+}

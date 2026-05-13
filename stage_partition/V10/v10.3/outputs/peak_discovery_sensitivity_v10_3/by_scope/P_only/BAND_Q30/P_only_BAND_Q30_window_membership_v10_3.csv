@@ -1,0 +1,11 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+P_only,P,BAND_Q30,W001,CP001,18,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W002,CP002,34,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W003,CP003,45,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W004,CP004,65,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W005,CP005,82,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W006,CP006,95,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W007,CP007,113,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W008,CP008,126,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W009,CP009,138,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,BAND_Q30,W010,CP010,158,True,,candidate_band,band_floor_quantile,0.30,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode

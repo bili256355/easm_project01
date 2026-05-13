@@ -1,0 +1,12 @@
+﻿feature_index,feature_lat_center,lat_bin_left,lat_bin_right,midpoint_median,midpoint_q05,midpoint_q95,midpoint_q90_width,dominant_progress_quality_label,timing_class,timing_class_note
+0,15.0,15.0,16.0,38.0,34.0,52.0,18.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+1,17.0,16.0,18.0,39.0,34.0,52.0,18.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+2,19.0,18.0,20.0,37.0,30.0,53.0,23.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+3,21.0,20.0,22.0,38.0,30.0,54.0,24.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+4,23.0,22.0,24.0,39.0,36.0,51.0,15.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+5,25.0,24.0,26.0,39.0,37.0,49.0,12.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+6,27.0,26.0,28.0,39.0,37.0,44.049999999999955,7.0499999999999545,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+7,29.0,28.0,30.0,39.0,37.0,49.0,12.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+8,31.0,30.0,32.0,39.0,37.0,50.0,13.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+9,33.0,32.0,34.0,43.0,37.0,51.0,14.0,nonmonotonic_progress,unstable_latbin_feature,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label
+10,35.0,34.0,35.0,49.0,37.0,51.0,14.0,monotonic_clear_progress,late_latbin_candidate,diagnostic tertile class based on lat-bin midpoint_median within W45 H lat-bin features; not a statistical confirmation label

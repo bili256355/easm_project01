@@ -1,0 +1,81 @@
+{
+  "project_root": "D:\\easm_project01",
+  "input_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+  "v1_evidence_tier_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_evidence_tier_summary.csv",
+  "output_tag": "pcmci_plus_smooth5_v2_a",
+  "random_seed": 20260427,
+  "smooth_version": "smooth5",
+  "tau_min": 0,
+  "tau_max": 5,
+  "main_tau_min": 1,
+  "main_tau_max": 5,
+  "pc_alpha": 0.05,
+  "fdr_alpha": 0.05,
+  "parcorr_significance": "analytic",
+  "tigramite_verbosity": 0,
+  "resume": true,
+  "force_recompute": false,
+  "write_cache": true,
+  "windows": {
+    "S1": [
+      1,
+      39
+    ],
+    "T1": [
+      40,
+      48
+    ],
+    "S2": [
+      49,
+      74
+    ],
+    "T2": [
+      75,
+      86
+    ],
+    "S3": [
+      87,
+      106
+    ],
+    "T3": [
+      107,
+      117
+    ],
+    "S4": [
+      118,
+      154
+    ],
+    "T4": [
+      155,
+      164
+    ],
+    "S5": [
+      165,
+      183
+    ]
+  },
+  "variable_families": {
+    "P_main_band_share": "P",
+    "P_south_band_share_18_24": "P",
+    "P_main_minus_south": "P",
+    "P_spread_lat": "P",
+    "P_north_band_share_35_45": "P",
+    "P_north_minus_main_35_45": "P",
+    "P_total_centroid_lat_10_50": "P",
+    "V_strength": "V",
+    "V_pos_centroid_lat": "V",
+    "V_NS_diff": "V",
+    "H_strength": "H",
+    "H_centroid_lat": "H",
+    "H_west_extent_lon": "H",
+    "H_zonal_width": "H",
+    "Je_strength": "Je",
+    "Je_axis_lat": "Je",
+    "Je_meridional_width": "Je",
+    "Jw_strength": "Jw",
+    "Jw_axis_lat": "Jw",
+    "Jw_meridional_width": "Jw"
+  },
+  "include_same_family_reported_edges": false,
+  "allow_same_family_conditioning_pool": true
+}

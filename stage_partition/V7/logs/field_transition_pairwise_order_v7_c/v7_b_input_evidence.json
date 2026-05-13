@@ -1,0 +1,97 @@
+{
+  "v7b_root": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b",
+  "required_files": {
+    "bootstrap_samples": {
+      "path": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b\\field_transition_peak_days_bootstrap_samples_v7_b.csv",
+      "exists": true
+    },
+    "loyo_samples": {
+      "path": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b\\field_transition_peak_days_loyo_samples_v7_b.csv",
+      "exists": true
+    },
+    "main_table": {
+      "path": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b\\field_transition_peak_days_bootstrap_v7_b.csv",
+      "exists": true
+    },
+    "accepted_windows": {
+      "path": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b\\accepted_windows_used_v7_b.csv",
+      "exists": true
+    },
+    "run_meta": {
+      "path": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b\\run_meta.json",
+      "exists": true
+    },
+    "summary": {
+      "path": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b\\summary.json",
+      "exists": true
+    }
+  },
+  "run_meta": {
+    "status": "success",
+    "started_at_utc": "2026-04-30T06:49:35.235268+00:00",
+    "ended_at_utc": "2026-04-30T06:50:39.966693+00:00",
+    "layer_name": "stage_partition",
+    "version_name": "V7",
+    "run_label": "field_transition_timing_v7_b",
+    "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "source_v6_output_tag": "mainline_v6_a",
+    "source_v6_1_output_tag": "mainline_v6_1_a",
+    "accepted_peak_days": [
+      45,
+      81,
+      113,
+      160
+    ],
+    "excluded_candidate_days": [
+      18,
+      96,
+      132,
+      135
+    ],
+    "analysis_window_buffer_days": 5,
+    "n_bootstrap": 1000,
+    "random_seed": 20260430,
+    "notes": [
+      "V7-b adds year-bootstrap, LOYO, expanded-window, and localization support to V7-a field timing.",
+      "Only the four V6/V6_1 accepted windows 45, 81, 113, and 160 are used.",
+      "Candidate peaks 18, 96, 132, and 135 are excluded from the current main diagnostic.",
+      "V6 and V6_1 logs are read as evidence and cross-checked with output tables.",
+      "Downstream lead-lag and pathway outputs are not read.",
+      "No causal interpretation is made by this run.",
+      "Spatial earliest-region timing is not included in this run.",
+      "timing_stable/moderate are timing-localization labels, not physical causality labels."
+    ]
+  },
+  "summary": {
+    "layer_name": "stage_partition",
+    "version_name": "V7",
+    "run_label": "field_transition_timing_v7_b",
+    "status": "success",
+    "scope": "field-specific transition timing with bootstrap/LOYO support around accepted windows only",
+    "accepted_peak_days": [
+      45,
+      81,
+      113,
+      160
+    ],
+    "excluded_candidate_days": [
+      18,
+      96,
+      132,
+      135
+    ],
+    "n_bootstrap": 1000,
+    "n_years": 45,
+    "n_field_window_tests": 20,
+    "timing_confidence_counts": {
+      "timing_uncertain": 11,
+      "boundary_truncated": 6,
+      "timing_moderate": 3
+    },
+    "n_usable_for_timing_order": 3,
+    "downstream_lead_lag_included": false,
+    "pathway_included": false,
+    "spatial_earliest_region_included": false,
+    "causal_interpretation_included": false
+  }
+}

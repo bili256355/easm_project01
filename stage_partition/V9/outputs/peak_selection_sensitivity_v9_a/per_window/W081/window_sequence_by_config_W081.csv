@@ -1,0 +1,73 @@
+﻿window_id,config_id,smoothing,detector_width,band_half_width,search_mode,selection_rule,P_peak_day,V_peak_day,H_peak_day,Je_peak_day,Jw_peak_day,sequence_string,sequence_with_days,front_object,last_object
+W081,smooth5__baseline_w20_b10__baseline_search__baseline_rule,smooth5,20,10,baseline_search,baseline_rule,82.0,83.0,78.0,83.0,83.0,H -> P/Je/Jw/V,H(day78/6月18日) -> P/Je/Jw/V(day83/6月23日),H,P/Je/Jw/V
+W081,smooth5__baseline_w20_b10__baseline_search__closest_anchor,smooth5,20,10,baseline_search,closest_anchor,82.0,83.0,78.0,83.0,83.0,H -> P/Je/Jw/V,H(day78/6月18日) -> P/Je/Jw/V(day83/6月23日),H,P/Je/Jw/V
+W081,smooth5__baseline_w20_b10__baseline_search__max_overlap,smooth5,20,10,baseline_search,max_overlap,82.0,77.0,78.0,83.0,77.0,Jw/V/H -> P/Je,Jw/V/H(day77/6月17日) -> P/Je(day82/6月22日),Jw/V/H,P/Je
+W081,smooth5__baseline_w20_b10__baseline_search__max_score,smooth5,20,10,baseline_search,max_score,82.0,77.0,78.0,83.0,77.0,Jw/V/H -> P/Je,Jw/V/H(day77/6月17日) -> P/Je(day82/6月22日),Jw/V/H,P/Je
+W081,smooth5__baseline_w20_b10__narrow_search__baseline_rule,smooth5,20,10,narrow_search,baseline_rule,82.0,83.0,78.0,83.0,83.0,H -> P/Je/Jw/V,H(day78/6月18日) -> P/Je/Jw/V(day83/6月23日),H,P/Je/Jw/V
+W081,smooth5__baseline_w20_b10__narrow_search__closest_anchor,smooth5,20,10,narrow_search,closest_anchor,82.0,83.0,78.0,83.0,83.0,H -> P/Je/Jw/V,H(day78/6月18日) -> P/Je/Jw/V(day83/6月23日),H,P/Je/Jw/V
+W081,smooth5__baseline_w20_b10__narrow_search__max_overlap,smooth5,20,10,narrow_search,max_overlap,82.0,77.0,78.0,83.0,77.0,Jw/V/H -> P/Je,Jw/V/H(day77/6月17日) -> P/Je(day82/6月22日),Jw/V/H,P/Je
+W081,smooth5__baseline_w20_b10__narrow_search__max_score,smooth5,20,10,narrow_search,max_score,82.0,77.0,78.0,83.0,77.0,Jw/V/H -> P/Je,Jw/V/H(day77/6月17日) -> P/Je(day82/6月22日),Jw/V/H,P/Je
+W081,smooth5__baseline_w20_b10__wide_search__baseline_rule,smooth5,20,10,wide_search,baseline_rule,82.0,83.0,78.0,83.0,83.0,H -> P/Je/Jw/V,H(day78/6月18日) -> P/Je/Jw/V(day83/6月23日),H,P/Je/Jw/V
+W081,smooth5__baseline_w20_b10__wide_search__closest_anchor,smooth5,20,10,wide_search,closest_anchor,82.0,83.0,78.0,83.0,83.0,H -> P/Je/Jw/V,H(day78/6月18日) -> P/Je/Jw/V(day83/6月23日),H,P/Je/Jw/V
+W081,smooth5__baseline_w20_b10__wide_search__max_overlap,smooth5,20,10,wide_search,max_overlap,82.0,77.0,78.0,83.0,77.0,Jw/V/H -> P/Je,Jw/V/H(day77/6月17日) -> P/Je(day82/6月22日),Jw/V/H,P/Je
+W081,smooth5__baseline_w20_b10__wide_search__max_score,smooth5,20,10,wide_search,max_score,82.0,77.0,78.0,107.0,77.0,Jw/V/H -> P -> Je,Jw/V/H(day77/6月17日) -> P(day82/6月22日) -> Je(day107/7月17日),Jw/V/H,Je
+W081,smooth5__narrow_w16_b8__baseline_search__baseline_rule,smooth5,16,8,baseline_search,baseline_rule,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__baseline_search__closest_anchor,smooth5,16,8,baseline_search,closest_anchor,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__baseline_search__max_overlap,smooth5,16,8,baseline_search,max_overlap,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__baseline_search__max_score,smooth5,16,8,baseline_search,max_score,82.0,76.0,78.0,79.0,75.0,Jw/V -> H/Je -> P,Jw/V(day76/6月16日) -> H/Je(day78/6月18日) -> P(day82/6月22日),Jw/V,P
+W081,smooth5__narrow_w16_b8__narrow_search__baseline_rule,smooth5,16,8,narrow_search,baseline_rule,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__narrow_search__closest_anchor,smooth5,16,8,narrow_search,closest_anchor,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__narrow_search__max_overlap,smooth5,16,8,narrow_search,max_overlap,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__narrow_search__max_score,smooth5,16,8,narrow_search,max_score,82.0,76.0,78.0,79.0,75.0,Jw/V -> H/Je -> P,Jw/V(day76/6月16日) -> H/Je(day78/6月18日) -> P(day82/6月22日),Jw/V,P
+W081,smooth5__narrow_w16_b8__wide_search__baseline_rule,smooth5,16,8,wide_search,baseline_rule,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__wide_search__closest_anchor,smooth5,16,8,wide_search,closest_anchor,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__wide_search__max_overlap,smooth5,16,8,wide_search,max_overlap,82.0,82.0,78.0,79.0,81.0,H/Je -> Jw/P/V,H/Je(day78/6月18日) -> Jw/P/V(day82/6月22日),H/Je,Jw/P/V
+W081,smooth5__narrow_w16_b8__wide_search__max_score,smooth5,16,8,wide_search,max_score,82.0,76.0,78.0,107.0,75.0,Jw/V -> H -> P -> Je,Jw/V(day76/6月16日) -> H(day78/6月18日) -> P(day82/6月22日) -> Je(day107/7月17日),Jw/V,Je
+W081,smooth5__wide_w24_b12__baseline_search__baseline_rule,smooth5,24,12,baseline_search,baseline_rule,82.0,82.0,78.0,83.0,83.0,H -> P/V/Je/Jw,H(day78/6月18日) -> P/V/Je/Jw(day82/6月22日),H,P/V/Je/Jw
+W081,smooth5__wide_w24_b12__baseline_search__closest_anchor,smooth5,24,12,baseline_search,closest_anchor,82.0,82.0,78.0,83.0,83.0,H -> P/V/Je/Jw,H(day78/6月18日) -> P/V/Je/Jw(day82/6月22日),H,P/V/Je/Jw
+W081,smooth5__wide_w24_b12__baseline_search__max_overlap,smooth5,24,12,baseline_search,max_overlap,82.0,76.0,78.0,83.0,77.0,V/Jw/H -> P/Je,V/Jw/H(day77/6月17日) -> P/Je(day82/6月22日),V/Jw/H,P/Je
+W081,smooth5__wide_w24_b12__baseline_search__max_score,smooth5,24,12,baseline_search,max_score,82.0,76.0,78.0,83.0,77.0,V/Jw/H -> P/Je,V/Jw/H(day77/6月17日) -> P/Je(day82/6月22日),V/Jw/H,P/Je
+W081,smooth5__wide_w24_b12__narrow_search__baseline_rule,smooth5,24,12,narrow_search,baseline_rule,82.0,82.0,78.0,83.0,83.0,H -> P/V/Je/Jw,H(day78/6月18日) -> P/V/Je/Jw(day82/6月22日),H,P/V/Je/Jw
+W081,smooth5__wide_w24_b12__narrow_search__closest_anchor,smooth5,24,12,narrow_search,closest_anchor,82.0,82.0,78.0,83.0,83.0,H -> P/V/Je/Jw,H(day78/6月18日) -> P/V/Je/Jw(day82/6月22日),H,P/V/Je/Jw
+W081,smooth5__wide_w24_b12__narrow_search__max_overlap,smooth5,24,12,narrow_search,max_overlap,82.0,76.0,78.0,83.0,77.0,V/Jw/H -> P/Je,V/Jw/H(day77/6月17日) -> P/Je(day82/6月22日),V/Jw/H,P/Je
+W081,smooth5__wide_w24_b12__narrow_search__max_score,smooth5,24,12,narrow_search,max_score,82.0,76.0,78.0,83.0,77.0,V/Jw/H -> P/Je,V/Jw/H(day77/6月17日) -> P/Je(day82/6月22日),V/Jw/H,P/Je
+W081,smooth5__wide_w24_b12__wide_search__baseline_rule,smooth5,24,12,wide_search,baseline_rule,82.0,82.0,78.0,83.0,83.0,H -> P/V/Je/Jw,H(day78/6月18日) -> P/V/Je/Jw(day82/6月22日),H,P/V/Je/Jw
+W081,smooth5__wide_w24_b12__wide_search__closest_anchor,smooth5,24,12,wide_search,closest_anchor,82.0,82.0,78.0,83.0,83.0,H -> P/V/Je/Jw,H(day78/6月18日) -> P/V/Je/Jw(day82/6月22日),H,P/V/Je/Jw
+W081,smooth5__wide_w24_b12__wide_search__max_overlap,smooth5,24,12,wide_search,max_overlap,82.0,76.0,78.0,83.0,77.0,V/Jw/H -> P/Je,V/Jw/H(day77/6月17日) -> P/Je(day82/6月22日),V/Jw/H,P/Je
+W081,smooth5__wide_w24_b12__wide_search__max_score,smooth5,24,12,wide_search,max_score,82.0,76.0,78.0,107.0,77.0,V/Jw/H -> P -> Je,V/Jw/H(day77/6月17日) -> P(day82/6月22日) -> Je(day107/7月17日),V/Jw/H,Je
+W081,smooth9__baseline_w20_b10__baseline_search__baseline_rule,smooth9,20,10,baseline_search,baseline_rule,82.0,80.0,77.0,81.0,83.0,H -> V/Je/P/Jw,H(day77/6月17日) -> V/Je/P/Jw(day82/6月22日),H,V/Je/P/Jw
+W081,smooth9__baseline_w20_b10__baseline_search__closest_anchor,smooth9,20,10,baseline_search,closest_anchor,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__baseline_w20_b10__baseline_search__max_overlap,smooth9,20,10,baseline_search,max_overlap,81.0,77.0,79.0,81.0,82.0,V -> H -> Je/P/Jw,V(day77/6月17日) -> H(day79/6月19日) -> Je/P/Jw(day81/6月21日),V,Je/P/Jw
+W081,smooth9__baseline_w20_b10__baseline_search__max_score,smooth9,20,10,baseline_search,max_score,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__baseline_w20_b10__narrow_search__baseline_rule,smooth9,20,10,narrow_search,baseline_rule,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__baseline_w20_b10__narrow_search__closest_anchor,smooth9,20,10,narrow_search,closest_anchor,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__baseline_w20_b10__narrow_search__max_overlap,smooth9,20,10,narrow_search,max_overlap,81.0,77.0,79.0,81.0,82.0,V -> H -> Je/P/Jw,V(day77/6月17日) -> H(day79/6月19日) -> Je/P/Jw(day81/6月21日),V,Je/P/Jw
+W081,smooth9__baseline_w20_b10__narrow_search__max_score,smooth9,20,10,narrow_search,max_score,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__baseline_w20_b10__wide_search__baseline_rule,smooth9,20,10,wide_search,baseline_rule,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__baseline_w20_b10__wide_search__closest_anchor,smooth9,20,10,wide_search,closest_anchor,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__baseline_w20_b10__wide_search__max_overlap,smooth9,20,10,wide_search,max_overlap,81.0,77.0,79.0,81.0,82.0,V -> H -> Je/P/Jw,V(day77/6月17日) -> H(day79/6月19日) -> Je/P/Jw(day81/6月21日),V,Je/P/Jw
+W081,smooth9__baseline_w20_b10__wide_search__max_score,smooth9,20,10,wide_search,max_score,81.0,77.0,79.0,107.0,76.0,Jw/V -> H -> P -> Je,Jw/V(day76/6月16日) -> H(day79/6月19日) -> P(day81/6月21日) -> Je(day107/7月17日),Jw/V,Je
+W081,smooth9__narrow_w16_b8__baseline_search__baseline_rule,smooth9,16,8,baseline_search,baseline_rule,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__baseline_search__closest_anchor,smooth9,16,8,baseline_search,closest_anchor,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__baseline_search__max_overlap,smooth9,16,8,baseline_search,max_overlap,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__baseline_search__max_score,smooth9,16,8,baseline_search,max_score,82.0,76.0,78.0,80.0,76.0,Jw/V -> H -> Je -> P,Jw/V(day76/6月16日) -> H(day78/6月18日) -> Je(day80/6月20日) -> P(day82/6月22日),Jw/V,P
+W081,smooth9__narrow_w16_b8__narrow_search__baseline_rule,smooth9,16,8,narrow_search,baseline_rule,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__narrow_search__closest_anchor,smooth9,16,8,narrow_search,closest_anchor,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__narrow_search__max_overlap,smooth9,16,8,narrow_search,max_overlap,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__narrow_search__max_score,smooth9,16,8,narrow_search,max_score,82.0,76.0,78.0,80.0,76.0,Jw/V -> H -> Je -> P,Jw/V(day76/6月16日) -> H(day78/6月18日) -> Je(day80/6月20日) -> P(day82/6月22日),Jw/V,P
+W081,smooth9__narrow_w16_b8__wide_search__baseline_rule,smooth9,16,8,wide_search,baseline_rule,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__wide_search__closest_anchor,smooth9,16,8,wide_search,closest_anchor,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__wide_search__max_overlap,smooth9,16,8,wide_search,max_overlap,82.0,82.0,78.0,80.0,82.0,H -> Je -> Jw/P/V,H(day78/6月18日) -> Je(day80/6月20日) -> Jw/P/V(day82/6月22日),H,Jw/P/V
+W081,smooth9__narrow_w16_b8__wide_search__max_score,smooth9,16,8,wide_search,max_score,82.0,76.0,78.0,107.0,76.0,Jw/V -> H -> P -> Je,Jw/V(day76/6月16日) -> H(day78/6月18日) -> P(day82/6月22日) -> Je(day107/7月17日),Jw/V,Je
+W081,smooth9__wide_w24_b12__baseline_search__baseline_rule,smooth9,24,12,baseline_search,baseline_rule,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__wide_w24_b12__baseline_search__closest_anchor,smooth9,24,12,baseline_search,closest_anchor,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__wide_w24_b12__baseline_search__max_overlap,smooth9,24,12,baseline_search,max_overlap,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__wide_w24_b12__baseline_search__max_score,smooth9,24,12,baseline_search,max_score,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__wide_w24_b12__narrow_search__baseline_rule,smooth9,24,12,narrow_search,baseline_rule,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__wide_w24_b12__narrow_search__closest_anchor,smooth9,24,12,narrow_search,closest_anchor,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__wide_w24_b12__narrow_search__max_overlap,smooth9,24,12,narrow_search,max_overlap,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__wide_w24_b12__narrow_search__max_score,smooth9,24,12,narrow_search,max_score,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__wide_w24_b12__wide_search__baseline_rule,smooth9,24,12,wide_search,baseline_rule,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__wide_w24_b12__wide_search__closest_anchor,smooth9,24,12,wide_search,closest_anchor,81.0,83.0,79.0,81.0,82.0,H -> Je/P/Jw/V,H(day79/6月19日) -> Je/P/Jw/V(day82/6月22日),H,Je/P/Jw/V
+W081,smooth9__wide_w24_b12__wide_search__max_overlap,smooth9,24,12,wide_search,max_overlap,81.0,77.0,79.0,81.0,76.0,Jw/V -> H -> Je/P,Jw/V(day76/6月16日) -> H(day79/6月19日) -> Je/P(day81/6月21日),Jw/V,Je/P
+W081,smooth9__wide_w24_b12__wide_search__max_score,smooth9,24,12,wide_search,max_score,81.0,77.0,79.0,107.0,76.0,Jw/V -> H -> P -> Je,Jw/V(day76/6月16日) -> H(day79/6月19日) -> P(day81/6月21日) -> Je(day107/7月17日),Jw/V,Je

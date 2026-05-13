@@ -1,0 +1,18 @@
+{
+  "version": "v7_z_je_audit_b",
+  "output_tag": "W45_Je_raw_supported_early_signal_audit_v7_z_b",
+  "config": {
+    "project_root": "D:\\easm_project01",
+    "smoothed_fields_relpath": "foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "v7z_result_relpath": "stage_partition\\V7\\outputs\\W45_multi_object_prepost_stat_validation_v7_z",
+    "je_audit_a_relpath": "stage_partition\\V7\\outputs\\W45_Je_layer_split_audit_v7_z_a",
+    "output_tag": "W45_Je_raw_supported_early_signal_audit_v7_z_b",
+    "n_bootstrap": 300,
+    "random_seed": 42,
+    "detector_half_width": 5,
+    "local_peak_min_distance_days": 3,
+    "write_figures": true,
+    "save_bootstrap_samples": true
+  },
+  "start_time": "2026-05-05T15:24:50"
+}

@@ -1,0 +1,9 @@
+pair,field_early_candidate,field_late_candidate,median_delta_for_e1_pair,n_tail_samples,tail_sample_fraction,n_early_field_late_tail,n_late_field_early_tail,n_mixed_tail,n_all_fields_clustered,n_tail_near_center_mixed,dominant_tail_type,tail_failure_interpretation
+H-P,H,P,-4.0,184,0.184,14,1,85,84,0,mixed_tail,Tail failures often combine early-field late shifts and late-field early shifts.
+H-V,H,V,-6.0,145,0.145,26,0,64,55,0,mixed_tail,Tail failures often combine early-field late shifts and late-field early shifts.
+H-Je,H,Je,7.0,119,0.119,46,0,36,37,0,early_field_late_tail,Tail failures are mostly caused by H moving late within its own bootstrap distribution.
+H-Jw,H,Jw,4.0,153,0.153,46,5,41,61,0,all_fields_clustered,Tail failures often occur when all fields are clustered; W45 is locally hard to separate in those samples.
+P-Je,P,Je,3.0,113,0.113,26,4,35,48,0,all_fields_clustered,Tail failures often occur when all fields are clustered; W45 is locally hard to separate in those samples.
+V-Je,V,Je,1.0,336,0.336,108,28,52,148,0,all_fields_clustered,Tail failures often occur when all fields are clustered; W45 is locally hard to separate in those samples.
+Jw-Je,Jw,Je,-3.0,224,0.224,71,5,45,103,0,all_fields_clustered,Tail failures often occur when all fields are clustered; W45 is locally hard to separate in those samples.
+P-Jw,none,none,0.0,0,0.0,0,0,0,0,0,no_direction_assigned,Pair has no assigned majority direction in V7-e1; tail audit is not applicable.

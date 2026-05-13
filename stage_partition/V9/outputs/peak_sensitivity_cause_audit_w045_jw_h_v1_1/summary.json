@@ -1,0 +1,25 @@
+{
+  "audit_name": "peak_sensitivity_cause_audit_w045_jw_h_v1_1",
+  "window_id": "W045",
+  "objects": [
+    "H",
+    "Jw"
+  ],
+  "role": "v1_1 correction audit; not physical subpeak classification",
+  "v1_input_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1",
+  "n_selected_rows": 144,
+  "n_pair_rows": 72,
+  "n_admissibility_rows": 144,
+  "n_filtered_order_rows": 6,
+  "h_v1_1_primary_cause": "SEARCH_WINDOW_MIXING_OR_OUTER_CANDIDATE",
+  "jw_v1_1_primary_cause": "AXIS_SHIFT_CANDIDATE_WITHOUT_FULL_PHYSICAL_PROOF",
+  "jw_h_v1_1_primary_cause": "ORDER_INFLATED_BY_INADMISSIBLE_OR_RULE_LOCKED_CONFIGS",
+  "core_lat_proxy_method": "max_lat_from_v1_profile_component_audit",
+  "figures": [
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig1_filtered_jw_h_order_W045.png",
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig2_config_admissibility_strip_W045_Jw_H.png",
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig3_jw_axis_core_shift_W045.png",
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig4_h_candidate_legality_W045.png"
+  ],
+  "errors": []
+}

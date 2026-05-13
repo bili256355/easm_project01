@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-30T06:00:11.873319+00:00",
+  "ended_at_utc": "2026-04-30T06:00:38.752316+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V7",
+  "run_label": "field_transition_timing_v7_a",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "source_v6_output_tag": "mainline_v6_a",
+  "source_v6_1_output_tag": "mainline_v6_1_a",
+  "accepted_peak_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "notes": [
+    "V7-a answers only field-level transition peak timing around accepted windows.",
+    "Only the four V6/V6_1 accepted windows 45, 81, 113, and 160 are used.",
+    "Candidate peaks 18, 96, 132, and 135 are excluded from the current main diagnostic.",
+    "V6 and V6_1 logs are read as evidence and cross-checked with output tables.",
+    "Field-only ruptures.Window score profiles are used; single-field formal breakpoints are not used as new windows.",
+    "Downstream lead-lag and pathway outputs are not read.",
+    "No causal interpretation is made by this run.",
+    "Spatial earliest-region timing is not included in this run."
+  ]
+}

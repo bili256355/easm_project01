@@ -1,0 +1,10 @@
+﻿window_id,target_name,observed_abs_corr,permutation_percentile,permutation_empirical_p,perm_n
+W081,W081_V_earlier_minus_Jw_earlier,0.8434133483828798,0.998,0.002,500
+W081,W081_V_earlier_minus_Je_earlier,0.8421770417410637,1.0,0.0,500
+W081,W081_P_earlier_minus_Jw_earlier,0.7566806197833651,0.89,0.11,500
+W081,W081_H_earlier_minus_Jw_earlier,0.8829552805723188,1.0,0.0,500
+W081,W081_P_earlier_minus_V_earlier,0.8394119397921258,1.0,0.0,500
+W081,W081_Je_earlier_minus_Jw_earlier,0.7975754715529614,0.986,0.014,500
+W081,W081_V_late_minus_early_peak_influence,0.8479274183942168,1.0,0.0,500
+W081,W081_P_late_minus_early_peak_influence,0.800239029176525,0.984,0.016,500
+W081,W081_Jw_late_minus_early_peak_influence,0.8919563510701599,1.0,0.0,500

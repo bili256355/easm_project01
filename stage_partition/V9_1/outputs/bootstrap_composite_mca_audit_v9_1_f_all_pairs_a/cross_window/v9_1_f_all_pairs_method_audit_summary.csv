@@ -1,0 +1,2 @@
+﻿version,method_base,semantic_change,n_windows_expected,n_targets_expected,n_targets_written,preserves_bootstrap_composite_mca_method,does_not_replace_original_v9_1_f,multiple_testing_audit_included,physical_interpretation_included
+v9_1_f_all_pairs_a,v9_1_f_hotfix02_bootstrap_composite_mca,target coverage expanded from original priority targets to all 10 object pairs per accepted window,4,40,40,True,True,True,False

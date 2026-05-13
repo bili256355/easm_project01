@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-22T01:55:27.770741Z",
+  "ended_at_utc": "2026-04-22T01:56:04.815017Z",
+  "layer_name": "stage_partition",
+  "version_name": "V3",
+  "run_label": "mainline_v3_e",
+  "foundation_dependency": "V1",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V3 patch D-1 repairs point-level null-significance by comparing observed and null peaks on the same extracted local-peak scale.",
+    "D-1 also closes neighbor competition into pairwise winner/loser/tie outcomes and emits point_null_scale_diagnostic.csv.",
+    "stage_partition_main_windows.csv remains the only formal downstream window-object table."
+  ]
+}

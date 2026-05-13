@@ -1,0 +1,11 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+P_only,P,MATCH_RADIUS_1_4_7,W001,CP001,18,True,0.756,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W002,CP002,34,True,0.587,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W003,CP003,45,True,0.951,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W004,CP004,65,True,0.78,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W005,CP005,82,True,0.824,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W006,CP006,95,True,0.615,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W007,CP007,113,True,0.908,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W008,CP008,126,True,0.803,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W009,CP009,138,True,0.846,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+P_only,P,MATCH_RADIUS_1_4_7,W010,CP010,158,True,0.889,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

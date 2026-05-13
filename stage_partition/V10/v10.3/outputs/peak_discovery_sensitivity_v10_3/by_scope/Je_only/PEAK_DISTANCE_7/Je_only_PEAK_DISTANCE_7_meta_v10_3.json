@@ -1,0 +1,48 @@
+{
+  "scope": "Je_only",
+  "object_names": [
+    "Je"
+  ],
+  "config_id": "PEAK_DISTANCE_7",
+  "sensitivity_group": "local_peak_distance",
+  "changed_factor": "local_peak_min_distance_days",
+  "changed_value": "7",
+  "input_source": "baseline_smooth9",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "n_candidates": 8,
+  "candidate_days": [
+    26,
+    33,
+    46,
+    81,
+    94,
+    111,
+    136,
+    162
+  ],
+  "n_derived_windows": 8,
+  "derived_window_main_peak_days": [
+    26,
+    33,
+    46,
+    81,
+    94,
+    111,
+    136,
+    162
+  ],
+  "bootstrap_status": "not_run_by_mode",
+  "n_bootstrap": 0,
+  "detector_width": 20,
+  "detector_pen": 4.0,
+  "local_peak_min_distance_days": 7,
+  "strict_match_days": 2,
+  "match_days": 5,
+  "near_days": 8,
+  "band_floor_quantile": 0.35,
+  "band_prominence_ratio": 0.5,
+  "band_max_half_width": 10,
+  "merge_gap_days": 1,
+  "close_neighbor_exemption_days": 4,
+  "significant_peak_threshold": 0.95
+}

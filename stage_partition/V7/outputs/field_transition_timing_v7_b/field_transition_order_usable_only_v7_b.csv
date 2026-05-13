@@ -1,0 +1,5 @@
+window_id,order_rank,field,bootstrap_modal_peak_day,timing_confidence_label,caution
+W002,,,,insufficient_usable_fields_for_full_order,do_not_build_order_for_this_window
+W003,,,,insufficient_usable_fields_for_full_order,do_not_build_order_for_this_window
+W005,,,,insufficient_usable_fields_for_full_order,do_not_build_order_for_this_window
+W007,,,,insufficient_usable_fields_for_full_order,do_not_build_order_for_this_window

@@ -1,0 +1,8 @@
+﻿failure_stage,n_pairs,share,interpretation_hint
+positive_not_surrogate_significant,12,0.5714285714285714,Positive-lag signal did not clear AR(1) surrogate background.
+passed_tau0_coupled,2,0.09523809523809523,T3 V→P survived only as lagged-but-tau0-coupled.
+reverse_competitive,2,0.09523809523809523,Reverse direction is competitive or stronger.
+passed_stable_lag,2,0.09523809523809523,T3 V→P survived as stable lag-dominant.
+direction_uncertain,1,0.047619047619047616,Forward-vs-reverse interval crosses zero.
+positive_fdr_not_supported,1,0.047619047619047616,Positive-lag signal did not clear within-window FDR.
+audit_not_stable,1,0.047619047619047616,Main support weakens under audit null.

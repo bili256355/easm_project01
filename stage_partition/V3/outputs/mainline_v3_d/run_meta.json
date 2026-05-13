@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-22T01:32:23.814636Z",
+  "ended_at_utc": "2026-04-22T01:33:30.158485Z",
+  "layer_name": "stage_partition",
+  "version_name": "V3",
+  "run_label": "mainline_v3_d",
+  "foundation_dependency": "V1",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V3 patch D adds point-level significance and stability auditing on top of strict-support mainline.",
+    "Null significance uses yearwise circular shift replicates to test whether observed point peaks exceed calendar-unlocked null peaks.",
+    "Formal primary points and nearby local peaks are audited together in point_significance_audit.csv.",
+    "stage_partition_main_windows.csv remains the only formal downstream window-object table."
+  ]
+}

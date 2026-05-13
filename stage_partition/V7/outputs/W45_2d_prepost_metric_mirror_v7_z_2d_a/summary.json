@@ -1,0 +1,12 @@
+{
+  "n_curve_rows": 1125,
+  "n_single_metric_rows": 270,
+  "n_pairwise_metric_rows": 480,
+  "profile_vs_2d_agreement_counts": {
+    "consistent": 203,
+    "similar_tendency": 34,
+    "unresolved": 30,
+    "same_side_different_magnitude": 2,
+    "profile_2d_offset": 1
+  }
+}

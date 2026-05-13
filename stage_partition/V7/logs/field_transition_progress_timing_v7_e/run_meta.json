@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "created_utc": "2026-04-30T09:23:29.246680+00:00",
+  "run_label": "field_transition_progress_timing_v7_e",
+  "method": "pre_post_prototype_projection_progress_timing",
+  "accepted_peak_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "n_windows": 4,
+  "n_bootstrap": 1000,
+  "n_years": 45,
+  "n_observed_rows": 20,
+  "n_bootstrap_rows": 20000,
+  "n_loyo_rows": 900,
+  "downstream_lead_lag_included": false,
+  "pathway_included": false,
+  "spatial_earliest_region_included": false,
+  "causal_interpretation_included": false,
+  "notes": [
+    "V7-e answers only field-level transition progress timing around accepted windows.",
+    "Progress is projection from pre prototype to post prototype, not a causal path.",
+    "18/96/132/135 are excluded from main windows and only flagged if nearby."
+  ]
+}

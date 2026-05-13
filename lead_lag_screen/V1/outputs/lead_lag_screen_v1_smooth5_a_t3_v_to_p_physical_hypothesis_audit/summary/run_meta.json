@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_physical_hypothesis_audit",
+    "make_figures": true,
+    "use_cartopy": true,
+    "max_lag": 5,
+    "south_scs_lon_max": 130.0,
+    "v1_output_name": "lead_lag_screen_v1_smooth5_a",
+    "v1_stability_output_name": "lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+    "t3_disappearance_output_name": "lead_lag_screen_v1_smooth5_a_t3_v_to_p_audit",
+    "t3_lag0_reduction_output_name": "lead_lag_screen_v1_smooth5_a_t3_v_to_p_lag0_reduction_audit",
+    "index_validity_output_name": "window_family_guardrail_v1_b_smoothed_a",
+    "foundation_preprocess_rel": "foundation/V1/outputs/baseline_smooth5_a/preprocess",
+    "foundation_indices_rel": "foundation/V1/outputs/baseline_smooth5_a/indices",
+    "map_lon_min": 20.0,
+    "map_lon_max": 150.0,
+    "map_lat_min": 10.0,
+    "map_lat_max": 60.0
+  },
+  "missing_optional_inputs": [],
+  "warnings": [],
+  "index_values_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz"
+}

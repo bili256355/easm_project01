@@ -1,0 +1,58 @@
+{
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "available_keys": [
+    "lat",
+    "lon",
+    "precip_smoothed",
+    "u200_smoothed",
+    "v850_smoothed",
+    "years",
+    "z500_smoothed"
+  ],
+  "field_meta": {
+    "H": {
+      "transition_norm": 16.658942129382318,
+      "projection_denom": 2452328.0484152203,
+      "pre_mean": 5826.299369206776,
+      "post_mean": 5838.658170290836,
+      "field_key": "z500_smoothed",
+      "n_years": 45,
+      "n_days": 183,
+      "lat_min": 15.0,
+      "lat_max": 35.0,
+      "lon_min": 110.0,
+      "lon_max": 140.0,
+      "n_lat": 81,
+      "n_lon": 121
+    },
+    "Jw": {
+      "transition_norm": 6.763920214605359,
+      "projection_denom": 365400.7938608099,
+      "pre_mean": 27.357801120717067,
+      "post_mean": 26.597275247384992,
+      "field_key": "u200_smoothed",
+      "n_years": 45,
+      "n_days": 183,
+      "lat_min": 25.0,
+      "lat_max": 45.0,
+      "lon_min": 80.0,
+      "lon_max": 110.0,
+      "n_lat": 81,
+      "n_lon": 121
+    }
+  },
+  "window": {
+    "window_id": "W002",
+    "anchor_day": 45,
+    "accepted_window_start": 40,
+    "accepted_window_end": 48,
+    "analysis_window_start": 30,
+    "analysis_window_end": 60,
+    "pre_period_start": 30,
+    "pre_period_end": 37,
+    "post_period_start": 53,
+    "post_period_end": 60,
+    "source": "field_transition_progress_timing_v7_e/accepted_windows_used_v7_e.csv"
+  },
+  "v7s_output_dir_exists_for_comparison": true
+}

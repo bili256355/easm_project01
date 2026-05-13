@@ -1,0 +1,10 @@
+window,n_pairs_checked,good_match_rate,moderate_or_good_match_rate,poor_match_rate,unusable_rate,existing_fail_but_recomputed_pass,existing_pass_but_recomputed_fail
+S1,80,1.0,1.0,0.0,0.0,0,0
+S2,80,1.0,1.0,0.0,0.0,0,0
+S3,80,1.0,1.0,0.0,0.0,0,0
+S4,80,1.0,1.0,0.0,0.0,0,0
+S5,80,1.0,1.0,0.0,0.0,0,0
+T1,80,1.0,1.0,0.0,0.0,0,0
+T2,80,1.0,1.0,0.0,0.0,0,0
+T3,221,1.0,1.0,0.0,0.0,0,0
+T4,225,1.0,1.0,0.0,0.0,1,0

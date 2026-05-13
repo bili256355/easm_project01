@@ -1,0 +1,46 @@
+{
+  "version": "V9_peak_selection_sensitivity_a",
+  "output_tag": "peak_selection_sensitivity_v9_a",
+  "main_windows_fixed": true,
+  "main_windows_source": "V7 accepted windows / V9 scope registry",
+  "rerun_changepoint_detection": false,
+  "object_definitions_changed": false,
+  "smoothing_inputs": {
+    "smooth9": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "smooth5": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz"
+  },
+  "detector_widths": [
+    16,
+    20,
+    24
+  ],
+  "band_half_widths": [
+    8,
+    10,
+    12
+  ],
+  "search_modes": [
+    "narrow_search",
+    "baseline_search",
+    "wide_search"
+  ],
+  "selection_rules": [
+    "baseline_rule",
+    "max_score",
+    "closest_anchor",
+    "max_overlap"
+  ],
+  "bootstrap_consistency_rule_included": false,
+  "n_configs": 72,
+  "n_object_peak_selection_rows": 1440,
+  "uses_local_prepost_contrast_score_for_nonbaseline_configs": true,
+  "baseline_reproduction_required": true,
+  "physical_interpretation_included": false,
+  "thresholds": {
+    "near_tie_days": 1,
+    "stable_peak_day_range_days": 3,
+    "moderate_peak_day_range_days": 7,
+    "smooth_delta_consistent_days": 2,
+    "smooth_delta_moderate_days": 5
+  }
+}

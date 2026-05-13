@@ -1,0 +1,595 @@
+{
+  "status": "success",
+  "audit": "v1_1_t3_window_length_sensitivity_a",
+  "root_output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a",
+  "base_index_meta": {
+    "status": "reused_existing",
+    "index_anomalies": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_doy_anomaly.csv",
+    "index_raw": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_raw.csv"
+  },
+  "n_variants": 7,
+  "registry": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\summary\\window_length_sensitivity_registry.csv",
+  "pair_counts": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\tables\\window_length_sensitivity_pair_counts.csv",
+  "effect_size": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\tables\\window_length_sensitivity_effect_size.csv",
+  "t3_expansion_recovery": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\tables\\t3_expansion_recovery_summary.csv",
+  "diagnosis_table": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\tables\\window_length_sensitivity_diagnosis_table.csv",
+  "subruns": {
+    "T3_current_107_117_len11": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_current_107_117_len11",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_current_107_117_len11",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 108,
+          "lead_lag_ambiguous_marginal_statistical_support": 17,
+          "lead_lag_yes_with_same_day_coupling": 11,
+          "lead_lag_no_same_day_only": 9,
+          "lead_lag_ambiguous_bidirectional_close": 6,
+          "lead_lag_ambiguous_direction_uncertain": 6,
+          "lead_lag_yes_clear": 5,
+          "lead_lag_no_reverse_dominant": 2,
+          "lead_lag_ambiguous_same_day_dominant": 1
+        },
+        "group_counts": {
+          "lead_lag_no": 119,
+          "lead_lag_ambiguous": 30,
+          "lead_lag_yes": 16
+        },
+        "strict_temporal_pool_size": 16,
+        "expanded_temporal_risk_pool_size": 46,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 108,
+          "Tier4d_ambiguous_marginal_statistical_support": 17,
+          "Tier2_main_supported_audit_moderate": 13,
+          "Tier5c_no_same_day_only": 9,
+          "Tier4a_ambiguous_bidirectional_close": 6,
+          "Tier4c_ambiguous_direction_uncertain": 6,
+          "Tier1b_audit_stable_with_same_day": 3,
+          "Tier5b_no_reverse_dominant": 2,
+          "Tier4b_ambiguous_same_day_dominant": 1
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 5,
+        "phi_clip_severity_counts": {
+          "none": 21,
+          "minor": 3,
+          "moderate": 2
+        },
+        "raw_phi_max": 0.9696742730036776,
+        "raw_phi_min": 0.7351272869003472,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 149,
+          "stable_lag_dominant": 9,
+          "significant_lagged_but_tau0_coupled": 7
+        },
+        "n_stable_lag_dominant": 9,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_current_107_117_len11\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_current_107_117_len11\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    },
+    "S3_center_equal11_092_102": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\S3_center_equal11_092_102",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/S3_center_equal11_092_102",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 63,
+          "lead_lag_yes_with_same_day_coupling": 37,
+          "lead_lag_ambiguous_bidirectional_close": 16,
+          "lead_lag_yes_clear": 14,
+          "lead_lag_ambiguous_direction_uncertain": 13,
+          "lead_lag_no_same_day_only": 8,
+          "lead_lag_ambiguous_same_day_dominant": 7,
+          "lead_lag_no_reverse_dominant": 4,
+          "lead_lag_ambiguous_coupled_or_feedback_like": 3
+        },
+        "group_counts": {
+          "lead_lag_no": 75,
+          "lead_lag_yes": 51,
+          "lead_lag_ambiguous": 39
+        },
+        "strict_temporal_pool_size": 51,
+        "expanded_temporal_risk_pool_size": 90,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 63,
+          "Tier1b_audit_stable_with_same_day": 36,
+          "Tier4a_ambiguous_bidirectional_close": 16,
+          "Tier1a_audit_stable_clear_leadlag": 14,
+          "Tier4c_ambiguous_direction_uncertain": 13,
+          "Tier4b_ambiguous_same_day_dominant": 10,
+          "Tier5c_no_same_day_only": 8,
+          "Tier5b_no_reverse_dominant": 4,
+          "Tier2_main_supported_audit_moderate": 1
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 8,
+        "phi_clip_severity_counts": {
+          "none": 18,
+          "minor": 6,
+          "moderate": 2
+        },
+        "raw_phi_max": 0.9606086263094635,
+        "raw_phi_min": 0.7641995295796448,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 114,
+          "stable_lag_dominant": 26,
+          "significant_lagged_but_tau0_coupled": 25
+        },
+        "n_stable_lag_dominant": 26,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\S3_center_equal11_092_102\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\S3_center_equal11_092_102\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    },
+    "S4_center_equal11_131_141": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\S4_center_equal11_131_141",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/S4_center_equal11_131_141",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 126,
+          "lead_lag_ambiguous_marginal_statistical_support": 17,
+          "lead_lag_no_same_day_only": 10,
+          "lead_lag_yes_with_same_day_coupling": 6,
+          "lead_lag_ambiguous_same_day_dominant": 4,
+          "lead_lag_no_reverse_dominant": 1,
+          "lead_lag_ambiguous_bidirectional_close": 1
+        },
+        "group_counts": {
+          "lead_lag_no": 137,
+          "lead_lag_ambiguous": 22,
+          "lead_lag_yes": 6
+        },
+        "strict_temporal_pool_size": 6,
+        "expanded_temporal_risk_pool_size": 28,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 126,
+          "Tier4d_ambiguous_marginal_statistical_support": 17,
+          "Tier5c_no_same_day_only": 10,
+          "Tier4b_ambiguous_same_day_dominant": 4,
+          "Tier2_main_supported_audit_moderate": 3,
+          "Tier1b_audit_stable_with_same_day": 3,
+          "Tier5b_no_reverse_dominant": 1,
+          "Tier4a_ambiguous_bidirectional_close": 1
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 5,
+        "phi_clip_severity_counts": {
+          "none": 21,
+          "minor": 3,
+          "moderate": 2
+        },
+        "raw_phi_max": 0.968396104416708,
+        "raw_phi_min": 0.7258445431353735,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 159,
+          "stable_lag_dominant": 4,
+          "significant_lagged_but_tau0_coupled": 2
+        },
+        "n_stable_lag_dominant": 4,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\S4_center_equal11_131_141\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\S4_center_equal11_131_141\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    },
+    "T3_expand_symmetric17_104_120": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_symmetric17_104_120",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_expand_symmetric17_104_120",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 104,
+          "lead_lag_ambiguous_marginal_statistical_support": 25,
+          "lead_lag_yes_with_same_day_coupling": 13,
+          "lead_lag_no_same_day_only": 8,
+          "lead_lag_yes_clear": 6,
+          "lead_lag_no_reverse_dominant": 3,
+          "lead_lag_ambiguous_bidirectional_close": 3,
+          "lead_lag_ambiguous_direction_uncertain": 2,
+          "lead_lag_ambiguous_same_day_dominant": 1
+        },
+        "group_counts": {
+          "lead_lag_no": 115,
+          "lead_lag_ambiguous": 31,
+          "lead_lag_yes": 19
+        },
+        "strict_temporal_pool_size": 19,
+        "expanded_temporal_risk_pool_size": 50,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 104,
+          "Tier4d_ambiguous_marginal_statistical_support": 25,
+          "Tier2_main_supported_audit_moderate": 15,
+          "Tier5c_no_same_day_only": 8,
+          "Tier1b_audit_stable_with_same_day": 4,
+          "Tier5b_no_reverse_dominant": 3,
+          "Tier4a_ambiguous_bidirectional_close": 3,
+          "Tier4c_ambiguous_direction_uncertain": 2,
+          "Tier4b_ambiguous_same_day_dominant": 1
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 5,
+        "phi_clip_severity_counts": {
+          "none": 21,
+          "minor": 3,
+          "moderate": 2
+        },
+        "raw_phi_max": 0.9674704965719128,
+        "raw_phi_min": 0.7266087663596246,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 146,
+          "stable_lag_dominant": 11,
+          "significant_lagged_but_tau0_coupled": 8
+        },
+        "n_stable_lag_dominant": 11,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_symmetric17_104_120\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_symmetric17_104_120\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    },
+    "T3_expand_symmetric23_101_123": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_symmetric23_101_123",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_expand_symmetric23_101_123",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 97,
+          "lead_lag_yes_with_same_day_coupling": 19,
+          "lead_lag_yes_clear": 10,
+          "lead_lag_ambiguous_bidirectional_close": 9,
+          "lead_lag_ambiguous_direction_uncertain": 8,
+          "lead_lag_ambiguous_marginal_statistical_support": 8,
+          "lead_lag_no_same_day_only": 7,
+          "lead_lag_no_reverse_dominant": 4,
+          "lead_lag_ambiguous_coupled_or_feedback_like": 2,
+          "lead_lag_ambiguous_same_day_dominant": 1
+        },
+        "group_counts": {
+          "lead_lag_no": 108,
+          "lead_lag_yes": 29,
+          "lead_lag_ambiguous": 28
+        },
+        "strict_temporal_pool_size": 29,
+        "expanded_temporal_risk_pool_size": 57,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 97,
+          "Tier2_main_supported_audit_moderate": 13,
+          "Tier1b_audit_stable_with_same_day": 12,
+          "Tier4a_ambiguous_bidirectional_close": 9,
+          "Tier4d_ambiguous_marginal_statistical_support": 8,
+          "Tier4c_ambiguous_direction_uncertain": 8,
+          "Tier5c_no_same_day_only": 7,
+          "Tier5b_no_reverse_dominant": 4,
+          "Tier4b_ambiguous_same_day_dominant": 3,
+          "Tier3_surrogate_or_persistence_sensitive_yes": 3,
+          "Tier1a_audit_stable_clear_leadlag": 1
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 7,
+        "phi_clip_severity_counts": {
+          "none": 19,
+          "minor": 5,
+          "moderate": 2
+        },
+        "raw_phi_max": 0.9649758071838782,
+        "raw_phi_min": 0.7240414069346726,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 136,
+          "stable_lag_dominant": 17,
+          "significant_lagged_but_tau0_coupled": 9,
+          "audit_sensitive": 3
+        },
+        "n_stable_lag_dominant": 17,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_symmetric23_101_123\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_symmetric23_101_123\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    },
+    "T3_expand_backward17_101_117": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_backward17_101_117",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_expand_backward17_101_117",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 91,
+          "lead_lag_yes_with_same_day_coupling": 17,
+          "lead_lag_yes_clear": 15,
+          "lead_lag_ambiguous_marginal_statistical_support": 8,
+          "lead_lag_ambiguous_bidirectional_close": 8,
+          "lead_lag_no_same_day_only": 7,
+          "lead_lag_ambiguous_direction_uncertain": 7,
+          "lead_lag_ambiguous_coupled_or_feedback_like": 6,
+          "lead_lag_no_reverse_dominant": 4,
+          "lead_lag_ambiguous_same_day_dominant": 2
+        },
+        "group_counts": {
+          "lead_lag_no": 102,
+          "lead_lag_yes": 32,
+          "lead_lag_ambiguous": 31
+        },
+        "strict_temporal_pool_size": 32,
+        "expanded_temporal_risk_pool_size": 63,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 91,
+          "Tier2_main_supported_audit_moderate": 17,
+          "Tier1b_audit_stable_with_same_day": 11,
+          "Tier4d_ambiguous_marginal_statistical_support": 8,
+          "Tier4a_ambiguous_bidirectional_close": 8,
+          "Tier4b_ambiguous_same_day_dominant": 8,
+          "Tier5c_no_same_day_only": 7,
+          "Tier4c_ambiguous_direction_uncertain": 7,
+          "Tier5b_no_reverse_dominant": 4,
+          "Tier3_surrogate_or_persistence_sensitive_yes": 4
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 7,
+        "phi_clip_severity_counts": {
+          "none": 19,
+          "minor": 5,
+          "moderate": 2
+        },
+        "raw_phi_max": 0.9691855170387156,
+        "raw_phi_min": 0.7378954980554093,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 133,
+          "stable_lag_dominant": 19,
+          "significant_lagged_but_tau0_coupled": 9,
+          "audit_sensitive": 4
+        },
+        "n_stable_lag_dominant": 19,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_backward17_101_117\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_backward17_101_117\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    },
+    "T3_expand_forward17_107_123": {
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_forward17_107_123",
+      "main_summary": {
+        "status": "success",
+        "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_expand_forward17_107_123",
+        "n_years": 45,
+        "n_variables": 26,
+        "n_directed_pairs": 165,
+        "n_windows": 1,
+        "n_curve_rows": 3465,
+        "n_pair_rows": 165,
+        "label_counts": {
+          "lead_lag_no_not_supported": 113,
+          "lead_lag_ambiguous_marginal_statistical_support": 21,
+          "lead_lag_yes_with_same_day_coupling": 13,
+          "lead_lag_no_same_day_only": 7,
+          "lead_lag_ambiguous_bidirectional_close": 3,
+          "lead_lag_yes_clear": 3,
+          "lead_lag_ambiguous_direction_uncertain": 2,
+          "lead_lag_no_reverse_dominant": 2,
+          "lead_lag_ambiguous_same_day_dominant": 1
+        },
+        "group_counts": {
+          "lead_lag_no": 122,
+          "lead_lag_ambiguous": 27,
+          "lead_lag_yes": 16
+        },
+        "strict_temporal_pool_size": 16,
+        "expanded_temporal_risk_pool_size": 43,
+        "main_surrogate_mode": "pooled_window_variable_ar1",
+        "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+        "audit_surrogate_enabled": true,
+        "n_ar1_param_rows": 26,
+        "n_ar1_yearwise_scale_rows": 1170,
+        "n_audit_null_rows": 165,
+        "n_evidence_tier_rows": 165,
+        "evidence_tier_counts": {
+          "Tier5a_no_not_supported": 113,
+          "Tier4d_ambiguous_marginal_statistical_support": 21,
+          "Tier2_main_supported_audit_moderate": 11,
+          "Tier5c_no_same_day_only": 7,
+          "Tier1b_audit_stable_with_same_day": 5,
+          "Tier4a_ambiguous_bidirectional_close": 3,
+          "Tier4c_ambiguous_direction_uncertain": 2,
+          "Tier5b_no_reverse_dominant": 2,
+          "Tier4b_ambiguous_same_day_dominant": 1
+        },
+        "n_warning_flags": 2,
+        "n_phi_clipped_total": 4,
+        "phi_clip_severity_counts": {
+          "none": 22,
+          "moderate": 2,
+          "minor": 2
+        },
+        "raw_phi_max": 0.9648587052863424,
+        "raw_phi_min": 0.7207240799147656,
+        "notes": [
+          "This layer is a temporal eligibility screen, not pathway establishment.",
+          "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+          "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+          "Old pathway V1-V2 outputs are not read by this pipeline.",
+          "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+          "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+          "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+          "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+        ]
+      },
+      "report_summary": {
+        "status": "success",
+        "n_classified_pairs": 165,
+        "stability_judgement_counts": {
+          "not_supported": 149,
+          "significant_lagged_but_tau0_coupled": 8,
+          "stable_lag_dominant": 8
+        },
+        "n_stable_lag_dominant": 8,
+        "classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_forward17_107_123\\tables\\v1_1_v_to_p_classified_pairs.csv",
+        "recovery_summary": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_t3_window_length_sensitivity_a\\T3_expand_forward17_107_123\\tables\\v1_vs_v1_1_pair_recovery_summary.csv"
+      },
+      "n_classified_pairs": 165
+    }
+  },
+  "primary_question": "Whether the low T3 V→P stable-pair count is mainly a short-window artifact or remains concentrated in structural newV-newP recovery.",
+  "guardrails": [
+    "This audit does not change V1 or V1_1 main outputs.",
+    "Each variant is a one-window V→P rerun under the same V1_1 test framework.",
+    "Interpretation is limited to window-length and edge-placement sensitivity, not physical causality."
+  ]
+}

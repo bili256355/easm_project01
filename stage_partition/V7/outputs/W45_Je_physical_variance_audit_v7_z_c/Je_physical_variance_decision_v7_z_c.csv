@@ -1,0 +1,12 @@
+check_item,result,decision,evidence,risk
+observed_profile_low_variance_days_day30_34,5,low_variance_present,number of day30-34 days below day0-70 q10 profile spatial std,low profile variance can amplify shape-normalized pattern changes
+observed_region2d_low_variance_days_day30_34,5,low_variance_present,number of day30-34 days below day0-70 q10 2D spatial std,2D variance test checks whether profile low norm reflects broader regional flattening
+bootstrap_low_vs_pre_profile_spatial_std,-0.8429353784719398,first_lower_tendency,P_first_less_than_second=0.962; q025=-1.84; q975=0.0809,supports low-variance physical interpretation only if first_lower_supported/tendency
+bootstrap_low_vs_pre_region2d_spatial_std,-0.6958281782741511,first_lower_tendency,P_first_less_than_second=0.927; q025=-1.63; q975=0.186,supports low-variance physical interpretation only if first_lower_supported/tendency
+bootstrap_low_vs_post_profile_spatial_std,-1.0168563650956575,first_lower_supported,P_first_less_than_second=0.979; q025=-2; q975=-0.0265,supports low-variance physical interpretation only if first_lower_supported/tendency
+bootstrap_low_vs_post_region2d_spatial_std,-0.8441910484840802,first_lower_tendency,P_first_less_than_second=0.958; q025=-1.78; q975=0.0818,supports low-variance physical interpretation only if first_lower_supported/tendency
+bootstrap_low_vs_W45_profile_spatial_std,-2.331843747090198,first_lower_supported,P_first_less_than_second=1.000; q025=-3.42; q975=-1.16,supports low-variance physical interpretation only if first_lower_supported/tendency
+bootstrap_low_vs_W45_region2d_spatial_std,-2.188009270356972,first_lower_supported,P_first_less_than_second=1.000; q025=-3.32; q975=-1.03,supports low-variance physical interpretation only if first_lower_supported/tendency
+bootstrap_minimum_profile_spatial_std,0.881,minimum_day30_34_supported,min day median=31.0; q025=27.0; q975=34.0,tests whether day30-34 is specifically a minimum period
+bootstrap_minimum_region2d_spatial_std,0.836,minimum_day30_34_supported,min day median=31.0; q025=21.0; q975=36.0,tests whether day30-34 is specifically a minimum period
+final_physical_variance_status,profile_and_2D_variance_dip_supported,profile_and_2D_variance_dip_supported,profile_low_supported=True; region_low_supported=True; P_profile_min_day30_34=0.881; P_region_min_day30_34=0.836,"final status describes physical variance evidence, not causal mechanism"

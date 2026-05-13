@@ -1,0 +1,51 @@
+{
+  "status": "success",
+  "output_tag": "joint_main_window_reproduce_v10_1",
+  "started_at_utc": "2026-05-12T06:59:31.972509+00:00",
+  "ended_at_utc": "2026-05-12T07:00:24.482462+00:00",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "n_candidates": 8,
+  "candidate_days": [
+    18,
+    45,
+    81,
+    96,
+    113,
+    132,
+    135,
+    160
+  ],
+  "n_derived_windows": 7,
+  "derived_window_main_peak_days": [
+    18,
+    45,
+    81,
+    96,
+    113,
+    132,
+    160
+  ],
+  "strict_accepted_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "regression_status_counts": {
+    "pass": 10
+  },
+  "scope": "joint-object main-window discovery chain reproduction only",
+  "does_not_import_stage_partition_v6_or_v6_1_or_v7_or_v9": true,
+  "does_not_do_object_native_peak_discovery": true,
+  "does_not_do_sensitivity_testing": true,
+  "does_not_do_physical_interpretation": true,
+  "layer_name": "stage_partition",
+  "version_name": "V10.1",
+  "bundle_root": "D:\\easm_project01\\stage_partition\\V10\\v10.1",
+  "notes": [
+    "V10.1 semantically rewrites the joint-object V6->V6_1 discovery lineage inside V10.",
+    "Old V6/V6_1 CSV outputs are read only for regression audits; old Python modules are not imported.",
+    "Strict accepted windows are mapped as lineage labels, not re-decided here.",
+    "This run is a prerequisite for later object-native peak discovery and sensitivity tests."
+  ]
+}

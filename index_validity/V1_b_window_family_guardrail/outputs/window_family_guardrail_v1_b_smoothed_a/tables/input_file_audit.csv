@@ -1,0 +1,7 @@
+﻿input_name,path,exists,size_bytes
+selected_index_table,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\indices\index_values_smoothed.csv,True,2697134
+index_values_smoothed,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\indices\index_values_smoothed.csv,True,2697134
+index_anomalies,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\indices\index_anomalies.csv,True,3255162
+smoothed_fields_bundle,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,True,27596085868
+anomaly_fields_bundle,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\anomaly_fields.npz,True,27596085836
+daily_climatology_bundle,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\daily_climatology.npz,True,613253876

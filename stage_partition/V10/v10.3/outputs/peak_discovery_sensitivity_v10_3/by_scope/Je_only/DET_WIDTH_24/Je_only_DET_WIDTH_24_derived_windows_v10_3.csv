@@ -1,0 +1,6 @@
+﻿scope,object,config_id,window_id,start_day,end_day,center_day,main_peak_day,n_member_points,member_candidate_ids,max_member_bootstrap_match_fraction,merge_reason,protected_split_flag,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+Je_only,Je,DET_WIDTH_24,W001,23,28,26,26,1,CP001,0.833,non_overlap,False,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Je_only,Je,DET_WIDTH_24,W002,43,52,48,47,1,CP002,0.965,non_overlap,False,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Je_only,Je,DET_WIDTH_24,W003,101,116,108,110,1,CP003,0.975,non_overlap,False,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Je_only,Je,DET_WIDTH_24,W004,133,143,138,137,1,CP004,0.906,non_overlap,False,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Je_only,Je,DET_WIDTH_24,W005,160,164,162,162,1,CP005,0.937,final_group,False,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

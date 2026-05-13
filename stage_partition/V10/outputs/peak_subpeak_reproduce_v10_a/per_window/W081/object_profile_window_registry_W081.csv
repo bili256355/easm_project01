@@ -1,0 +1,8 @@
+﻿window_id,object,candidate_id,peak_day,band_start_day,band_end_day,peak_score,peak_prominence,peak_rank,overlap_days_with_W45,overlap_fraction_with_W45,left_stop_reason,right_stop_reason,bootstrap_support,support_class,relation_to_system_window
+W081,P,CP001,82,72,92,59.21762425438138,28.655487157374672,1,13,1.0,floor_or_width,floor_or_width,0.927,candidate_window,within_system_window
+W081,P,CP002,65,65,65,17.206599258152806,1.8098269116812347,2,0,0.0,floor_or_width,floor_or_width,0.812,candidate_window,front_or_early
+W081,V,CP001,80,70,90,20.958436491781047,14.200486672606395,1,13,1.0,floor_or_width,floor_or_width,0.91,candidate_window,within_system_window
+W081,V,CP002,69,59,79,15.678308096706484,0.30203060447690255,2,5,0.38461538461538464,floor_or_width,floor_or_width,0.705,weak_window,front_or_early
+W081,H,CP001,77,67,87,13.498661553176767,7.605537770951037,1,13,1.0,floor_or_width,floor_or_width,0.943,candidate_window,within_system_window
+W081,Je,CP001,81,71,91,5.948923321784777,0.22616019411488608,1,13,1.0,floor_or_width,floor_or_width,0.727,weak_window,within_system_window
+W081,Jw,CP001,83,73,92,14.807843176914874,7.124378951803968,1,13,1.0,floor_or_width,floor_or_width,0.818,candidate_window,within_system_window

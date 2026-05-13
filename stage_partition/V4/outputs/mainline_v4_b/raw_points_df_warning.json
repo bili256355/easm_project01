@@ -1,0 +1,4 @@
+{
+  "warning": "raw_points_df_missing",
+  "message": "Detector did not return raw_points_df; raw breakpoint audit table was skipped."
+}

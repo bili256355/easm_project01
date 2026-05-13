@@ -1,0 +1,6 @@
+window_id,n_total_samples,n_valid_samples,n_invalid_samples,invalid_ratio,sample_scope,n_bootstrap_requested,n_bootstrap_effective,support_score,support_score_source,param_path_hits,permutation_empirical_pvalue_global,support_status,support_reliability_flag,support_warning
+W001,100,100,0,0.0,backend_global_summary,100,97,0.97,bootstrap_window_overlap_fraction,20,1.0,resolved_window_level,high,
+W002,100,100,0,0.0,backend_global_summary,100,99,0.99,bootstrap_window_overlap_fraction,20,1.0,resolved_window_level,high,
+W003,100,100,0,0.0,backend_global_summary,100,97,0.97,bootstrap_window_overlap_fraction,20,1.0,resolved_window_level,high,
+W004,100,100,0,0.0,backend_global_summary,100,21,0.21,bootstrap_window_overlap_fraction,8,1.0,resolved_window_level,limited,
+W005,100,100,0,0.0,backend_global_summary,100,95,0.95,bootstrap_window_overlap_fraction,20,1.0,resolved_window_level,high,

@@ -1,0 +1,171 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V7",
+  "run_scope": "field_specific_transition_timing_for_accepted_windows_only",
+  "run_label": "field_transition_timing_v7_a",
+  "accepted_points": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "n_windows_used": 4,
+  "n_field_window_rows": 20,
+  "method": "field_only_ruptures_window_score_profile_peak_within_accepted_v6_1_window",
+  "downstream_lead_lag_included": false,
+  "pathway_included": false,
+  "spatial_earliest_region_included": false,
+  "causal_interpretation_included": false,
+  "per_window_field_orders": [
+    {
+      "window_id": "W002",
+      "window_anchor_day": 45,
+      "fields_ordered_by_peak_day": [
+        {
+          "field": "H",
+          "field_peak_day": 40,
+          "relative_to_anchor": -5,
+          "peak_confidence_label": "edge_peak"
+        },
+        {
+          "field": "Jw",
+          "field_peak_day": 41,
+          "relative_to_anchor": -4,
+          "peak_confidence_label": "edge_peak"
+        },
+        {
+          "field": "P",
+          "field_peak_day": 45,
+          "relative_to_anchor": 0,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "V",
+          "field_peak_day": 45,
+          "relative_to_anchor": 0,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "Je",
+          "field_peak_day": 46,
+          "relative_to_anchor": 1,
+          "peak_confidence_label": "broad_peak"
+        }
+      ]
+    },
+    {
+      "window_id": "W003",
+      "window_anchor_day": 81,
+      "fields_ordered_by_peak_day": [
+        {
+          "field": "H",
+          "field_peak_day": 77,
+          "relative_to_anchor": -4,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "V",
+          "field_peak_day": 80,
+          "relative_to_anchor": -1,
+          "peak_confidence_label": "multi_peak"
+        },
+        {
+          "field": "P",
+          "field_peak_day": 82,
+          "relative_to_anchor": 1,
+          "peak_confidence_label": "multi_peak"
+        },
+        {
+          "field": "Jw",
+          "field_peak_day": 83,
+          "relative_to_anchor": 2,
+          "peak_confidence_label": "multi_peak"
+        },
+        {
+          "field": "Je",
+          "field_peak_day": 86,
+          "relative_to_anchor": 5,
+          "peak_confidence_label": "edge_peak"
+        }
+      ]
+    },
+    {
+      "window_id": "W005",
+      "window_anchor_day": 113,
+      "fields_ordered_by_peak_day": [
+        {
+          "field": "Jw",
+          "field_peak_day": 107,
+          "relative_to_anchor": -6,
+          "peak_confidence_label": "edge_peak"
+        },
+        {
+          "field": "Je",
+          "field_peak_day": 111,
+          "relative_to_anchor": -2,
+          "peak_confidence_label": "multi_peak"
+        },
+        {
+          "field": "P",
+          "field_peak_day": 113,
+          "relative_to_anchor": 0,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "V",
+          "field_peak_day": 114,
+          "relative_to_anchor": 1,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "H",
+          "field_peak_day": 115,
+          "relative_to_anchor": 2,
+          "peak_confidence_label": "broad_peak"
+        }
+      ]
+    },
+    {
+      "window_id": "W007",
+      "window_anchor_day": 160,
+      "fields_ordered_by_peak_day": [
+        {
+          "field": "H",
+          "field_peak_day": 155,
+          "relative_to_anchor": -5,
+          "peak_confidence_label": "edge_peak"
+        },
+        {
+          "field": "Jw",
+          "field_peak_day": 155,
+          "relative_to_anchor": -5,
+          "peak_confidence_label": "edge_peak"
+        },
+        {
+          "field": "P",
+          "field_peak_day": 158,
+          "relative_to_anchor": -2,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "V",
+          "field_peak_day": 161,
+          "relative_to_anchor": 1,
+          "peak_confidence_label": "broad_peak"
+        },
+        {
+          "field": "Je",
+          "field_peak_day": 162,
+          "relative_to_anchor": 2,
+          "peak_confidence_label": "broad_peak"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿feature_name,full_range_peak_day,early_range_peak_day,late_range_peak_day,early_range_max_score,late_range_max_score,early_to_late_score_ratio,is_early_peak_in_core_day26_33,interpretation
+strength_mean,28,28,52,0.6552444500225363,0.347786020897086,1.8840448167881678,True,early_change_comparable_to_late
+strength_max,28,28,40,0.9664005997302354,0.455800786500248,2.120225827494726,True,early_change_comparable_to_late
+amplitude,31,31,40,1.123977790385787,0.9640876105228529,1.165846109956979,True,early_change_comparable_to_late
+weighted_l2_norm,28,28,52,0.684170180791476,0.33266981677904894,2.056604315401072,True,early_change_comparable_to_late
+axis_lat,12,32,43,2.0,2.0,1.0,True,early_change_comparable_to_late
+centroid_lat,32,32,46,0.09759798439457512,0.08248586529850144,1.1832085902401055,True,early_change_comparable_to_late
+spread,58,35,40,0.019923428528819898,0.033651761678377135,0.5920471183421476,False,early_change_present_but_weaker_than_late
+width_proxy,58,35,40,0.019923428528819898,0.033651761678377135,0.5920471183421476,False,early_change_present_but_weaker_than_late
+NS_contrast,20,20,46,1.1949440885782607,0.8346853873645976,1.431610169133462,False,early_change_comparable_to_late
+skewness,40,21,40,0.04303080629647149,0.05968504991987539,0.7209645690878788,False,early_change_present_but_weaker_than_late
+raw_daily_speed,21,21,46,0.2193983119102837,0.18257671198485365,1.2016774183581789,False,early_change_comparable_to_late

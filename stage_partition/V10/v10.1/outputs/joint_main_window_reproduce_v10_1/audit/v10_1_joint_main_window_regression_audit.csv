@@ -1,0 +1,11 @@
+﻿component,status,n_reference_rows,n_v10_rows,n_key_mismatch_rows,n_value_differences,note
+ruptures_primary_points,pass,5,5,0,0,
+detector_local_peaks_all,pass,8,8,0,0,
+baseline_detected_peaks_registry,pass,8,8,0,0,
+candidate_points_bootstrap_summary,pass,8,8,0,0,
+candidate_points_bootstrap_match_records,pass,8000,8000,0,0,
+candidate_point_bands,pass,8,8,0,0,
+derived_windows_registry,pass,7,7,0,0,
+window_point_membership,pass,8,8,0,0,
+window_uncertainty_summary,pass,7,7,0,0,
+window_return_day_distribution,pass,6575,6575,0,0,

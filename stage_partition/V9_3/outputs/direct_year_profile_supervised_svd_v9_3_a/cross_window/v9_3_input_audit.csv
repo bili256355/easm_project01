@@ -1,0 +1,8 @@
+﻿item,value
+smoothed_fields_path,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz
+v9_output_dir,D:\easm_project01\stage_partition\V9\outputs\peak_all_windows_v9_a
+years_start,1979
+years_end,2023
+n_years_selected,45
+lat_order,descending
+lon_order,ascending

@@ -1,0 +1,9 @@
+{
+  "version": "v8_state_relation_a_hotfix01",
+  "elapsed_seconds": 836.939501285553,
+  "n_windows_processed": 1,
+  "bootstrap_n": 1000,
+  "null_n": 1000,
+  "output_root": "D:\\easm_project01\\stage_partition\\V8\\outputs\\state_relation_v8_a",
+  "boundary": "state relation only; no growth/process_a/nonmonotonic interpretation"
+}

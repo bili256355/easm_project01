@@ -1,0 +1,2 @@
+﻿retreat_detected,retreat_start_day,retreat_end_day,retreat_start_progress,retreat_end_progress,retreat_drop,retreat_span_days,retreat_label,P_proj_change,P_dist_change,D_pre_change,D_post_change,R_diff_change,orthogonal_ratio_change,daily_cos_mean,retreat_interpretation
+True,43.0,47.0,0.5374646581077257,0.4988286802363925,-0.038635977871333216,4,projection_retreat_candidate,-0.038635977871333216,-0.03140401544518567,-1.1909843632137314,-0.030513437376026076,0.002569068646786743,-0.10248366176573903,-0.2192737255322406,mixed_retreat_and_reorganization

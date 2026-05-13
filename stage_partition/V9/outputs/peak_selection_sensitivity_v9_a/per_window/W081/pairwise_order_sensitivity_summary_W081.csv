@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,v9_baseline_order,A_earlier_rate_across_configs,B_earlier_rate_across_configs,same_or_near_rate_across_configs,order_switch_flag,order_stability_class,smooth9_A_earlier_rate,smooth5_A_earlier_rate,smooth_sensitivity_order_flag
+W081,P,V,V_earlier,0.1527777777777778,0.4305555555555556,0.4166666666666667,True,order_highly_sensitive,0.3055555555555556,0.0,True
+W081,P,H,H_earlier,0.0,1.0,0.0,False,order_stable,0.0,0.0,False
+W081,P,Je,same_or_near,0.08333333333333333,0.3055555555555556,0.6111111111111112,True,order_moderately_sensitive,0.08333333333333333,0.08333333333333333,False
+W081,P,Jw,same_or_near,0.0,0.375,0.625,True,order_moderately_sensitive,0.0,0.0,False
+W081,V,H,H_earlier,0.3333333333333333,0.5833333333333334,0.08333333333333333,True,order_moderately_sensitive,0.4166666666666667,0.25,False
+W081,V,Je,same_or_near,0.4166666666666667,0.4027777777777778,0.18055555555555555,True,order_highly_sensitive,0.4166666666666667,0.4166666666666667,False
+W081,V,Jw,V_earlier,0.05555555555555555,0.0,0.9444444444444444,True,order_stable,0.1111111111111111,0.0,False
+W081,H,Je,H_earlier,0.8472222222222222,0.0,0.1527777777777778,True,order_stable,1.0,0.6944444444444444,True
+W081,H,Jw,H_earlier,0.625,0.20833333333333334,0.16666666666666666,True,order_moderately_sensitive,0.6666666666666666,0.5833333333333334,False
+W081,Je,Jw,Je_earlier,0.2638888888888889,0.375,0.3611111111111111,True,order_highly_sensitive,0.2777777777777778,0.25,False

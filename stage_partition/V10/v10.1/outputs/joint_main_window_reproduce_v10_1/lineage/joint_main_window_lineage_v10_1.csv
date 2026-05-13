@@ -1,0 +1,9 @@
+﻿candidate_id,candidate_day,month_day,is_formal_primary,v6_peak_score,v6_peak_prominence,bootstrap_strict_fraction,bootstrap_match_fraction,bootstrap_near_fraction,v6_1_window_id,v6_1_window_start,v6_1_window_end,v6_1_main_peak_day,v6_1_is_window_main_peak,strict_accepted_window_id,strict_accepted_flag,strict_accepted_reason,strict_exclusion_reason,lineage_status
+CP001,18,04-19,False,3.021425291663116,0.3019803443929008,0.582,0.745,0.025,W001,16,20,18,True,,False,,not_in_strict_accepted_window_set,derived_non_strict_candidate_window
+CP002,45,05-16,True,5.878578493131532,3.6472619692422086,0.901,0.993,0.006,W002,40,48,45,True,W045,True,candidate_day_matches_strict_accepted_anchor,,strict_accepted_main_window
+CP003,81,06-21,True,9.238311473412097,4.2285212740596405,0.574,0.951,0.043,W003,75,86,81,True,W081,True,candidate_day_matches_strict_accepted_anchor,,strict_accepted_main_window
+CP004,96,07-06,False,6.44414632933013,1.1935943825533588,0.551,0.807,0.041,W004,94,99,96,True,,False,,not_in_strict_accepted_window_set,derived_non_strict_candidate_window
+CP005,113,07-23,True,9.678099825113602,7.556092339736476,0.814,0.987,0.005,W005,107,117,113,True,W113,True,candidate_day_matches_strict_accepted_anchor,,strict_accepted_main_window
+CP006,132,08-11,False,3.7541518352022365,0.00977477683365846,0.467,0.899,0.082,W006,128,138,132,True,,False,,not_in_strict_accepted_window_set,derived_non_strict_candidate_window
+CP007,135,08-14,True,3.7666081070788318,1.4709574724059107,0.485,0.854,0.133,W006,128,138,132,False,,False,,not_in_strict_accepted_window_set,derived_non_strict_candidate_window
+CP008,160,09-08,True,7.120567750300529,2.684733245250058,0.7,0.962,0.029,W007,155,164,160,True,W160,True,candidate_day_matches_strict_accepted_anchor,,strict_accepted_main_window

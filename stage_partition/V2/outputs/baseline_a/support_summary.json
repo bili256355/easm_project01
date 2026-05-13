@@ -1,0 +1,12 @@
+{
+  "ruptures_primary_point_count": 5,
+  "ruptures_primary_window_count": 5,
+  "ruptures_edge_count": 0,
+  "catalog_count": 5,
+  "n_valid_days": 175,
+  "n_invalid_days": 8,
+  "warning_cleaning_enabled": true,
+  "n_profile_empty_slices": 20520,
+  "n_state_all_nan_features": 0,
+  "n_support_invalid_samples": 500
+}

@@ -1,0 +1,4 @@
+﻿detector_scope,median,q05,q95,q025,q975,P_main_peak_in_early26_33,P_has_any_early_peak_day26_33,P_has_day33_neighbor_peak,P_has_late_peak_day40_52,decision
+early_only_day0_40,28.0,16.0,34.0,16.0,34.0,0.52,0.8866666666666667,0.7166666666666667,0.25666666666666665,early_raw_peak_reproduced
+full_day0_70,28.0,16.0,34.05000000000001,16.0,43.399999999999636,0.51,0.85,0.6533333333333333,0.19666666666666666,early_raw_peak_reproduced
+late_excluded_day0_39,28.0,16.0,34.0,16.0,34.0,0.52,0.8866666666666667,0.7166666666666667,0.0,early_raw_peak_reproduced

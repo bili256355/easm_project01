@@ -1,0 +1,70 @@
+{
+  "status": "success",
+  "audit": "v1_positive_lag_not_supported_decomposition_all_windows_a",
+  "input_csv": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables\\lead_lag_pair_summary_stability_judged.csv",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs",
+  "audit_windows": [
+    "S1",
+    "T1",
+    "S2",
+    "T2",
+    "S3",
+    "T3",
+    "S4",
+    "T4",
+    "S5"
+  ],
+  "target_reason": "positive_lag_not_supported",
+  "n_rows_total": 2772,
+  "n_rows_decomposed": 1614,
+  "thresholds": {
+    "weak_abs_r": 0.1,
+    "moderate_abs_r": 0.2,
+    "strong_abs_r": 0.3,
+    "surrogate_alpha": 0.1,
+    "fdr_alpha": 0.1,
+    "audit_surrogate_alpha": 0.1,
+    "near_surrogate_alpha": 0.15,
+    "near_fdr_alpha": 0.2,
+    "dominance_probability": 0.6
+  },
+  "detected_columns": {
+    "window": "window",
+    "source_index": "source_variable",
+    "target_index": "target_variable",
+    "source_family": "source_family",
+    "target_family": "target_family",
+    "stability": "v1_stability_judgement",
+    "evidence_tier": "evidence_tier",
+    "primary_failure_reason": "failure_reason",
+    "lag_tau0": "lag_vs_tau0_label",
+    "forward_reverse": "forward_vs_reverse_label"
+  },
+  "metric_source_columns": {
+    "positive_peak_abs_r": "positive_peak_abs_r",
+    "lag0_abs_r": "lag0_abs_r",
+    "negative_peak_abs_r": "negative_peak_abs_r",
+    "p_pos_surrogate": "p_pos_surrogate",
+    "q_pos_within_window": "q_pos_within_window",
+    "p_pos_audit_surrogate": "p_pos_audit_surrogate",
+    "D_pos_0": "D_pos_0",
+    "D_pos_neg": "D_pos_neg",
+    "P_D_pos_0_gt_0": "P_D_pos_0_gt_0_used",
+    "P_D_pos_neg_gt_0": "P_D_pos_neg_gt_0_used",
+    "positive_peak_lag": "positive_peak_lag",
+    "negative_peak_lag": "negative_peak_lag",
+    "positive_peak_signed_r": "positive_peak_signed_r",
+    "negative_peak_signed_r": "negative_peak_signed_r"
+  },
+  "outputs": {
+    "positive_lag_not_supported_decomposition_long": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_decomposition_long.csv",
+    "positive_lag_not_supported_decomposition_counts_by_window": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_decomposition_counts_by_window.csv",
+    "positive_lag_not_supported_decomposition_counts_by_family_direction": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_decomposition_counts_by_family_direction.csv",
+    "positive_lag_not_supported_blocker_counts": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_blocker_counts.csv",
+    "positive_lag_support_profile_counts": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_support_profile_counts.csv",
+    "positive_lag_not_supported_secondary_dominance_counts": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_secondary_dominance_counts.csv",
+    "positive_lag_not_supported_metric_distribution_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_metric_distribution_summary.csv",
+    "positive_lag_not_supported_near_pass_candidates": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_near_pass_candidates.csv",
+    "positive_lag_not_supported_decomposition_diagnosis_table": "D:\\easm_project01\\lead_lag_screen\\V1\\positive_lag_not_supported_decomposition_all_windows_a\\outputs\\tables\\positive_lag_not_supported_decomposition_diagnosis_table.csv"
+  }
+}

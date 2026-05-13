@@ -1,0 +1,5 @@
+﻿window_id,anchor_day,system_window_start,system_window_end,run_selected,reason
+W045,45,40,48,True,"mode=w45; targets=W045,45"
+W081,81,75,87,False,"mode=w45; targets=W045,45"
+W113,113,108,118,False,"mode=w45; targets=W045,45"
+W160,160,155,165,False,"mode=w45; targets=W045,45"

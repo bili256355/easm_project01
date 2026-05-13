@@ -1,0 +1,6 @@
+﻿object,status,n_candidates,candidate_days,n_object_windows,n_bootstrap_records
+P,success,10,18;34;45;65;82;95;113;126;138;158,10,10000
+V,success,9,16;30;45;69;80;95;114;136;161,8,9000
+H,success,8,19;35;57;77;95;115;129;155,8,8000
+Je,success,8,26;33;46;81;94;111;136;162,8,8000
+Jw,success,5,41;83;104;130;152,5,5000

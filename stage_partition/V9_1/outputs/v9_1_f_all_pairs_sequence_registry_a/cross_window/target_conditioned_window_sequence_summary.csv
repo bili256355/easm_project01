@@ -1,0 +1,5 @@
+window_id,n_targets_summarized,n_original_priority_targets,n_added_all_pair_targets,mean_n_pairs_order_changed_high_low,max_n_pairs_order_changed_high_low,mean_max_abs_object_shift,max_abs_object_shift,summary_scope
+W045,10,3,7,1.6,3,3.6,6.0,"target-conditioned high-low window-level peak sequence, not physical interpretation"
+W081,10,3,7,3.3,4,4.1,5.0,"target-conditioned high-low window-level peak sequence, not physical interpretation"
+W113,10,5,5,1.8,3,3.9,5.0,"target-conditioned high-low window-level peak sequence, not physical interpretation"
+W160,10,4,6,1.8,3,4.05,7.0,"target-conditioned high-low window-level peak sequence, not physical interpretation"

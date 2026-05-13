@@ -1,0 +1,13 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+P_only,P,SMOOTH5_MERGE_GAP_0,W001,CP001,17,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W002,CP002,33,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W003,CP003,44,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W004,CP004,56,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W005,CP005,66,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W006,CP006,83,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W007,CP007,97,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W008,CP008,114,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W009,CP009,127,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W010,CP010,139,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W011,CP011,156,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+P_only,P,SMOOTH5_MERGE_GAP_0,W012,CP012,167,True,,smooth5_window_merge,merge_gap_days,0,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode

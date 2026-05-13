@@ -1,0 +1,5 @@
+﻿object,candidate_id,point_day,n_matched_or_near,return_day_median,return_day_q02_5,return_day_q10,return_day_q90,return_day_q97_5,return_day_width80,return_day_width95
+H,CP001,19,839,19.0,15.0,17.0,23.0,26.049999999999955,6.0,11.049999999999955
+H,CP002,35,940,34.0,28.0,32.0,37.0,38.0,5.0,10.0
+H,CP003,57,776,55.0,50.0,51.0,58.0,59.0,7.0,9.0
+Jw,CP001,41,988,41.0,37.675,38.0,46.0,48.0,8.0,10.325000000000003

@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "n_v_to_p_pairs": 21,
+  "dilution_evidence": [
+    {
+      "hypothesis": "H3_internal_state_mixing_dilution",
+      "n_pairs": 21,
+      "n_profile_type_changed": 14,
+      "fraction_profile_type_changed": 0.6666666666666666,
+      "n_dilution_like_pairs": 17,
+      "evidence_strength": "strong",
+      "interpretation": "Frequent early/late profile changes support T3 internal state mixing if accompanied by spatial/regional shifts."
+    }
+  ],
+  "hypothesis_evidence": [
+    {
+      "hypothesis_id": "H1",
+      "hypothesis_name": "rain_band_spatial_reorganization",
+      "evidence_strength": "strong",
+      "supporting_evidence": "Meiyu share decreased (-0.028). South/SCS share increased (0.028).",
+      "contradicting_evidence": "",
+      "missing_evidence": "Manual review of precip maps is still recommended.",
+      "interpretation_status": "partially_supported"
+    },
+    {
+      "hypothesis_id": "H2",
+      "hypothesis_name": "V_component_shift_strength_to_NSdiff_or_position",
+      "evidence_strength": "strong",
+      "supporting_evidence": "V_strength abs response early/late=1.32/0.962; V_NS_diff=1.72/1.66. V_strength weakens while V_NS_diff is retained/stronger.",
+      "contradicting_evidence": "",
+      "missing_evidence": "Needs physical interpretation of V composite patterns.",
+      "interpretation_status": "partially_supported"
+    },
+    {
+      "hypothesis_id": "H3",
+      "hypothesis_name": "T3_internal_state_mixing_dilution",
+      "evidence_strength": "strong",
+      "supporting_evidence": "14/21 V→P pairs changed early/late profile type; 17 dilution-like pairs.",
+      "contradicting_evidence": "",
+      "missing_evidence": "Needs regional/spatial confirmation that early and late T3 correspond to different physical states.",
+      "interpretation_status": "partially_supported"
+    },
+    {
+      "hypothesis_id": "H4",
+      "hypothesis_name": "P_target_component_shift",
+      "evidence_strength": "strong",
+      "supporting_evidence": "Mainband late positive=0.144, change=-0.071; spread/centroid/south late positive=0.303, change=-0.078. Target shifts away from mainband toward spread/centroid/south. Index validity context: 10/10 listed P/V indices are strong where available.",
+      "contradicting_evidence": "",
+      "missing_evidence": "Needs manual map review for P target component composite structure.",
+      "interpretation_status": "partially_supported"
+    },
+    {
+      "hypothesis_id": "H5",
+      "hypothesis_name": "synchronous_multi_family_reorganization",
+      "evidence_strength": "moderate",
+      "supporting_evidence": "4/20 family-directions lower stable fraction at T3; 0/20 higher tau0-coupled fraction.",
+      "contradicting_evidence": "",
+      "missing_evidence": "Needs spatial/object-field confirmation; this table only uses V1 stability counts.",
+      "interpretation_status": "partially_supported"
+    }
+  ],
+  "n_figures": 5,
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_physical_hypothesis_audit"
+}

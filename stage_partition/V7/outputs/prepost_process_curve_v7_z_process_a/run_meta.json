@@ -1,0 +1,50 @@
+{
+  "version": "v7_z_prepost_process_a",
+  "output_tag": "prepost_process_curve_v7_z_process_a",
+  "elapsed_seconds": 194.0285530090332,
+  "bootstrap_n": 1000,
+  "n_years": 45,
+  "window_id": "W045",
+  "output_root": "D:\\easm_project01\\stage_partition\\V7\\outputs\\prepost_process_curve_v7_z_process_a",
+  "method_boundary": [
+    "W45 profile-only",
+    "detector unchanged",
+    "S/G definitions unchanged",
+    "early/core/late legacy outputs not used for main interpretation",
+    "Delta S and Delta G curve-structure bootstrap diagnostics are main process layer"
+  ],
+  "support_rules": {
+    "supported": 0.95,
+    "tendency": 0.9,
+    "exploratory_signal": 0.8
+  },
+  "config": {
+    "version": "v7_z_prepost_process_a",
+    "output_tag": "prepost_process_curve_v7_z_process_a",
+    "window_mode": "w45",
+    "target_windows": "W045,45",
+    "window_source": "hardcoded",
+    "bootstrap_n": 1000,
+    "random_seed": 42,
+    "log_every_bootstrap": 50,
+    "support_supported": 0.95,
+    "support_tendency": 0.9,
+    "support_exploratory": 0.8,
+    "min_episode_len": 3,
+    "merge_short_gap_days": 1,
+    "main_episode_mass_ratio": 0.7,
+    "multi_stage_min_secondary_ratio": 0.2,
+    "rollback_min_negative_ratio": 0.1,
+    "near_state_sd_factor": 1.0,
+    "growth_noise_sd_factor": 1.0,
+    "parallel_duration_ratio": 0.7,
+    "persistent_duration_ratio": 0.7,
+    "opposite_duration_max_ratio": 0.1,
+    "sync_growth_mass_ratio": 0.7,
+    "pattern_dynamic_low_abs": 0.02,
+    "severe_overshoot_margin": 0.25,
+    "save_bootstrap_curve_samples": false,
+    "smoothed_fields_path": null
+  },
+  "finished_at": "2026-05-06 23:35:16"
+}

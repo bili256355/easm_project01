@@ -1,0 +1,2 @@
+﻿window_id,anchor_day,included_in_v10,exclusion_reason
+W135,135,False,not_in_strict_accepted_95pct_window_set; retained as exclusion record only

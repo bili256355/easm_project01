@@ -1,0 +1,122 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "foundation_runtime_tag": "baseline_smooth5_a",
+    "output_tag": "window_family_guardrail_v1_b_smoothed_a",
+    "random_seed": 20260428,
+    "data_mode": "smoothed",
+    "high_quantile": 0.75,
+    "low_quantile": 0.25,
+    "bootstrap_year_reps": 200,
+    "eof_n_modes": 5,
+    "figure_dpi": 170,
+    "make_figures": true,
+    "use_cartopy_if_available": true,
+    "display_lon_range": [
+      20.0,
+      150.0
+    ],
+    "display_lat_range": [
+      10.0,
+      60.0
+    ],
+    "max_diagnostic_figures": 140,
+    "tier_strong_threshold": 0.7,
+    "tier_moderate_threshold": 0.55,
+    "tier_weak_threshold": 0.4,
+    "family_best_low_threshold": 0.4,
+    "windows": {
+      "S1": [
+        1,
+        39
+      ],
+      "T1": [
+        40,
+        48
+      ],
+      "S2": [
+        49,
+        74
+      ],
+      "T2": [
+        75,
+        86
+      ],
+      "S3": [
+        87,
+        106
+      ],
+      "T3": [
+        107,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ],
+      "T4": [
+        155,
+        164
+      ],
+      "S5": [
+        165,
+        183
+      ]
+    },
+    "layer_root": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail",
+    "output_dir": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a",
+    "log_dir": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\logs\\window_family_guardrail_v1_b_smoothed_a",
+    "index_anomalies_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+    "index_values_smoothed_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+    "selected_index_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+    "anomaly_fields_bundle": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\anomaly_fields.npz",
+    "smoothed_fields_bundle": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+    "climatology_bundle": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\daily_climatology.npz"
+  },
+  "input_file_audit": [
+    {
+      "input_name": "selected_index_table",
+      "path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+      "exists": true,
+      "size_bytes": 2697134
+    },
+    {
+      "input_name": "index_values_smoothed",
+      "path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+      "exists": true,
+      "size_bytes": 2697134
+    },
+    {
+      "input_name": "index_anomalies",
+      "path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+      "exists": true,
+      "size_bytes": 3255162
+    },
+    {
+      "input_name": "smoothed_fields_bundle",
+      "path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+      "exists": true,
+      "size_bytes": 27596085868
+    },
+    {
+      "input_name": "anomaly_fields_bundle",
+      "path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\anomaly_fields.npz",
+      "exists": true,
+      "size_bytes": 27596085836
+    },
+    {
+      "input_name": "daily_climatology_bundle",
+      "path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\daily_climatology.npz",
+      "exists": true,
+      "size_bytes": 613253876
+    }
+  ],
+  "runtime_timing_csv": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\tables\\runtime_task_timing.csv",
+  "scope_exclusions": [
+    "lead_lag",
+    "pathway",
+    "causal_discovery",
+    "field_to_field_coupling",
+    "proof_that_all_indices_are_valid_in_all_windows"
+  ]
+}

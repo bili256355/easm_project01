@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "audit": "surrogate_null_validity_audit_b",
+  "stability_csv": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables\\lead_lag_pair_summary_stability_judged.csv",
+  "index_csv": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\surrogate_null_validity_audit_b\\outputs",
+  "column_map": {
+    "window": "window",
+    "source": "source_variable",
+    "target": "target_variable",
+    "source_family": "source_family",
+    "target_family": "target_family",
+    "family_direction": "family_direction",
+    "evidence_tier": "evidence_tier",
+    "failure_reason": "failure_reason",
+    "lead_lag_label": "lead_lag_label",
+    "stability_judgement": "v1_stability_judgement",
+    "p_pos": "p_pos_surrogate",
+    "q_pos": "q_pos_within_window",
+    "observed_r": "positive_peak_abs_r",
+    "observed_lag": "positive_peak_lag",
+    "n_samples": null
+  },
+  "lag_range": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "n_surrogates": 1000,
+  "pair_scope": "core",
+  "comparison_sample_per_window": 80,
+  "seed": 20260430,
+  "debug_fast": false,
+  "runtime_seconds": 2972.227,
+  "note": "Diagnostic AR(1) surrogate reproduction; does not replace V1 original p-values."
+}

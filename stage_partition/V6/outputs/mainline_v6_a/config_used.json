@@ -1,0 +1,95 @@
+{
+  "foundation": {
+    "project_root": "D:\\easm_project01",
+    "foundation_layer": "foundation",
+    "foundation_version": "V1",
+    "preprocess_output_tag": "baseline_a"
+  },
+  "profile": {
+    "lat_step_deg": 2.0,
+    "p_lon_range": [
+      105.0,
+      125.0
+    ],
+    "p_lat_range": [
+      15.0,
+      39.0
+    ],
+    "v_lon_range": [
+      105.0,
+      125.0
+    ],
+    "v_lat_range": [
+      10.0,
+      30.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "je_lon_range": [
+      120.0,
+      150.0
+    ],
+    "je_lat_range": [
+      25.0,
+      45.0
+    ],
+    "jw_lon_range": [
+      80.0,
+      110.0
+    ],
+    "jw_lat_range": [
+      25.0,
+      45.0
+    ]
+  },
+  "state": {
+    "standardize": true,
+    "block_equal_contribution": true,
+    "trim_invalid_days": true
+  },
+  "detector": {
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "fixed_n_bkps": null,
+    "pen": 4.0,
+    "epsilon": null,
+    "local_peak_min_distance_days": 3,
+    "nearest_peak_search_radius_days": 10
+  },
+  "bootstrap": {
+    "n_bootstrap": 1000,
+    "random_seed": 42,
+    "progress": true,
+    "strict_match_max_abs_offset_days": 2,
+    "match_max_abs_offset_days": 5,
+    "near_max_abs_offset_days": 8
+  },
+  "yearwise": {
+    "progress": true,
+    "strict_match_max_abs_offset_days": 2,
+    "match_max_abs_offset_days": 5,
+    "near_max_abs_offset_days": 8
+  },
+  "contract": {
+    "candidate_scope": "all_baseline_detected_local_peaks",
+    "headline_metric_mode": "bootstrap_local_peak_recurrence",
+    "year_support_mode": "auxiliary_only",
+    "include_window_judgement": false,
+    "include_competition": false,
+    "include_parameter_path": false,
+    "include_final_judgement": false
+  },
+  "output": {
+    "output_tag": "mainline_v6_a",
+    "write_plots": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "completed",
+  "created_at": "2026-04-28T20:47:16",
+  "input_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a",
+  "stability_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_audit",
+  "focus_window": "T3",
+  "comparison_windows": [
+    "S1",
+    "T1",
+    "S2",
+    "T2",
+    "S3",
+    "T3",
+    "S4",
+    "T4",
+    "S5"
+  ],
+  "focus_v_to_p_total_pairs": 21,
+  "focus_stable_lag_dominant": 2,
+  "focus_tau0_coupled": 2,
+  "focus_audit_sensitive": 0,
+  "focus_not_candidate_or_failed": 17,
+  "focus_v1_stability_judgement_counts": {
+    "not_supported": 17,
+    "significant_lagged_but_tau0_coupled": 2,
+    "stable_lag_dominant": 2
+  },
+  "focus_failure_stage_counts": {
+    "positive_not_surrogate_significant": 12,
+    "passed_tau0_coupled": 2,
+    "reverse_competitive": 2,
+    "passed_stable_lag": 2,
+    "direction_uncertain": 1,
+    "positive_fdr_not_supported": 1,
+    "audit_not_stable": 1
+  },
+  "outputs": [
+    "tables/t3_v_to_p_attrition_waterfall.csv",
+    "tables/v_to_p_window_attrition_comparison.csv",
+    "tables/t3_v_to_p_by_source_v_index.csv",
+    "tables/t3_v_to_p_by_target_p_index.csv",
+    "tables/t3_v_to_p_lag_profile_long.csv",
+    "tables/t3_v_to_p_lag_profile_summary.csv",
+    "tables/v_to_p_window_null_difficulty_detail.csv",
+    "tables/v_to_p_window_null_difficulty_summary.csv",
+    "tables/t3_v_to_p_index_validity_context.csv",
+    "tables/t3_v_to_p_disappearance_reason_summary.csv"
+  ],
+  "interpretation_guardrail": "This audit traces why T3 V→P shrinks in existing V1/stability outputs. It does not establish or refute physical pathways."
+}

@@ -1,0 +1,14 @@
+﻿window_id,object,candidate_id,peak_day,band_start_day,band_end_day,peak_score,peak_prominence,peak_rank,overlap_days_with_W45,overlap_fraction_with_W45,left_stop_reason,right_stop_reason,bootstrap_support,support_class,relation_to_system_window
+W045,P,CP001,45,35,55,26.563465838769993,23.644273666339963,1,9,1.0,floor_or_width,floor_or_width,0.973,accepted_window,within_system_window
+W045,P,CP002,34,24,44,13.170076876576445,0.055415345836280494,2,5,0.5555555555555556,floor_or_width,floor_or_width,0.604,weak_window,front_or_early
+W045,P,CP003,18,18,28,4.698734265329099,0.2983249254912179,3,0,0.0,floor_or_width,floor_or_width,0.768,weak_window,pre_window
+W045,V,CP001,45,35,55,19.235007755373612,15.74030989036649,1,9,1.0,floor_or_width,floor_or_width,0.983,accepted_window,within_system_window
+W045,V,CP002,30,20,40,6.941599316355871,1.4532927572151895,2,1,0.1111111111111111,floor_or_width,floor_or_width,0.651,weak_window,front_or_early
+W045,V,CP003,16,14,26,5.335538519795408,0.6464691597620895,3,0,0.0,floor_or_width,floor_or_width,0.588,weak_window,pre_window
+W045,H,CP001,19,14,29,18.08402735192542,4.598182544472039,1,0,0.0,floor_or_width,floor_or_width,0.797,weak_window,pre_window
+W045,H,CP002,35,25,45,10.10918859242761,2.7174480345794594,2,6,0.6666666666666666,floor_or_width,floor_or_width,0.915,candidate_window,front_or_early
+W045,H,CP003,57,47,57,3.066305324426809,0.23751203247580888,3,2,0.2222222222222222,floor_or_width,floor_or_width,0.648,weak_window,post_window
+W045,Je,CP001,46,36,56,12.201986759874023,8.78963123111614,1,9,1.0,floor_or_width,floor_or_width,0.971,accepted_window,within_system_window
+W045,Je,CP002,26,16,36,6.0665828732930125,2.9349912308518817,2,0,0.0,floor_or_width,floor_or_width,0.828,candidate_window,pre_window
+W045,Je,CP003,33,23,43,5.442389697096082,0.42865536994512077,3,4,0.4444444444444444,floor_or_width,floor_or_width,0.775,weak_window,front_or_early
+W045,Jw,CP001,41,31,51,11.770966007882706,9.626541282615204,1,9,1.0,floor_or_width,floor_or_width,0.915,candidate_window,within_system_window

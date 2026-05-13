@@ -1,0 +1,6 @@
+﻿window_id,object,selected_candidate_id,selected_peak_day,selected_window_start,selected_window_end,selected_role,support_class,selection_reason,excluded_candidates,early_secondary_candidates,late_secondary_candidates
+W081,P,CP001,82,72,92,within_system_window,candidate_window,system_relevant_first,CP002@65:candidate_window,,
+W081,V,CP001,80,70,90,within_system_window,candidate_window,system_relevant_first,CP002@69:weak_window,,
+W081,H,CP001,77,67,87,within_system_window,candidate_window,system_relevant_first,,,
+W081,Je,CP001,81,71,91,within_system_window,weak_window,system_relevant_first,,,
+W081,Jw,CP001,83,73,92,within_system_window,candidate_window,system_relevant_first,,,

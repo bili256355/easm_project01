@@ -1,0 +1,74 @@
+{
+  "n_reference_points": 6,
+  "n_formal_primary_points": 5,
+  "n_robust_primary_points": 2,
+  "n_supported_primary_points": 2,
+  "n_ambiguous_neighbor_pairs": 2,
+  "n_weak_neighbor_peaks": 0,
+  "n_caution_points": 4,
+  "judgement_by_point": {
+    "RP001": {
+      "point_day": 45,
+      "month_day": "05-16",
+      "point_role": "formal_primary_point",
+      "judgement": "robust_primary_point",
+      "bootstrap_match_rate": 0.98,
+      "yearwise_exact_hit_fraction": 0.2222222222222222,
+      "path_presence_rate": 1.0,
+      "caution_note": null
+    },
+    "RP002": {
+      "point_day": 81,
+      "month_day": "06-21",
+      "point_role": "formal_primary_point",
+      "judgement": "supported_primary_point",
+      "bootstrap_match_rate": 0.91,
+      "yearwise_exact_hit_fraction": 0.13333333333333333,
+      "path_presence_rate": 1.0,
+      "caution_note": "atrack_warning"
+    },
+    "RP003": {
+      "point_day": 113,
+      "month_day": "07-23",
+      "point_role": "formal_primary_point",
+      "judgement": "robust_primary_point",
+      "bootstrap_match_rate": 0.98,
+      "yearwise_exact_hit_fraction": 0.2,
+      "path_presence_rate": 1.0,
+      "caution_note": null
+    },
+    "LP006": {
+      "point_day": 132,
+      "month_day": "08-11",
+      "point_role": "neighbor_local_peak",
+      "judgement": "ambiguous_neighbor_pair",
+      "bootstrap_match_rate": 0.78,
+      "yearwise_exact_hit_fraction": 0.24444444444444444,
+      "path_presence_rate": 1.0,
+      "caution_note": "high_ambiguity;wide_center_spread;atrack_warning;neighbor_tie"
+    },
+    "RP004": {
+      "point_day": 135,
+      "month_day": "08-14",
+      "point_role": "formal_primary_point",
+      "judgement": "ambiguous_neighbor_pair",
+      "bootstrap_match_rate": 0.75,
+      "yearwise_exact_hit_fraction": 0.2222222222222222,
+      "path_presence_rate": 1.0,
+      "caution_note": "high_ambiguity;atrack_warning;neighbor_tie"
+    },
+    "RP005": {
+      "point_day": 160,
+      "month_day": "09-08",
+      "point_role": "formal_primary_point",
+      "judgement": "supported_primary_point",
+      "bootstrap_match_rate": 0.91,
+      "yearwise_exact_hit_fraction": 0.26666666666666666,
+      "path_presence_rate": 1.0,
+      "caution_note": "atrack_warning"
+    }
+  },
+  "source_run_tag": "mainline_v3_i",
+  "uses_existing_point_stability_outputs": true,
+  "point_layer_scope": "formal_primary_points_plus_neighbor_competition_points"
+}

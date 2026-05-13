@@ -1,0 +1,6 @@
+input,path,exists,status,keys,required,resolved_key
+smoothed_fields,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,True,loaded,precip_smoothed;u200_smoothed;z500_smoothed;v850_smoothed;lat;lon;years,,
+,,,ok,,u200,u200_smoothed
+,,,ok,,lat,lat
+,,,ok,,lon,lon
+,,,ok,,years,years

@@ -1,0 +1,15 @@
+﻿window_id,object,candidate_id,peak_day,band_start_day,band_end_day,peak_score,peak_prominence,peak_rank,overlap_days_with_W45,overlap_fraction_with_W45,left_stop_reason,right_stop_reason,bootstrap_support,support_class,relation_to_system_window
+W045,P,CP001,43,33,53,141.265280568895,128.70557999238957,1,9,1.0,floor_or_width,floor_or_width,0.985,accepted_window,within_system_window
+W045,P,CP002,19,14,19,14.116796046825854,1.2657785560605745,2,0,0.0,floor_or_width,floor_or_width,0.712,weak_window,pre_window
+W045,P,CP003,16,16,16,13.597302302694745,0.014156515955251692,3,0,0.0,floor_or_width,floor_or_width,0.594,weak_window,pre_window
+W045,V,CP001,44,34,54,18.210660603001187,15.875129147595235,1,9,1.0,floor_or_width,floor_or_width,0.987,accepted_window,within_system_window
+W045,V,CP002,30,20,40,5.94556205527486,2.733031433414685,2,1,0.1111111111111111,floor_or_width,floor_or_width,0.801,candidate_window,front_or_early
+W045,V,CP003,16,14,26,4.332931869964025,0.6026102726455029,3,0,0.0,floor_or_width,floor_or_width,0.702,weak_window,pre_window
+W045,H,CP001,19,14,29,15235.566331203076,4656.882195828552,1,0,0.0,floor_or_width,floor_or_width,0.901,candidate_window,pre_window
+W045,H,CP002,31,21,41,11685.041557737155,953.3078454737788,2,2,0.2222222222222222,floor_or_width,floor_or_width,0.791,weak_window,front_or_early
+W045,H,CP003,56,46,59,4304.587527997728,268.94193580449155,3,3,0.3333333333333333,floor_or_width,floor_or_width,0.637,weak_window,post_window
+W045,Je,CP001,28,18,38,1158.1604239717494,587.9917104500962,1,0,0.0,floor_or_width,floor_or_width,0.764,weak_window,pre_window
+W045,Je,CP002,21,14,31,997.5739427011083,1.9710464747926153,2,0,0.0,floor_or_width,floor_or_width,0.64,weak_window,pre_window
+W045,Je,CP003,46,36,56,415.67555870100267,62.73038455925854,3,9,1.0,floor_or_width,floor_or_width,0.801,candidate_window,within_system_window
+W045,Jw,CP001,49,39,59,679.3604249755329,287.8929570693007,1,9,1.0,floor_or_width,floor_or_width,0.86,candidate_window,late_or_catchup
+W045,Jw,CP002,15,14,25,557.6651775614819,0.5998873748231972,2,0,0.0,floor_or_width,floor_or_width,0.503,weak_window,pre_window

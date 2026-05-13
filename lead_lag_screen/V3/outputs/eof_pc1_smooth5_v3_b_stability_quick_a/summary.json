@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "output_tag": "eof_pc1_smooth5_v3_b_stability_quick_a",
+  "started_at": "2026-04-28T19:14:18",
+  "finished_at": "2026-04-28T19:42:28",
+  "runtime_seconds": 1690.778,
+  "field_input_meta": {
+    "field_input_mode": "anomaly_fields",
+    "preprocess_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess",
+    "used_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\anomaly_fields.npz",
+    "fallback_used": false,
+    "npz_keys": [
+      "lat",
+      "lon",
+      "precip_anom",
+      "u200_anom",
+      "v850_anom",
+      "years",
+      "z500_anom"
+    ]
+  },
+  "n_years": 45,
+  "n_windows": 9,
+  "n_objects": 5,
+  "n_pc1_pair_rows": 180,
+  "mode_stability_counts": {
+    "pc1_mode_unstable": 44,
+    "pc1_mode_moderate": 1
+  },
+  "lag_vs_tau0_counts": {
+    "lag_tau0_close_uncertain": 77,
+    "stable_lag_dominant": 36,
+    "stable_tau0_dominant": 34,
+    "mixed_lag_tau0_unstable": 33
+  },
+  "forward_reverse_counts": {
+    "mixed_forward_reverse_unstable": 65,
+    "forward_reverse_close": 52,
+    "stable_forward_over_reverse": 33,
+    "reverse_competitive": 30
+  },
+  "peak_lag_stability_counts": {
+    "peak_lag_stable": 111,
+    "peak_lag_moderate": 42,
+    "peak_lag_unstable": 27
+  },
+  "stability_judgement_counts": {
+    "pc1_mode_limited": 180
+  },
+  "interpretation_scope": "formal EOF-PC1 lead-lag stability judgement; V3_a exploratory labels are not sufficient for formal lead-lag claims",
+  "primary_new_gates": [
+    "pc1_mode_stability",
+    "lag_vs_tau0_stability",
+    "forward_vs_reverse_stability",
+    "peak_lag_stability",
+    "final_stability_judgement"
+  ],
+  "hard_boundaries": {
+    "does_pathway_inference": false,
+    "does_causal_inference": false,
+    "uses_only_PC1": true,
+    "does_not_treat_positive_lag_significance_as_stable_lag": true
+  }
+}

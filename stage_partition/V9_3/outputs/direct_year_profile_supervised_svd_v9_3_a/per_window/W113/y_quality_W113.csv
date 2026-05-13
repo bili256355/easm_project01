@@ -1,0 +1,13 @@
+﻿n_valid_years,n_missing_years,n_low_quality_peak_years,Y_std,Y_range,Y_iqr,n_near_zero_delta_years,y_quality_flag,window_id,target_pair,target_set
+45,0,45,6.868314012458762,27.0,9.0,10,warning_many_low_quality_peaks,W113,P-V,priority
+45,0,45,6.820942202163315,32.0,9.0,6,warning_many_low_quality_peaks,W113,P-H,exploratory_full_pair
+45,0,45,7.171914921160431,35.0,10.0,8,warning_many_low_quality_peaks,W113,P-Je,exploratory_full_pair
+45,0,45,7.652358189380961,38.0,7.0,11,warning_many_low_quality_peaks,W113,P-Jw,exploratory_full_pair
+45,0,45,5.671299354084243,31.0,4.0,14,warning_many_low_quality_peaks,W113,V-H,exploratory_full_pair
+45,0,45,6.689732823702696,30.0,9.0,7,warning_many_low_quality_peaks,W113,V-Je,priority
+45,0,45,7.228730556228075,35.0,10.0,6,warning_many_low_quality_peaks,W113,V-Jw,exploratory_full_pair
+45,0,45,7.056553655641648,27.0,8.0,10,warning_many_low_quality_peaks,W113,H-Je,priority
+45,0,45,7.846249828015697,36.0,9.0,12,warning_many_low_quality_peaks,W113,H-Jw,exploratory_full_pair
+45,0,45,8.237448364363539,38.0,12.0,6,warning_many_low_quality_peaks,W113,Je-Jw,exploratory_full_pair
+45,0,45,7.228730556228075,35.0,10.0,6,warning_many_low_quality_peaks,W113,Jw-V,priority
+45,0,45,7.846249828015697,36.0,9.0,12,warning_many_low_quality_peaks,W113,Jw-H,priority

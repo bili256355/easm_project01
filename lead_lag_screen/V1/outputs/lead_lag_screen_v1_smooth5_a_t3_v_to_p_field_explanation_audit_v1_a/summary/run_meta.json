@@ -1,0 +1,113 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_field_explanation_audit_v1_a",
+    "foundation_preprocess_rel": "foundation/V1/outputs/baseline_smooth5_a/preprocess",
+    "foundation_indices_rel": "foundation/V1/outputs/baseline_smooth5_a/indices",
+    "use_legacy_t3_window": false,
+    "windows_main": {
+      "S3": [
+        87,
+        106
+      ],
+      "T3_early": [
+        107,
+        112
+      ],
+      "T3_full": [
+        107,
+        117
+      ],
+      "T3_late": [
+        113,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ]
+    },
+    "windows_legacy": {
+      "S3": [
+        90,
+        107
+      ],
+      "T3_early": [
+        106,
+        113
+      ],
+      "T3_full": [
+        106,
+        120
+      ],
+      "T3_late": [
+        114,
+        120
+      ],
+      "S4": [
+        120,
+        158
+      ]
+    },
+    "v_indices": [
+      "V_strength",
+      "V_NS_diff",
+      "V_pos_centroid_lat"
+    ],
+    "max_lag": 5,
+    "n_bootstrap": 1000,
+    "bootstrap_seed": 20260429,
+    "make_figures": true,
+    "use_cartopy": true,
+    "precip_aliases": [
+      "precip",
+      "precipitation",
+      "pr",
+      "rain",
+      "P"
+    ],
+    "regions": {
+      "main_meiyu": {
+        "lat_min": 24.0,
+        "lat_max": 35.0,
+        "lon_min": 100.0,
+        "lon_max": 125.0
+      },
+      "south_china": {
+        "lat_min": 18.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 120.0
+      },
+      "scs": {
+        "lat_min": 10.0,
+        "lat_max": 20.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "south_china_scs": {
+        "lat_min": 10.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "north_northeast": {
+        "lat_min": 35.0,
+        "lat_max": 50.0,
+        "lon_min": 110.0,
+        "lon_max": 135.0
+      },
+      "main_easm_domain": {
+        "lat_min": 10.0,
+        "lat_max": 50.0,
+        "lon_min": 100.0,
+        "lon_max": 135.0
+      }
+    }
+  },
+  "input_index_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+  "input_field_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+  "precip_key": "precip_smoothed",
+  "day_mapping_mode": "shape183_day_minus_1",
+  "year_mapping_mode": "npz_years"
+}

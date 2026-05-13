@@ -1,0 +1,148 @@
+{
+  "foundation": {
+    "project_root": "D:\\easm_project01",
+    "foundation_layer": "foundation",
+    "foundation_version": "V1",
+    "preprocess_output_tag": "baseline_a"
+  },
+  "profile": {
+    "lat_step_deg": 2.0,
+    "p_lon_range": [
+      105.0,
+      125.0
+    ],
+    "p_lat_range": [
+      15.0,
+      39.0
+    ],
+    "v_lon_range": [
+      105.0,
+      125.0
+    ],
+    "v_lat_range": [
+      10.0,
+      30.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "je_lon_range": [
+      120.0,
+      150.0
+    ],
+    "je_lat_range": [
+      25.0,
+      45.0
+    ],
+    "jw_lon_range": [
+      80.0,
+      110.0
+    ],
+    "jw_lat_range": [
+      25.0,
+      45.0
+    ]
+  },
+  "state": {
+    "standardize": true,
+    "block_equal_contribution": true
+  },
+  "ruptures_window": {
+    "enabled": true,
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "fixed_n_bkps": null,
+    "pen": 4.0,
+    "epsilon": null
+  },
+  "edge": {
+    "min_distance_days": 3,
+    "prominence_quantile": 0.8,
+    "nearest_peak_search_radius": 10
+  },
+  "window_construction": {
+    "nearest_peak_search_radius": 10,
+    "support_rel_prominence": 0.35,
+    "support_floor_quantile": 0.6,
+    "support_floor_ratio": 0.15,
+    "merge_gap_days": 3,
+    "min_band_width_days": 1,
+    "valley_relief_tolerance": 0.1
+  },
+  "support": {
+    "enable_param_path": true,
+    "enable_bootstrap": true,
+    "enable_permutation": true,
+    "bootstrap_reps": 100,
+    "random_seed": 42,
+    "ruptures_width_grid": [
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "ruptures_pen_grid": [
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "permutation_reps": 200,
+    "overlap_ratio_threshold": 0.5,
+    "center_tolerance_days": 3,
+    "match_mode": "strict_window_overlap",
+    "support_overlap_ratio_min": 0.5,
+    "support_overlap_days_min": 1,
+    "support_center_tolerance_is_auxiliary_only": true
+  },
+  "retention": {
+    "min_support_score": 0.3,
+    "min_bootstrap_effective": 20,
+    "min_param_path_hit_fraction": 0.5
+  },
+  "output": {
+    "output_tag": "mainline_v3_f",
+    "write_plots": true,
+    "emit_yearwise_outputs": true
+  },
+  "yearwise_support": {
+    "near_peak_tolerance_days": 3,
+    "overlap_days_min": 1,
+    "overlap_ratio_min": 0.5,
+    "headline_support_mode": "strict_overlap",
+    "emit_relation_audit": true,
+    "emit_support_summary": true
+  },
+  "point_significance": {
+    "enabled": true,
+    "null_reps": 500,
+    "null_shift_mode": "yearwise_circular_shift",
+    "local_window_days": 2,
+    "bootstrap_presence_tolerance_days": 2,
+    "neighbor_competition_radius_days": 5,
+    "global_alpha": 0.05,
+    "local_alpha": 0.1,
+    "bootstrap_stable_min": 0.6,
+    "param_stable_min": 0.6,
+    "yearwise_near_min": 0.4,
+    "null_compare_mode": "matched_peak_same_scale",
+    "null_global_peak_mode": "formal_point_ranked_peak",
+    "null_local_match_tolerance_days": 2,
+    "peak_prominence_min": 0.0,
+    "peak_distance_min_days": 3,
+    "competition_tie_tolerance_score": 0.03,
+    "competition_tie_tolerance_winfrac": 0.08,
+    "competition_tie_tolerance_bootstrap": 0.08,
+    "competition_tie_tolerance_yearwise": 0.08,
+    "competition_decision_mode": "pairwise_closed_verbose"
+  }
+}

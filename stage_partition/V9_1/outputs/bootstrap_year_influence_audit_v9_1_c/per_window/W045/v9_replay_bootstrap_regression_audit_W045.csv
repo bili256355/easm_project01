@@ -1,0 +1,16 @@
+﻿window_id,table,object,status,max_day_summary_diff,n_v9,median_v9,q025_v9,q975_v9,n_replay,median_replay,q025_replay,q975_replay,object_A,object_B,max_probability_diff
+W045,object_bootstrap_distribution,H,pass,0.0,1000.0,36.0,31.0,55.0,1000.0,36.0,31.0,55.0,,,
+W045,object_bootstrap_distribution,Je,pass,0.0,1000.0,46.0,43.0,51.0,1000.0,46.0,43.0,51.0,,,
+W045,object_bootstrap_distribution,Jw,pass,0.0,1000.0,42.0,38.0,50.0,1000.0,42.0,38.0,50.0,,,
+W045,object_bootstrap_distribution,P,pass,0.0,1000.0,45.0,40.0,47.0,1000.0,45.0,40.0,47.0,,,
+W045,object_bootstrap_distribution,V,pass,0.0,1000.0,45.0,41.0,50.0,1000.0,45.0,41.0,50.0,,,
+W045,pairwise_peak_order,,pass,,,,,,,,,,H,Je,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,H,Jw,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,Je,Jw,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,P,H,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,P,Je,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,P,Jw,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,P,V,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,V,H,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,V,Je,0.0
+W045,pairwise_peak_order,,pass,,,,,,,,,,V,Jw,0.0

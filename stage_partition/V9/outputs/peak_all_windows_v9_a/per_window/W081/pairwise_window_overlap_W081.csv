@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,A_window_start,A_window_end,B_window_start,B_window_end,overlap_start,overlap_end,overlap_days,union_days,overlap_fraction,A_peak_inside_B_window,B_peak_inside_A_window,both_peaks_inside_system_window,window_overlap_decision
+W081,P,V,72,92,70,90,72,90,19,23,0.8260869565217391,True,True,True,window_overlap_strong
+W081,P,H,72,92,67,87,72,87,16,26,0.6153846153846154,True,True,True,window_overlap_strong
+W081,P,Je,72,92,71,91,72,91,20,22,0.9090909090909091,True,True,True,window_overlap_strong
+W081,P,Jw,72,92,73,92,73,92,20,21,0.9523809523809523,True,True,True,window_overlap_strong
+W081,V,H,70,90,67,87,70,87,18,24,0.75,True,True,True,window_overlap_strong
+W081,V,Je,70,90,71,91,71,90,20,22,0.9090909090909091,True,True,True,window_overlap_strong
+W081,V,Jw,70,90,73,92,73,90,18,23,0.782608695652174,True,True,True,window_overlap_strong
+W081,H,Je,67,87,71,91,71,87,17,25,0.68,True,True,True,window_overlap_strong
+W081,H,Jw,67,87,73,92,73,87,15,26,0.5769230769230769,True,True,True,window_overlap_partial
+W081,Je,Jw,71,91,73,92,73,91,19,22,0.8636363636363636,True,True,True,window_overlap_strong

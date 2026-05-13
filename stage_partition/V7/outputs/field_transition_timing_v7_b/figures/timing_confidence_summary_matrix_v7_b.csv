@@ -1,0 +1,5 @@
+window_id,H,Je,Jw,P,V
+W002,boundary_truncated,timing_uncertain,timing_uncertain,timing_uncertain,timing_moderate
+W003,timing_uncertain,boundary_truncated,timing_uncertain,timing_uncertain,boundary_truncated
+W005,timing_moderate,timing_uncertain,boundary_truncated,boundary_truncated,timing_uncertain
+W007,timing_uncertain,timing_moderate,boundary_truncated,timing_uncertain,timing_uncertain

@@ -1,0 +1,8 @@
+﻿variant,family,comparison_role,window_name,start_day,end_day,reference,duration_days
+T3_current_107_117_len11,T3_current,baseline_T3_current,T3_current,107,117,current V1_1 T3 window,11
+S3_center_equal11_092_102,equal_length_control,S3_11day_control,S3_equal11,92,102,11-day control centered within S3,11
+S4_center_equal11_131_141,equal_length_control,S4_11day_control,S4_equal11,131,141,11-day control centered within S4,11
+T3_expand_symmetric17_104_120,T3_expansion,T3_symmetric_expansion_17day,T3_expand17,104,120,T3 expanded 3 days backward and forward,17
+T3_expand_symmetric23_101_123,T3_expansion,T3_symmetric_expansion_23day,T3_expand23,101,123,T3 expanded 6 days backward and forward,23
+T3_expand_backward17_101_117,T3_expansion,T3_backward_expansion_17day,T3_back17,101,117,T3 expanded only backward toward S3,17
+T3_expand_forward17_107_123,T3_expansion,T3_forward_expansion_17day,T3_forw17,107,123,T3 expanded only forward toward S4,17

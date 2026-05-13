@@ -1,0 +1,3 @@
+﻿object,detector_type,selected_candidate_id,selected_peak_day,selected_window_start,selected_window_end,selected_support_class,selected_bootstrap_support,selected_relation_to_W45,selection_reason,excluded_candidates
+Je,raw_profile,CP001,46,36,56,accepted_window,0.978,overlap_W45,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP002:day26/candidate_window;CP003:day33/weak_window
+Je,shape_pattern,CP001,33,23,43,accepted_window,0.957,W45_front_overlap,hotfix_01_rank_by_support_W45_overlap_context_score_not_CP001,CP003:day45/candidate_window;CP002:day20/weak_window

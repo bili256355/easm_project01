@@ -1,0 +1,5 @@
+﻿window_id,mode,explained_variance_ratio,cumulative_variance_ratio,total_eof_energy,mode_role
+W081,1,0.10779447967881378,0.10779447967881378,0.9999999999999998,MEOF_transition_mode_candidate_not_physical_type
+W081,2,0.09245074833512479,0.20024522801393857,0.9999999999999989,MEOF_transition_mode_candidate_not_physical_type
+W081,3,0.0706034453609484,0.27084867337488694,0.9999999999999989,MEOF_transition_mode_candidate_not_physical_type
+W081,4,0.06602022837858793,0.33686890175347484,0.9999999999999987,MEOF_transition_mode_candidate_not_physical_type

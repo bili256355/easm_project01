@@ -1,0 +1,4 @@
+﻿unit_type,unit_label,n_units,median_q90_width,n_unstable_units,dominant_progress_quality_label,interpretation,latbin_vs_interp_verdict
+whole_field_H_current_interp_profile,whole_field_H,1,,,monotonic_clear_progress,"V7-e whole-field result, based on current interpolated 2-degree profile construction.",latbin_mean_does_not_improve_stability
+single_2deg_interp_feature_v7_f,single_interp_feature,11,14.0,10.0,nonmonotonic_progress,V7-f single-feature result using current 2-degree interpolated lat points; diagnostic only.,latbin_mean_does_not_improve_stability
+single_2deg_latbin_mean_feature_v7_i,single_latbin_mean_feature,11,14.0,10.0,nonmonotonic_progress,V7-i single-feature result using true raw-lat bin mean after lon mean; tests whether 2-degree feature construction had real lat-direction denoising.,latbin_mean_does_not_improve_stability

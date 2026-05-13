@@ -1,0 +1,9 @@
+{
+  "version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "elapsed_seconds": 443.5697274208069,
+  "n_windows_available": 4,
+  "n_windows_processed": 1,
+  "n_final_claims": 10,
+  "n_downgraded_signals": 0,
+  "output_root": "D:\\easm_project01\\stage_partition\\V7\\outputs\\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order"
+}

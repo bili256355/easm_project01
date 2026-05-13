@@ -1,0 +1,9 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V1",
+  "depends_on": {
+    "foundation": "V1"
+  },
+  "parent_version": null,
+  "status": "active"
+}

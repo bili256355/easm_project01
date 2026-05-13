@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\H_Jw_pattern_similarity_window_audit_v7_x",
+  "n_curve_rows": 426,
+  "n_pattern_state_peaks": 36,
+  "n_pattern_growth_windows": 30,
+  "key_outputs": [
+    "H_Jw_pattern_similarity_trajectory_curves_v7_x.csv",
+    "H_Jw_early_pattern_ramp_audit_v7_x.csv",
+    "H_Jw_pattern_segment_advantage_v7_x.csv",
+    "H_Jw_pattern_lag_alignment_v7_x.csv",
+    "H_Jw_pattern_state_detector_peaks_v7_x.csv",
+    "H_Jw_pattern_growth_windows_v7_x.csv",
+    "H_Jw_pattern_similarity_window_audit_summary_v7_x.csv"
+  ]
+}

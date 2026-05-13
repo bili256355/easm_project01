@@ -1,0 +1,5 @@
+﻿window_id,n_total_pairs,n_original_priority,n_added_all_pair,n_pass_permutation_95,n_pass_permutation_strict_99,n_pass_signflip_direction_99,n_mode_stable,n_not_extreme_year_dominated,n_evidence_pair_specific,n_evidence_common_mode,n_evidence_locking,n_evidence_gradient,window_coverage_status
+W045,10,3,7,10,10,10,10,10,1,8,0,1,all_10_pairs_audited
+W081,10,3,7,10,10,10,10,10,1,2,1,6,all_10_pairs_audited
+W113,10,5,5,10,10,10,10,10,1,5,3,1,all_10_pairs_audited
+W160,10,4,6,10,10,10,10,10,0,4,1,5,all_10_pairs_audited

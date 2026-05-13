@@ -1,0 +1,8 @@
+peak_day,score_peak,threshold_used,distance_to_threshold,passes_threshold,blocked_by_detection_interval,native_accept_flag,edge_flag,api_mode
+110,-269.7851706073892,,,,,False,True,legacy_api
+78,-270.0155410966639,,,,,False,False,legacy_api
+161,-271.66767611191665,,,,,False,True,legacy_api
+44,-278.0892770127087,,,,,False,False,legacy_api
+17,-281.0827275352331,,,,,False,False,legacy_api
+29,-281.50113959178344,,,,,False,False,legacy_api
+137,-281.5997888402403,,,,,False,False,legacy_api

@@ -1,0 +1,121 @@
+﻿window_id,object_A,object_B,baseline_config,metric_family,metric_name,delta_definition,observed,P_A_direction_observed,P_B_direction_observed,ahead_fraction_A_gt_B
+W160,H,Je,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.0374584159536591,False,True,0.3076923076923077
+W160,H,Je,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.01676814630741319,True,False,
+W160,H,Je,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.05422328972153049,True,False,0.6923076923076923
+W160,H,Je,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.4984879521754806,False,True,
+W160,H,Je,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.04923043871744976,False,True,0.2692307692307692
+W160,H,Je,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.15169654104937536,True,False,
+W160,H,Je,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.09244028308473541,True,False,0.8461538461538461
+W160,H,Je,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.48689594299798955,False,True,
+W160,H,Je,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.004942037074398593,False,True,0.5
+W160,H,Je,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.11048594683364854,True,False,
+W160,H,Je,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.11679294885466655,True,False,0.8461538461538461
+W160,H,Je,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.6018826615660942,False,True,
+W160,H,Jw,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.048436255670558204,False,True,0.23076923076923078
+W160,H,Jw,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.5072734456908847,False,True,
+W160,H,Jw,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.18245874903543974,True,False,1.0
+W160,H,Jw,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.0944139653128104,True,False,
+W160,H,Jw,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.06131549477000205,False,True,0.11538461538461539
+W160,H,Jw,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.3314943104938095,False,True,
+W160,H,Jw,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.1940642360993564,True,False,1.0
+W160,H,Jw,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.1172109645650323,True,False,
+W160,H,Jw,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.015212632582275398,False,True,0.5
+W160,H,Jw,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.052848376784027096,True,False,
+W160,H,Jw,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.21136362393888547,True,False,1.0
+W160,H,Jw,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,2.983923024598795,True,False,
+W160,H,P,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.0032696706372125103,True,False,0.46153846153846156
+W160,H,P,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.06854189828158042,True,False,
+W160,H,P,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.22397422981101375,True,False,0.6923076923076923
+W160,H,P,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,4.741737436292823,True,False,
+W160,H,P,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.013716650109587844,False,True,0.4230769230769231
+W160,H,P,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.032872193519807524,False,True,
+W160,H,P,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.19986107853949964,True,False,0.6538461538461539
+W160,H,P,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,4.614357969401368,True,False,
+W160,H,P,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.05012469404839389,False,True,0.3076923076923077
+W160,H,P,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-1.2289886800949432,False,True,
+W160,H,P,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.17184030509153647,True,False,0.6923076923076923
+W160,H,P,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.638464371837017,True,False,
+W160,H,V,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.022606898838495537,False,True,0.5769230769230769
+W160,H,V,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.11416119432161054,False,True,
+W160,H,V,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.050616534542586585,True,False,0.6153846153846154
+W160,H,V,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,2.4016922882500182,True,False,
+W160,H,V,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.05079786384707819,False,True,0.46153846153846156
+W160,H,V,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.12209866985151052,True,False,
+W160,H,V,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.023447557228357865,True,False,0.5384615384615384
+W160,H,V,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,2.412786391705737,True,False,
+W160,H,V,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.02958509877266446,False,True,0.6153846153846154
+W160,H,V,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.4765551838337103,True,False,
+W160,H,V,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.22025499650001246,True,False,0.6538461538461539
+W160,H,V,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,2.582296169967634,True,False,
+W160,Je,Jw,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.010977839716899102,False,True,0.38461538461538464
+W160,Je,Jw,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.5240415919982979,False,True,
+W160,Je,Jw,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.12823545931390926,True,False,0.8461538461538461
+W160,Je,Jw,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.592901917488291,True,False,
+W160,Je,Jw,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.012085056052552305,False,True,0.3076923076923077
+W160,Je,Jw,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.48319085154318486,False,True,
+W160,Je,Jw,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.10162395301462104,True,False,0.8461538461538461
+W160,Je,Jw,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.604106907563022,True,False,
+W160,Je,Jw,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.010270595507876809,False,True,0.38461538461538464
+W160,Je,Jw,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.057637570049621445,False,True,
+W160,Je,Jw,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.09457067508421894,True,False,0.8076923076923077
+W160,Je,Jw,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.585805686164889,True,False,
+W160,Je,P,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.04072808659087161,True,False,0.7692307692307693
+W160,Je,P,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.051773751974167226,True,False,
+W160,Je,P,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.16975094008948324,True,False,0.6923076923076923
+W160,Je,P,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,5.240225388468303,True,False,
+W160,Je,P,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.03551378860786191,True,False,0.6923076923076923
+W160,Je,P,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.18456873456918288,False,True,
+W160,Je,P,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.10742079545476423,True,False,0.6538461538461539
+W160,Je,P,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,5.101253912399358,True,False,
+W160,Je,P,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.04518265697399531,False,True,0.15384615384615385
+W160,Je,P,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-1.3394746269285918,False,True,
+W160,Je,P,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.05504735623686995,True,False,0.6923076923076923
+W160,Je,P,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,4.240347033403111,True,False,
+W160,Je,V,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.01485151711516356,True,False,0.6923076923076923
+W160,Je,V,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.13092934062902373,False,True,
+W160,Je,V,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.0036067551789439214,False,True,0.46153846153846156
+W160,Je,V,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,2.900180240425499,True,False,
+W160,Je,V,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.0015674251296284377,False,True,0.6538461538461539
+W160,Je,V,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.029597871197864833,False,True,
+W160,Je,V,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.06899272585637753,False,True,0.34615384615384615
+W160,Je,V,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,2.8996823347037264,True,False,
+W160,Je,V,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.024643061698265873,False,True,0.38461538461538464
+W160,Je,V,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.3660692370000618,True,False,
+W160,Je,V,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.10346204764534596,True,False,0.6153846153846154
+W160,Je,V,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,3.1841788315337283,True,False,
+W160,Jw,P,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.051705926307770704,True,False,0.6538461538461539
+W160,Jw,P,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.5758153439724651,True,False,
+W160,Jw,P,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.041515480775574,True,False,0.5769230769230769
+W160,Jw,P,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,1.6473234709800124,True,False,
+W160,Jw,P,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.04759884466041421,True,False,0.6538461538461539
+W160,Jw,P,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.298622116974002,True,False,
+W160,Jw,P,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.005796842440143211,True,False,0.5384615384615384
+W160,Jw,P,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,1.4971470048363358,True,False,
+W160,Jw,P,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.0349120614661185,False,True,0.23076923076923078
+W160,Jw,P,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-1.2818370568789703,False,True,
+W160,Jw,P,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.03952331884734899,False,True,0.5
+W160,Jw,P,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.6545413472382222,True,False,
+W160,Jw,V,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.025829356832062663,True,False,0.6538461538461539
+W160,Jw,V,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.3931122513692742,True,False,
+W160,Jw,V,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.13184221449285316,False,True,0.11538461538461539
+W160,Jw,V,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.6927216770627922,False,True,
+W160,Jw,V,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.010517630922923866,True,False,0.6153846153846154
+W160,Jw,V,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.45359298034532003,True,False,
+W160,Jw,V,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.17061667887099854,False,True,0.11538461538461539
+W160,Jw,V,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.7044245728592955,False,True,
+W160,Jw,V,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.014372466190389063,False,True,0.6153846153846154
+W160,Jw,V,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.4237068070496832,True,False,
+W160,Jw,V,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.008891372561126978,True,False,0.5769230769230769
+W160,Jw,V,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.40162685463116077,False,True,
+W160,P,V,C0_full_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.025876569475708044,False,True,0.34615384615384615
+W160,P,V,C0_full_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-0.18270309260319095,False,True,
+W160,P,V,C0_full_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.17335769526842718,False,True,0.23076923076923078
+W160,P,V,C0_full_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-2.3400451480428046,False,True,
+W160,P,V,C1_buffered_stage,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.03708121373749035,False,True,0.34615384615384615
+W160,P,V,C1_buffered_stage,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,0.15497086337131805,True,False,
+W160,P,V,C1_buffered_stage,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,-0.1764135213111417,False,True,0.23076923076923078
+W160,P,V,C1_buffered_stage,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-2.2015715776956313,False,True,
+W160,P,V,C2_immediate_pre,state_dist,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.02053959527572944,True,False,0.6153846153846154
+W160,P,V,C2_immediate_pre,growth_dist,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,1.7055438639286535,True,False,
+W160,P,V,C2_immediate_pre,state_pattern,mean_state_advantage_A_minus_B,A_minus_B; positive means A state progress is higher/ahead,0.04841469140847598,True,False,0.5769230769230769
+W160,P,V,C2_immediate_pre,growth_pattern,growth_center_delta_B_minus_A,B_center_minus_A_center; positive means A growth center earlier,-1.056168201869383,False,True,

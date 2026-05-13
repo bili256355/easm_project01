@@ -1,0 +1,5 @@
+window_id,start_day,end_day,center_day,main_peak_day,n_member_points,member_candidate_ids,max_member_bootstrap_match_fraction,merge_reason,protected_split_flag
+W002,40,48,44,45,1,CP002,0.993,non_overlap,False
+W003,75,86,80,81,1,CP003,0.951,non_overlap,False
+W005,107,117,112,113,1,CP005,0.987,non_overlap,False
+W007,155,164,160,160,1,CP008,0.962,final_group,False

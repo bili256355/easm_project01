@@ -1,0 +1,62 @@
+{
+  "status": "success",
+  "created_at": "2026-05-02T15:28:37",
+  "output_tag": "w45_progress_implementation_failure_audit_v7_e3",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "input_dirs": {
+    "v7e_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e",
+    "e1_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\progress_order_significance_audit_v7_e1",
+    "e2_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\progress_order_failure_audit_v7_e2"
+  },
+  "n_fields": 5,
+  "n_tail_pairs": 8,
+  "n_role_rows": 5,
+  "implementation_validity_counts": {
+    "valid_for_statistical_audit": 3,
+    "partly_valid_with_caution": 2
+  },
+  "field_role_counts": {
+    "middle_early_unresolved": 2,
+    "middle_late_unresolved": 1,
+    "early_broad_candidate": 1,
+    "late_candidate": 1
+  },
+  "decision": {
+    "window_id": "W002",
+    "anchor_day": 45,
+    "dominant_failure_type": "tail_uncertainty",
+    "implementation_validity_overall": "partly_valid_with_caution",
+    "h_morphology_label": "broad_transition_midpoint_limited",
+    "h_implementation_validity_label": "partly_valid_with_caution",
+    "dominant_h_tail_type": "mixed_tail",
+    "middle_fields_overlap_status": "central_overlap",
+    "is_worth_region_level_progress": true,
+    "region_level_priority": "high_for_H",
+    "recommended_next_action": "run_H_focused_region_or_feature_level_progress_before_upgrading_W45_order",
+    "decision_reason": "H shows broad/uncertain midpoint behavior or H-tail failures; W45 H early tendency may be spatially heterogeneous."
+  },
+  "input_audit_checks": {
+    "observed_has_w45": true,
+    "bootstrap_samples_has_w45": true,
+    "bootstrap_summary_has_w45": true,
+    "e1_pairwise_has_w45": true,
+    "e2_pairwise_has_w45": true,
+    "observed_fields_complete": true,
+    "bootstrap_fields_complete": true,
+    "bootstrap_summary_fields_complete": true,
+    "e1_w45_pair_count": 10,
+    "e2_w45_pair_count": 10,
+    "e1_w45_has_10_pairs": true,
+    "e2_w45_has_10_pairs": true,
+    "observed_curves_available": true
+  },
+  "notes": [
+    "This audit reads V7-e, V7-e1, and V7-e2 outputs only.",
+    "It does not rerun progress timing.",
+    "It does not modify statistical thresholds.",
+    "Implementation validity is checked before interpreting pairwise statistics.",
+    "All five fields P/V/H/Je/Jw are retained in the role audit.",
+    "not_distinguishable is not interpreted as synchrony."
+  ]
+}

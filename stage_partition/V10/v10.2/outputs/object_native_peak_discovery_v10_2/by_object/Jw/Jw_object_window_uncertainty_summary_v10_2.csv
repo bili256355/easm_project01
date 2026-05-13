@@ -1,0 +1,6 @@
+﻿object,window_id,main_peak_day,main_peak_candidate_id,main_peak_bootstrap_match_fraction,n_returned_replicates_for_interval,return_day_median,return_day_q02_5,return_day_q97_5,return_day_p10,return_day_p90,return_day_iqr,return_day_width95,return_day_width80
+Jw,W001,41,CP001,0.913,988,41.0,37.675,48.0,38.0,46.0,4.0,10.325000000000003,8.0
+Jw,W002,83,CP002,0.806,954,83.0,76.0,89.0,77.0,87.0,5.0,13.0,10.0
+Jw,W003,104,CP003,0.898,992,104.0,100.0,111.0,101.0,109.0,5.0,11.0,8.0
+Jw,W004,130,CP004,0.923,987,130.0,125.0,136.0,128.0,133.0,2.0,11.0,5.0
+Jw,W005,152,CP005,0.729,892,152.0,145.0,159.0,147.0,158.0,5.0,14.0,11.0

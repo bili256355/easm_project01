@@ -1,0 +1,9 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+H_only,H,CLOSE_NEIGHBOR_3,W001,CP001,19,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W002,CP002,35,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W003,CP003,57,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W004,CP004,77,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W005,CP005,95,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W006,CP006,115,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W007,CP007,129,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+H_only,H,CLOSE_NEIGHBOR_3,W008,CP008,155,True,,window_merge,close_neighbor_exemption_days,3,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode

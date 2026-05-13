@@ -1,0 +1,4 @@
+p_target_group,early_mean_positive,late_mean_positive,late_minus_early_positive,full_mean_positive,early_n_positive_peak_clear,late_n_positive_peak_clear,early_n_weak_all_lags,late_n_weak_all_lags
+mainband_group,0.21574782134183262,0.14448157842903417,-0.07126624291279846,0.18945635787760987,3,1,2,7
+spread_centroid_south_group,0.3816075890570799,0.30341373009647876,-0.07819385896060116,0.3383638119695525,5,3,0,0
+north_group,0.32906997975038355,0.32376009177452875,-0.005309887975854799,0.30791545764375977,1,1,0,0

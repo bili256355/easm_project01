@@ -1,0 +1,46 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V5",
+  "run_scope": "paper_metric_local_peak_stability_only",
+  "headline_bootstrap_metric": "local_peak_recurrence",
+  "year_support_metric": "local_peak_support",
+  "object_aware_support_included": false,
+  "competition_included": false,
+  "parameter_path_included": false,
+  "final_judgement_included": false,
+  "n_reference_points": 5,
+  "n_points_bootstrap_summarized": 5,
+  "n_points_yearwise_summarized": 5,
+  "top_bootstrap_points": [
+    {
+      "point_id": "RP003",
+      "point_day": 113,
+      "bootstrap_local_peak_match_fraction": 0.995,
+      "bootstrap_local_peak_strict_fraction": 0.84
+    },
+    {
+      "point_id": "RP001",
+      "point_day": 45,
+      "bootstrap_local_peak_match_fraction": 0.98,
+      "bootstrap_local_peak_strict_fraction": 0.915
+    },
+    {
+      "point_id": "RP005",
+      "point_day": 160,
+      "bootstrap_local_peak_match_fraction": 0.905,
+      "bootstrap_local_peak_strict_fraction": 0.74
+    },
+    {
+      "point_id": "RP002",
+      "point_day": 81,
+      "bootstrap_local_peak_match_fraction": 0.875,
+      "bootstrap_local_peak_strict_fraction": 0.64
+    },
+    {
+      "point_id": "RP004",
+      "point_day": 135,
+      "bootstrap_local_peak_match_fraction": 0.785,
+      "bootstrap_local_peak_strict_fraction": 0.49
+    }
+  ]
+}

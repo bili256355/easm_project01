@@ -1,0 +1,32 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V7",
+  "run_label": "field_transition_timing_v7_b",
+  "status": "success",
+  "scope": "field-specific transition timing with bootstrap/LOYO support around accepted windows only",
+  "accepted_peak_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "n_bootstrap": 1000,
+  "n_years": 45,
+  "n_field_window_tests": 20,
+  "timing_confidence_counts": {
+    "timing_uncertain": 11,
+    "boundary_truncated": 6,
+    "timing_moderate": 3
+  },
+  "n_usable_for_timing_order": 3,
+  "downstream_lead_lag_included": false,
+  "pathway_included": false,
+  "spatial_earliest_region_included": false,
+  "causal_interpretation_included": false
+}

@@ -1,0 +1,48 @@
+{
+  "status": "success",
+  "audit": "v1_t3_t4_relation_drop_source_audit_a",
+  "input_csv": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables\\lead_lag_pair_summary_stability_judged.csv",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs",
+  "n_rows": 2772,
+  "n_columns": 106,
+  "windows": [
+    "S1",
+    "T1",
+    "S2",
+    "T2",
+    "S3",
+    "T3",
+    "S4",
+    "T4",
+    "S5"
+  ],
+  "target_windows": [
+    "T3",
+    "T4"
+  ],
+  "strict_label": "stable_lag_dominant",
+  "tau0_label": "significant_lagged_but_tau0_coupled",
+  "detected_columns": {
+    "window": "window",
+    "source_index": "source_variable",
+    "target_index": "target_variable",
+    "source_family": "source_family",
+    "target_family": "target_family",
+    "stability": "v1_stability_judgement",
+    "evidence_tier": "evidence_tier",
+    "lag_tau0": "lag_vs_tau0_label",
+    "forward_reverse": "forward_vs_reverse_label",
+    "primary_failure_reason": "failure_reason",
+    "lead_lag_label": "lead_lag_label"
+  },
+  "outputs": {
+    "window_gate_funnel_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\window_gate_funnel_summary.csv",
+    "family_direction_T3_T4_gap_contribution": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\family_direction_T3_T4_gap_contribution.csv",
+    "pair_survival_chain_S3_T3_S4_T4_S5": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\pair_survival_chain_S3_T3_S4_T4_S5.csv",
+    "T3_T4_near_miss_pairs": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\T3_T4_near_miss_pairs.csv",
+    "window_effect_size_distribution_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\window_effect_size_distribution_summary.csv",
+    "tier_to_stability_transition_by_window": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\tier_to_stability_transition_by_window.csv",
+    "failure_reason_counts_by_window": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\failure_reason_counts_by_window.csv",
+    "t3_t4_drop_source_diagnosis_table": "D:\\easm_project01\\lead_lag_screen\\V1\\t3_t4_relation_drop_source_audit_a\\outputs\\tables\\t3_t4_drop_source_diagnosis_table.csv"
+  }
+}

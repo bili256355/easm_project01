@@ -1,0 +1,48 @@
+{
+  "version": "state_coordinate_meaning_audit_v8_a",
+  "output_tag": "state_coordinate_meaning_audit_v8_a",
+  "state_relation_input_tag": "state_relation_v8_a",
+  "peak_only_input_tag": "peak_only_v8_a",
+  "config": {
+    "windows": [
+      "W045"
+    ],
+    "branches": [
+      "dist",
+      "pattern"
+    ],
+    "q_levels": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "alt_q_levels": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "min_hold_days_for_q": 3,
+    "peak_alignment_half_window": 5,
+    "min_common_days": 20,
+    "perm_n": 500,
+    "random_seed": 42
+  },
+  "strict_exclusions": {
+    "no_growth": true,
+    "no_process_a": true,
+    "no_state_segment_reclassification": true,
+    "raw_deltaS_not_auto_interpreted_as_progress": true
+  },
+  "input_status": {
+    "W045:object_state_curves": "found",
+    "W045:state_valid_day_audit": "found",
+    "W045:state_profile_reference_validity_audit": "found",
+    "W045:state_reproducibility_null_segment_summary": "found",
+    "W045:pairwise_state_relation_blocks": "found",
+    "W045:pairwise_state_block_bootstrap": "found",
+    "W045:main_window_selection": "found",
+    "W045:pairwise_peak_order_test": "found",
+    "W045:pairwise_synchrony_equivalence_test": "found"
+  }
+}

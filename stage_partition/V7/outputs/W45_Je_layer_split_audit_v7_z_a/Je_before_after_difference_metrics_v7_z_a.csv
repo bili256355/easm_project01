@@ -1,0 +1,3 @@
+﻿event,before_start,before_end,after_start,after_end,raw_l2_change,raw_mean_change,raw_amplitude_change,raw_axis_lat_change,shape_l2_change,shape_corr_before_after,shape_axis_lat_change,dominant_change_type
+day33_shape_peak,27,32,34,39,3.5230062401431885,-1.5720084847999658,2.3627040690182106,2.0,0.33264008535552597,0.8922587032714584,2.0,amplitude_or_raw_state_dominated
+day46_raw_peak,40,45,47,52,2.185177902251464,-1.5859956613134365,0.7662638026713928,0.0,0.13623494864314206,0.9868862382581458,0.0,amplitude_or_raw_state_dominated

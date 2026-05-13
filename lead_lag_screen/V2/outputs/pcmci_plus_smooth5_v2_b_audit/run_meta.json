@@ -1,0 +1,24 @@
+{
+  "layer": "lead_lag_screen/V2_b_audit",
+  "role": "diagnose why pcmci_plus_smooth5_v2_a is much narrower than V1 smooth5 lead-lag",
+  "started_at": "2026-04-27T22:53:05",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "v2a_output_tag": "pcmci_plus_smooth5_v2_a",
+    "output_tag": "pcmci_plus_smooth5_v2_b_audit",
+    "raw_p_alpha": 0.05,
+    "fdr_alpha": 0.05,
+    "top_n_examples": 80,
+    "v2a_output_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\outputs\\pcmci_plus_smooth5_v2_a",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\outputs\\pcmci_plus_smooth5_v2_b_audit",
+    "log_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\logs\\pcmci_plus_smooth5_v2_b_audit",
+    "v1_evidence_tier_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_evidence_tier_summary.csv"
+  },
+  "audit_boundaries": [
+    "This audit reads existing V2_a outputs; it does not rerun PCMCI+.",
+    "It decomposes graph selection, raw p-value, and within-window BH-FDR layers.",
+    "It audits tau=0 diagnostics against lagged tau=1..5 edges.",
+    "It does not test same-family conditioning sensitivity; that requires a separate rerun.",
+    "It does not produce pathway, mediator, or physical mechanism claims."
+  ]
+}

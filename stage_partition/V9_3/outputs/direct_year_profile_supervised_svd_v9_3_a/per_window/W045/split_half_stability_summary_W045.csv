@@ -1,0 +1,11 @@
+﻿window_id,target_pair,target_set,median_test_corr,frac_positive_test_corr,median_loading_corr,split_half_stability_flag
+W045,P-V,exploratory_full_pair,0.08684619907598254,0.73,0.07298294326260624,marginal
+W045,P-H,exploratory_full_pair,-0.3296875239578565,0.0,0.23231456708052842,unstable_or_unclear
+W045,P-Je,exploratory_full_pair,-0.012848526564624357,0.45,0.07357227365208124,unstable_or_unclear
+W045,P-Jw,priority,0.32100643147160945,1.0,0.211238347663532,marginal
+W045,V-H,exploratory_full_pair,-0.10396796106332036,0.17,0.112852786902529,unstable_or_unclear
+W045,V-Je,exploratory_full_pair,0.2527357029282461,0.99,0.13742190632630294,marginal
+W045,V-Jw,priority,0.3779765898463751,0.99,0.18154921209954186,marginal
+W045,H-Je,exploratory_full_pair,0.13960289711527257,0.79,0.10341775482175886,marginal
+W045,H-Jw,exploratory_full_pair,0.1165343780319811,0.79,0.08270065993798298,marginal
+W045,Je-Jw,priority,0.09937206161645547,0.73,0.10125412356036084,marginal

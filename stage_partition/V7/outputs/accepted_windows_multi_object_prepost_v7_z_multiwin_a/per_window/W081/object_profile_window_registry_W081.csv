@@ -1,0 +1,12 @@
+﻿window_id,object,candidate_id,peak_day,band_start_day,band_end_day,peak_score,peak_prominence,peak_rank,overlap_days_with_W45,overlap_fraction_with_W45,left_stop_reason,right_stop_reason,bootstrap_support,support_class,relation_to_system_window
+W081,P,CP001,82,72,92,1.6327910553421314,0.012001119136648697,1,13.0,1.0,max_half_width,max_half_width,0.919,candidate_window,within_system_window
+W081,P,CP002,96,86,102,1.2408639202117615,0.006614913348706786,2,2.0,0.15384615384615385,max_half_width,missing_day,0.68,weak_window,post_window
+W081,P,CP003,65,63,67,0.9380914648045919,0.023942081855326203,3,0.0,0.0,score_below_threshold,score_below_threshold,0.762,weak_window,front_or_early
+W081,V,CP001,78,68,88,0.9190109247121436,0.0010895784083240212,1,13.0,1.0,max_half_width,max_half_width,0.881,candidate_window,within_system_window
+W081,V,CP002,96,93,100,0.616398900086782,0.009971036390551635,2,0.0,0.0,score_below_threshold,score_below_threshold,0.973,accepted_window,post_window
+W081,H,CP001,79,69,89,14.425478768768254,0.05857498183354792,1,13.0,1.0,max_half_width,max_half_width,0.948,candidate_window,within_system_window
+W081,H,CP002,56,54,58,8.559455377573327,0.05190349494569624,2,0.0,0.0,score_below_threshold,score_below_threshold,0.738,weak_window,pre_window
+W081,H,CP003,62,60,64,8.245089058624087,0.014934079700008596,3,0.0,0.0,score_below_threshold,score_below_threshold,0.406,unstable_window,pre_window
+W081,Je,CP001,81,71,91,5.090535439307584,0.02542298494415629,1,13.0,1.0,max_half_width,max_half_width,0.775,weak_window,within_system_window
+W081,Je,CP002,93,83,102,4.658786736294119,0.020765846367943652,2,5.0,0.38461538461538464,max_half_width,missing_day,0.59,weak_window,post_window
+W081,Jw,CP001,76,66,86,4.412333164960497,0.016460097852009525,1,12.0,0.9230769230769231,max_half_width,max_half_width,0.836,candidate_window,within_system_window

@@ -1,0 +1,95 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "input_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+    "output_tag": "lead_lag_screen_v1_smooth5_a",
+    "random_seed": 20260427,
+    "max_lag": 5,
+    "diagnostic_max_lag": 10,
+    "write_diagnostic_lags": true,
+    "n_surrogates": 1000,
+    "n_direction_bootstrap": 1000,
+    "surrogate_chunk_size": 100,
+    "bootstrap_chunk_size": 100,
+    "surrogate_mode": "pooled_window_variable_ar1",
+    "run_audit_surrogate_null": true,
+    "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+    "n_audit_surrogates": 1000,
+    "min_valid_year_fraction": 0.7,
+    "min_pairs": 30,
+    "p_supported": 0.05,
+    "p_marginal": 0.1,
+    "q_within_window_supported": 0.1,
+    "include_same_family_pairs": false,
+    "windows": {
+      "S1": [
+        1,
+        39
+      ],
+      "T1": [
+        40,
+        48
+      ],
+      "S2": [
+        49,
+        74
+      ],
+      "T2": [
+        75,
+        86
+      ],
+      "S3": [
+        87,
+        106
+      ],
+      "T3": [
+        107,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ],
+      "T4": [
+        155,
+        164
+      ],
+      "S5": [
+        165,
+        183
+      ]
+    },
+    "variable_families": {
+      "P_main_band_share": "P",
+      "P_south_band_share_18_24": "P",
+      "P_main_minus_south": "P",
+      "P_spread_lat": "P",
+      "P_north_band_share_35_45": "P",
+      "P_north_minus_main_35_45": "P",
+      "P_total_centroid_lat_10_50": "P",
+      "V_strength": "V",
+      "V_pos_centroid_lat": "V",
+      "V_NS_diff": "V",
+      "H_strength": "H",
+      "H_centroid_lat": "H",
+      "H_west_extent_lon": "H",
+      "H_zonal_width": "H",
+      "Je_strength": "Je",
+      "Je_axis_lat": "Je",
+      "Je_meridional_width": "Je",
+      "Jw_strength": "Jw",
+      "Jw_axis_lat": "Jw",
+      "Jw_meridional_width": "Jw"
+    }
+  },
+  "method_contract": {
+    "window_assignment": "target-side Y(t) belongs to W",
+    "year_pairing": "same-year only; no cross-year concatenation",
+    "statistical_support": "main AR(1) surrogate max-stat for positive lags",
+    "main_surrogate_mode": "pooled_window_variable_ar1",
+    "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+    "audit_surrogate_role": "diagnostic null only; does not alter main lead_lag_label",
+    "directional_robustness": "year-block bootstrap of null-relative positive-vs-negative and positive-vs-lag0 evidence",
+    "same_day_rule": "lag0 is diagnostic same-day coupling, not lead evidence"
+  }
+}

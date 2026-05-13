@@ -1,0 +1,9 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+H_only,H,MATCH_RADIUS_1_4_7,W001,CP001,19,True,0.763,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W002,CP002,35,True,0.899,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W003,CP003,57,True,0.637,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W004,CP004,77,True,0.897,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W005,CP005,95,True,0.87,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W006,CP006,115,True,0.955,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W007,CP007,129,True,0.858,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,MATCH_RADIUS_1_4_7,W008,CP008,155,True,0.9,bootstrap_match_radius,strict_match/match/near,1/4/7,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

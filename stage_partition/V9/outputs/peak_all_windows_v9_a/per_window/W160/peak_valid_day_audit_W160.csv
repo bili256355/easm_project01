@@ -1,0 +1,16 @@
+﻿window_id,object,domain,nominal_start_day,nominal_end_day,finite_start_day,finite_end_day,n_nominal_days,n_finite_days,leading_nan_days,trailing_nan_days,internal_nan_days,valid_day_fraction,boundary_nan_warning
+W160,P,analysis,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,P,detector,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,P,system_window,155,165,155,165,11,11,0,0,0,1.0,none
+W160,V,analysis,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,V,detector,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,V,system_window,155,165,155,165,11,11,0,0,0,1.0,none
+W160,H,analysis,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,H,detector,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,H,system_window,155,165,155,165,11,11,0,0,0,1.0,none
+W160,Je,analysis,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,Je,detector,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,Je,system_window,155,165,155,165,11,11,0,0,0,1.0,none
+W160,Jw,analysis,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,Jw,detector,119,182,119,178,64,60,0,4,0,0.9375,boundary_nan_present
+W160,Jw,system_window,155,165,155,165,11,11,0,0,0,1.0,none

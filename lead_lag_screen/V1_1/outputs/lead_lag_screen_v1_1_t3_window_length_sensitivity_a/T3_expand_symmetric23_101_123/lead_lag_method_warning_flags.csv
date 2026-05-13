@@ -1,0 +1,3 @@
+﻿scope_type,scope_id,warning_type,warning_level,warning_message,affected_pairs,suggested_action
+project,all,audit_null_more_conservative,medium,Audit null is more conservative for 17 pairs.,17,Prefer Tier1/Tier2 split instead of treating all main yes equally.
+project,all,many_yes_with_same_day_coupling,medium,19/29 main yes pairs include same-day coupling.,19,Do not interpret main yes as pure one-way lag propagation.

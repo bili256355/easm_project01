@@ -1,0 +1,17 @@
+﻿object,candidate_id,peak_day,band_start_day,band_end_day,peak_score,peak_prominence,peak_rank,overlap_days_with_W45,overlap_fraction_with_W45,left_stop_reason,right_stop_reason,bootstrap_support,strict_support,near_support,support_class
+P,CP001,43,33,49,1.5223108757984367,0.010653537759822251,1,9.0,1.0,max_half_width,score_below_threshold,0.976,0.802,0.999,accepted_window_95
+P,CP002,65,59,70,0.9380914648045919,0.023942081855326203,2,0.0,0.0,score_below_threshold,missing_day,0.736,0.66,0.826,weak_window_50
+P,CP003,19,17,21,0.47145512528591577,0.007008953790872241,3,0.0,0.0,score_below_threshold,score_below_threshold,0.891,0.395,0.942,candidate_window_80
+P,CP004,16,14,18,0.46270769058433386,0.0008716660639161433,4,0.0,0.0,score_below_threshold,score_below_threshold,0.843,0.615,0.938,candidate_window_80
+V,CP001,44,37,51,0.5755867993218428,0.006511047892020394,1,9.0,1.0,score_below_threshold,score_below_threshold,0.995,0.852,1.0,accepted_window_95
+V,CP002,30,27,33,0.33018914678267525,0.010219549488288349,2,0.0,0.0,score_below_threshold,score_below_threshold,0.796,0.668,0.875,weak_window_50
+V,CP003,16,14,18,0.28086180791273235,0.00408660442160691,3,0.0,0.0,score_below_threshold,score_below_threshold,0.896,0.638,0.975,candidate_window_80
+H,CP001,19,11,29,16.17827472048403,0.17098648755211698,1,0.0,0.0,score_below_threshold,max_half_width,0.943,0.777,0.96,candidate_window_80
+H,CP002,31,21,39,14.125091601265732,0.07215004082292786,2,0.0,0.0,max_half_width,score_below_threshold,0.821,0.529,0.839,candidate_window_80
+H,CP003,56,54,59,8.559455377573327,0.05190349494569624,3,0.0,0.0,score_below_threshold,score_below_threshold,0.722,0.428,0.888,weak_window_50
+H,CP004,62,60,64,8.245089058624087,0.014934079700008596,4,0.0,0.0,score_below_threshold,score_below_threshold,0.439,0.274,0.695,unstable_window
+Je,CP001,28,18,38,4.729162177727442,0.02388413803795153,1,0.0,0.0,max_half_width,max_half_width,0.768,0.396,0.967,weak_window_50
+Je,CP002,21,13,31,4.405346979526865,0.01249123121010598,2,0.0,0.0,score_below_threshold,max_half_width,0.651,0.414,0.857,weak_window_50
+Je,CP003,46,44,48,2.6697396764838213,0.025778052968517873,3,5.0,1.0,score_below_threshold,score_below_threshold,0.759,0.586,0.866,weak_window_50
+Jw,CP001,49,39,58,3.6490654165955974,0.017381279517120873,1,9.0,1.0,max_half_width,score_below_threshold,0.883,0.591,0.964,candidate_window_80
+Jw,CP002,15,12,19,3.3047233937323224,0.02640456151557169,2,0.0,0.0,score_below_threshold,score_below_threshold,0.986,0.835,0.986,accepted_window_95

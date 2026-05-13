@@ -1,0 +1,4 @@
+﻿region_a,region_b,region_a_id,region_b_id,median_delta_b_minus_a,mean_delta_b_minus_a,q05_delta,q95_delta,q025_delta,q975_delta,prob_delta_gt_0,prob_delta_lt_0,prob_delta_eq_0,pass_90,pass_95,field_early_candidate,field_late_candidate,test_note
+R1_low,R2_mid,0,1,0.0,-2.119,-13.0,3.0,-14.0,8.0,0.315,0.493,0.192,False,False,,,diagnostic pairwise midpoint delta among three raw025 equal-count H regions; no minimum effective day threshold
+R1_low,R3_high,0,2,1.0,1.085,-11.0,12.0,-14.0,13.0,0.504,0.382,0.114,False,False,R1_low,R3_high,diagnostic pairwise midpoint delta among three raw025 equal-count H regions; no minimum effective day threshold
+R2_mid,R3_high,1,2,1.0,3.204,-1.0,12.0,-1.0,12.0,0.651,0.119,0.23,False,False,R2_mid,R3_high,diagnostic pairwise midpoint delta among three raw025 equal-count H regions; no minimum effective day threshold

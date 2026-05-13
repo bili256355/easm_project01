@@ -1,0 +1,84 @@
+{
+  "version": "v9_1_b_transition_type_mixture_audit",
+  "output_tag": "transition_type_mixture_audit_v9_1_b",
+  "parent_version": "V9 peak_all_windows_v9_a",
+  "modifies_v9": false,
+  "reads_v9_outputs": true,
+  "uses_single_year_peak_for_clustering": false,
+  "feature_basis": "whole-window multi-object behaviour features",
+  "windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "excluded_windows": [
+    {
+      "window_id": "W135",
+      "included_in_v9_1_b": false,
+      "reason": "excluded_by_V9_strict_accepted_window_set"
+    }
+  ],
+  "state_included": false,
+  "growth_included": false,
+  "process_a_included": false,
+  "config": {
+    "windows": [
+      "W045",
+      "W081",
+      "W113",
+      "W160"
+    ],
+    "objects": [
+      "P",
+      "V",
+      "H",
+      "Je",
+      "Jw"
+    ],
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "som_grids": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "profile_pcs_per_object": 3,
+    "feature_pca_max_components": 8,
+    "change_half_window_days": 3,
+    "min_cluster_size_for_type_peak": 8,
+    "type_bootstrap_n": 500,
+    "debug_type_bootstrap_n": 50,
+    "kmedoids_seeds": [
+      11,
+      23,
+      37,
+      51,
+      73
+    ],
+    "kmedoids_max_iter": 80,
+    "som_iter": 800,
+    "debug": false,
+    "evidence_usable": 0.9,
+    "evidence_credible": 0.95,
+    "evidence_strict": 0.99
+  },
+  "source_v7_module_version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "source_v7_output_tag": "accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "elapsed_seconds": 1018.453,
+  "finished_at": "2026-05-08 16:52:16"
+}

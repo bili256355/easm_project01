@@ -1,0 +1,11 @@
+﻿input_name,path,exists,status,n_rows
+v10_1_joint_detector_profile,D:\easm_project01\stage_partition\V10\v10.1\outputs\joint_main_window_reproduce_v10_1\joint_point_layer\joint_detector_profile_v10_1.csv,True,loaded,155
+v10_1_joint_candidate_registry,D:\easm_project01\stage_partition\V10\v10.1\outputs\joint_main_window_reproduce_v10_1\joint_point_layer\joint_candidate_registry_v10_1.csv,True,loaded,8
+v10_1_joint_lineage,D:\easm_project01\stage_partition\V10\v10.1\outputs\joint_main_window_reproduce_v10_1\lineage\joint_main_window_lineage_v10_1.csv,True,loaded,8
+v10_2_object_catalog,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\cross_object\object_native_candidate_catalog_all_objects_v10_2.csv,True,loaded,40
+v10_2_object_lineage,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\lineage_mapping\object_candidate_to_joint_lineage_v10_2.csv,True,loaded,40
+v10_2_P_detector_scores,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\by_object\P\P_object_detector_scores_v10_2.csv,True,loaded,155
+v10_2_V_detector_scores,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\by_object\V\V_object_detector_scores_v10_2.csv,True,loaded,155
+v10_2_H_detector_scores,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\by_object\H\H_object_detector_scores_v10_2.csv,True,loaded,155
+v10_2_Je_detector_scores,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\by_object\Je\Je_object_detector_scores_v10_2.csv,True,loaded,155
+v10_2_Jw_detector_scores,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\by_object\Jw\Jw_object_detector_scores_v10_2.csv,True,loaded,155

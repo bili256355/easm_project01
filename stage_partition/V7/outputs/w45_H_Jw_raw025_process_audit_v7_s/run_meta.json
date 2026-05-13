@@ -1,0 +1,63 @@
+{
+  "version": "v7_s",
+  "output_tag": "w45_H_Jw_raw025_process_audit_v7_s",
+  "status": "success",
+  "created_at": "2026-05-03T16:27:38",
+  "input_representation": "raw025_smoothed_field",
+  "does_not_use_2deg_interpolation_for_main_computation": true,
+  "fields": [
+    "H",
+    "Jw"
+  ],
+  "H_field_key": "z500_smoothed",
+  "Jw_field_key": "u200_smoothed",
+  "H_domain": {
+    "lon": [
+      110.0,
+      140.0
+    ],
+    "lat": [
+      15.0,
+      35.0
+    ]
+  },
+  "Jw_domain": {
+    "lon": [
+      80.0,
+      110.0
+    ],
+    "lat": [
+      25.0,
+      45.0
+    ]
+  },
+  "window_id": "W002",
+  "anchor_day": 45,
+  "analysis_window": [
+    30,
+    60
+  ],
+  "pre_period": [
+    30,
+    37
+  ],
+  "post_period": [
+    53,
+    60
+  ],
+  "n_years": 45,
+  "n_days": 183,
+  "n_bootstrap": 1000,
+  "reads_v7_p_q_r_for_comparison_only": true,
+  "reads_v7_p_q_r_for_main_computation": false,
+  "interpretation_boundary": "raw025 audit branch; not final physical mechanism; not global clean-order proof",
+  "key_outputs": {
+    "wholefield_progress": "w45_H_Jw_raw025_wholefield_progress_curves_v7_s.csv",
+    "crossing_events": "w45_H_Jw_raw025_crossing_events_v7_s.csv",
+    "region_curves": "w45_H_Jw_raw025_region_progress_curves_v7_s.csv",
+    "region_markers": "w45_H_Jw_raw025_region_timing_markers_v7_s.csv",
+    "bootstrap_summary": "w45_H_Jw_raw025_region_bootstrap_summary_v7_s.csv",
+    "comparison": "w45_H_Jw_raw025_vs_2deg_comparison_v7_s.csv",
+    "summary_md": "w45_H_Jw_raw025_process_audit_summary_v7_s.md"
+  }
+}

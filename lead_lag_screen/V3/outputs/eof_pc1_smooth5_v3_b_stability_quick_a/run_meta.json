@@ -1,0 +1,246 @@
+{
+  "layer": "lead_lag_screen",
+  "version": "V3_b",
+  "method": "window_wise_field_EOF_PC1_lead_lag_with_formal_stability_judgement",
+  "base_v3a_method_reused": true,
+  "settings": {
+    "base_v3_settings": {
+      "project_root": "D:\\easm_project01",
+      "foundation_runtime_tag": "baseline_smooth5_a",
+      "output_tag": "eof_pc1_smooth5_v3_b_stability_quick_a",
+      "random_seed": 20260428,
+      "field_input_mode": "anomaly_fields",
+      "v1_output_tag": "lead_lag_screen_v1_smooth5_a",
+      "max_lag": 5,
+      "diagnostic_max_lag": 10,
+      "write_diagnostic_lags": true,
+      "n_surrogates": 1000,
+      "n_direction_bootstrap": 1000,
+      "n_audit_surrogates": 1000,
+      "surrogate_chunk_size": 100,
+      "bootstrap_chunk_size": 100,
+      "surrogate_mode": "pooled_window_object_pc1_ar1",
+      "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+      "run_audit_surrogate_null": true,
+      "min_valid_year_fraction": 0.7,
+      "min_pairs": 30,
+      "p_supported": 0.05,
+      "p_marginal": 0.1,
+      "q_within_window_supported": 0.1,
+      "eof_training_scope": "window_only_loading_project_to_padding",
+      "eof_pc_count": 1,
+      "eof_weighting": "sqrt_cos_lat",
+      "eof_grid_min_finite_fraction": 0.7,
+      "eof_row_min_finite_fraction": 0.5,
+      "eof_quality_good_variance_ratio": 0.35,
+      "eof_quality_moderate_variance_ratio": 0.2,
+      "sign_reference_min_abs_corr": 0.15,
+      "windows": {
+        "S1": [
+          1,
+          39
+        ],
+        "T1": [
+          40,
+          48
+        ],
+        "S2": [
+          49,
+          74
+        ],
+        "T2": [
+          75,
+          86
+        ],
+        "S3": [
+          87,
+          106
+        ],
+        "T3": [
+          107,
+          117
+        ],
+        "S4": [
+          118,
+          154
+        ],
+        "T4": [
+          155,
+          164
+        ],
+        "S5": [
+          165,
+          183
+        ]
+      },
+      "sign_reference_variables": {
+        "P": "P_total_centroid_lat_10_50",
+        "V": "V_NS_diff",
+        "H": "H_centroid_lat",
+        "Je": "Je_axis_lat",
+        "Jw": "Jw_axis_lat"
+      },
+      "preprocess_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess",
+      "indices_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices",
+      "input_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+      "output_dir": "D:\\easm_project01\\lead_lag_screen\\V3\\outputs\\eof_pc1_smooth5_v3_b_stability_quick_a",
+      "log_dir": "D:\\easm_project01\\lead_lag_screen\\V3\\logs\\eof_pc1_smooth5_v3_b_stability_quick_a",
+      "v1_output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a",
+      "region_specs": {
+        "P": {
+          "object_name": "P",
+          "source_field": "precip",
+          "lon_range": [
+            105.0,
+            125.0
+          ],
+          "lat_range": [
+            10.0,
+            50.0
+          ],
+          "note": "P domain reused from foundation/V1 index object definition."
+        },
+        "V": {
+          "object_name": "V",
+          "source_field": "v850",
+          "lon_range": [
+            105.0,
+            125.0
+          ],
+          "lat_range": [
+            10.0,
+            30.0
+          ],
+          "note": "V domain reused from foundation/V1; south boundary fixed at 10N."
+        },
+        "H": {
+          "object_name": "H",
+          "source_field": "z500",
+          "lon_range": [
+            110.0,
+            140.0
+          ],
+          "lat_range": [
+            10.0,
+            40.0
+          ],
+          "note": "H core domain reused from foundation/V1."
+        },
+        "Jw": {
+          "object_name": "Jw",
+          "source_field": "u200",
+          "lon_range": [
+            80.0,
+            110.0
+          ],
+          "lat_range": [
+            20.0,
+            50.0
+          ],
+          "note": "Upstream jet core domain reused from foundation/V1."
+        },
+        "Je": {
+          "object_name": "Je",
+          "source_field": "u200",
+          "lon_range": [
+            120.0,
+            150.0
+          ],
+          "lat_range": [
+            20.0,
+            50.0
+          ],
+          "note": "Downstream jet core domain reused from foundation/V1."
+        }
+      }
+    },
+    "stability_settings": {
+      "output_tag": "eof_pc1_smooth5_v3_b_stability_quick_a",
+      "random_seed_offset": 31017,
+      "n_relation_bootstrap": 1000,
+      "n_pc1_mode_bootstrap": 10,
+      "bootstrap_chunk_size": 100,
+      "stability_ci_level_primary": 0.9,
+      "stable_probability_cutoff": 0.9,
+      "lag_tau0_close_margin": 0.03,
+      "forward_reverse_close_margin": 0.03,
+      "peak_lag_stable_mode_fraction": 0.6,
+      "peak_lag_moderate_mode_fraction": 0.4,
+      "pc1_loading_corr_stable_median": 0.75,
+      "pc1_loading_corr_stable_p10": 0.5,
+      "pc1_loading_corr_moderate_median": 0.6,
+      "pc1_sign_consistency_stable": 0.9,
+      "pc1_sign_consistency_moderate": 0.8,
+      "pc1_score_stability_moderate": 0.5,
+      "pc1_score_stability_stable": 0.65,
+      "p_supported": 0.05,
+      "q_supported": 0.1,
+      "audit_p_supported": 0.05,
+      "audit_q_supported": 0.1
+    }
+  },
+  "summary": {
+    "status": "success",
+    "output_tag": "eof_pc1_smooth5_v3_b_stability_quick_a",
+    "started_at": "2026-04-28T19:14:18",
+    "finished_at": "2026-04-28T19:42:28",
+    "runtime_seconds": 1690.778,
+    "field_input_meta": {
+      "field_input_mode": "anomaly_fields",
+      "preprocess_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess",
+      "used_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\anomaly_fields.npz",
+      "fallback_used": false,
+      "npz_keys": [
+        "lat",
+        "lon",
+        "precip_anom",
+        "u200_anom",
+        "v850_anom",
+        "years",
+        "z500_anom"
+      ]
+    },
+    "n_years": 45,
+    "n_windows": 9,
+    "n_objects": 5,
+    "n_pc1_pair_rows": 180,
+    "mode_stability_counts": {
+      "pc1_mode_unstable": 44,
+      "pc1_mode_moderate": 1
+    },
+    "lag_vs_tau0_counts": {
+      "lag_tau0_close_uncertain": 77,
+      "stable_lag_dominant": 36,
+      "stable_tau0_dominant": 34,
+      "mixed_lag_tau0_unstable": 33
+    },
+    "forward_reverse_counts": {
+      "mixed_forward_reverse_unstable": 65,
+      "forward_reverse_close": 52,
+      "stable_forward_over_reverse": 33,
+      "reverse_competitive": 30
+    },
+    "peak_lag_stability_counts": {
+      "peak_lag_stable": 111,
+      "peak_lag_moderate": 42,
+      "peak_lag_unstable": 27
+    },
+    "stability_judgement_counts": {
+      "pc1_mode_limited": 180
+    },
+    "interpretation_scope": "formal EOF-PC1 lead-lag stability judgement; V3_a exploratory labels are not sufficient for formal lead-lag claims",
+    "primary_new_gates": [
+      "pc1_mode_stability",
+      "lag_vs_tau0_stability",
+      "forward_vs_reverse_stability",
+      "peak_lag_stability",
+      "final_stability_judgement"
+    ],
+    "hard_boundaries": {
+      "does_pathway_inference": false,
+      "does_causal_inference": false,
+      "uses_only_PC1": true,
+      "does_not_treat_positive_lag_significance_as_stable_lag": true
+    }
+  }
+}

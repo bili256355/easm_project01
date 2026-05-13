@@ -1,0 +1,11 @@
+{
+  "version": "v9_1_peak_yearwise_heterogeneity_a",
+  "window_id": "W160",
+  "modifies_v9": false,
+  "mode_merge_gap_days": 2,
+  "cluster_k_values": [
+    2,
+    3
+  ],
+  "boundary": "heterogeneity audit only; no state/growth/process interpretation"
+}

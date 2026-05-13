@@ -1,0 +1,13 @@
+﻿field,event_kind,event_name,event_basis,observed_day,bootstrap_median,q05,q95,q025,q975,valid_bootstrap_count,event_status,durability_window
+H,state,departure_from_pre,D_pre departure from pre-envelope,38.0,38.0,38.0,38.0,38.0,38.0,1000,candidate_non_durable_after_pre,none
+H,state,durable_departure_from_pre_3d,D_pre departure from pre-envelope,38.0,38.0,38.0,38.0,38.0,38.0,1000,confirmed_event,3
+H,state,post_dominance_day,P_dist > 0.5 and R_diff > 0,48.0,49.0,41.0,51.0,40.0,51.0,1000,confirmed_event,none
+H,state,durable_post_dominance_2d,P_dist > 0.5 and R_diff > 0,48.0,49.0,41.0,51.0,40.0,51.0,1000,confirmed_event,2
+H,state,durable_post_dominance_3d,P_dist > 0.5 and R_diff > 0,48.0,49.0,41.0,51.0,40.0,51.0,1000,confirmed_event,3
+H,state,durable_post_dominance_4d,P_dist > 0.5 and R_diff > 0,48.0,49.0,41.0,51.0,40.0,51.0,1000,confirmed_event,4
+Jw,state,departure_from_pre,D_pre departure from pre-envelope,38.0,38.0,38.0,39.0,38.0,39.0,1000,candidate_non_durable_after_pre,none
+Jw,state,durable_departure_from_pre_3d,D_pre departure from pre-envelope,38.0,38.0,38.0,39.0,38.0,39.0,1000,confirmed_event,3
+Jw,state,post_dominance_day,P_dist > 0.5 and R_diff > 0,46.0,46.0,44.0,49.0,43.0,49.0,1000,confirmed_event,none
+Jw,state,durable_post_dominance_2d,P_dist > 0.5 and R_diff > 0,46.0,46.0,44.0,49.0,43.0,49.0,1000,confirmed_event,2
+Jw,state,durable_post_dominance_3d,P_dist > 0.5 and R_diff > 0,46.0,46.0,44.0,49.0,43.0,49.0,1000,confirmed_event,3
+Jw,state,durable_post_dominance_4d,P_dist > 0.5 and R_diff > 0,46.0,46.0,44.0,49.0,43.0,49.0,1000,confirmed_event,4

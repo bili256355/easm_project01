@@ -1,0 +1,7 @@
+candidate_id,candidate_day,month_day,candidate_score,candidate_prominence,candidate_kind,source_type,role_group,role_detail,is_headline_primary,nearest_formal_point_id,distance_to_formal,keep_reason,matched_observed_peak_day,matched_observed_peak_rank,source_run_tag
+RP001,45,05-16,5.878578493131532,3.6472619692422086,formal_primary,formal_primary,formal_primary,headline_primary,True,RP001,0,formal_primary_bound_to_observed_peak,45,1.0,mainline_v4_b
+RP002,81,06-21,9.238311473412097,4.2285212740596405,formal_primary,formal_primary,formal_primary,headline_primary,True,RP002,0,formal_primary_bound_to_observed_peak,81,1.0,mainline_v4_b
+RP003,113,07-23,9.678099825113602,7.556092339736476,formal_primary,formal_primary,formal_primary,headline_primary,True,RP003,0,formal_primary_bound_to_observed_peak,113,1.0,mainline_v4_b
+LP006,132,08-11,3.7541518352022365,0.00977477683365846,local_peak,detector_local_peak,neighbor_competition,neighbor_local_peak,False,RP004,3,weak_neighbor_peak_retained_for_audit,132,,mainline_v4_b
+RP004,135,08-14,3.7666081070788318,1.4709574724059107,formal_primary,formal_primary,formal_primary,headline_primary,True,RP004,0,formal_primary_bound_to_observed_peak,135,1.0,mainline_v4_b
+RP005,160,09-08,7.120567750300529,2.684733245250058,formal_primary,formal_primary,formal_primary,headline_primary,True,RP005,0,formal_primary_bound_to_observed_peak,160,1.0,mainline_v4_b

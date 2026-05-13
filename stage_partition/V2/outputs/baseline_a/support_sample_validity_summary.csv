@@ -1,0 +1,2 @@
+backend,n_total_samples,n_valid_samples,n_invalid_samples,invalid_fraction
+ruptures_window,100,100,0,0.0

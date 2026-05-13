@@ -1,0 +1,8 @@
+peak_day,score_peak,global_rank,prominence_rank,width_rank,retained_as_primary,retained_as_edge
+110,-269.7851706073892,1,1,1,False,True
+78,-270.0155410966639,2,4,4,False,False
+161,-271.66767611191665,3,2,2,False,True
+44,-278.0892770127087,4,3,3,False,False
+17,-281.0827275352331,5,5,5,False,False
+29,-281.50113959178344,6,7,7,False,False
+137,-281.5997888402403,7,6,6,False,False

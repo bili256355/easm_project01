@@ -1,0 +1,102 @@
+{
+  "status": "completed",
+  "created_at": "2026-04-28T22:24:21",
+  "input_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a",
+  "stability_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+  "previous_audit_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_audit",
+  "foundation_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_lag0_reduction_audit",
+  "focus_window": "T3",
+  "focus_days": [
+    106,
+    120
+  ],
+  "subwindows": {
+    "T3_early": [
+      106,
+      112
+    ],
+    "T3_late": [
+      113,
+      120
+    ]
+  },
+  "n_focus_v_to_p_pairs": 21,
+  "n_subwindow_lag_profile_rows": 462,
+  "n_composite_metric_rows": 13,
+  "n_figures": 13,
+  "t3_null_pressure_summary": {
+    "window": "T3",
+    "n_pairs": 21,
+    "mean_T_pos": 0.27152526362918433,
+    "mean_T_0": 0.21002407963177253,
+    "mean_T_neg": 0.19350314276715505,
+    "mean_null95_pos": 0.25373040515904116,
+    "mean_null95_0": 0.23405155336270103,
+    "mean_margin_pos": 0.017794858470143164,
+    "median_margin_pos": -0.012921839851372907,
+    "mean_margin_0": -0.024027473730928457,
+    "median_margin_0": -0.07077049741640959,
+    "n_pos_above_null95": 9,
+    "n_lag0_above_null95": 8,
+    "mean_source_phi": NaN,
+    "mean_target_phi": NaN,
+    "n_stable_lag_dominant": 2,
+    "n_tau0_coupled": 2
+  },
+  "reason_summary": [
+    {
+      "reason_candidate": "positive_lag_signal_near_ar1_null",
+      "evidence_strength": "strong",
+      "supporting_metrics": "mean_T_pos=0.272; mean_null95_pos=0.254; mean_margin_pos=0.018; n_pos_above_null95=9",
+      "interpretation": "T3 positive-lag V→P index-pair signal is close to the AR(1) null threshold."
+    },
+    {
+      "reason_candidate": "lag0_signal_also_weakened",
+      "evidence_strength": "strong",
+      "supporting_metrics": "mean_T_0=0.210; mean_null95_0=0.234; mean_margin_0=-0.024; n_lag0_above_null95=8",
+      "interpretation": "Lag0 does not systematically compensate for lost positive-lag relations in fixed V/P index pairs."
+    },
+    {
+      "reason_candidate": "v_strength_decoupling_from_p",
+      "evidence_strength": "strong",
+      "supporting_metrics": "V_strength retained_pairs=0/7",
+      "interpretation": "V_strength contributes little to retained T3 V→P fixed-index relations."
+    },
+    {
+      "reason_candidate": "v_ns_diff_partial_retention",
+      "evidence_strength": "strong",
+      "supporting_metrics": "V_NS_diff retained_pairs=3/7",
+      "interpretation": "T3 V→P retention is concentrated more in V_NS_diff than in V_strength."
+    },
+    {
+      "reason_candidate": "subwindow_state_mixing",
+      "evidence_strength": "moderate",
+      "supporting_metrics": "profile_type_changed_pairs=13/21",
+      "interpretation": "Early/late T3 lag-profile changes may dilute full-window lag0 and positive-lag signals."
+    },
+    {
+      "reason_candidate": "composite_structure_check_available",
+      "evidence_strength": "diagnostic",
+      "supporting_metrics": "n_composite_metrics=13",
+      "interpretation": "Composite maps/metrics were generated for V-index→V/P fields and P-index→P field checks."
+    },
+    {
+      "reason_candidate": "index_validity_not_failure",
+      "evidence_strength": "mixed",
+      "supporting_metrics": "index_validity_rows=10; suspicious_rows=10",
+      "interpretation": "Existing index_validity context does not support V/P index-family collapse as the cause."
+    }
+  ],
+  "outputs": [
+    "tables/v_to_p_window_null_difficulty_lag0_pos_detail.csv",
+    "tables/v_to_p_window_null_difficulty_lag0_pos_summary.csv",
+    "tables/t3_v_to_p_subwindow_lag_profile_long.csv",
+    "tables/t3_v_to_p_subwindow_lag_profile_summary.csv",
+    "tables/t3_v_to_p_subwindow_shift_summary.csv",
+    "tables/t3_v_p_composite_metrics.csv",
+    "tables/figure_manifest.csv",
+    "tables/t3_v_to_p_index_validity_context_expanded.csv",
+    "tables/t3_v_to_p_lag0_and_lagged_reduction_reason_summary.csv"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v8_peak_only_a",
+  "elapsed_seconds": 77.83479261398315,
+  "n_windows_available": 4,
+  "n_windows_processed": 1,
+  "bootstrap_n": 1000,
+  "output_root": "D:\\easm_project01\\stage_partition\\V8\\outputs\\peak_only_v8_a",
+  "boundary": "peak-only; state/growth/process layers excluded",
+  "source_v7_module_version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "source_v7_output_tag": "accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order"
+}

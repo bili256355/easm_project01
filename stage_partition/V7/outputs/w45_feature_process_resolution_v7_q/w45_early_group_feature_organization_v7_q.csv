@@ -1,0 +1,21 @@
+﻿field,marker,feature_timing_rank_distribution,prob_field_feature_distribution_earliest,prob_field_feature_distribution_latest,overlap_with_H,overlap_with_Jw,early_group_role_label,interpretation
+P,departure90,computed_by_feature_timing_distribution,,,0.0,0.0,broad_or_mixed_feature_role,P departure90: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+P,t25,computed_by_feature_timing_distribution,,,0.0,0.22222222222217283,broad_or_mixed_feature_role,P t25: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+P,t50,computed_by_feature_timing_distribution,,,0.0,0.3928571428570867,broad_or_mixed_feature_role,P t50: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+P,t75,computed_by_feature_timing_distribution,,,0.10526315789472576,0.08333333333331944,broad_or_mixed_feature_role,P t75: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+P,peak_smooth3,computed_by_feature_timing_distribution,,,0.0,0.45454545454541323,broad_or_mixed_feature_role,P peak_smooth3: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+V,departure90,computed_by_feature_timing_distribution,,,0.0,0.0,broad_or_mixed_feature_role,V departure90: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+V,t25,computed_by_feature_timing_distribution,,,0.0,0.2857142857142041,broad_or_mixed_feature_role,V t25: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+V,t50,computed_by_feature_timing_distribution,,,0.0,0.4782608695651342,broad_or_mixed_feature_role,V t50: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+V,t75,computed_by_feature_timing_distribution,,,0.42105263157890305,0.5833333333332361,early_group_overlap,V t75: early_group_overlap; based on feature distribution overlap with H/Jw.
+V,peak_smooth3,computed_by_feature_timing_distribution,,,0.0,0.24999999999997727,broad_or_mixed_feature_role,V peak_smooth3: broad_or_mixed_feature_role; based on feature distribution overlap with H/Jw.
+H,departure90,computed_by_feature_timing_distribution,,,1.0,0.0,early_group_overlap,H departure90: early_group_overlap; based on feature distribution overlap with H/Jw.
+H,t25,computed_by_feature_timing_distribution,,,1.0,0.0,early_group_overlap,H t25: early_group_overlap; based on feature distribution overlap with H/Jw.
+H,t50,computed_by_feature_timing_distribution,,,1.0,0.0,early_group_overlap,H t50: early_group_overlap; based on feature distribution overlap with H/Jw.
+H,t75,computed_by_feature_timing_distribution,,,1.0,0.5789473684209917,early_group_overlap,H t75: early_group_overlap; based on feature distribution overlap with H/Jw.
+H,peak_smooth3,computed_by_feature_timing_distribution,,,1.0,0.0,early_group_overlap,H peak_smooth3: early_group_overlap; based on feature distribution overlap with H/Jw.
+Jw,departure90,computed_by_feature_timing_distribution,,,0.0,1.0,early_group_overlap,Jw departure90: early_group_overlap; based on feature distribution overlap with H/Jw.
+Jw,t25,computed_by_feature_timing_distribution,,,0.0,1.0,early_group_overlap,Jw t25: early_group_overlap; based on feature distribution overlap with H/Jw.
+Jw,t50,computed_by_feature_timing_distribution,,,0.0,1.0,early_group_overlap,Jw t50: early_group_overlap; based on feature distribution overlap with H/Jw.
+Jw,t75,computed_by_feature_timing_distribution,,,0.5789473684209917,1.0,early_group_overlap,Jw t75: early_group_overlap; based on feature distribution overlap with H/Jw.
+Jw,peak_smooth3,computed_by_feature_timing_distribution,,,0.0,1.0,early_group_overlap,Jw peak_smooth3: early_group_overlap; based on feature distribution overlap with H/Jw.

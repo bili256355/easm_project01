@@ -1,0 +1,6 @@
+window_id,backend,window_type,start_day,end_day,center_day,main_peak_day,native_support,support_points,band_strength,n_support_points
+RW01,ruptures_window,primary,43,47,45,45,5.878578493131532,45,5.878578493131532,1
+RW02,ruptures_window,primary,76,85,81,81,9.238311473412097,81,9.238311473412097,1
+RW03,ruptures_window,primary,109,116,113,113,9.678099825113602,113,9.678099825113602,1
+RW04,ruptures_window,primary,135,135,135,135,3.7666081070788318,135,3.7666081070788318,1
+RW05,ruptures_window,primary,156,163,160,160,7.120567750300529,160,7.120567750300529,1

@@ -1,0 +1,3 @@
+﻿field,max_growth_day,rapid_growth_start,rapid_growth_center,rapid_growth_end,postward_growth_peak_day,status__max_growth_day,status__rapid_growth_start,status__rapid_growth_center,status__rapid_growth_end,status__postward_growth_peak_day
+H,35.0,34.0,36.007798283960085,38.0,35.0,confirmed_event,confirmed_event,confirmed_event,confirmed_event,confirmed_event
+Jw,49.0,48.0,50.46856899693187,53.0,50.0,confirmed_event,confirmed_event,confirmed_event,confirmed_event,confirmed_event

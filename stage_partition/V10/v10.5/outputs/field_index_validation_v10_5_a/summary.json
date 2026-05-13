@@ -1,0 +1,47 @@
+{
+  "status": "success",
+  "overall_validation_status_counts": {
+    "PARTIALLY_SUPPORTED": 6,
+    "SUPPORTED": 6,
+    "NOT_SUPPORTED": 3
+  },
+  "order_validation_status_counts": {
+    "ORDER_SUPPORTED": 19,
+    "ORDER_NEAR_TIE_SUPPORTED": 6,
+    "ORDER_AMBIGUOUS": 5
+  },
+  "candidate_family_validation_status_counts_v10_5_b": {
+    "FAMILY_TOP1_SUPPORTED": 12,
+    "FAMILY_TOPK_SUPPORTED": 3
+  },
+  "candidate_family_switch_type_counts_v10_5_b": {
+    "SAME_FAMILY": 36,
+    "SWITCH_TO_KNOWN_NON_STRICT_LINEAGE": 7,
+    "SWITCH_TO_NEARBY_STRICT_LINEAGE": 2
+  },
+  "candidate_family_nonselection_reason_counts_v10_5_c": {
+    "ENERGY_TOP1_SAME_AS_V10_4_ASSIGNED_FAMILY": 36,
+    "ENERGY_TOP1_NOT_SELECTED_BECAUSE_KNOWN_NON_STRICT_LINEAGE": 7,
+    "ENERGY_TOP1_NOT_SELECTED_BECAUSE_OTHER_STRICT_LINEAGE": 2
+  },
+  "candidate_family_competition_status_counts_v10_5_c": {
+    "NO_COMPETITION_TOP1_MATCH": 36,
+    "TOPK_SUPPORTED_WITH_STRONGER_COMPETING_FAMILY": 9
+  },
+  "main_method_strength_stability_class_counts_v10_5_d": {
+    "LOWER_SCORE_LOWER_BOOTSTRAP": 4,
+    "HIGH_SCORE_HIGH_BOOTSTRAP": 3,
+    "LOWER_SCORE_HIGH_BOOTSTRAP": 1
+  },
+  "profile_energy_family_bootstrap_status_counts_v10_5_d": {
+    "STABLE_TOPK_FAMILY": 75,
+    "STABLE_TOP1_FAMILY": 10,
+    "WEAK_TOPK_FAMILY": 3,
+    "UNSTABLE_ENERGY_FAMILY": 2
+  },
+  "profile_energy_pair_interpretation_counts_v10_5_d": {
+    "BOTH_STABLE_MULTIFAMILY_STRUCTURE": 40,
+    "TOP1_STRONG_AND_STABLE": 3,
+    "ASSIGNED_SECONDARY_BUT_STABLE": 2
+  }
+}

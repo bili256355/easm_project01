@@ -1,0 +1,6 @@
+﻿object,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d
+H,W001,CP001,38,True,1.0
+H,W002,CP002,48,True,0.62
+H,W003,CP003,58,True,0.609
+Jw,W001,CP001,16,True,0.645
+Jw,W002,CP002,40,True,0.921

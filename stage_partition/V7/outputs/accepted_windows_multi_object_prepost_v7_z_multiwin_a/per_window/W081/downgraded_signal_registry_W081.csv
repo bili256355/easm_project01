@@ -1,0 +1,2 @@
+﻿window_id,object_A,object_B,claim,final_structure_class,evidence_level,allowed_statement,forbidden_statement,why_not_final
+W081,Jw,V,Jw-V: branch_or_layer_split,branch_or_layer_split,downgraded_split,Use as profile-based timing structure with 2D mirror context; do not infer causality.,Do not write as causal/pathway result or full 2D field timing unless 2D mirror supports it.,downgraded_split

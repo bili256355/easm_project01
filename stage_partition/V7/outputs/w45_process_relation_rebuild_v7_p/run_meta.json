@@ -1,0 +1,31 @@
+{
+  "version": "w45_process_relation_rebuild_v7_p",
+  "created_at": "2026-05-03T13:33:45",
+  "status": "success",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "fields": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ],
+  "input_representation": "current_2deg_interpolated_profile_state",
+  "read_previous_derived_results": false,
+  "v7_m_outputs_used_as_input": false,
+  "v7_n_outputs_used_as_input": false,
+  "v7_o_outputs_used_as_input": false,
+  "n_bootstrap": 1000,
+  "outputs": [
+    "input_base_audit_v7_p.json",
+    "w45_field_process_curves_v7_p.csv",
+    "w45_field_foundation_audit_v7_p.csv",
+    "w45_pairwise_curve_relation_daily_v7_p.csv",
+    "w45_pairwise_phase_relation_v7_p.csv",
+    "w45_pairwise_marker_relation_v7_p.csv",
+    "w45_field_process_cards_v7_p.csv",
+    "w45_pair_relation_cards_v7_p.csv",
+    "w45_window_organization_card_v7_p.md"
+  ]
+}

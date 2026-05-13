@@ -1,0 +1,70 @@
+{
+  "status": "success",
+  "runtime_seconds": 773.381,
+  "runtime_tag": "window_family_guardrail_v1_b_smoothed_a",
+  "task_scope": "index_validity_window_family_guardrail_no_leadlag_no_pathway",
+  "data_mode": "smoothed",
+  "performance_patch": "v1_b_speedup_equivalent_cache_vectorized_r2_yearlevel_bootstrap",
+  "performance_semantics": "No intended change to formulas, thresholds, default samples, or output fields; only computation organization and optional runtime controls changed.",
+  "index_input_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+  "field_input_meta": {
+    "fallback_used": false,
+    "used_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+    "notes": [],
+    "data_mode": "smoothed",
+    "npz_keys": [
+      "lat",
+      "lon",
+      "precip_smoothed",
+      "u200_smoothed",
+      "v850_smoothed",
+      "years",
+      "z500_smoothed"
+    ]
+  },
+  "n_windows": 9,
+  "n_families": 5,
+  "n_indices": 20,
+  "n_index_window_rows": 180,
+  "n_window_family_rows": 45,
+  "n_window_family_joint_coverage_rows": 45,
+  "joint_coverage_tier_counts": {
+    "high_joint_coverage": 34,
+    "moderate_joint_coverage": 7,
+    "very_high_joint_coverage": 4
+  },
+  "n_possible_joint_coverage_gap_rows": 0,
+  "possible_joint_coverage_gap_rows": [],
+  "representativeness_tier_counts": {
+    "strong": 155,
+    "moderate": 24,
+    "weak_but_usable": 1
+  },
+  "family_collapse_risk_counts": {
+    "low": 45
+  },
+  "n_high_collapse_family_windows": 0,
+  "n_partial_sensitivity_family_windows": 0,
+  "high_collapse_family_windows": [],
+  "partial_sensitivity_family_windows": [],
+  "cartopy_status": "cartopy_used",
+  "outputs": {
+    "tables_dir": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\tables",
+    "figures_dir": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\figures",
+    "summary_dir": "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\summary"
+  },
+  "optional_runtime_controls": {
+    "make_figures": true,
+    "use_cartopy_if_available": true,
+    "max_diagnostic_figures": 140
+  },
+  "interpretation_guardrails": [
+    "This layer tests index-to-own-field representativeness only.",
+    "Main/default mode uses smoothed fields and smoothed index values; anomaly mode is auxiliary only.",
+    "It does not test lead-lag, pathway, causality, or downstream effect validity.",
+    "family_collapse_risk=low means whole-family index collapse is not supported; it does not mean every index is perfect.",
+    "window_family_joint_field_coverage.csv measures mixed family-level field coverage from all same-family indices jointly; it does not alter the original guardrail table.",
+    "partial_sensitivity means use index-level flags and avoid over-interpreting sensitive indices.",
+    "Map figures are diagnostic aids; table metrics and family guardrails are the primary outputs."
+  ]
+}

@@ -1,0 +1,4 @@
+﻿window_id,target_name,top1_year,top1_fraction_of_total_abs_leverage,top3_fraction_of_total_abs_leverage,top5_fraction_of_total_abs_leverage,extreme_year_dominated_flag
+W081,W081_P_vs_V_delta_peak,1984,0.07413212067669284,0.188556601207001,0.281216449849198,False
+W081,W081_V_vs_Jw_delta_peak,2021,0.07171072275025393,0.1720030172333741,0.2639672047304276,False
+W081,W081_H_vs_Jw_delta_peak,2021,0.09231392650792919,0.22005195736197436,0.3173617840597478,False

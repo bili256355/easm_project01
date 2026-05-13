@@ -1,0 +1,13 @@
+{
+  "n_points_audited": 6,
+  "n_strict_core_significant": 0,
+  "n_strict_local_significant": 0,
+  "n_strict_borderline": 4,
+  "n_strict_weak_or_unresolved": 2,
+  "n_significant_points_global": 0,
+  "n_significant_points_local": 0,
+  "strong_vs_weak_gradient_present": false,
+  "point_null_scale_warning_count": 3,
+  "neighbor_competition_closed_pairs": 1,
+  "neighbor_competition_ties": 1
+}

@@ -1,0 +1,7 @@
+point_id,point_day,point_role,related_window_id,observed_peak_score,p_global_fwer,p_local,bootstrap_presence_fraction,param_presence_fraction,yearwise_near_fraction,yearwise_strict_fraction,neighbor_competition_status,point_significance_tier,notes
+RP001,45,formal_primary_point,W001,5.878578493131532,1.0,0.4431137724550898,0.9,1.0,0.24444444444444444,0.2222222222222222,no_neighbor,strict_weak_or_unresolved,
+RP002,81,formal_primary_point,W002,9.238311473412097,1.0,0.4231536926147705,0.59,1.0,0.26666666666666666,0.13333333333333333,no_neighbor,strict_weak_or_unresolved,
+RP003,113,formal_primary_point,W003,9.678099825113602,1.0,0.38922155688622756,0.85,1.0,0.3333333333333333,0.2,no_neighbor,strict_borderline,
+LP006,132,neighbor_local_peak,W004,3.7541518352022365,1.0,0.3852295409181637,0.48,0.8,0.4222222222222222,0.24444444444444444,neighbor_competition_tie,strict_borderline,neighbor_peak_candidate;neighbor_competition_tie
+RP004,135,formal_primary_point,W004,3.7666081070788318,1.0,0.3812375249500998,0.52,1.0,0.35555555555555557,0.2222222222222222,neighbor_competition_tie,strict_borderline,neighbor_competition_tie
+RP005,160,formal_primary_point,W005,7.120567750300529,1.0,0.3652694610778443,0.69,1.0,0.4222222222222222,0.26666666666666666,no_neighbor,strict_borderline,

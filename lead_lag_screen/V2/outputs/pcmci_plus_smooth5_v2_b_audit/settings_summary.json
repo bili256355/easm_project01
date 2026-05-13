@@ -1,0 +1,12 @@
+{
+  "project_root": "D:\\easm_project01",
+  "v2a_output_tag": "pcmci_plus_smooth5_v2_a",
+  "output_tag": "pcmci_plus_smooth5_v2_b_audit",
+  "raw_p_alpha": 0.05,
+  "fdr_alpha": 0.05,
+  "top_n_examples": 80,
+  "v2a_output_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\outputs\\pcmci_plus_smooth5_v2_a",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\outputs\\pcmci_plus_smooth5_v2_b_audit",
+  "log_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\logs\\pcmci_plus_smooth5_v2_b_audit",
+  "v1_evidence_tier_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_evidence_tier_summary.csv"
+}

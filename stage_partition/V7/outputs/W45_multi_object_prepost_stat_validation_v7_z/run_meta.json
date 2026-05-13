@@ -1,0 +1,116 @@
+{
+  "version": "v7_z",
+  "output_tag": "W45_multi_object_prepost_stat_validation_v7_z",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "system_W45": [
+    40,
+    48
+  ],
+  "objects": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ],
+  "object_detection_range": [
+    0,
+    70
+  ],
+  "curve_range": [
+    0,
+    74
+  ],
+  "main_comparison_range": [
+    35,
+    53
+  ],
+  "segments": {
+    "early": [
+      30,
+      39
+    ],
+    "core": [
+      40,
+      45
+    ],
+    "late": [
+      46,
+      53
+    ]
+  },
+  "baseline_configs": [
+    {
+      "name": "C0_full_stage",
+      "pre": [
+        0,
+        39
+      ],
+      "post": [
+        49,
+        74
+      ],
+      "role": "main_full_stage",
+      "notes": "W45 accepted window outside full pre/post stage"
+    },
+    {
+      "name": "C1_buffered_stage",
+      "pre": [
+        0,
+        34
+      ],
+      "post": [
+        54,
+        69
+      ],
+      "role": "buffered_sensitivity",
+      "notes": "Remove 5-day buffers around W45 and next-window front edge"
+    },
+    {
+      "name": "C2_immediate_pre",
+      "pre": [
+        25,
+        34
+      ],
+      "post": [
+        54,
+        69
+      ],
+      "role": "immediate_pre_diagnostic",
+      "notes": "Near pre-state diagnostic, not equal to full-stage baseline"
+    }
+  ],
+  "detector": {
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "pen": 4.0,
+    "fixed_n_bkps": null,
+    "epsilon": null,
+    "local_peak_min_distance_days": 3,
+    "nearest_peak_search_radius_days": 10
+  },
+  "band": {
+    "min_band_half_width_days": 2,
+    "max_band_half_width_days": 10,
+    "peak_floor_quantile": 0.35,
+    "prominence_ratio_threshold": 0.5,
+    "merge_gap_days": 1,
+    "significant_peak_threshold": 0.95
+  },
+  "bootstrap": {
+    "n_bootstrap": 1000,
+    "random_seed": 42,
+    "strict_match_max_abs_offset_days": 2,
+    "match_max_abs_offset_days": 5,
+    "near_match_max_abs_offset_days": 8,
+    "progress": true
+  },
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "run_time": "2026-05-05T14:17:07",
+  "n_final_claims": 9,
+  "n_downgraded_signals": 1
+}

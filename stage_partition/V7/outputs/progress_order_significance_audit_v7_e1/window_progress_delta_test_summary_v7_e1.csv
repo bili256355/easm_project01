@@ -1,0 +1,5 @@
+window_id,anchor_day,n_total_pairs,n_confirmed_directional_order,n_supported_directional_tendency,n_not_distinguishable,n_conflicting_evidence,confirmed_edges,supported_edges,not_distinguishable_pairs,conflicting_pairs,window_test_result,caution
+W002,45,10,0,9,1,0,none,P<V; H<P; P<Je; H<V; V<Je; Jw<V; H<Je; H<Jw; Jw<Je,P/Jw,none,has_supported_directional_tendencies_only,progress_timing_order_only_not_causality; not_distinguishable_is_not_equivalence_or_synchrony
+W003,81,10,0,9,1,0,none,V<P; H<P; P<Je; P<Jw; H<V; V<Je; V<Jw; H<Je; H<Jw,Je/Jw,none,has_supported_directional_tendencies_only,progress_timing_order_only_not_causality; not_distinguishable_is_not_equivalence_or_synchrony
+W005,113,10,1,8,1,0,Jw<V,P<V; P<H; Je<P; Jw<P; Je<V; Je<H; Jw<H; Jw<Je,V/H,none,has_confirmed_directional_orders,progress_timing_order_only_not_causality; not_distinguishable_is_not_equivalence_or_synchrony
+W007,160,10,0,9,1,0,none,P<V; H<P; P<Je; P<Jw; H<V; Jw<V; H<Je; H<Jw; Jw<Je,V/Je,none,has_supported_directional_tendencies_only,progress_timing_order_only_not_causality; not_distinguishable_is_not_equivalence_or_synchrony

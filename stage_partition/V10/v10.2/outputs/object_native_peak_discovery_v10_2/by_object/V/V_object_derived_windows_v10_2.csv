@@ -1,0 +1,9 @@
+﻿object,window_id,start_day,end_day,center_day,main_peak_day,n_member_points,member_candidate_ids,max_member_bootstrap_match_fraction,merge_reason,protected_split_flag
+V,W001,14,18,16,16,1,CP001,0.589,non_overlap,False
+V,W002,28,32,30,30,1,CP002,0.669,non_overlap,False
+V,W003,40,49,44,45,1,CP003,0.984,non_overlap,False
+V,W004,67,86,76,80,2,CP005;CP004,0.901,non_overlap,False
+V,W005,93,97,95,95,1,CP006,0.943,non_overlap,False
+V,W006,109,123,116,114,1,CP007,0.933,non_overlap,False
+V,W007,134,139,136,136,1,CP008,0.833,non_overlap,False
+V,W008,158,164,161,161,1,CP009,0.879,final_group,False

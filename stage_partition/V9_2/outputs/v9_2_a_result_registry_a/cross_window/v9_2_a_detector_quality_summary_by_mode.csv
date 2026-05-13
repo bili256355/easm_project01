@@ -1,0 +1,13 @@
+window_id,mode,n_peak_records,n_missing_peak,n_non_ok_detector_status,n_records_with_excluded_candidates,n_records_with_secondary_candidates,detector_quality_summary
+W045,1,10,0,0,10,7,usable_with_candidate_complexity
+W045,2,10,0,0,9,8,usable_with_candidate_complexity
+W045,3,10,0,0,10,9,usable_with_candidate_complexity
+W081,1,10,0,0,7,1,usable_with_candidate_complexity
+W081,2,10,0,0,6,3,usable_with_candidate_complexity
+W081,3,10,0,0,7,5,usable_with_candidate_complexity
+W113,1,10,0,0,9,8,usable_with_candidate_complexity
+W113,2,10,0,0,10,9,usable_with_candidate_complexity
+W113,3,10,0,0,9,8,usable_with_candidate_complexity
+W160,1,10,0,0,9,9,usable_with_candidate_complexity
+W160,2,10,0,0,10,9,usable_with_candidate_complexity
+W160,3,10,0,0,9,9,usable_with_candidate_complexity

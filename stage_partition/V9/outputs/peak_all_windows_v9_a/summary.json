@@ -1,0 +1,31 @@
+{
+  "version": "v9_peak_all_windows_a",
+  "elapsed_seconds": 200.54463291168213,
+  "n_windows_available": 4,
+  "n_windows_processed": 4,
+  "windows_processed": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "default_accepted_windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "excluded_mainline_windows": [
+    {
+      "window_id": "W135",
+      "anchor_day": 135,
+      "included_in_v9": false,
+      "exclusion_reason": "not_in_strict_accepted_95pct_window_set; previously dropped from mainline"
+    }
+  ],
+  "bootstrap_n": 1000,
+  "output_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_all_windows_v9_a",
+  "boundary": "peak-only; state/growth/process layers excluded",
+  "source_v7_module_version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "source_v7_output_tag": "accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order"
+}

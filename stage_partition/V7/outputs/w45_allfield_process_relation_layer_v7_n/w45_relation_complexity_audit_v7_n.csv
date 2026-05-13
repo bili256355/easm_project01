@@ -1,0 +1,11 @@
+﻿window_id,anchor_day,field_a,field_b,n_relation_phases,has_crossing,has_marker_conflict,has_near_equivalence_candidate,has_directional_lead,has_curve_phase_reversal,complexity_label,complexity_interpretation
+W002,45,P,V,5,False,False,True,False,False,weak_order,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,P,H,8,True,False,True,False,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,P,Je,8,True,False,True,True,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,P,Jw,6,True,False,True,False,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,V,H,6,True,False,True,False,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,V,Je,8,True,False,True,False,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,V,Jw,10,False,False,True,False,False,weak_order,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,H,Je,9,True,False,True,True,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,H,Jw,5,True,False,True,False,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.
+W002,45,Je,Jw,10,True,False,True,True,True,phase_crossing,Complexity is part of the implementation-layer result; do not force a clean order if labels are complex.

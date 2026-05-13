@@ -1,0 +1,7 @@
+point_id,point_day,month_day,reference_rank,point_role,is_formal_primary,related_window_id,neighbor_group_id,source_run_tag
+RP001,45,05-16,1,formal_primary_point,True,W001,,mainline_v3_i
+RP002,81,06-21,2,formal_primary_point,True,W002,,mainline_v3_i
+RP003,113,07-23,3,formal_primary_point,True,W003,,mainline_v3_i
+LP006,132,08-11,4,neighbor_local_peak,False,W004,NG001,mainline_v3_i
+RP004,135,08-14,5,formal_primary_point,True,W004,NG001,mainline_v3_i
+RP005,160,09-08,6,formal_primary_point,True,W005,,mainline_v3_i

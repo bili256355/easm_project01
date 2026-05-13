@@ -1,0 +1,253 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_p_v_latitudinal_object_change_audit_v1_a",
+    "foundation_preprocess_rel": "foundation/V1/outputs/baseline_smooth5_a/preprocess",
+    "windows": {
+      "S3": [
+        87,
+        106
+      ],
+      "T3_early": [
+        107,
+        112
+      ],
+      "T3_full": [
+        107,
+        117
+      ],
+      "T3_late": [
+        113,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ]
+    },
+    "window_order": [
+      "S3",
+      "T3_early",
+      "T3_full",
+      "T3_late",
+      "S4"
+    ],
+    "comparisons": {
+      "T3_full_minus_S3": [
+        "T3_full",
+        "S3"
+      ],
+      "T3_late_minus_T3_early": [
+        "T3_late",
+        "T3_early"
+      ],
+      "S4_minus_T3_full": [
+        "S4",
+        "T3_full"
+      ]
+    },
+    "regions": {
+      "north_northeast": {
+        "lat_min": 35.0,
+        "lat_max": 50.0,
+        "lon_min": 110.0,
+        "lon_max": 135.0
+      },
+      "main_meiyu": {
+        "lat_min": 24.0,
+        "lat_max": 35.0,
+        "lon_min": 100.0,
+        "lon_max": 125.0
+      },
+      "south_china": {
+        "lat_min": 18.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 120.0
+      },
+      "scs": {
+        "lat_min": 10.0,
+        "lat_max": 20.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "south_china_scs": {
+        "lat_min": 10.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "main_easm_domain": {
+        "lat_min": 10.0,
+        "lat_max": 50.0,
+        "lon_min": 100.0,
+        "lon_max": 135.0
+      }
+    },
+    "lon_sectors": {
+      "full_easm_lon": {
+        "lon_min": 100.0,
+        "lon_max": 135.0
+      },
+      "west_sector": {
+        "lon_min": 100.0,
+        "lon_max": 112.0
+      },
+      "mid_sector": {
+        "lon_min": 112.0,
+        "lon_max": 123.0
+      },
+      "east_sector": {
+        "lon_min": 123.0,
+        "lon_max": 135.0
+      },
+      "south_scs_ref": {
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      }
+    },
+    "p_peak_relative_threshold": 0.15,
+    "p_peak_absolute_threshold": 0.5,
+    "p_min_peak_distance_deg": 3.0,
+    "p_min_band_width_deg": 3.0,
+    "p_edge_fraction_of_peak": 0.5,
+    "profile_smooth_points": 3,
+    "latband_step_deg": 5.0,
+    "p_delta_epsilon": 1e-06,
+    "v_delta_epsilon": 1e-06,
+    "make_figures": true,
+    "use_cartopy": true,
+    "no_show": true,
+    "precip_aliases": [
+      "precip_smoothed",
+      "precip",
+      "precipitation",
+      "pr",
+      "rain",
+      "P"
+    ],
+    "v850_aliases": [
+      "v850_smoothed",
+      "v850",
+      "V850",
+      "v",
+      "meridional_wind"
+    ]
+  },
+  "summary": {
+    "status": "success",
+    "layer": "t3_p_v_latitudinal_object_change_audit_v1_a",
+    "started": "2026-04-29T14:17:18",
+    "finished": "2026-04-29T14:17:43",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_p_v_latitudinal_object_change_audit_v1_a",
+    "input_smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+    "precip_key": "precip_smoothed",
+    "v850_key": "v850_smoothed",
+    "field_shape": [
+      45,
+      183,
+      201,
+      521
+    ],
+    "day_mapping_mode": "shape183_day_minus_1",
+    "lat_min_data": 10.0,
+    "lat_max_data": 60.0,
+    "lon_min_data": 20.0,
+    "lon_max_data": 150.0,
+    "windows": {
+      "S3": [
+        87,
+        106
+      ],
+      "T3_early": [
+        107,
+        112
+      ],
+      "T3_full": [
+        107,
+        117
+      ],
+      "T3_late": [
+        113,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ]
+    },
+    "lon_sectors": {
+      "full_easm_lon": {
+        "lon_min": 100.0,
+        "lon_max": 135.0
+      },
+      "west_sector": {
+        "lon_min": 100.0,
+        "lon_max": 112.0
+      },
+      "mid_sector": {
+        "lon_min": 112.0,
+        "lon_max": 123.0
+      },
+      "east_sector": {
+        "lon_min": 123.0,
+        "lon_max": 135.0
+      },
+      "south_scs_ref": {
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      }
+    },
+    "regions": {
+      "north_northeast": {
+        "lat_min": 35.0,
+        "lat_max": 50.0,
+        "lon_min": 110.0,
+        "lon_max": 135.0
+      },
+      "main_meiyu": {
+        "lat_min": 24.0,
+        "lat_max": 35.0,
+        "lon_min": 100.0,
+        "lon_max": 125.0
+      },
+      "south_china": {
+        "lat_min": 18.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 120.0
+      },
+      "scs": {
+        "lat_min": 10.0,
+        "lat_max": 20.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "south_china_scs": {
+        "lat_min": 10.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "main_easm_domain": {
+        "lat_min": 10.0,
+        "lat_max": 50.0,
+        "lon_min": 100.0,
+        "lon_max": 135.0
+      }
+    },
+    "make_figures": true,
+    "use_cartopy": true,
+    "object_layer_only": true,
+    "support_or_r2_computed": false,
+    "full_grid_npz_persisted": false,
+    "n_precip_band_rows": 193,
+    "n_precip_transition_link_rows": 165,
+    "n_diagnosis_rows": 10
+  },
+  "notes": [
+    "This audit is object-layer only: P and V850 changes, latitudinal profiles, multiband P structures.",
+    "It does not compute V->P support/R2/pathway evidence.",
+    "Precipitation multi-band detection is a diagnostic aid; conclusions must cite window/sector/band reference explicitly."
+  ]
+}

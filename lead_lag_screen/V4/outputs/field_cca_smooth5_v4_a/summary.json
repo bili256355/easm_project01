@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "output_tag": "field_cca_smooth5_v4_a",
+  "started_at": "2026-04-28T13:09:19",
+  "finished_at": "2026-04-28T13:14:43",
+  "runtime_seconds": 323.681,
+  "field_input_meta": {
+    "preprocess_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess",
+    "used_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\anomaly_fields.npz",
+    "fallback_used": false,
+    "npz_keys": [
+      "lat",
+      "lon",
+      "precip_anom",
+      "u200_anom",
+      "v850_anom",
+      "years",
+      "z500_anom"
+    ]
+  },
+  "n_years": 45,
+  "n_windows": 9,
+  "n_core_pair_directions": 5,
+  "eof_k_values": [
+    5,
+    3
+  ],
+  "n_cca_lag_rows": 540,
+  "n_cca_summary_rows": 90,
+  "cca_time_structure_counts_main_k5": {
+    "lagged_tau0_close": 29,
+    "tau0_dominant": 12,
+    "lagged_dominant": 4
+  },
+  "cca_evidence_tier_counts_main_k5": {
+    "CCA_strong_coupling": 45
+  },
+  "interpretation_scope": "field-to-field lagged CCA coupling-mode audit; not pathway proof; not PCMCI; not index replacement",
+  "primary_audit_focus": "Does T3/meiyu-ending field-to-field coupling remain when using CCA coupling modes instead of manual indices or EOF-PC1 only?",
+  "hard_boundary": "CCA can expose coupling modes but cannot by itself establish causal pathway or mediator chains."
+}

@@ -1,0 +1,68 @@
+{
+  "status": "success",
+  "output_tag": "lead_lag_screen_v1_1_t3_window_length_sensitivity_a/T3_expand_symmetric23_101_123",
+  "n_years": 45,
+  "n_variables": 26,
+  "n_directed_pairs": 165,
+  "n_windows": 1,
+  "n_curve_rows": 3465,
+  "n_pair_rows": 165,
+  "label_counts": {
+    "lead_lag_no_not_supported": 97,
+    "lead_lag_yes_with_same_day_coupling": 19,
+    "lead_lag_yes_clear": 10,
+    "lead_lag_ambiguous_bidirectional_close": 9,
+    "lead_lag_ambiguous_direction_uncertain": 8,
+    "lead_lag_ambiguous_marginal_statistical_support": 8,
+    "lead_lag_no_same_day_only": 7,
+    "lead_lag_no_reverse_dominant": 4,
+    "lead_lag_ambiguous_coupled_or_feedback_like": 2,
+    "lead_lag_ambiguous_same_day_dominant": 1
+  },
+  "group_counts": {
+    "lead_lag_no": 108,
+    "lead_lag_yes": 29,
+    "lead_lag_ambiguous": 28
+  },
+  "strict_temporal_pool_size": 29,
+  "expanded_temporal_risk_pool_size": 57,
+  "main_surrogate_mode": "pooled_window_variable_ar1",
+  "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+  "audit_surrogate_enabled": true,
+  "n_ar1_param_rows": 26,
+  "n_ar1_yearwise_scale_rows": 1170,
+  "n_audit_null_rows": 165,
+  "n_evidence_tier_rows": 165,
+  "evidence_tier_counts": {
+    "Tier5a_no_not_supported": 97,
+    "Tier2_main_supported_audit_moderate": 13,
+    "Tier1b_audit_stable_with_same_day": 12,
+    "Tier4a_ambiguous_bidirectional_close": 9,
+    "Tier4d_ambiguous_marginal_statistical_support": 8,
+    "Tier4c_ambiguous_direction_uncertain": 8,
+    "Tier5c_no_same_day_only": 7,
+    "Tier5b_no_reverse_dominant": 4,
+    "Tier4b_ambiguous_same_day_dominant": 3,
+    "Tier3_surrogate_or_persistence_sensitive_yes": 3,
+    "Tier1a_audit_stable_clear_leadlag": 1
+  },
+  "n_warning_flags": 2,
+  "n_phi_clipped_total": 7,
+  "phi_clip_severity_counts": {
+    "none": 19,
+    "minor": 5,
+    "moderate": 2
+  },
+  "raw_phi_max": 0.9649758071838782,
+  "raw_phi_min": 0.7240414069346726,
+  "notes": [
+    "This layer is a temporal eligibility screen, not pathway establishment.",
+    "Strength is represented as null-relative excess and absolute r, not as a fixed-r hard gate.",
+    "lag=0 is same-day coupling and does not automatically invalidate positive-lag support.",
+    "Old pathway V1-V2 outputs are not read by this pipeline.",
+    "Main surrogate mode uses pooled window-variable AR(1), not year-specific phi.",
+    "Audit surrogate mode keeps pooled phi but uses yearwise scale; it is diagnostic and does not change main labels.",
+    "AR(1) audit table now reports raw_phi_before_clip and clipping severity.",
+    "Evidence-tier audit is post-processing only; it does not change primary lead_lag_label."
+  ]
+}

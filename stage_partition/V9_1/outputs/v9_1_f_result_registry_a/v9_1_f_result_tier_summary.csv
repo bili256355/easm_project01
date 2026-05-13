@@ -1,0 +1,5 @@
+﻿result_tier,evidence_v3_level,n_results,tier_definition
+Tier_1_main_statistical_result,robust_common_mode_reversal,7,main frozen statistical result; eligible for physical-audit queue
+Tier_1_main_statistical_result,robust_pair_specific_reversal,4,main frozen statistical result; eligible for physical-audit queue
+Tier_2_important_auxiliary_result,robust_continuous_gradient,1,important auxiliary statistical result; eligible for lower-priority physical audit
+Tier_2_important_auxiliary_result,robust_one_sided_locking,3,important auxiliary statistical result; eligible for lower-priority physical audit

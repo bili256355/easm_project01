@@ -1,0 +1,86 @@
+﻿window_id,field,marker_family,marker_name,source_column,observed_value,median,q05,q25,q75,q95,q025,q975,q90_width,q95_width,iqr,valid_fraction,edge_hit_fraction,marker_reliability_label,marker_interpretation
+W002,P,departure,departure90,departure90_day,37.0,37.0,37.0,37.0,38.0,40.0,37.0,40.0,3.0,3.0,1.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,P,departure,departure95,departure95_day,37.0,37.0,37.0,37.0,38.0,40.0,37.0,40.0,3.0,3.0,1.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,P,threshold,t10,t10_day,37.0,37.0,35.0,36.0,39.0,40.0,35.0,41.0,5.0,6.0,3.0,1.0,0.0,usable,t10 progress crossing; threshold diagnostic only
+W002,P,threshold,t15,t15_day,39.0,39.0,36.0,37.0,40.0,41.0,36.0,41.0,5.0,5.0,3.0,1.0,0.0,usable,t15 progress crossing; threshold diagnostic only
+W002,P,threshold,t20,t20_day,39.0,40.0,37.0,39.0,40.0,42.0,37.0,43.0,5.0,6.0,1.0,1.0,0.0,usable,t20 progress crossing; threshold diagnostic only
+W002,P,threshold,t25,t25_day,40.0,40.0,38.0,39.0,41.0,43.0,38.0,44.0,5.0,6.0,2.0,1.0,0.0,usable,t25 progress crossing; threshold diagnostic only
+W002,P,threshold,t30,t30_day,41.0,41.0,39.0,40.0,41.0,44.0,39.0,44.0,5.0,5.0,1.0,1.0,0.0,usable,t30 progress crossing; threshold diagnostic only
+W002,P,threshold,t35,t35_day,41.0,41.0,39.0,40.0,42.0,45.0,39.0,45.0,6.0,6.0,2.0,1.0,0.0,usable,t35 progress crossing; threshold diagnostic only
+W002,P,threshold,t40,t40_day,42.0,42.0,40.0,41.0,44.0,45.0,40.0,45.0,5.0,5.0,3.0,1.0,0.0,usable,t40 progress crossing; threshold diagnostic only
+W002,P,threshold,t45,t45_day,42.0,42.0,40.0,41.0,44.0,45.0,40.0,46.0,5.0,6.0,3.0,1.0,0.0,usable,t45 progress crossing; threshold diagnostic only
+W002,P,threshold,t50,t50_day,44.0,44.0,41.0,42.0,45.0,46.0,40.975,46.0,5.0,5.024999999999999,3.0,1.0,0.0,usable,t50 progress crossing; threshold diagnostic only
+W002,P,threshold,t75,t75_day,46.0,46.0,44.0,45.0,47.0,49.0,44.0,51.0,5.0,7.0,2.0,1.0,0.0,usable,t75 progress crossing; threshold diagnostic only
+W002,P,peak_change,peak_change_raw,peak_change_day_raw,45.0,45.0,40.0,41.0,46.0,47.0,40.0,48.02499999999998,7.0,8.024999999999977,5.0,1.0,,usable_with_caution,fastest progress-change day; not onset
+W002,P,peak_change,peak_change_smooth3,peak_change_day_smooth3,46.0,45.0,40.0,41.0,46.0,47.0,40.0,47.0,7.0,7.0,5.0,1.0,,usable_with_caution,fastest progress-change day; not onset
+W002,P,duration,duration_25_75,duration_25_75,6.0,6.0,4.0,5.0,7.0,9.0,4.0,10.0,5.0,6.0,2.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,P,tail,tail_50_75,tail_50_75,2.0,3.0,1.0,2.0,4.0,5.0,1.0,5.0,4.0,4.0,2.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,P,early_span,early_span_25_50,early_span_25_50,4.0,3.0,2.0,2.0,4.0,5.0,1.0,6.0,3.0,5.0,2.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,V,departure,departure90,departure90_day,37.0,37.0,37.0,37.0,37.0,41.0,37.0,41.0,4.0,4.0,0.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,V,departure,departure95,departure95_day,37.0,37.0,37.0,37.0,37.0,41.0,37.0,41.0,4.0,4.0,0.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,V,threshold,t10,t10_day,38.0,38.0,36.0,37.0,40.0,42.0,36.0,43.0,6.0,7.0,3.0,1.0,0.0,usable,t10 progress crossing; threshold diagnostic only
+W002,V,threshold,t15,t15_day,40.0,40.0,37.0,38.0,41.0,43.0,37.0,44.0,6.0,7.0,3.0,1.0,0.0,usable,t15 progress crossing; threshold diagnostic only
+W002,V,threshold,t20,t20_day,41.0,40.0,38.0,40.0,42.0,44.0,38.0,44.0,6.0,6.0,2.0,1.0,0.0,usable,t20 progress crossing; threshold diagnostic only
+W002,V,threshold,t25,t25_day,41.0,41.0,39.0,40.0,43.0,44.0,39.0,45.0,5.0,6.0,3.0,1.0,0.0,usable,t25 progress crossing; threshold diagnostic only
+W002,V,threshold,t30,t30_day,42.0,42.0,40.0,41.0,44.0,45.0,39.0,45.0,5.0,6.0,3.0,1.0,0.0,usable,t30 progress crossing; threshold diagnostic only
+W002,V,threshold,t35,t35_day,43.0,43.0,40.0,42.0,44.0,45.0,40.0,46.0,5.0,6.0,2.0,1.0,0.0,usable,t35 progress crossing; threshold diagnostic only
+W002,V,threshold,t40,t40_day,44.0,44.0,41.0,42.0,45.0,46.0,41.0,47.0,5.0,6.0,3.0,1.0,0.0,usable,t40 progress crossing; threshold diagnostic only
+W002,V,threshold,t45,t45_day,45.0,44.0,41.0,43.75,45.0,47.0,41.0,47.0,6.0,6.0,1.25,1.0,0.0,usable,t45 progress crossing; threshold diagnostic only
+W002,V,threshold,t50,t50_day,45.0,45.0,42.0,44.0,46.0,47.0,42.0,48.0,5.0,6.0,2.0,1.0,0.0,usable,t50 progress crossing; threshold diagnostic only
+W002,V,threshold,t75,t75_day,48.0,48.0,45.0,47.0,50.0,51.0,45.0,52.0,6.0,7.0,3.0,1.0,0.0,usable,t75 progress crossing; threshold diagnostic only
+W002,V,peak_change,peak_change_raw,peak_change_day_raw,45.0,45.0,40.0,45.0,47.0,52.0,40.0,52.0,12.0,12.0,2.0,1.0,,usable_with_caution,fastest progress-change day; not onset
+W002,V,peak_change,peak_change_smooth3,peak_change_day_smooth3,46.0,46.0,41.0,45.0,46.0,52.0,40.0,52.0,11.0,12.0,1.0,1.0,,usable_with_caution,fastest progress-change day; not onset
+W002,V,duration,duration_25_75,duration_25_75,7.0,6.0,4.0,5.0,8.0,10.0,4.0,11.0,6.0,7.0,3.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,V,tail,tail_50_75,tail_50_75,3.0,3.0,2.0,2.0,4.0,5.0,2.0,6.0,3.0,4.0,2.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,V,early_span,early_span_25_50,early_span_25_50,4.0,3.0,2.0,3.0,4.0,5.0,2.0,6.0,3.0,4.0,1.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,H,departure,departure90,departure90_day,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,0.0,0.0,0.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,H,departure,departure95,departure95_day,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,0.0,0.0,0.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,H,threshold,t10,t10_day,35.0,35.0,35.0,35.0,36.0,37.0,35.0,37.0,2.0,2.0,1.0,1.0,0.0,usable,t10 progress crossing; threshold diagnostic only
+W002,H,threshold,t15,t15_day,36.0,36.0,35.0,35.0,36.0,38.0,35.0,38.0,3.0,3.0,1.0,1.0,0.0,usable,t15 progress crossing; threshold diagnostic only
+W002,H,threshold,t20,t20_day,36.0,36.0,35.0,36.0,37.0,38.0,35.0,39.0,3.0,4.0,1.0,1.0,0.0,usable,t20 progress crossing; threshold diagnostic only
+W002,H,threshold,t25,t25_day,37.0,37.0,36.0,36.0,37.0,39.0,36.0,40.02499999999998,3.0,4.024999999999977,1.0,1.0,0.0,usable,t25 progress crossing; threshold diagnostic only
+W002,H,threshold,t30,t30_day,37.0,37.0,36.0,37.0,38.0,41.0,36.0,42.0,5.0,6.0,1.0,1.0,0.0,usable,t30 progress crossing; threshold diagnostic only
+W002,H,threshold,t35,t35_day,38.0,38.0,36.0,37.0,38.0,42.0,36.0,43.0,6.0,7.0,1.0,1.0,0.0,usable,t35 progress crossing; threshold diagnostic only
+W002,H,threshold,t40,t40_day,38.0,38.0,37.0,37.0,39.0,44.0,36.0,49.0,7.0,13.0,2.0,1.0,0.0,usable_with_caution,t40 progress crossing; threshold diagnostic only
+W002,H,threshold,t45,t45_day,38.0,39.0,37.0,38.0,40.0,49.0,37.0,50.0,12.0,13.0,2.0,1.0,0.0,usable_with_caution,t45 progress crossing; threshold diagnostic only
+W002,H,threshold,t50,t50_day,39.0,39.0,37.0,38.0,41.0,50.0,37.0,51.0,13.0,14.0,3.0,1.0,0.0,broad_uncertain,t50 progress crossing; threshold diagnostic only
+W002,H,threshold,t75,t75_day,52.0,51.0,39.0,41.0,53.0,54.0,39.0,54.0,15.0,15.0,12.0,1.0,0.0,broad_uncertain,t75 progress crossing; threshold diagnostic only
+W002,H,peak_change,peak_change_raw,peak_change_day_raw,38.0,37.0,35.0,36.0,39.0,54.0,35.0,55.0,19.0,20.0,3.0,1.0,,broad_uncertain,fastest progress-change day; not onset
+W002,H,peak_change,peak_change_smooth3,peak_change_day_smooth3,37.0,37.0,36.0,36.0,39.0,54.0,36.0,54.0,18.0,18.0,3.0,1.0,,broad_uncertain,fastest progress-change day; not onset
+W002,H,duration,duration_25_75,duration_25_75,15.0,13.0,3.0,5.0,16.0,17.0,3.0,18.0,14.0,15.0,11.0,1.0,,broad_uncertain,process-shape duration/tail diagnostic
+W002,H,tail,tail_50_75,tail_50_75,13.0,5.0,1.0,2.0,12.0,15.0,1.0,15.0,14.0,14.0,10.0,1.0,,broad_uncertain,process-shape duration/tail diagnostic
+W002,H,early_span,early_span_25_50,early_span_25_50,2.0,2.0,1.0,2.0,3.0,12.0,1.0,13.0,11.0,12.0,1.0,1.0,,usable_with_caution,process-shape duration/tail diagnostic
+W002,Je,departure,departure90,departure90_day,42.0,41.0,39.0,40.0,43.0,45.0,38.0,45.0,6.0,7.0,3.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,Je,departure,departure95,departure95_day,42.0,42.0,39.0,40.0,43.0,45.0,38.0,45.0,6.0,7.0,3.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,Je,threshold,t10,t10_day,42.0,41.0,30.0,40.0,43.0,44.0,30.0,45.0,14.0,15.0,3.0,1.0,0.171,broad_uncertain,t10 progress crossing; threshold diagnostic only
+W002,Je,threshold,t15,t15_day,43.0,43.0,40.0,41.0,44.0,45.0,30.0,46.0,5.0,16.0,3.0,1.0,0.026,usable,t15 progress crossing; threshold diagnostic only
+W002,Je,threshold,t20,t20_day,44.0,43.0,41.0,42.0,44.0,46.0,40.0,46.0,5.0,6.0,2.0,1.0,0.001,usable,t20 progress crossing; threshold diagnostic only
+W002,Je,threshold,t25,t25_day,44.0,44.0,41.0,43.0,45.0,46.0,41.0,46.0,5.0,5.0,2.0,1.0,0.0,usable,t25 progress crossing; threshold diagnostic only
+W002,Je,threshold,t30,t30_day,45.0,44.0,42.0,43.0,45.0,47.0,41.0,47.0,5.0,6.0,2.0,1.0,0.0,usable,t30 progress crossing; threshold diagnostic only
+W002,Je,threshold,t35,t35_day,45.0,45.0,42.95,44.0,46.0,47.0,42.0,47.0,4.049999999999997,5.0,2.0,1.0,0.0,usable,t35 progress crossing; threshold diagnostic only
+W002,Je,threshold,t40,t40_day,46.0,45.0,43.0,44.0,46.0,48.0,43.0,48.0,5.0,5.0,2.0,1.0,0.0,usable,t40 progress crossing; threshold diagnostic only
+W002,Je,threshold,t45,t45_day,46.0,46.0,44.0,45.0,47.0,48.0,43.0,49.0,4.0,6.0,2.0,1.0,0.0,usable,t45 progress crossing; threshold diagnostic only
+W002,Je,threshold,t50,t50_day,46.0,46.0,44.0,45.0,47.0,49.0,44.0,50.0,5.0,6.0,2.0,1.0,0.0,usable,t50 progress crossing; threshold diagnostic only
+W002,Je,threshold,t75,t75_day,51.0,51.0,46.0,49.0,52.0,53.0,46.0,54.0,7.0,8.0,3.0,1.0,0.0,usable_with_caution,t75 progress crossing; threshold diagnostic only
+W002,Je,peak_change,peak_change_raw,peak_change_day_raw,46.0,46.0,41.0,45.0,46.0,52.0,40.0,55.0,11.0,15.0,1.0,1.0,,usable_with_caution,fastest progress-change day; not onset
+W002,Je,peak_change,peak_change_smooth3,peak_change_day_smooth3,45.0,45.0,41.0,45.0,46.0,49.0,41.0,52.0,8.0,11.0,1.0,1.0,,usable_with_caution,fastest progress-change day; not onset
+W002,Je,duration,duration_25_75,duration_25_75,7.0,6.0,4.0,5.0,8.0,10.0,3.0,11.0,6.0,8.0,3.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,Je,tail,tail_50_75,tail_50_75,5.0,4.0,2.0,3.0,5.0,7.0,1.0,7.0,5.0,6.0,2.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,Je,early_span,early_span_25_50,early_span_25_50,2.0,2.0,1.0,2.0,3.0,4.0,1.0,5.0,3.0,4.0,1.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,Jw,departure,departure90,departure90_day,37.0,37.0,37.0,37.0,37.0,38.0,37.0,38.0,1.0,1.0,0.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,Jw,departure,departure95,departure95_day,37.0,37.0,37.0,37.0,37.0,38.0,37.0,38.02499999999998,1.0,1.0249999999999773,0.0,1.0,0.0,usable,departure from pre-state background; not physical onset
+W002,Jw,threshold,t10,t10_day,37.0,37.0,36.0,37.0,38.0,39.0,35.0,40.0,3.0,5.0,1.0,1.0,0.0,usable,t10 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t15,t15_day,38.0,38.0,37.0,37.0,38.0,41.0,36.0,42.0,4.0,6.0,1.0,1.0,0.0,usable,t15 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t20,t20_day,38.0,38.0,37.0,38.0,39.0,42.0,37.0,44.0,5.0,7.0,1.0,1.0,0.0,usable,t20 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t25,t25_day,39.0,39.0,38.0,38.0,40.0,43.0,37.0,45.0,5.0,8.0,2.0,1.0,0.0,usable,t25 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t30,t30_day,40.0,40.0,38.0,39.0,42.0,44.0,38.0,46.0,6.0,8.0,3.0,1.0,0.0,usable,t30 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t35,t35_day,41.0,41.0,39.0,39.0,43.0,45.0,38.0,47.0,6.0,9.0,4.0,1.0,0.0,usable,t35 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t40,t40_day,42.0,42.0,39.0,40.0,43.0,46.0,39.0,47.0,7.0,8.0,3.0,1.0,0.0,usable_with_caution,t40 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t45,t45_day,43.0,43.0,39.0,41.0,44.0,47.0,39.0,48.0,8.0,9.0,3.0,1.0,0.0,usable_with_caution,t45 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t50,t50_day,44.0,43.0,40.0,42.0,45.0,48.0,40.0,49.0,8.0,9.0,3.0,1.0,0.0,usable_with_caution,t50 progress crossing; threshold diagnostic only
+W002,Jw,threshold,t75,t75_day,48.0,48.0,44.0,46.0,50.0,52.0,43.0,52.0,8.0,9.0,4.0,1.0,0.0,usable_with_caution,t75 progress crossing; threshold diagnostic only
+W002,Jw,peak_change,peak_change_raw,peak_change_day_raw,38.0,42.0,37.0,38.0,46.0,53.0,37.0,53.0,16.0,16.0,8.0,1.0,,broad_uncertain,fastest progress-change day; not onset
+W002,Jw,peak_change,peak_change_smooth3,peak_change_day_smooth3,38.0,40.0,38.0,38.0,46.0,52.0,38.0,53.0,14.0,15.0,8.0,1.0,,broad_uncertain,fastest progress-change day; not onset
+W002,Jw,duration,duration_25_75,duration_25_75,9.0,8.0,5.0,7.0,10.0,13.0,5.0,13.0,8.0,8.0,3.0,1.0,,usable_with_caution,process-shape duration/tail diagnostic
+W002,Jw,tail,tail_50_75,tail_50_75,4.0,4.0,2.0,3.0,5.0,8.0,2.0,9.0,6.0,7.0,2.0,1.0,,usable,process-shape duration/tail diagnostic
+W002,Jw,early_span,early_span_25_50,early_span_25_50,5.0,4.0,2.0,3.0,5.0,7.0,2.0,9.0,5.0,7.0,2.0,1.0,,usable,process-shape duration/tail diagnostic

@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-11T09:58:34",
+  "does_not_rerun_bootstrap": true,
+  "does_not_rerun_mca_or_svd": true,
+  "does_not_rerun_peak_detector": true,
+  "input_dir": "D:\\easm_project01\\stage_partition\\V9_1\\outputs\\bootstrap_composite_mca_audit_v9_1_f_all_pairs_a",
+  "input_tag": "bootstrap_composite_mca_audit_v9_1_f_all_pairs_a",
+  "long_bootstrap_object_peak_table_saved": false,
+  "n_object_peak_stat_rows": 600,
+  "n_pair_order_rows": 1200,
+  "n_sequence_rows": 120,
+  "n_targets": 40,
+  "n_windows": 4,
+  "near_day_threshold": 0.0,
+  "object_shift_report_threshold_days": 3.0,
+  "output_dir": "D:\\easm_project01\\stage_partition\\V9_1\\outputs\\v9_1_f_all_pairs_sequence_registry_a",
+  "output_tag": "v9_1_f_all_pairs_sequence_registry_a",
+  "physical_interpretation_included": false,
+  "sequence_scope": "target-conditioned high/mid/low score phases using precomputed bootstrap object peaks",
+  "version": "v9_1_f_all_pairs_sequence_registry_a"
+}

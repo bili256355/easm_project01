@@ -1,0 +1,6 @@
+﻿window_id,object,selected_candidate_id,selected_peak_day,selected_window_start,selected_window_end,selected_role,support_class,selection_reason,excluded_candidates
+W160,P,CP001,158,150,168,within_system_window,candidate_window,score=support+toward_system_or_front-distance_to_anchor,CP002@127:candidate_window;CP003@173:weak_window;CP004@137:candidate_window;CP005@169:candidate_window
+W160,V,CP001,162,152,172,within_system_window,candidate_window,score=support+toward_system_or_front-distance_to_anchor,CP002@138:weak_window
+W160,H,CP001,170,163,173,late_or_catchup,accepted_window,score=support+toward_system_or_front-distance_to_anchor,CP002@151:candidate_window;CP003@130:candidate_window
+W160,Je,CP001,169,159,173,late_or_catchup,candidate_window,score=support+toward_system_or_front-distance_to_anchor,CP002@162:weak_window;CP003@142:weak_window
+W160,Jw,CP001,169,159,173,late_or_catchup,candidate_window,score=support+toward_system_or_front-distance_to_anchor,CP002@132:candidate_window

@@ -1,0 +1,4 @@
+﻿baseline_config,pre_start,pre_end,post_start,post_end,role,notes
+C0_full_stage,0,39,49,74,main_full_stage,W45 accepted window outside full pre/post stage
+C1_buffered_stage,0,34,54,69,buffered_sensitivity,Remove 5-day buffers around W45 and next-window front edge
+C2_immediate_pre,25,34,54,69,immediate_pre_diagnostic,"Near pre-state diagnostic, not equal to full-stage baseline"

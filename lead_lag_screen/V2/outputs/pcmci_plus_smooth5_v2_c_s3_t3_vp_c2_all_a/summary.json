@@ -1,0 +1,39 @@
+{
+  "layer": "lead_lag_screen/V2_c_sensitivity_targeted",
+  "output_tag": "pcmci_plus_smooth5_v2_c_s3_t3_vp_c2_all_a",
+  "c1_targeted_windows": [
+    "S3",
+    "T3"
+  ],
+  "c1_targeted_family_pairs": [
+    [
+      "V",
+      "P"
+    ]
+  ],
+  "c2_windows": [
+    "S1",
+    "T1",
+    "S2",
+    "T2",
+    "S3",
+    "T3",
+    "S4",
+    "T4",
+    "S5"
+  ],
+  "method": "PCMCI+ with ParCorr sensitivity reruns",
+  "input": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+  "n_windows": 9,
+  "n_years": 45,
+  "n_variants_with_outputs": 2,
+  "n_lagged_tests": 4530,
+  "n_lagged_graph_selected": 47,
+  "n_lagged_supported_window_fdr": 13,
+  "n_tau0_tests": 906,
+  "n_tau0_supported": 148,
+  "v_to_p_summary_file": "v_to_p_recovery_audit.csv",
+  "h_to_p_summary_file": "h_to_p_recovery_audit.csv",
+  "not_pathway_result": true,
+  "finished_at": "2026-04-28T11:02:03"
+}

@@ -1,0 +1,103 @@
+{
+  "foundation": {
+    "project_root": "D:\\easm_project01",
+    "foundation_layer": "foundation",
+    "foundation_version": "V1",
+    "preprocess_output_tag": "baseline_a"
+  },
+  "source": {
+    "project_root": "D:\\easm_project01",
+    "source_v6_output_tag": "mainline_v6_a",
+    "source_v6_1_output_tag": "mainline_v6_1_a"
+  },
+  "profile": {
+    "lat_step_deg": 2.0,
+    "p_lon_range": [
+      105.0,
+      125.0
+    ],
+    "p_lat_range": [
+      15.0,
+      39.0
+    ],
+    "v_lon_range": [
+      105.0,
+      125.0
+    ],
+    "v_lat_range": [
+      10.0,
+      30.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "je_lon_range": [
+      120.0,
+      150.0
+    ],
+    "je_lat_range": [
+      25.0,
+      45.0
+    ],
+    "jw_lon_range": [
+      80.0,
+      110.0
+    ],
+    "jw_lat_range": [
+      25.0,
+      45.0
+    ]
+  },
+  "state": {
+    "standardize": true,
+    "block_equal_contribution": true,
+    "trim_invalid_days": true,
+    "use_joint_valid_day_index": true
+  },
+  "detector": {
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "fixed_n_bkps": null,
+    "pen": 4.0,
+    "epsilon": null,
+    "local_peak_min_distance_days": 3,
+    "nearest_peak_search_radius_days": 10
+  },
+  "accepted_windows": {
+    "accepted_peak_days": [
+      45,
+      81,
+      113,
+      160
+    ],
+    "excluded_candidate_days": [
+      18,
+      96,
+      132,
+      135
+    ],
+    "bootstrap_match_threshold": 0.95,
+    "require_logs": true,
+    "require_bootstrap_support": true,
+    "require_windows_from_v6_1": true
+  },
+  "peak_labels": {
+    "edge_margin_days": 1,
+    "high_plateau_ratio": 0.9,
+    "broad_peak_min_high_days": 3,
+    "multi_peak_second_ratio": 0.9,
+    "weak_peak_sharpness_threshold": 1.1
+  },
+  "output": {
+    "output_tag": "field_transition_timing_v7_a",
+    "write_plots": true
+  }
+}

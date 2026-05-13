@@ -1,0 +1,271 @@
+object,baseline_config,metric_family,profile_value,field2d_value,difference_2d_minus_profile,agreement_class,interpretation
+H,C0_full_stage,dist_core_growth_share,0.02702378849233597,0.034487670389135354,0.007463881896799383,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_early_growth_share,0.39153045301151546,0.40314553007029347,0.011615077058778012,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_growth_center,38.673876674752144,38.31117218225128,-0.36270449250086045,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_late_growth_share,0.15695202091431648,0.14229001077947515,-0.014662010134841336,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_mean_compare,0.673656862604474,0.6764813501762071,0.0028244875717331475,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_mean_core,0.6762329781898765,0.6844487944233625,0.008215816233485995,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_mean_early,0.4872579583638615,0.4851825828918998,-0.0020753754719616824,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_mean_late,0.7263282184687553,0.7270609758370091,0.0007327573682538446,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,dist_positive_growth_area,,0.9606673591744722,,unresolved,Comparison unresolved due to missing or invalid values.
+H,C0_full_stage,pattern_core_growth_share,0.11007238492878751,0.11714388887453193,0.00707150394574442,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,pattern_early_growth_share,0.2489469869264449,0.18432635465626596,-0.06462063227017895,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,pattern_growth_center,48.56360727550423,51.89080995719616,3.3272026816919293,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+H,C0_full_stage,pattern_late_growth_share,0.018940222181855912,0.008780578809204128,-0.010159643372651784,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,pattern_mean_compare,0.658642731272042,0.5281039566040636,-0.13053877466797836,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+H,C0_full_stage,pattern_mean_core,0.832777949594063,0.597230835986596,-0.23554711360746705,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+H,C0_full_stage,pattern_mean_early,0.21743058056940448,0.1717660903093285,-0.04566449026007599,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,pattern_mean_late,0.6926415032262808,0.625245524417307,-0.06739597880897386,consistent,2D-field metric is consistent with the profile-based metric.
+H,C0_full_stage,pattern_positive_growth_area,,2.1763501707212978,,unresolved,Comparison unresolved due to missing or invalid values.
+H,C1_buffered_stage,dist_core_growth_share,0.023643322792245115,0.029351187622605437,0.005707864830360322,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_early_growth_share,0.35541169195213784,0.36270901953950735,0.0072973275873695065,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_growth_center,37.487558801949135,37.32242666655324,-0.16513213539589344,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_late_growth_share,0.14319978667113473,0.13468409302797058,-0.008515693643164152,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_mean_compare,0.6985264430769088,0.7014547832747092,0.0029283401978004164,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_mean_core,0.7002708745500587,0.7066159414447967,0.006345066894738016,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_mean_early,0.5293483175257151,0.5275717725812802,-0.0017765449444349102,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_mean_late,0.7466272700386423,0.7492063632624631,0.002579093223820883,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,dist_positive_growth_area,,0.9683756841597201,,unresolved,Comparison unresolved due to missing or invalid values.
+H,C1_buffered_stage,pattern_core_growth_share,0.10971672770397826,0.12540859601078078,0.01569186830680251,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,pattern_early_growth_share,0.24885998113981175,0.18954960919663882,-0.05931037194317293,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,pattern_growth_center,48.581527086839245,51.11342597143253,2.531898884593282,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+H,C1_buffered_stage,pattern_late_growth_share,0.01921754548054548,0.02261288380812155,0.003395338327576068,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,pattern_mean_compare,0.7239890629099861,0.573501343653398,-0.1504877192565881,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+H,C1_buffered_stage,pattern_mean_core,0.8979799501193756,0.6283014298509002,-0.2696785202684754,same_side_different_magnitude,"Profile and 2D metrics are on the same side of the reference level, but magnitudes differ."
+H,C1_buffered_stage,pattern_mean_early,0.28210893185804,0.1995059714255499,-0.08260296043249007,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,pattern_mean_late,0.7583047193767685,0.6940939981924426,-0.06421072118432591,consistent,2D-field metric is consistent with the profile-based metric.
+H,C1_buffered_stage,pattern_positive_growth_area,,2.0863909453444016,,unresolved,Comparison unresolved due to missing or invalid values.
+H,C2_immediate_pre,dist_core_growth_share,0.03962871434633736,0.048704284715767404,0.009075570369430047,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_early_growth_share,0.4963979864044849,0.5076123876052882,0.011214401200803248,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_growth_center,44.12207110556851,43.860088312513525,-0.2619827930549832,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_late_growth_share,0.2164891383458375,0.2047769887674084,-0.011712149578429087,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_mean_compare,0.539737481367537,0.546966319158699,0.007228837791162013,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_mean_core,0.5444778804398529,0.5575102064271513,0.013032325987298421,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_mean_early,0.27932598059121716,0.27960833035275007,0.00028234976153290736,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_mean_late,0.6128345557164352,0.6183525040204896,0.0055179483040543875,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,dist_positive_growth_area,,0.9711294994225,,unresolved,Comparison unresolved due to missing or invalid values.
+H,C2_immediate_pre,pattern_core_growth_share,0.10977121001495534,0.13384152039659633,0.024070310381640994,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,pattern_early_growth_share,0.24841640669797643,0.18830668301523035,-0.060109723682746086,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,pattern_growth_center,48.6257514524089,50.262175733170125,1.6364242807612257,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,pattern_late_growth_share,0.019681415404663827,0.056840293173892276,0.03715887776922845,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,pattern_mean_compare,0.688665891546811,0.5115256350313232,-0.17714025651548782,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+H,C2_immediate_pre,pattern_mean_core,0.880392460921137,0.5411320012234498,-0.33926045969768714,same_side_different_magnitude,"Profile and 2D metrics are on the same side of the reference level, but magnitudes differ."
+H,C2_immediate_pre,pattern_mean_early,0.19631309276846914,0.11114739323755685,-0.0851656995309123,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,pattern_mean_late,0.7290852138285641,0.6705398218731693,-0.058545391955394765,consistent,2D-field metric is consistent with the profile-based metric.
+H,C2_immediate_pre,pattern_positive_growth_area,,2.0581216487667398,,unresolved,Comparison unresolved due to missing or invalid values.
+Je,C0_full_stage,dist_core_growth_share,0.09257356667275997,0.08712654038735171,-0.00544702628540826,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_early_growth_share,0.3186814332020704,0.316165363430427,-0.00251606977164337,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_growth_center,40.286521620525114,39.88029745350798,-0.40622416701713604,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_late_growth_share,0.16258886428780595,0.16916336405531252,0.00657449976750657,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_mean_compare,0.6254042526577537,0.624554507238847,-0.0008497454189067,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_mean_core,0.6085992460844191,0.6057118049765334,-0.0028874411078856355,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_mean_early,0.4519288447591935,0.46127318030365033,0.00934433554445685,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_mean_late,0.7050541198289536,0.7018677991750926,-0.003186320653861041,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,dist_positive_growth_area,,0.8854003754299623,,unresolved,Comparison unresolved due to missing or invalid values.
+Je,C0_full_stage,pattern_core_growth_share,0.0,0.0,0.0,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_early_growth_share,0.44080296130416696,0.448565328653809,0.00776236734964203,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_growth_center,36.32977397819176,36.27250929514774,-0.05726468304401777,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_late_growth_share,0.032404611784114905,0.03875244656478148,0.006347834780666577,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_mean_compare,0.9292294171543681,0.9225504429834447,-0.006678974170923446,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_mean_core,1.0424666570705157,1.0395699916278307,-0.0028966654426849647,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_mean_early,0.7428026724977841,0.72533588206439,-0.017466790433394053,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_mean_late,0.787914792987155,0.7831301870017098,-0.004784605985445278,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C0_full_stage,pattern_positive_growth_area,,2.3359219753462312,,unresolved,Comparison unresolved due to missing or invalid values.
+Je,C1_buffered_stage,dist_core_growth_share,0.08726985102397186,0.07731729956389269,-0.009952551460079173,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_early_growth_share,0.28852402931589716,0.2831471180833657,-0.005376911232531478,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_growth_center,38.38708096556293,38.39651030839328,0.009429342830351573,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_late_growth_share,0.14893536499891405,0.16141494661786546,0.012479581618951407,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_mean_compare,0.6592858953289751,0.657843775057767,-0.0014421202712080472,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_mean_core,0.6422720892265527,0.6380228048928799,-0.004249284333672776,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_mean_early,0.4968701399040779,0.5062607052492016,0.009390565345123725,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_mean_late,0.7353863562361519,0.7317287926893468,-0.0036575635468051315,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,dist_positive_growth_area,,0.917625260327569,,unresolved,Comparison unresolved due to missing or invalid values.
+Je,C1_buffered_stage,pattern_core_growth_share,0.0,0.0,0.0,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_early_growth_share,0.43741083633239203,0.4458896757674593,0.008478839435067276,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_growth_center,35.950585977339514,35.76678225022583,-0.1838037271136841,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_late_growth_share,0.03192615983711394,0.040876470209346934,0.00895031037223299,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_mean_compare,0.9521701699593756,0.9380279895684149,-0.014142180390960712,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_mean_core,1.0482757427609724,1.0360368769472794,-0.012238865813692934,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_mean_early,0.7922520003128655,0.7706131497101032,-0.021638850602762272,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_mean_late,0.8320457759893699,0.8198375334039665,-0.012208242585403428,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C1_buffered_stage,pattern_positive_growth_area,,2.0125810387502447,,unresolved,Comparison unresolved due to missing or invalid values.
+Je,C2_immediate_pre,dist_core_growth_share,0.10934904916627594,0.09757105399474263,-0.011777995171533315,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_early_growth_share,0.41488304488248834,0.4177543403337744,0.00287129545128606,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_growth_center,44.71180865609833,44.70296981184492,-0.008838844253403977,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_late_growth_share,0.21423783448037953,0.22755153393588354,0.013313699455504008,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_mean_compare,0.513446380471817,0.5086320248456037,-0.004814355626213351,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_mean_core,0.495877155941502,0.48880956953100974,-0.007067586410492266,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_mean_early,0.2714661421701684,0.27686285028485735,0.005396708114688953,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_mean_late,0.6133583704851749,0.6055222450775191,-0.00783612540765588,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,dist_positive_growth_area,,0.8870301335701711,,unresolved,Comparison unresolved due to missing or invalid values.
+Je,C2_immediate_pre,pattern_core_growth_share,0.0,0.0,0.0,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_early_growth_share,0.44587912516599754,0.46961340531490603,0.023734280148908493,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_growth_center,36.89800876533419,36.86246777133651,-0.03554099399767807,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_late_growth_share,0.033125276633393486,0.05603429439609187,0.022909017762698387,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_mean_compare,0.9187108109197637,0.8598835874076907,-0.058827223512073035,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_mean_core,1.0738834353564501,0.9942679110904971,-0.07961552426595309,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_mean_early,0.6643918124101409,0.5912934345543422,-0.07309837785579865,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_mean_late,0.7273708159016314,0.7082730881500189,-0.01909772775161256,consistent,2D-field metric is consistent with the profile-based metric.
+Je,C2_immediate_pre,pattern_positive_growth_area,,2.748155791520796,,unresolved,Comparison unresolved due to missing or invalid values.
+Jw,C0_full_stage,dist_core_growth_share,0.13781388145055357,0.1311677112155824,-0.0066461702349711604,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_early_growth_share,0.1963634305594562,0.19519654311719825,-0.0011668874422579578,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_growth_center,43.36149093758011,43.5411861449686,0.17969520738849099,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_late_growth_share,0.30812044567130875,0.32270401418335193,0.014583568512043177,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_mean_compare,0.5024677169294455,0.4972773756352864,-0.005190341294159073,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_mean_core,0.4332512410114651,0.42536476163699827,-0.007886479374466848,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_mean_early,0.2907476443559335,0.2967942569820823,0.006046612626148806,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_mean_late,0.6615905082421605,0.6533462939815167,-0.008244214260643812,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,dist_positive_growth_area,,0.9109361135998205,,unresolved,Comparison unresolved due to missing or invalid values.
+Jw,C0_full_stage,pattern_core_growth_share,0.10073863213976551,0.17792752845455187,0.07718889631478636,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,pattern_early_growth_share,0.5754435692123728,0.3340715534921492,-0.24137201572022365,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C0_full_stage,pattern_growth_center,39.621669414119104,41.67117213653826,2.049502722419156,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C0_full_stage,pattern_late_growth_share,0.18292859192797356,0.2370380751383024,0.05410948321032885,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,pattern_mean_compare,0.7050370104662484,0.5994818644669943,-0.1055551459992542,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C0_full_stage,pattern_mean_core,0.6799650543470089,0.535154939930861,-0.14481011441614788,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C0_full_stage,pattern_mean_early,0.2531326502936968,0.2016290908197312,-0.05150355947396559,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,pattern_mean_late,0.8871193300091696,0.8334703567471682,-0.053648973262001465,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C0_full_stage,pattern_positive_growth_area,,1.2474809502407669,,unresolved,Comparison unresolved due to missing or invalid values.
+Jw,C1_buffered_stage,dist_core_growth_share,0.1318241283956183,0.12164214107513863,-0.010181987320479674,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_early_growth_share,0.19520088648824563,0.1918769796405276,-0.0033239068477180223,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_growth_center,42.65667634015395,42.64577642679519,-0.010899913358763058,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_late_growth_share,0.30141845571623854,0.3142676524010621,0.012849196684823538,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_mean_compare,0.5309633217161339,0.5263709730268445,-0.004592348689289372,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_mean_core,0.46412419664437204,0.4566188780723915,-0.007505318571980557,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_mean_early,0.3269719559028976,0.3329098435417935,0.005937887638895856,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_mean_late,0.6838583234242587,0.6765879444372765,-0.007270378986982129,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,dist_positive_growth_area,,0.919947401387214,,unresolved,Comparison unresolved due to missing or invalid values.
+Jw,C1_buffered_stage,pattern_core_growth_share,0.098550106009885,0.17327874517457273,0.07472863916468774,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,pattern_early_growth_share,0.5838483926160739,0.3421807014536341,-0.2416676911624398,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C1_buffered_stage,pattern_growth_center,39.296207214032854,41.11210856226118,1.8159013482283228,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,pattern_late_growth_share,0.17755644239577825,0.23445880193139165,0.0569023595356134,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,pattern_mean_compare,0.728653508286948,0.6226154216994887,-0.10603808658745928,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C1_buffered_stage,pattern_mean_core,0.706998802650185,0.5632140733037634,-0.1437847293464216,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C1_buffered_stage,pattern_mean_early,0.3097629151222073,0.24727834778774965,-0.062484567334457675,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,pattern_mean_late,0.8945212174898581,0.8408008850223399,-0.053720332467518284,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C1_buffered_stage,pattern_positive_growth_area,,1.1809577020186335,,unresolved,Comparison unresolved due to missing or invalid values.
+Jw,C2_immediate_pre,dist_core_growth_share,0.19109227252946204,0.18121868009258435,-0.009873592436877687,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_early_growth_share,0.2431408059808496,0.24935991275111255,0.006219106770262939,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_growth_center,46.64266963593613,46.621789005084516,-0.020880630851614512,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_late_growth_share,0.3429550795517348,0.35340780852036935,0.010452728968634528,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_mean_compare,0.42564126854110107,0.4236270491217586,-0.002014219419342489,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_mean_core,0.3558985036949816,0.35197891971925044,-0.003919583975731167,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_mean_early,0.14010250125120863,0.1485997190624661,0.00849721781125748,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_mean_late,0.6211388967333922,0.6154258221264695,-0.005713074606922719,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,dist_positive_growth_area,,0.9351836582151798,,unresolved,Comparison unresolved due to missing or invalid values.
+Jw,C2_immediate_pre,pattern_core_growth_share,0.10943036954030043,0.19823432376583852,0.08880395422553809,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,pattern_early_growth_share,0.5622317208307768,0.33241675327854875,-0.22981496755222802,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C2_immediate_pre,pattern_growth_center,40.03547312206558,42.5316005600631,2.496127437997515,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C2_immediate_pre,pattern_late_growth_share,0.18841190889835413,0.24122575768625343,0.0528138487878993,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,pattern_mean_compare,0.693470363223313,0.5720533581161407,-0.12141700510717235,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C2_immediate_pre,pattern_mean_core,0.6684252099921834,0.5066184313102132,-0.16180677868197013,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+Jw,C2_immediate_pre,pattern_mean_early,0.2437102802193257,0.1495781825383835,-0.09413209768094219,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,pattern_mean_late,0.8791037798746251,0.8219303888649245,-0.057173391009700536,consistent,2D-field metric is consistent with the profile-based metric.
+Jw,C2_immediate_pre,pattern_positive_growth_area,,1.2604061274228093,,unresolved,Comparison unresolved due to missing or invalid values.
+P,C0_full_stage,dist_core_growth_share,0.326209591495947,0.32312275010744423,-0.0030868413885027923,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_early_growth_share,0.2419700541263144,0.21777183771886388,-0.024198216407450512,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_growth_center,41.72613406515835,42.45495766929845,0.7288236041401035,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_late_growth_share,0.1837462373584439,0.22700257513879518,0.04325633778035129,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_mean_compare,0.6046572574389155,0.5599491757394987,-0.04470808169941687,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_mean_core,0.5694816085051214,0.5039179267252748,-0.06556368177984662,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_mean_early,0.24497257258633423,0.2473926645329792,0.00242009194664497,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_mean_late,0.8155173456253083,0.7648124086782315,-0.050704936947076784,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,dist_positive_growth_area,,0.8745997063385389,,unresolved,Comparison unresolved due to missing or invalid values.
+P,C0_full_stage,pattern_core_growth_share,0.38156915065835095,0.39744547946030595,0.015876328801954998,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,pattern_early_growth_share,0.11641112625910974,0.06065871462040334,-0.055752411638706395,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,pattern_growth_center,37.688380167416035,40.20763996867088,2.5192598012548473,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C0_full_stage,pattern_late_growth_share,0.16935612114000176,0.26841029500121905,0.09905417386121729,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,pattern_mean_compare,0.7231909955961132,0.6050385923488459,-0.11815240324726728,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C0_full_stage,pattern_mean_core,0.637554310746912,0.445415114252015,-0.19213919649489702,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C0_full_stage,pattern_mean_early,0.13780027792944186,0.1050300413205503,-0.032770236608891556,consistent,2D-field metric is consistent with the profile-based metric.
+P,C0_full_stage,pattern_mean_late,1.1258366369367532,1.025025833976997,-0.10081080295975609,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C0_full_stage,pattern_positive_growth_area,,1.4329467295289495,,unresolved,Comparison unresolved due to missing or invalid values.
+P,C1_buffered_stage,dist_core_growth_share,0.3169359175447869,0.3017721898207342,-0.015163727724052667,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_early_growth_share,0.24155582940832804,0.22325005199255923,-0.018305777415768804,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_growth_center,40.050202672421946,41.10991876815411,1.0597160957321634,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_late_growth_share,0.16140415279822257,0.1987123513116079,0.03730819851338532,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_mean_compare,0.6384883829020677,0.5844374024283651,-0.0540509804737026,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_mean_core,0.608616730137442,0.53681451389018,-0.07180221624726202,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_mean_early,0.2885389683522709,0.28629279403310537,-0.002246174319165517,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_mean_late,0.8395412255860306,0.7732455406757341,-0.06629568491029647,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,dist_positive_growth_area,,0.8965331443724172,,unresolved,Comparison unresolved due to missing or invalid values.
+P,C1_buffered_stage,pattern_core_growth_share,0.3801037718841363,0.3892470305902406,0.009143258706104274,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,pattern_early_growth_share,0.11619680912636421,0.07873121921037869,-0.03746558991598552,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,pattern_growth_center,37.6285137869097,39.579275925770425,1.9507621388607248,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,pattern_late_growth_share,0.16927803148696596,0.2666638308964226,0.09738579940945663,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,pattern_mean_compare,0.739556203020513,0.6258404897811746,-0.11371571323933838,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C1_buffered_stage,pattern_mean_core,0.655206366112453,0.4772851873407021,-0.1779211787717509,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C1_buffered_stage,pattern_mean_early,0.1665380785654808,0.1381347719268946,-0.0284033066385862,consistent,2D-field metric is consistent with the profile-based metric.
+P,C1_buffered_stage,pattern_mean_late,1.1338470172345136,1.0248070469436148,-0.10903997029089885,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C1_buffered_stage,pattern_positive_growth_area,,1.379510317838593,,unresolved,Comparison unresolved due to missing or invalid values.
+P,C2_immediate_pre,dist_core_growth_share,0.3941539206274133,0.35211646790343715,-0.04203745272397613,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_early_growth_share,0.27260669512046226,0.26988981888975977,-0.002716876230702492,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_growth_center,43.64965967275959,43.93985433141927,0.2901946586596793,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_late_growth_share,0.20048717661579943,0.23044505752500985,0.02995788090921042,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_mean_compare,0.5798554691419424,0.5322345781429325,-0.0476208909990099,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_mean_core,0.544455170298368,0.48067560942663623,-0.06377956087173176,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_mean_early,0.17044133150477353,0.17926943088071376,0.00882809937594023,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_mean_late,0.8156234798109251,0.7488505110331891,-0.06677296877773597,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,dist_positive_growth_area,,0.8670926347102715,,unresolved,Comparison unresolved due to missing or invalid values.
+P,C2_immediate_pre,pattern_core_growth_share,0.38537733700707427,0.4187394049762083,0.033362067969134046,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,pattern_early_growth_share,0.12428226939677597,0.08973601315100986,-0.03454625624576611,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,pattern_growth_center,37.85976849581929,40.24152947807528,2.38176098225599,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C2_immediate_pre,pattern_late_growth_share,0.1672197572135376,0.2748707901574298,0.10765103294389222,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C2_immediate_pre,pattern_mean_compare,0.7025903801407081,0.5877049865475792,-0.11488539359312888,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C2_immediate_pre,pattern_mean_core,0.6147788200849059,0.4336194125524346,-0.18115940753247134,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C2_immediate_pre,pattern_mean_early,0.03862522023695904,0.04537894253101311,0.0067537222940540695,consistent,2D-field metric is consistent with the profile-based metric.
+P,C2_immediate_pre,pattern_mean_late,1.1507593634707076,1.0225967897691275,-0.12816257370158013,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+P,C2_immediate_pre,pattern_positive_growth_area,,1.4272305404257641,,unresolved,Comparison unresolved due to missing or invalid values.
+V,C0_full_stage,dist_core_growth_share,0.1945108980594905,0.254612511874752,0.06010161381526147,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_early_growth_share,0.16958282571908215,0.12667268260977613,-0.04291014310930602,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_growth_center,40.682898593516406,43.42052759449165,2.7376290009752466,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+V,C0_full_stage,dist_late_growth_share,0.19293417245653913,0.21866557086221508,0.025731398405675954,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_mean_compare,0.530128699993257,0.5028816733283314,-0.02724702666492551,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_mean_core,0.46557267204336966,0.42002663376831245,-0.04554603827505721,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_mean_early,0.3031586594651166,0.26872440181666996,-0.03443425764844665,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_mean_late,0.7003267419457077,0.7010119962960708,0.0006852543503631514,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,dist_positive_growth_area,,1.0003519742867593,,unresolved,Comparison unresolved due to missing or invalid values.
+V,C0_full_stage,pattern_core_growth_share,0.34622601732542707,0.30813613462174616,-0.03808988270368091,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,pattern_early_growth_share,0.07310119246654176,0.031051438363398257,-0.0420497541031435,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,pattern_growth_center,40.817281820919995,46.13847315941545,5.321191338495453,profile_2d_offset,Growth center differs by more than the small-offset threshold.
+V,C0_full_stage,pattern_late_growth_share,0.35371591581932466,0.3104275243834068,-0.04328839143591784,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,pattern_mean_compare,0.5446282781573946,0.47694582989599554,-0.06768244826139902,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,pattern_mean_core,0.336605230662219,0.2686567426244104,-0.06794848803780856,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,pattern_mean_early,-0.0033083180336901503,0.029181548251419075,0.03248986628510923,consistent,2D-field metric is consistent with the profile-based metric.
+V,C0_full_stage,pattern_mean_late,1.0368053468476544,0.9232686687949552,-0.11353667805269918,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+V,C0_full_stage,pattern_positive_growth_area,,1.6687541557563228,,unresolved,Comparison unresolved due to missing or invalid values.
+V,C1_buffered_stage,dist_core_growth_share,0.20102446176247468,0.2640646497834456,0.06304018802097094,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_early_growth_share,0.15898324972867456,0.13140441937408237,-0.027578830354592188,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_growth_center,38.65757538702283,41.11804529940855,2.4604699123857188,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+V,C1_buffered_stage,dist_late_growth_share,0.21159433715626458,0.22458363996960987,0.012989302813345288,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_mean_compare,0.5717965576317173,0.5478469792474183,-0.02394957838429901,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_mean_core,0.5004549357502865,0.4662121422253504,-0.034242793524936144,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_mean_early,0.3371356616290565,0.3111089004643369,-0.02602676116471958,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_mean_late,0.7530682482837657,0.7460631071575337,-0.007005141126232073,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,dist_positive_growth_area,,0.9773207004604363,,unresolved,Comparison unresolved due to missing or invalid values.
+V,C1_buffered_stage,pattern_core_growth_share,0.3455614979229368,0.32710383020072237,-0.01845766772221441,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_early_growth_share,0.07331732309174324,0.039208994526651615,-0.034108328565091627,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_growth_center,40.86937772595274,44.93115775160143,4.0617800256486944,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+V,C1_buffered_stage,pattern_late_growth_share,0.35509147828216625,0.3384197063644986,-0.016671771917667666,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_mean_compare,0.518522310460007,0.5023215122894997,-0.016200798170507236,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_mean_core,0.32116329951448724,0.2981783502451722,-0.022984949269315047,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_mean_early,-0.001020956903535438,0.04027768718677639,0.04129864409031183,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_mean_late,0.9851012484168105,0.9479548135643656,-0.03714643485244484,consistent,2D-field metric is consistent with the profile-based metric.
+V,C1_buffered_stage,pattern_positive_growth_area,,1.5617488054226651,,unresolved,Comparison unresolved due to missing or invalid values.
+V,C2_immediate_pre,dist_core_growth_share,0.3042055384628002,0.3301020750570544,0.025896536594254227,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_early_growth_share,0.19850252562129156,0.1786564906412812,-0.019846034980010363,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_growth_center,42.91104625903162,44.410495853946095,1.4994495949144735,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_late_growth_share,0.2547123668124902,0.26060330857801073,0.005890941765520519,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_mean_compare,0.4815303770646202,0.4762271019524726,-0.005303275112147621,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_mean_core,0.39736038248401107,0.38001215907762487,-0.0173482234063862,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_mean_early,0.16662876173514957,0.16930325763999293,0.002674495904843366,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_mean_late,0.7180777043892248,0.7162056135860577,-0.0018720908031670813,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,dist_positive_growth_area,,0.9529117259772488,,unresolved,Comparison unresolved due to missing or invalid values.
+V,C2_immediate_pre,pattern_core_growth_share,0.34575623218681156,0.33923528428773125,-0.006520947899080309,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_early_growth_share,0.07375713883540529,0.03774602062104235,-0.03601111821436294,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_growth_center,40.84058520372109,44.74024786240908,3.899662658687987,similar_tendency,2D-field metric has a similar tendency but differs moderately in magnitude/timing.
+V,C2_immediate_pre,pattern_late_growth_share,0.35324523838298144,0.340671132184488,-0.012574106198493418,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_mean_compare,0.5257558073007392,0.4868600466990418,-0.038895760601697416,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_mean_core,0.33174279700881953,0.27649089324836035,-0.05525190376045919,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_mean_early,0.01142872445616476,0.004807917740198922,-0.006620806715965838,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_mean_late,0.98640020983491,0.9498438667737834,-0.03655634306112654,consistent,2D-field metric is consistent with the profile-based metric.
+V,C2_immediate_pre,pattern_positive_growth_area,,1.577255318763764,,unresolved,Comparison unresolved due to missing or invalid values.

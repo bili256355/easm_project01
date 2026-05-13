@@ -1,0 +1,6 @@
+﻿window_id,object,observed_peak_day,bootstrap_peak_median,bootstrap_peak_q025,bootstrap_peak_q975,abs_error_median,abs_error_q75,abs_error_q90,abs_error_q975,support_class,included_in_tau_estimation
+W160,P,158.0,158.0,153.0,165.0,1.0,3.0,5.0,7.0,accepted_window,True
+W160,V,161.0,161.0,148.0,166.0,1.0,3.0,6.0,13.0,candidate_window,True
+W160,H,155.0,155.0,148.0,165.0,1.0,5.0,9.0,10.0,candidate_window,True
+W160,Je,162.0,162.0,157.0,166.0,1.0,2.0,3.0,5.0,accepted_window,True
+W160,Jw,152.0,155.0,142.0,167.0,4.0,10.0,13.0,15.0,weak_window,True

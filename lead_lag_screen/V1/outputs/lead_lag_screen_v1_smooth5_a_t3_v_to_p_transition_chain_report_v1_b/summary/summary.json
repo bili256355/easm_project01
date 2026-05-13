@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "layer": "t3_v_to_p_transition_chain_report_v1_b",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_transition_chain_report_v1_b",
+  "purpose": "S3→T3→S4 precipitation-v850-support transition-chain evidence report.",
+  "n_object_state_rows": 30,
+  "n_object_delta_rows": 24,
+  "n_support_transition_rows": 18,
+  "n_support_delta_rows": 72,
+  "n_correspondence_rows": 72,
+  "n_diagnosis_rows": 52,
+  "n_figures": 23,
+  "full_grid_maps_persisted": false,
+  "support_maps_recomputed_in_memory_for_figures_only": true,
+  "critical_interpretation_rule": "Every increase/decrease/shift statement must name comparison, region, and V component."
+}

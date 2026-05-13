@@ -1,0 +1,130 @@
+{
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "available_keys": [
+    "lat",
+    "lon",
+    "precip_smoothed",
+    "u200_smoothed",
+    "v850_smoothed",
+    "years",
+    "z500_smoothed"
+  ],
+  "field_meta": {
+    "H": {
+      "transition_norm": 16.658942129382318,
+      "projection_denom": 2452328.0484152203,
+      "pre_mean": 5826.299369206776,
+      "post_mean": 5838.658170290836,
+      "pre_days": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "post_days": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "field_key": "z500_smoothed",
+      "n_years": 45,
+      "n_days": 183,
+      "lat_min": 15.0,
+      "lat_max": 35.0,
+      "lon_min": 110.0,
+      "lon_max": 140.0,
+      "n_lat": 81,
+      "n_lon": 121
+    },
+    "Jw": {
+      "transition_norm": 6.763920214605359,
+      "projection_denom": 365400.7938608099,
+      "pre_mean": 27.357801120717067,
+      "post_mean": 26.597275247384992,
+      "pre_days": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "post_days": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "field_key": "u200_smoothed",
+      "n_years": 45,
+      "n_days": 183,
+      "lat_min": 25.0,
+      "lat_max": 45.0,
+      "lon_min": 80.0,
+      "lon_max": 110.0,
+      "n_lat": 81,
+      "n_lon": 121
+    }
+  },
+  "window": {
+    "window_id": "W002",
+    "anchor_day": 45,
+    "accepted_window_start": 40,
+    "accepted_window_end": 48,
+    "analysis_window_start": 30,
+    "analysis_window_end": 60,
+    "pre_period_start": 30,
+    "pre_period_end": 37,
+    "post_period_start": 53,
+    "post_period_end": 60,
+    "source": "field_transition_progress_timing_v7_e/accepted_windows_used_v7_e.csv"
+  },
+  "state_event_diagnostics": {
+    "H": {
+      "pre_envelope_D_pre_q95": 5.327954078953182,
+      "departure_search_start_day": 38,
+      "departure_search_rule": "search starts after pre_period_end; pre-period crossings are not allowed as departure events",
+      "departure_raw_first_crossing_including_pre": 37.0,
+      "departure_candidate_after_pre": 38.0,
+      "durable_departure_after_pre_3d": 38.0,
+      "first_distance_only_post_dominance": 41.0,
+      "first_pattern_only_post_dominance": 47.0
+    },
+    "Jw": {
+      "pre_envelope_D_pre_q95": 0.921365590149924,
+      "departure_search_start_day": 38,
+      "departure_search_rule": "search starts after pre_period_end; pre-period crossings are not allowed as departure events",
+      "departure_raw_first_crossing_including_pre": 30.0,
+      "departure_candidate_after_pre": 38.0,
+      "durable_departure_after_pre_3d": 38.0,
+      "first_distance_only_post_dominance": 46.0,
+      "first_pattern_only_post_dominance": 43.0
+    }
+  },
+  "growth_event_diagnostics": {
+    "H": {
+      "rapid_growth_q75_threshold": 1.3505105992371016,
+      "postward_peak_requires_delta_Rdiff_nonnegative": true
+    },
+    "Jw": {
+      "rapid_growth_q75_threshold": 0.4046111615026978,
+      "postward_peak_requires_delta_Rdiff_nonnegative": true
+    }
+  },
+  "v7t_output_dir_exists_for_context": true
+}

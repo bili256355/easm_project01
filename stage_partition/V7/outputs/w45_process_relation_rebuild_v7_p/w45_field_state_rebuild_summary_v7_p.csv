@@ -1,0 +1,6 @@
+﻿field,source_variable_profile_key,state_builder_source,n_days,n_features,state_nan_fraction,lat_min,lat_max,n_lat_features,lon_range,lat_range,lat_step_deg,interpolation_method,smoothed_fields_path
+P,P,stage_partition_v7.field_state,183,13,0.04371584699453552,15.0,39.0,13,"(105.0, 125.0)","(15.0, 39.0)",2.0,lon_mean_then_np_interp_to_2deg_lat_grid,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz
+V,V,stage_partition_v7.field_state,183,11,0.04371584699453552,10.0,30.0,11,"(105.0, 125.0)","(10.0, 30.0)",2.0,lon_mean_then_np_interp_to_2deg_lat_grid,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz
+H,H,stage_partition_v7.field_state,183,11,0.04371584699453552,15.0,35.0,11,"(110.0, 140.0)","(15.0, 35.0)",2.0,lon_mean_then_np_interp_to_2deg_lat_grid,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz
+Je,Je,stage_partition_v7.field_state,183,11,0.04371584699453552,25.0,45.0,11,"(120.0, 150.0)","(25.0, 45.0)",2.0,lon_mean_then_np_interp_to_2deg_lat_grid,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz
+Jw,Jw,stage_partition_v7.field_state,183,11,0.04371584699453552,25.0,45.0,11,"(80.0, 110.0)","(25.0, 45.0)",2.0,lon_mean_then_np_interp_to_2deg_lat_grid,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz

@@ -1,0 +1,6 @@
+﻿window_id,object,reference_v7z_peak_day,selected_peak_day,selected_minus_reference_days,selected_role,support_class,all_candidate_peak_days,regression_pass_loose,note
+W045,P,45,45,0.0,within_system_window,accepted_window,45;34;18,True,Loose day tolerance only; inspect candidate/support class before scientific use.
+W045,V,45,45,0.0,within_system_window,accepted_window,45;30;16,True,Loose day tolerance only; inspect candidate/support class before scientific use.
+W045,H,35,35,0.0,front_or_early,candidate_window,19;35;57,True,Loose day tolerance only; inspect candidate/support class before scientific use.
+W045,Je,46,46,0.0,within_system_window,accepted_window,46;26;33,True,Loose day tolerance only; inspect candidate/support class before scientific use.
+W045,Jw,41,41,0.0,within_system_window,candidate_window,41,True,Loose day tolerance only; inspect candidate/support class before scientific use.

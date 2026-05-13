@@ -1,0 +1,11 @@
+﻿window_id,object,factor,day_variance_explained_eta2,median_day_range_across_levels,iqr_range_across_levels,interpretation_hint,dominant_factor_rank
+W045,H,smoothing,0.007034758065929876,4.5,3.25,smoothing_weak,5.0
+W045,H,detector_width,0.017896184100795635,2.5,2.5,detector_width_weak,3.0
+W045,H,band_half_width,0.017896184100795635,2.5,2.5,band_half_width_weak,4.0
+W045,H,search_mode,0.2503812893967738,10.5,3.75,search_mode_moderate,2.0
+W045,H,selection_rule,0.6391812733688452,19.0,10.25,selection_rule_dominant,1.0
+W045,Jw,smoothing,2.0636299663835853e-06,0.0,4.5,smoothing_weak,5.0
+W045,Jw,detector_width,0.046212929467191396,5.0,2.5,detector_width_weak,3.0
+W045,Jw,band_half_width,0.046212929467191396,5.0,2.5,band_half_width_weak,4.0
+W045,Jw,search_mode,0.07493865859924928,0.0,7.25,search_mode_weak,2.0
+W045,Jw,selection_rule,0.5880251680310699,23.5,20.0,selection_rule_dominant,1.0

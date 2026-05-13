@@ -1,0 +1,9 @@
+﻿object,candidate_id,candidate_day,candidate_date,object_derived_window_id,object_window_start_day,object_window_end_day,is_object_window_main_peak,nearest_joint_candidate_day,distance_to_nearest_joint_candidate,nearest_joint_lineage_status,nearest_joint_derived_window_id,nearest_strict_accepted_window_id,nearest_strict_anchor_day,distance_to_nearest_strict_anchor,within_strict_accepted_window_band,was_selected_as_v10_window_conditioned_main_peak,v10_window_id_if_selected,candidate_relation_to_joint_lineage
+Je,CP001,26,04-27,W001,24,28,True,18,8,derived_non_strict_candidate_window,W001,W045,45,19,False,False,,within_10d_of_joint_candidate
+Je,CP002,33,05-04,W002,31,35,True,45,12,strict_accepted_main_window,W002,W045,45,12,False,False,,distant_from_joint_candidate
+Je,CP003,46,05-17,W003,43,50,True,45,1,strict_accepted_main_window,W002,W045,45,1,True,True,W045,near_joint_strict_accepted
+Je,CP004,81,06-21,W004,79,83,True,81,0,strict_accepted_main_window,W003,W081,81,0,True,True,W081,near_joint_strict_accepted
+Je,CP005,94,07-04,W005,92,96,True,96,2,derived_non_strict_candidate_window,W004,W081,81,13,False,False,,near_joint_non_strict_candidate
+Je,CP006,111,07-21,W006,103,117,True,113,2,strict_accepted_main_window,W005,W113,113,2,True,True,W113,near_joint_strict_accepted
+Je,CP007,136,08-15,W007,132,144,True,135,1,derived_non_strict_candidate_window,W006,W113,113,23,False,False,,near_joint_non_strict_candidate
+Je,CP008,162,09-10,W008,159,165,True,160,2,strict_accepted_main_window,W007,W160,160,2,True,True,W160,near_joint_strict_accepted

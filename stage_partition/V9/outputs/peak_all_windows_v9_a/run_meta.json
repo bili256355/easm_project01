@@ -1,0 +1,63 @@
+{
+  "version": "v9_peak_all_windows_a",
+  "output_tag": "peak_all_windows_v9_a",
+  "source_v7_module_version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "source_v7_output_tag": "accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "config": {
+    "version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+    "output_tag": "accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order",
+    "season_start": 0,
+    "season_end": 182,
+    "detector_neighbor_buffer": 5,
+    "baseline_buffer_days": 5,
+    "immediate_pre_days": 10,
+    "segment_pre_days": 10,
+    "segment_late_extra_days": 5,
+    "min_detector_search_days": 25,
+    "detector_width": 20,
+    "detector_min_size": 2,
+    "peak_min_distance": 3,
+    "max_peaks_per_object": 5,
+    "band_max_half_width": 10,
+    "band_min_half_width": 2,
+    "band_score_ratio": 0.5,
+    "band_floor_quantile": 0.35,
+    "bootstrap_n": 1000,
+    "random_seed": 42,
+    "peak_match_days": 5,
+    "low_dynamic_range_eps": 1e-10,
+    "run_2d": false,
+    "save_daily_curves": false,
+    "save_bootstrap_samples": false,
+    "skip_figures": true,
+    "window_mode": "list",
+    "target_windows": "W045,W081,W113,W160",
+    "window_source": "hardcoded",
+    "accepted_window_registry": null,
+    "smoothed_fields_path": null,
+    "log_every_bootstrap": 50,
+    "run_w45_profile_order_tests": false,
+    "save_bootstrap_curves": false,
+    "tau_sync_quantile_primary": 0.75,
+    "tau_sync_quantile_low": 0.5,
+    "tau_sync_quantile_high": 0.9,
+    "merge_short_gap_days": 1
+  },
+  "default_accepted_windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "excluded_mainline_windows": [
+    {
+      "window_id": "W135",
+      "anchor_day": 135,
+      "included_in_v9": false,
+      "exclusion_reason": "not_in_strict_accepted_95pct_window_set; previously dropped from mainline"
+    }
+  ],
+  "smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "started_at": "2026-05-08 14:58:03",
+  "boundary": "peak-only; no state/growth/prepost/process layers"
+}

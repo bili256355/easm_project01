@@ -1,0 +1,14 @@
+﻿object,detector_type,candidate_id,peak_day,peak_score,peak_prominence,peak_rank,window_start,window_end,relation_to_W45,overlap_days_with_W45,window_id,center_day,observed_peak_day,bootstrap_match_fraction,strict_match_fraction,near_match_fraction,return_day_median,return_day_q05,return_day_q95,return_day_q025,return_day_q975,n_valid_matches,support_class
+P,raw_profile,CP001,45,26.563465838769993,23.644273666339963,1,35,55,overlap_W45,9,P_raw_profile_CP001,45.0,45.0,0.985,0.79,0.985,45.0,41.0,46.0,40.0,47.0,985,accepted_window
+P,raw_profile,CP002,34,13.170076876576445,0.055415345836280494,2,24,44,overlap_W45,5,P_raw_profile_CP002,34.0,34.0,0.6,0.513,0.6,34.0,31.0,35.0,30.0,36.02499999999998,600,weak_window
+P,raw_profile,CP003,18,4.698734265329099,0.2983249254912179,3,18,28,pre_W45,0,P_raw_profile_CP003,23.0,18.0,0.793,0.574,0.793,19.0,15.0,22.0,15.0,23.0,793,weak_window
+V,raw_profile,CP001,45,19.235007755373612,15.74030989036649,1,35,55,overlap_W45,9,V_raw_profile_CP001,45.0,45.0,0.984,0.821,0.984,45.0,42.0,48.0,41.0,49.0,984,accepted_window
+V,raw_profile,CP002,30,6.941599316355871,1.4532927572151895,2,20,40,overlap_W45,1,V_raw_profile_CP002,30.0,30.0,0.669,0.542,0.669,30.0,26.0,33.0,25.0,34.0,669,weak_window
+V,raw_profile,CP003,16,5.335538519795408,0.6464691597620895,3,14,26,pre_W45,0,V_raw_profile_CP003,20.0,16.0,0.589,0.488,0.589,17.0,15.0,20.0,15.0,21.0,589,weak_window
+H,raw_profile,CP001,19,18.08402735192542,4.598182544472039,1,14,29,pre_W45,0,H_raw_profile_CP001,21.5,19.0,0.784,0.623,0.784,19.0,16.0,23.0,15.0,24.0,784,weak_window
+H,raw_profile,CP002,35,10.10918859242761,2.7174480345794594,2,25,45,overlap_W45,6,H_raw_profile_CP002,35.0,35.0,0.908,0.734,0.908,34.0,32.0,38.0,31.0,38.0,908,candidate_window
+H,raw_profile,CP003,57,3.066305324426809,0.3353298556509663,3,47,57,overlap_W45,2,H_raw_profile_CP003,52.0,57.0,0.646,0.419,0.646,55.0,52.0,58.0,52.0,59.0,646,weak_window
+Je,raw_profile,CP001,46,12.201986759874023,8.956347582684156,1,36,56,overlap_W45,9,Je_raw_profile_CP001,46.0,46.0,0.978,0.883,0.978,46.0,44.0,49.0,43.0,49.0,978,accepted_window
+Je,raw_profile,CP002,26,6.0665828732930125,2.9349912308518817,2,16,36,pre_W45,0,Je_raw_profile_CP002,26.0,26.0,0.825,0.653,0.825,26.0,22.0,30.0,21.0,31.0,825,candidate_window
+Je,raw_profile,CP003,33,5.442389697096082,0.42865536994512077,3,23,43,overlap_W45,4,Je_raw_profile_CP003,33.0,33.0,0.763,0.628,0.763,34.0,28.0,36.0,28.0,36.0,763,weak_window
+Jw,raw_profile,CP001,41,11.770966007882706,9.626541282615204,1,31,51,overlap_W45,9,Jw_raw_profile_CP001,41.0,41.0,0.913,0.638,0.913,41.0,38.0,46.0,38.0,46.0,913,candidate_window

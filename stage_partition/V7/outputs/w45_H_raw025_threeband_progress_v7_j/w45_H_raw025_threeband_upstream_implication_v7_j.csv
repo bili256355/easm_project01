@@ -1,0 +1,3 @@
+﻿diagnostic_item,status,evidence,upstream_implication,recommended_followup
+raw025_threeband_improves_midpoint_width,no,median_q90_width_raw025_threeband=14.0; v7f_interp=14.0; v7i_latbin=14.0,"If yes, region progress should be built from raw025 regions rather than post-hoc 2deg features. If no, W45-H instability is not mainly fixed by fair raw025 three-region aggregation.",Use this as a diagnosis before modifying broader region-level progress implementation.
+raw025_threeband_progress_quality,limited,n_nonmonotonic_regions=2 of 3,"If nonmonotonic remains common, instability may be driven by W45-H transition shape/window/timing marker rather than 2deg feature construction.","If limited, inspect onset/finish/window coverage before further spatial aggregation."

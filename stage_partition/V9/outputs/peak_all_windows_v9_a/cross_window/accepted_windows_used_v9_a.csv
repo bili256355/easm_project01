@@ -1,0 +1,6 @@
+﻿window_id,anchor_day,system_window_start,system_window_end,detector_search_start,detector_search_end,included_in_v9,source,exclusion_reason
+W045,45,40.0,48.0,0.0,69.0,True,v7_accepted_window_scope_registry,
+W081,81,75.0,87.0,49.0,102.0,True,v7_accepted_window_scope_registry,
+W113,113,108.0,118.0,88.0,149.0,True,v7_accepted_window_scope_registry,
+W160,160,155.0,165.0,119.0,182.0,True,v7_accepted_window_scope_registry,
+W135,135,,,,,False,mainline_exclusion_record,not_in_strict_accepted_95pct_window_set; previously dropped from mainline

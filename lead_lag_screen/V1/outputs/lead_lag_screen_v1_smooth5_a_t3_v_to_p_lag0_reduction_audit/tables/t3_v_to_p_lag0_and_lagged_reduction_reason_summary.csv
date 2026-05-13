@@ -1,0 +1,8 @@
+﻿reason_candidate,evidence_strength,supporting_metrics,interpretation
+positive_lag_signal_near_ar1_null,strong,mean_T_pos=0.272; mean_null95_pos=0.254; mean_margin_pos=0.018; n_pos_above_null95=9,T3 positive-lag V→P index-pair signal is close to the AR(1) null threshold.
+lag0_signal_also_weakened,strong,mean_T_0=0.210; mean_null95_0=0.234; mean_margin_0=-0.024; n_lag0_above_null95=8,Lag0 does not systematically compensate for lost positive-lag relations in fixed V/P index pairs.
+v_strength_decoupling_from_p,strong,V_strength retained_pairs=0/7,V_strength contributes little to retained T3 V→P fixed-index relations.
+v_ns_diff_partial_retention,strong,V_NS_diff retained_pairs=3/7,T3 V→P retention is concentrated more in V_NS_diff than in V_strength.
+subwindow_state_mixing,moderate,profile_type_changed_pairs=13/21,Early/late T3 lag-profile changes may dilute full-window lag0 and positive-lag signals.
+composite_structure_check_available,diagnostic,n_composite_metrics=13,Composite maps/metrics were generated for V-index→V/P fields and P-index→P field checks.
+index_validity_not_failure,mixed,index_validity_rows=10; suspicious_rows=10,Existing index_validity context does not support V/P index-family collapse as the cause.

@@ -1,0 +1,6 @@
+window_id,n_total_samples,n_valid_samples,n_invalid_samples,invalid_ratio,sample_scope,n_bootstrap_requested,n_bootstrap_effective,support_score,support_score_source,param_path_hits,param_path_trials,param_path_hit_fraction,permutation_empirical_pvalue_global,support_status,support_reliability_flag,support_warning
+W001,100,100,0,0.0,bootstrap_rep_validity,100,95,0.95,bootstrap_window_match_fraction,20,20,1.0,1.0,resolved_window_level,high,
+W002,100,100,0,0.0,bootstrap_rep_validity,100,90,0.9,bootstrap_window_match_fraction,20,20,1.0,1.0,resolved_window_level,high,
+W003,100,100,0,0.0,bootstrap_rep_validity,100,97,0.97,bootstrap_window_match_fraction,20,20,1.0,1.0,resolved_window_level,high,
+W004,100,100,0,0.0,bootstrap_rep_validity,100,51,0.51,bootstrap_window_match_fraction,12,20,0.6,1.0,resolved_window_level,high,
+W005,100,100,0,0.0,bootstrap_rep_validity,100,90,0.9,bootstrap_window_match_fraction,20,20,1.0,1.0,resolved_window_level,high,

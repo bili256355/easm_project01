@@ -1,0 +1,8 @@
+﻿role,resolved_key,status
+precip,precip_smoothed,found
+v850,v850_smoothed,found
+z500,z500_smoothed,found
+u200,u200_smoothed,found
+lat,lat,found
+lon,lon,found
+years,years,found

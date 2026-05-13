@@ -1,0 +1,12 @@
+﻿window_id,candidate_source,general_status,failure_mode,notes
+GW01,base,general_fail,single_block_dominant,H
+GW02,base,general_fail,single_block_dominant,H
+GW03,base,general_fail,single_block_dominant,H
+GW04,base,general_fail,single_block_dominant,H
+GW05,base,general_fail,single_block_dominant,H
+GW06,base,general_fail,single_block_dominant,H
+GW07,base,general_fail,single_block_dominant,H
+GW08,edge,general_fail,single_block_dominant,H
+GW09,edge,general_fail,single_block_dominant,H
+GW10,edge,general_fail,single_block_dominant,H
+GW11,edge,general_fail,single_block_dominant,H

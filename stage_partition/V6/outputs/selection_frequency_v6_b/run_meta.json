@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-23T10:57:19.662634+00:00",
+  "ended_at_utc": "2026-04-23T10:58:05.639499+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V6",
+  "run_label": "selection_frequency_v6_b",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "This is an isolated V6-b selection-frequency experiment layer.",
+    "It does not replace the current V6-a point-level bootstrap main table.",
+    "It summarizes where detector local peaks are repeatedly selected across bootstrap replicates.",
+    "It does not include window judgement, competition, parameter-path, or final judgement.",
+    "Default bootstrap replicate count for this experiment is 1000.",
+    "Selection-frequency curve PNG is written by default when matplotlib is available."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v7_z_je_audit_b",
+  "output_tag": "W45_Je_raw_supported_early_signal_audit_v7_z_b",
+  "u200_key": "u200_smoothed",
+  "n_years": 45,
+  "n_days": 183,
+  "n_bootstrap": 300,
+  "final_Je_day26_33_status": "raw_supported_weak_early_peak",
+  "output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\W45_Je_raw_supported_early_signal_audit_v7_z_b",
+  "end_time": "2026-05-05T15:25:17"
+}

@@ -1,0 +1,6 @@
+﻿field,n_components_with_nonzero_dF,component_t25_iqr,component_t50_iqr,component_t75_iqr,dominant_component_fraction_abs_dF,single_curve_adequacy_label
+P,13,9.0,12.0,9.0,0.17486543352908684,multi_component_transition
+V,11,1.0,3.5,4.5,0.19691644373483116,single_curve_usable_with_heterogeneity
+H,11,0.5,3.0,9.0,0.15025521235289874,single_curve_adequate
+Je,11,6.0,8.5,3.5,0.2075533593048232,multi_component_transition
+Jw,11,3.5,6.5,7.5,0.17682331145994362,single_curve_usable_with_heterogeneity

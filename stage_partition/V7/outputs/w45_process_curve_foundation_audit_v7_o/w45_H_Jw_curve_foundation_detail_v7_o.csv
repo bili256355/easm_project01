@@ -1,0 +1,3 @@
+﻿field_a,field_b,phase_comparability_label,relation_artifact_risk_label,can_use_curve_phase_relation,can_use_global_lead_lag,must_use_layer_specific_language,can_test_near_equivalence,pair_curve_foundation_label,projection_distance_sign_consistency_fraction,n_v7n_phases,v7n_has_crossing_phase,artifact_risk_interpretation
+H,Jw,layer_specific_only,moderate_artifact_risk,True,False,True,True,curve_relation_usable_with_caution,,,,
+H,Jw,,moderate_artifact_risk,,,,,,0.6774193548387096,5.0,False,moderate_artifact_risk

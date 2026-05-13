@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-23T11:17:41.280897+00:00",
+  "ended_at_utc": "2026-04-23T11:18:32.924107+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V6",
+  "run_label": "mainline_v6_a",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V6-a is a baseline-detected-peaks bootstrap screening branch.",
+    "All baseline detector local peaks enter the candidate registry.",
+    "Headline significance metric is bootstrap local-peak recurrence for all candidates.",
+    "Default bootstrap contract is 1000 replicates with strict<=2 days, match<=5 days, near<=8 days.",
+    "Yearwise local-peak support is auxiliary only and does not enter headline significance decisions.",
+    "Auxiliary yearwise support uses the same match<=5 day contract for consistency, but remains non-decisive.",
+    "Window judgement is not included.",
+    "Competition is not included.",
+    "Parameter-path is not included.",
+    "Final judgement is not included."
+  ]
+}

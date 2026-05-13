@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-23T06:39:10.371567+00:00",
+  "ended_at_utc": "2026-04-23T06:39:42.216729+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V5",
+  "run_label": "mainline_v5_a",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V5-a is a paper-metric local-peak stability branch.",
+    "Headline bootstrap metric uses nearest local-peak recurrence on all detector local peaks.",
+    "Yearwise support uses nearest local-peak matching on all yearly detector local peaks.",
+    "Object-aware support is not included.",
+    "Competition is not included.",
+    "Parameter-path is not included.",
+    "Final judgement is not included."
+  ]
+}

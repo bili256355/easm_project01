@@ -1,0 +1,6 @@
+﻿window_id,object,n_raw_features,n_all_nan_features,n_partial_nan_features,n_zero_variance_features,n_kept_features,kept_feature_fraction,partial_nan_max_fraction,all_nan_day_min,all_nan_day_max,nan_warning_status,alignment_warning
+W160,P,832,52,0,0,780,0.9375,0.0,179.0,182.0,boundary_all_nan_features_dropped,none
+W160,V,704,44,0,0,660,0.9375,0.0,179.0,182.0,boundary_all_nan_features_dropped,none
+W160,H,704,44,0,0,660,0.9375,0.0,179.0,182.0,boundary_all_nan_features_dropped,none
+W160,Je,704,44,0,0,660,0.9375,0.0,179.0,182.0,boundary_all_nan_features_dropped,none
+W160,Jw,704,44,0,0,660,0.9375,0.0,179.0,182.0,boundary_all_nan_features_dropped,none

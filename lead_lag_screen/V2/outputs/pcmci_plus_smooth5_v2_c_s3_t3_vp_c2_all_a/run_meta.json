@@ -1,0 +1,119 @@
+{
+  "layer": "lead_lag_screen/V2_c_sensitivity_targeted",
+  "method": "PCMCI+ sensitivity reruns with ParCorr",
+  "role": "Targeted audit of V2_a failure mode: V->P disappears in S3/T3; C2 runs all windows",
+  "started_at": "2026-04-28T10:53:25",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "input_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+    "v1_evidence_tier_summary": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_evidence_tier_summary.csv",
+    "v2a_output_dir": "D:\\easm_project01\\lead_lag_screen\\V2\\outputs\\pcmci_plus_smooth5_v2_a",
+    "output_tag": "pcmci_plus_smooth5_v2_c_s3_t3_vp_c2_all_a",
+    "random_seed": 20260428,
+    "smooth_version": "smooth5",
+    "tau_min": 0,
+    "tau_max": 5,
+    "main_tau_min": 1,
+    "main_tau_max": 5,
+    "pc_alpha": 0.05,
+    "fdr_alpha": 0.05,
+    "parcorr_significance": "analytic",
+    "tigramite_verbosity": 0,
+    "resume": true,
+    "force_recompute": false,
+    "write_cache": true,
+    "run_targeted_no_same_family_controls": true,
+    "run_family_representative_standard": true,
+    "targeted_family_pairs": [
+      [
+        "V",
+        "P"
+      ]
+    ],
+    "c1_targeted_windows": [
+      "S3",
+      "T3"
+    ],
+    "windows": {
+      "S1": [
+        1,
+        39
+      ],
+      "T1": [
+        40,
+        48
+      ],
+      "S2": [
+        49,
+        74
+      ],
+      "T2": [
+        75,
+        86
+      ],
+      "S3": [
+        87,
+        106
+      ],
+      "T3": [
+        107,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ],
+      "T4": [
+        155,
+        164
+      ],
+      "S5": [
+        165,
+        183
+      ]
+    },
+    "variable_families": {
+      "P_main_band_share": "P",
+      "P_south_band_share_18_24": "P",
+      "P_main_minus_south": "P",
+      "P_spread_lat": "P",
+      "P_north_band_share_35_45": "P",
+      "P_north_minus_main_35_45": "P",
+      "P_total_centroid_lat_10_50": "P",
+      "V_strength": "V",
+      "V_pos_centroid_lat": "V",
+      "V_NS_diff": "V",
+      "H_strength": "H",
+      "H_centroid_lat": "H",
+      "H_west_extent_lon": "H",
+      "H_zonal_width": "H",
+      "Je_strength": "Je",
+      "Je_axis_lat": "Je",
+      "Je_meridional_width": "Je",
+      "Jw_strength": "Jw",
+      "Jw_axis_lat": "Jw",
+      "Jw_meridional_width": "Jw"
+    },
+    "representative_variables": [
+      "P_main_minus_south",
+      "P_spread_lat",
+      "P_total_centroid_lat_10_50",
+      "V_strength",
+      "V_NS_diff",
+      "H_strength",
+      "H_centroid_lat",
+      "Je_strength",
+      "Je_axis_lat",
+      "Jw_strength",
+      "Jw_axis_lat"
+    ],
+    "include_same_family_reported_edges": false
+  },
+  "important_boundaries": [
+    "No fallback if tigramite is unavailable.",
+    "V2_c does not overwrite V2_a and does not change V1 labels.",
+    "C1 is targeted diagnostic, not a full-system replacement graph.",
+    "C2 is representative-pool sensitivity, not final variable selection.",
+    "Outputs are direct-edge controls/sensitivities, not pathway results."
+  ]
+}

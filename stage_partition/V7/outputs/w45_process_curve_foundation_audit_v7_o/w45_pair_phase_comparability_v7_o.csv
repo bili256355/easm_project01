@@ -1,0 +1,11 @@
+﻿field_a,field_b,field_a_curve_foundation_label,field_b_curve_foundation_label,v7n_relation_type,pair_phase_comparability_label,phase_comparability_interpretation
+P,V,usable_with_caution,usable_with_caution,weak_lead_tendency,phase_comparable_with_caution,phase_comparable_with_caution
+P,H,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+P,Je,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+P,Jw,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+V,H,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+V,Je,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+V,Jw,usable_with_caution,usable_with_caution,weak_lead_tendency,phase_comparable_with_caution,phase_comparable_with_caution
+H,Je,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+H,Jw,usable_with_caution,usable_with_caution,front_loaded_vs_catchup,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language
+Je,Jw,usable_with_caution,usable_with_caution,phase_crossing_relation,layer_specific_only,pair progress phase can be compared only with layer/phase-specific language

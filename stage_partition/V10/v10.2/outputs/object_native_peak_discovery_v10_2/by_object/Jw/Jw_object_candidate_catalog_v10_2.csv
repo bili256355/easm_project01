@@ -1,0 +1,6 @@
+﻿object,candidate_id,point_day,month_day,registry_rank,source_run_tag,peak_score,peak_prominence,is_formal_primary,nearest_primary_day,bootstrap_strict_fraction,bootstrap_match_fraction,bootstrap_near_fraction,bootstrap_no_match_fraction,median_bootstrap_matched_peak_score,median_bootstrap_abs_offset_days,object_support_class
+Jw,CP001,41,05-12,1,Jw_object_native_peak_discovery_v10_2,11.770966007882706,9.626541282615204,True,41,0.638,0.913,0.075,0.012,14.644927615289122,2.0,object_candidate
+Jw,CP002,83,06-23,2,Jw_object_native_peak_discovery_v10_2,14.807843176914874,7.124378951803968,True,83,0.512,0.806,0.148,0.046,18.48147135066034,2.0,object_candidate
+Jw,CP003,104,07-14,3,Jw_object_native_peak_discovery_v10_2,25.06998583750547,22.92601425681491,True,104,0.494,0.898,0.094,0.008,28.87754797265793,3.0,object_candidate
+Jw,CP004,130,08-09,4,Jw_object_native_peak_discovery_v10_2,21.9408475625849,13.628751898976635,True,130,0.751,0.923,0.064,0.013,23.853320802708062,1.0,object_candidate
+Jw,CP005,152,08-31,5,Jw_object_native_peak_discovery_v10_2,11.561730035015003,2.961404983804945,True,152,0.407,0.729,0.163,0.108,16.74623173221812,3.0,object_weak_candidate

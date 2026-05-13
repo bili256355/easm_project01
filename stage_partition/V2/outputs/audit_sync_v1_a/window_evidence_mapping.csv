@@ -1,0 +1,11 @@
+window_id,legacy_window_id,evidence_object_type,evidence_object_id,point_id,point_day,band_id,band_start_day,band_end_day,band_window_overlap_days,band_window_overlap_ratio,used_in_window_consolidation,evidence_status,warning_flag
+W001,RW01,point,RP001,RP001,45.0,,,,,,True,mapped_to_main_window,
+W001,RW01,band,RB01,,,RB01,43.0,47.0,5.0,1.0,True,mapped_to_main_window,
+W002,RW02,point,RP002,RP002,81.0,,,,,,True,mapped_to_main_window,
+W002,RW02,band,RB02,,,RB02,76.0,85.0,10.0,1.0,True,mapped_to_main_window,
+W003,RW03,point,RP003,RP003,113.0,,,,,,True,mapped_to_main_window,
+W003,RW03,band,RB03,,,RB03,109.0,116.0,8.0,1.0,True,mapped_to_main_window,
+W004,RW04,point,RP004,RP004,135.0,,,,,,True,mapped_to_main_window,
+W004,RW04,band,RB04,,,RB04,135.0,135.0,1.0,1.0,True,mapped_to_main_window,
+W005,RW05,point,RP005,RP005,160.0,,,,,,True,mapped_to_main_window,
+W005,RW05,band,RB05,,,RB05,156.0,163.0,8.0,1.0,True,mapped_to_main_window,

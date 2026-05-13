@@ -1,0 +1,6 @@
+﻿window_id,method,k,n_years,min_cluster_size,max_cluster_size,mean_within_distance,mean_between_distance,between_within_ratio,stability_score_ari_across_seeds,cluster_quality_status,best_seed_index,best_cost,feature_source
+W160,kmedoids_behavior_pca,2,45,16,29,5.810310279575856,4.557612713041438,0.7844009172904509,0.24217473828174718,unstable_clustering,4,261.4639625809136,whole_window_behavior_features_not_single_year_peak
+W160,kmedoids_behavior_pca,3,45,3,27,5.552509598732532,8.398444446380486,1.51254928911741,0.12662353423646416,unstable_clustering,4,249.86293194296394,whole_window_behavior_features_not_single_year_peak
+W160,kmedoids_behavior_pca,4,45,7,22,5.283455943467394,6.467434634430414,1.2240917126273994,0.20222613943504958,unstable_clustering,1,237.75551745603272,whole_window_behavior_features_not_single_year_peak
+W160,kmedoids_behavior_pca,5,45,2,17,5.023695558551683,7.409514422731901,1.474913106571299,0.24969369514650372,unstable_clustering,1,226.0663001348258,whole_window_behavior_features_not_single_year_peak
+W160,kmedoids_behavior_pca,6,45,4,11,4.846004188347663,6.268678192639348,1.2935767178477764,0.16248925864234123,unstable_clustering,0,218.07018847564484,whole_window_behavior_features_not_single_year_peak

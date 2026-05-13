@@ -1,0 +1,23 @@
+{
+  "status": "checked",
+  "created_at": "2026-05-02T17:52:14",
+  "v7e_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e",
+  "v7j_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_raw025_threeband_progress_v7_j",
+  "v7e_observed_has_w45_H": true,
+  "v7e_bootstrap_has_w45_H": true,
+  "v7j_regions_found": [
+    "R1_low",
+    "R2_mid",
+    "R3_high"
+  ],
+  "v7j_regions_expected": [
+    "R1_low",
+    "R2_mid",
+    "R3_high"
+  ],
+  "v7j_regions_complete": true,
+  "v7j_observed_rows": 3,
+  "v7j_bootstrap_rows": 3000,
+  "v7e_curves_available": true,
+  "v7j_curves_available": true
+}

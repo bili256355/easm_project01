@@ -1,0 +1,2 @@
+﻿window_id,anchor_day,field,n_early_features,n_late_features,n_unstable_features,whole_vs_feature_interpretation,is_worth_region_level_progress,region_level_priority,recommended_next_action,decision_reason
+W002,45,H,0,1,10,feature_level_unstable: many H features have unstable or invalid progress timing; whole-field H early signal needs caution.,False,low_until_quality_checked,do_not_upgrade_W45_H_order; inspect_H_feature_progress_quality,"Many H features are unstable/invalid, so region-level progress should first diagnose quality rather than seek order."

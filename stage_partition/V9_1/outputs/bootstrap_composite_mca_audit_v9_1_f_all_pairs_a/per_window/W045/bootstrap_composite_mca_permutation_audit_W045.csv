@@ -1,0 +1,11 @@
+﻿window_id,target_name,permutation_percentile,permutation_empirical_p,permutation_level,observed_abs_corr
+W045,W045_P_vs_V_delta_peak,1.0,0.0,strict_99,0.4932497149423273
+W045,W045_P_vs_H_delta_peak,1.0,0.0,strict_99,0.3339658408679226
+W045,W045_P_vs_Je_delta_peak,1.0,0.0,strict_99,0.49380371064988154
+W045,W045_P_vs_Jw_delta_peak,1.0,0.0,strict_99,0.6615313265229796
+W045,W045_V_vs_H_delta_peak,1.0,0.0,strict_99,0.3421668830415994
+W045,W045_V_vs_Je_delta_peak,1.0,0.0,strict_99,0.5155568704279588
+W045,W045_V_vs_Jw_delta_peak,1.0,0.0,strict_99,0.6298003314712044
+W045,W045_H_vs_Je_delta_peak,1.0,0.0,strict_99,0.3224950798605539
+W045,W045_H_vs_Jw_delta_peak,1.0,0.0,strict_99,0.3637043323746504
+W045,W045_Je_vs_Jw_delta_peak,1.0,0.0,strict_99,0.6215023015394344

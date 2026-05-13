@@ -1,0 +1,7 @@
+candidate_id,candidate_day,candidate_score,candidate_kind,physical_peak_key,merged_candidate_id,merged_candidate_kind,is_alias_of_formal_primary,alias_candidate_ids,alias_candidate_kinds
+RP001,45,5.878578493131532,formal_primary,D045,RP001,formal_primary,False,RP001,formal_primary
+RP002,81,9.238311473412097,formal_primary,D081,RP002,formal_primary,False,RP002,formal_primary
+RP003,113,9.678099825113602,formal_primary,D113,RP003,formal_primary,False,RP003,formal_primary
+LP006,132,3.7541518352022365,local_peak,D132,LP006,local_peak,False,LP006,local_peak
+RP004,135,3.7666081070788318,formal_primary,D135,RP004,formal_primary,False,RP004,formal_primary
+RP005,160,7.120567750300529,formal_primary,D160,RP005,formal_primary,False,RP005,formal_primary

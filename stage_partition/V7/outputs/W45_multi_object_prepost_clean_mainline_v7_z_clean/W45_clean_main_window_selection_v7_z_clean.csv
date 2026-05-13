@@ -1,0 +1,6 @@
+﻿object,selection_status,selected_candidate_id,selected_peak_day,selected_band_start_day,selected_band_end_day,peak_score,bootstrap_support,support_class,overlap_fraction_with_W45,selection_reason
+H,selected,CP002,31,21,39,14.125091601265732,0.821,candidate_window_80,0.0,"prefer accepted/candidate, W45-overlap/front relevance, support, and score; avoids weak CP001-only timing"
+Je,selected,CP003,46,44,48,2.6697396764838213,0.759,weak_window_50,1.0,"prefer accepted/candidate, W45-overlap/front relevance, support, and score; avoids weak CP001-only timing"
+Jw,selected,CP002,15,12,19,3.3047233937323224,0.986,accepted_window_95,0.0,"prefer accepted/candidate, W45-overlap/front relevance, support, and score; avoids weak CP001-only timing"
+P,selected,CP001,43,33,49,1.5223108757984367,0.976,accepted_window_95,1.0,"prefer accepted/candidate, W45-overlap/front relevance, support, and score; avoids weak CP001-only timing"
+V,selected,CP001,44,37,51,0.5755867993218428,0.995,accepted_window_95,1.0,"prefer accepted/candidate, W45-overlap/front relevance, support, and score; avoids weak CP001-only timing"

@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-30T07:17:30.457359+00:00",
+  "ended_at_utc": "2026-04-30T07:17:32.759508+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V7",
+  "run_label": "field_transition_pairwise_order_v7_c",
+  "source_v7_b_output_root": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_timing_v7_b",
+  "accepted_peak_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "method": "pairwise_order_audit_from_v7_b_bootstrap_and_loyo_peak_day_samples",
+  "notes": [
+    "V7-c does not rerun ruptures.Window; it reuses V7-b bootstrap and LOYO peak-day samples.",
+    "V7-b single-field timing labels are retained as metadata, but V7-c evaluates pairwise relative order directly.",
+    "robust_censored_order preserves useful relative-order direction while marking exact peak-day boundary censoring.",
+    "Timing order does not imply causality.",
+    "Downstream lead-lag/pathway outputs are not read.",
+    "Spatial earliest-region timing is not included."
+  ]
+}

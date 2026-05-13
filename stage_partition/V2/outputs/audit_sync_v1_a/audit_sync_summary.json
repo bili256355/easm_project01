@@ -1,0 +1,9 @@
+{
+  "n_main_windows": 5,
+  "n_evidence_rows": 10,
+  "n_orphan_points": 0,
+  "n_orphan_bands": 0,
+  "n_unresolved_support_windows": 0,
+  "n_nonclean_retention_windows": 2,
+  "suspected_mixed_run_artifacts": true
+}

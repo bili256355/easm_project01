@@ -1,0 +1,15 @@
+CURRENT_ENGINEERING_MANIFEST_index_validity_smooth5_v1_a.md
+PATCH_README_index_validity_smooth5_v1_a.md
+index_validity/V1/README_INDEX_VALIDITY_SMOOTH5_V1.md
+index_validity/V1/scripts/run_index_validity_smooth5_v1.py
+index_validity/V1/src/index_validity_v1/__init__.py
+index_validity/V1/src/index_validity_v1/anomaly_basic_check.py
+index_validity/V1/src/index_validity_v1/data_io.py
+index_validity/V1/src/index_validity_v1/index_metadata.py
+index_validity/V1/src/index_validity_v1/logging_utils.py
+index_validity/V1/src/index_validity_v1/physical_composites.py
+index_validity/V1/src/index_validity_v1/pipeline.py
+index_validity/V1/src/index_validity_v1/plotting_physical.py
+index_validity/V1/src/index_validity_v1/plotting_yearwise.py
+index_validity/V1/src/index_validity_v1/settings.py
+index_validity/V1/src/index_validity_v1/yearwise_diagnostics.py

@@ -1,0 +1,36 @@
+{
+  "status": "checked",
+  "created_at": "2026-05-02T20:28:54",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "v7e_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e",
+  "v7e1_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\progress_order_significance_audit_v7_e1",
+  "v7e2_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\progress_order_failure_audit_v7_e2",
+  "v7e_observed_fields_found": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "v7e_bootstrap_fields_found": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "required_fields": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ],
+  "observed_fields_complete": true,
+  "bootstrap_fields_complete": true,
+  "v7e1_pairwise_available": true,
+  "v7e2_failure_available": true,
+  "v7e1_w45_pair_count": 10,
+  "v7e2_w45_pair_count": 10
+}

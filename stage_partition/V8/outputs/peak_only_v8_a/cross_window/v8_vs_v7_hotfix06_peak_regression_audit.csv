@@ -1,0 +1,8 @@
+﻿window_id,table,status,n_v8_rows,n_v7_rows,n_key_mismatch_rows,n_value_differences,columns_with_differences,v7_file
+W045,main_window_selection,pass,5.0,5.0,0.0,0.0,{},D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\main_window_selection_W045.csv
+W045,bootstrap_selected_peak_days,pass,5000.0,5000.0,0.0,0.0,{},D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\bootstrap_selected_peak_days_W045.csv
+W045,timing_resolution_audit,pass,5.0,5.0,0.0,0.0,{},D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\timing_resolution_audit_W045.csv
+W045,tau_sync_estimate,pass,1.0,1.0,0.0,0.0,{},D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\tau_sync_estimate_W045.csv
+W045,pairwise_peak_order_test,pass,10.0,10.0,0.0,0.0,{},D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\pairwise_peak_order_test_W045.csv
+W045,pairwise_synchrony_equivalence_test,pass,10.0,10.0,0.0,0.0,{},D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\pairwise_synchrony_equivalence_test_W045.csv
+W045,pairwise_window_overlap,v7_file_missing,,,,,,D:\easm_project01\stage_partition\V7\outputs\accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order\per_window\W045\pairwise_window_overlap_W045.csv

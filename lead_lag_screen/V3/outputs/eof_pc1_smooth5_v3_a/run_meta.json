@@ -1,0 +1,226 @@
+{
+  "layer": "lead_lag_screen",
+  "version": "V3",
+  "method": "window_wise_field_EOF_PC1_lead_lag_audit",
+  "hard_boundaries": {
+    "uses_indices_as_main_variables": false,
+    "uses_only_PC1": true,
+    "uses_pcmci": false,
+    "does_pathway_inference": false,
+    "changes_window_definition": false
+  },
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "foundation_runtime_tag": "baseline_smooth5_a",
+    "output_tag": "eof_pc1_smooth5_v3_a",
+    "random_seed": 20260428,
+    "field_input_mode": "anomaly_fields",
+    "v1_output_tag": "lead_lag_screen_v1_smooth5_a",
+    "max_lag": 5,
+    "diagnostic_max_lag": 10,
+    "write_diagnostic_lags": true,
+    "n_surrogates": 1000,
+    "n_direction_bootstrap": 1000,
+    "n_audit_surrogates": 1000,
+    "surrogate_chunk_size": 100,
+    "bootstrap_chunk_size": 100,
+    "surrogate_mode": "pooled_window_object_pc1_ar1",
+    "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+    "run_audit_surrogate_null": true,
+    "min_valid_year_fraction": 0.7,
+    "min_pairs": 30,
+    "p_supported": 0.05,
+    "p_marginal": 0.1,
+    "q_within_window_supported": 0.1,
+    "eof_training_scope": "window_only_loading_project_to_padding",
+    "eof_pc_count": 1,
+    "eof_weighting": "sqrt_cos_lat",
+    "eof_grid_min_finite_fraction": 0.7,
+    "eof_row_min_finite_fraction": 0.5,
+    "eof_quality_good_variance_ratio": 0.35,
+    "eof_quality_moderate_variance_ratio": 0.2,
+    "sign_reference_min_abs_corr": 0.15,
+    "windows": {
+      "S1": [
+        1,
+        39
+      ],
+      "T1": [
+        40,
+        48
+      ],
+      "S2": [
+        49,
+        74
+      ],
+      "T2": [
+        75,
+        86
+      ],
+      "S3": [
+        87,
+        106
+      ],
+      "T3": [
+        107,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ],
+      "T4": [
+        155,
+        164
+      ],
+      "S5": [
+        165,
+        183
+      ]
+    },
+    "sign_reference_variables": {
+      "P": "P_total_centroid_lat_10_50",
+      "V": "V_NS_diff",
+      "H": "H_centroid_lat",
+      "Je": "Je_axis_lat",
+      "Jw": "Jw_axis_lat"
+    },
+    "preprocess_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess",
+    "indices_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices",
+    "input_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V3\\outputs\\eof_pc1_smooth5_v3_a",
+    "log_dir": "D:\\easm_project01\\lead_lag_screen\\V3\\logs\\eof_pc1_smooth5_v3_a",
+    "v1_output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a",
+    "region_specs": {
+      "P": {
+        "object_name": "P",
+        "source_field": "precip",
+        "lon_range": [
+          105.0,
+          125.0
+        ],
+        "lat_range": [
+          10.0,
+          50.0
+        ],
+        "note": "P domain reused from foundation/V1 index object definition."
+      },
+      "V": {
+        "object_name": "V",
+        "source_field": "v850",
+        "lon_range": [
+          105.0,
+          125.0
+        ],
+        "lat_range": [
+          10.0,
+          30.0
+        ],
+        "note": "V domain reused from foundation/V1; south boundary fixed at 10N."
+      },
+      "H": {
+        "object_name": "H",
+        "source_field": "z500",
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "lat_range": [
+          10.0,
+          40.0
+        ],
+        "note": "H core domain reused from foundation/V1."
+      },
+      "Jw": {
+        "object_name": "Jw",
+        "source_field": "u200",
+        "lon_range": [
+          80.0,
+          110.0
+        ],
+        "lat_range": [
+          20.0,
+          50.0
+        ],
+        "note": "Upstream jet core domain reused from foundation/V1."
+      },
+      "Je": {
+        "object_name": "Je",
+        "source_field": "u200",
+        "lon_range": [
+          120.0,
+          150.0
+        ],
+        "lat_range": [
+          20.0,
+          50.0
+        ],
+        "note": "Downstream jet core domain reused from foundation/V1."
+      }
+    }
+  },
+  "summary": {
+    "status": "success",
+    "output_tag": "eof_pc1_smooth5_v3_a",
+    "started_at": "2026-04-28T11:56:31",
+    "finished_at": "2026-04-28T12:01:17",
+    "runtime_seconds": 285.704,
+    "field_input_meta": {
+      "field_input_mode": "anomaly_fields",
+      "preprocess_dir": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess",
+      "used_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\anomaly_fields.npz",
+      "fallback_used": false,
+      "npz_keys": [
+        "lat",
+        "lon",
+        "precip_anom",
+        "u200_anom",
+        "v850_anom",
+        "years",
+        "z500_anom"
+      ]
+    },
+    "n_years": 45,
+    "n_objects": 5,
+    "n_windows": 9,
+    "n_pc1_score_rows": 77175,
+    "n_pc1_quality_rows": 45,
+    "pc1_quality_flag_counts": {
+      "pc1_good": 27,
+      "pc1_moderate": 11,
+      "pc1_low_variance": 6,
+      "pc1_moderate;sign_reference_weak": 1
+    },
+    "n_pc1_pair_rows": 180,
+    "pc1_label_counts": {
+      "PC1_no_not_supported": 68,
+      "PC1_yes_with_same_day_coupling": 30,
+      "PC1_ambiguous_same_day_dominant": 22,
+      "PC1_no_reverse_dominant": 19,
+      "PC1_ambiguous_bidirectional_close": 17,
+      "PC1_no_same_day_only": 14,
+      "PC1_ambiguous_coupled_or_feedback_like": 4,
+      "PC1_ambiguous_direction_uncertain": 3,
+      "PC1_yes_clear": 2,
+      "PC1_ambiguous_marginal_statistical_support": 1
+    },
+    "pc1_group_counts": {
+      "PC1_lead_lag_no": 101,
+      "PC1_lead_lag_ambiguous": 47,
+      "PC1_lead_lag_yes": 32
+    },
+    "pc1_evidence_tier_counts": {
+      "PC1_Tier5a_no_not_supported": 68,
+      "PC1_Tier1b_audit_stable_with_same_day": 27,
+      "PC1_Tier4b_ambiguous_same_day": 22,
+      "PC1_Tier5b_no_reverse_dominant": 19,
+      "PC1_Tier4a_ambiguous_bidirectional_close": 17,
+      "PC1_Tier5c_no_same_day_only": 14,
+      "PC1_Tier4c_ambiguous_direction_uncertain": 7,
+      "PC1_Tier3_surrogate_or_persistence_sensitive_yes": 5,
+      "PC1_Tier4d_ambiguous_marginal": 1
+    },
+    "interpretation_scope": "field-mode EOF-PC1 audit of V1 index applicability; not pathway proof; not PCMCI; PC1 only",
+    "primary_audit_focus": "T3/meiyu-ending index applicability; inspect v1_index_vs_v3_pc1_family_comparison.csv and t3_meiyu_end_pc1_audit.csv"
+  }
+}

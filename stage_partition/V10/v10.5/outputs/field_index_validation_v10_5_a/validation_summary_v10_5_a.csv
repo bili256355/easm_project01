@@ -1,0 +1,16 @@
+﻿window_id,lineage_day,object,v10_4_assigned_peak_day,profile_energy_peak_day,profile_energy_relation,n_index_metrics,n_index_support,n_index_near_support,n_index_different,field_profile_validation_status,index_validation_status,overall_validation_status,note
+W045,45,P,45.0,44.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,0,3,SUPPORTED,NOT_SUPPORTED,PARTIALLY_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W045,45,V,45.0,45.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,0,3,SUPPORTED,NOT_SUPPORTED,PARTIALLY_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W045,45,H,35.0,20.0,DIFFERENT_TIMING,5,1,0,4,NOT_SUPPORTED,NOT_SUPPORTED,NOT_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W045,45,Je,46.0,45.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,0,3,SUPPORTED,NOT_SUPPORTED,PARTIALLY_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W045,45,Jw,41.0,41.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,0,0,5,SUPPORTED,NOT_SUPPORTED,PARTIALLY_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W113,113,P,113.0,88.0,DIFFERENT_TIMING,5,0,0,5,NOT_SUPPORTED,NOT_SUPPORTED,NOT_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W113,113,V,114.0,113.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,1,2,SUPPORTED,PARTIALLY_SUPPORTED,SUPPORTED,method-layer validation only; no physical/causal interpretation
+W113,113,H,115.0,114.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,4,0,1,SUPPORTED,SUPPORTED,SUPPORTED,method-layer validation only; no physical/causal interpretation
+W113,113,Je,111.0,111.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,0,3,SUPPORTED,NOT_SUPPORTED,PARTIALLY_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W113,113,Jw,104.0,103.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,0,3,SUPPORTED,NOT_SUPPORTED,PARTIALLY_SUPPORTED,method-layer validation only; no physical/causal interpretation
+W160,160,P,158.0,157.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,3,0,2,SUPPORTED,SUPPORTED,SUPPORTED,method-layer validation only; no physical/causal interpretation
+W160,160,V,161.0,161.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,2,1,2,SUPPORTED,PARTIALLY_SUPPORTED,SUPPORTED,method-layer validation only; no physical/causal interpretation
+W160,160,H,155.0,154.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,4,0,1,SUPPORTED,SUPPORTED,SUPPORTED,method-layer validation only; no physical/causal interpretation
+W160,160,Je,162.0,161.0,SUPPORTS_OBJECT_PEAK_FAMILY,5,3,0,2,SUPPORTED,SUPPORTED,SUPPORTED,method-layer validation only; no physical/causal interpretation
+W160,160,Jw,152.0,135.0,DIFFERENT_TIMING,5,1,0,4,NOT_SUPPORTED,NOT_SUPPORTED,NOT_SUPPORTED,method-layer validation only; no physical/causal interpretation

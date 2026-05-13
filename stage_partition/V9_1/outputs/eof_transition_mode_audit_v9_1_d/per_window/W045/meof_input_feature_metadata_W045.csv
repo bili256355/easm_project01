@@ -1,0 +1,6 @@
+﻿window_id,object,feature_start_col,feature_end_col,source_days,n_source_features
+W045,P,0,974,0-74,975
+W045,V,975,1799,0-74,825
+W045,H,1800,2624,0-74,825
+W045,Je,2625,3449,0-74,825
+W045,Jw,3450,4274,0-74,825

@@ -1,0 +1,104 @@
+{
+  "version": "v7_v",
+  "hotfix_id": "v7_v_hotfix_02_unified_expanded_search",
+  "output_tag": "w45_H_Jw_baseline_sensitive_state_growth_v7_v",
+  "status": "success",
+  "finished_at": "2026-05-03T23:30:40",
+  "primary_goal": "baseline-sensitive H/Jw state-progress and growth-speed adjudication",
+  "fields": [
+    "H",
+    "Jw"
+  ],
+  "window_id": "W002",
+  "anchor_day": 45,
+  "accepted_window": [
+    40,
+    48
+  ],
+  "baseline_configs": {
+    "C0_full_stage": {
+      "pre": [
+        0,
+        39
+      ],
+      "post": [
+        49,
+        74
+      ],
+      "search": [
+        35,
+        53
+      ],
+      "diagnostic": [
+        0,
+        74
+      ]
+    },
+    "C1_buffered_stage": {
+      "pre": [
+        0,
+        34
+      ],
+      "post": [
+        54,
+        69
+      ],
+      "search": [
+        35,
+        53
+      ],
+      "diagnostic": [
+        0,
+        74
+      ]
+    },
+    "C2_immediate_pre": {
+      "pre": [
+        25,
+        34
+      ],
+      "post": [
+        54,
+        69
+      ],
+      "search": [
+        35,
+        53
+      ],
+      "diagnostic": [
+        0,
+        74
+      ]
+    }
+  },
+  "state_branches": [
+    "distance",
+    "pattern"
+  ],
+  "growth_definition": "first_difference_of_state_progress_dS_dt",
+  "P_proj_role": "reference_only_not_used_for_main_decision",
+  "no_spatial_pairing": true,
+  "no_latband_pairing": true,
+  "no_P_V_Je": true,
+  "event_validity_required_before_decision": true,
+  "bootstrap_valid_fraction_minimum": 0.8,
+  "n_bootstrap": 1000,
+  "output_files": [
+    "w45_H_Jw_baseline_config_table_v7_v.csv",
+    "w45_H_Jw_baseline_sensitivity_summary_v7_v.csv",
+    "w45_H_Jw_event_validity_table_v7_v.csv",
+    "w45_H_Jw_growth_bootstrap_events_v7_v.csv",
+    "w45_H_Jw_growth_event_registry_v7_v.csv",
+    "w45_H_Jw_growth_observed_events_v7_v.csv",
+    "w45_H_Jw_growth_order_sync_decision_v7_v.csv",
+    "w45_H_Jw_growth_speed_curves_v7_v.csv",
+    "w45_H_Jw_negative_growth_observed_events_v7_v.csv",
+    "w45_H_Jw_state_bootstrap_events_v7_v.csv",
+    "w45_H_Jw_state_event_registry_v7_v.csv",
+    "w45_H_Jw_state_growth_final_summary_v7_v.csv",
+    "w45_H_Jw_state_growth_method_status_v7_v.csv",
+    "w45_H_Jw_state_observed_events_v7_v.csv",
+    "w45_H_Jw_state_order_sync_decision_v7_v.csv",
+    "w45_H_Jw_state_progress_curves_v7_v.csv"
+  ]
+}

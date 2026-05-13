@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-21T12:58:25.786517Z",
+  "ended_at_utc": "2026-04-21T12:58:25.826715Z",
+  "layer_name": "stage_partition",
+  "version_name": "V2",
+  "audit_name": "audit_sync_v1_a",
+  "source_results_dir": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a",
+  "output_root": "D:\\easm_project01\\stage_partition\\V2\\outputs\\audit_sync_v1_a",
+  "notes": [
+    "This run does not rerun the detector; it audits and resynchronizes existing V2 result tables.",
+    "stage_partition_main_windows.csv is the only main window-object table produced by this audit.",
+    "window_evidence_mapping.csv separates point/band evidence from main windows.",
+    "window_support_audit.csv and window_retention_audit.csv are restricted audit layers, not replacement main results."
+  ]
+}

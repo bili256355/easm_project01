@@ -1,0 +1,8 @@
+﻿scope,object,config_id,window_id,start_day,end_day,center_day,main_peak_day,n_member_points,member_candidate_ids,max_member_bootstrap_match_fraction,merge_reason,protected_split_flag,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+joint_all,joint_all,BASELINE,W001,16,20,18,18,1,CP001,0.745,non_overlap,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,BASELINE,W002,40,48,44,45,1,CP002,0.993,non_overlap,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,BASELINE,W003,75,86,80,81,1,CP003,0.951,non_overlap,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,BASELINE,W004,94,99,96,96,1,CP004,0.807,non_overlap,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,BASELINE,W005,107,117,112,113,1,CP005,0.987,non_overlap,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,BASELINE,W006,128,138,133,132,2,CP006;CP007,0.899,non_overlap,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,BASELINE,W007,155,164,160,160,1,CP008,0.962,final_group,False,baseline,none,baseline,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

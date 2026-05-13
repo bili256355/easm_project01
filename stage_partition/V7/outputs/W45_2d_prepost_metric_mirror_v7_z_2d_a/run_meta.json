@@ -1,0 +1,12 @@
+{
+  "version": "v7_z_2d_a",
+  "output_tag": "W45_2d_prepost_metric_mirror_v7_z_2d_a",
+  "smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "clean_profile_result_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\W45_multi_object_prepost_clean_mainline_v7_z_clean",
+  "clean_profile_status": "loaded",
+  "basis": "2d_field",
+  "does_2d_change_point_detection": false,
+  "does_final_claim_rewrite": false,
+  "n_bootstrap": 1000,
+  "elapsed_seconds": 2647.9089529514313
+}

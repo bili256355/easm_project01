@@ -1,0 +1,6 @@
+﻿window,family,n_indices,n_strong,n_moderate,n_weak_but_usable,n_high_risk,n_not_supported,n_usable,best_index,best_index_score,best_index_tier,family_collapse_risk,recommended_use,guardrail_interpretation
+T3,P,7,7,0,0,0,0,7,P_main_band_share,0.978112719728031,strong,low,family_has_usable_indices_no_whole_family_collapse_supported,No evidence of whole-family index collapse.
+T3,V,3,3,0,0,0,0,3,V_strength,1.0,strong,low,family_has_usable_indices_no_whole_family_collapse_supported,No evidence of whole-family index collapse.
+T3,H,4,3,1,0,0,0,4,H_strength,1.0,strong,low,family_has_usable_indices_no_whole_family_collapse_supported,No evidence of whole-family index collapse.
+T3,Je,3,2,1,0,0,0,3,Je_strength,0.895,strong,low,family_has_usable_indices_no_whole_family_collapse_supported,No evidence of whole-family index collapse.
+T3,Jw,3,2,1,0,0,0,3,Jw_strength,0.895,strong,low,family_has_usable_indices_no_whole_family_collapse_supported,No evidence of whole-family index collapse.

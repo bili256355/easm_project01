@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-23T13:01:21.696536+00:00",
+  "ended_at_utc": "2026-04-23T13:01:43.611355+00:00",
+  "layer_name": "stage_partition",
+  "version_name": "V6_1",
+  "run_label": "mainline_v6_1_a",
+  "source_v6_output_tag": "mainline_v6_a",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V6_1 is a child version derived from V6 point-layer outputs.",
+    "V6_1 consumes V6 candidate registry and bootstrap records as upstream inputs.",
+    "Band construction now respects intervening candidate boundaries and can truncate at local valleys.",
+    "Window merge now uses group-maximum end-day tracking instead of last-band end-day only.",
+    "Protected merge is enabled for already-significant candidate peaks; close neighbors remain mergeable.",
+    "Window uncertainty is attached to the main peak only and is not a second window system.",
+    "Competition is not included.",
+    "Parameter-path is not included.",
+    "Final judgement is not included.",
+    "Yearwise does not gate window construction."
+  ]
+}

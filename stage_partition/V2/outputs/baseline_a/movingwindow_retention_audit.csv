@@ -1,0 +1,8 @@
+backend,peak_day,peak_value,peak_prominence,peak_rank,candidate_kind,retained_as,drop_stage,drop_reason
+movingwindow,110,-269.7851706073892,20.037969183733594,1,raw_local_peak,edge,edge_selection,
+movingwindow,78,-270.0155410966639,4.2910752378644474,2,raw_local_peak,dropped,backend_native_rule,not_promoted_to_primary_or_edge
+movingwindow,161,-271.66767611191665,14.963202337734572,3,raw_local_peak,edge,edge_selection,
+movingwindow,44,-278.0892770127087,6.763052993519182,4,raw_local_peak,dropped,backend_native_rule,not_promoted_to_primary_or_edge
+movingwindow,17,-281.0827275352331,0.7662133431714437,5,raw_local_peak,dropped,backend_native_rule,not_promoted_to_primary_or_edge
+movingwindow,29,-281.50113959178344,0.1338042213046151,6,raw_local_peak,dropped,backend_native_rule,not_promoted_to_primary_or_edge
+movingwindow,137,-281.5997888402403,0.6258939108250843,7,raw_local_peak,dropped,backend_native_rule,not_promoted_to_primary_or_edge

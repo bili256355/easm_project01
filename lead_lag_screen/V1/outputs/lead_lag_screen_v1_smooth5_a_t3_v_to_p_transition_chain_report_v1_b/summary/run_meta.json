@@ -1,0 +1,137 @@
+{
+  "status": "success",
+  "layer": "t3_v_to_p_transition_chain_report_v1_b",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_transition_chain_report_v1_b",
+    "previous_field_explanation_output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_t3_v_to_p_field_explanation_audit_v1_a",
+    "foundation_preprocess_rel": "foundation/V1/outputs/baseline_smooth5_a/preprocess",
+    "foundation_indices_rel": "foundation/V1/outputs/baseline_smooth5_a/indices",
+    "windows": {
+      "S3": [
+        87,
+        106
+      ],
+      "T3_early": [
+        107,
+        112
+      ],
+      "T3_full": [
+        107,
+        117
+      ],
+      "T3_late": [
+        113,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ]
+    },
+    "window_order": [
+      "S3",
+      "T3_early",
+      "T3_full",
+      "T3_late",
+      "S4"
+    ],
+    "comparisons": {
+      "T3_full_minus_S3": [
+        "T3_full",
+        "S3"
+      ],
+      "T3_late_minus_T3_early": [
+        "T3_late",
+        "T3_early"
+      ],
+      "S4_minus_T3_full": [
+        "S4",
+        "T3_full"
+      ]
+    },
+    "v_components": [
+      "V_strength",
+      "V_NS_diff",
+      "V_pos_centroid_lat"
+    ],
+    "regions": {
+      "north_northeast": {
+        "lat_min": 35.0,
+        "lat_max": 50.0,
+        "lon_min": 110.0,
+        "lon_max": 135.0
+      },
+      "main_meiyu": {
+        "lat_min": 24.0,
+        "lat_max": 35.0,
+        "lon_min": 100.0,
+        "lon_max": 125.0
+      },
+      "south_china": {
+        "lat_min": 18.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 120.0
+      },
+      "scs": {
+        "lat_min": 10.0,
+        "lat_max": 20.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "south_china_scs": {
+        "lat_min": 10.0,
+        "lat_max": 25.0,
+        "lon_min": 105.0,
+        "lon_max": 130.0
+      },
+      "main_easm_domain": {
+        "lat_min": 10.0,
+        "lat_max": 50.0,
+        "lon_min": 100.0,
+        "lon_max": 135.0
+      }
+    },
+    "north_region": "north_northeast",
+    "main_region": "main_meiyu",
+    "south_region": "south_china_scs",
+    "max_lag": 5,
+    "support_metric_column": "region_mean_R2_map",
+    "support_map_lag_label": "positive_lag_max",
+    "r2_delta_epsilon": 0.005,
+    "object_delta_epsilon": 1e-10,
+    "make_figures": true,
+    "use_cartopy": true,
+    "no_show": true,
+    "precip_aliases": [
+      "precip",
+      "precipitation",
+      "pr",
+      "rain",
+      "P"
+    ],
+    "v850_aliases": [
+      "v850",
+      "V850",
+      "v",
+      "meridional_wind"
+    ]
+  },
+  "full_grid_maps_persisted": false,
+  "support_maps_recomputed_in_memory": true,
+  "input_smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+  "input_index_values_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+  "precip_key": "precip_smoothed",
+  "v850_key": "v850_smoothed",
+  "field_shape": [
+    45,
+    183,
+    201,
+    521
+  ],
+  "day_mapping_mode": "shape183_day_minus_1",
+  "year_mapping_mode": "npz_years",
+  "n_lat": 201,
+  "n_lon": 521
+}

@@ -1,0 +1,10 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+Jw_only,Jw,SMOOTH5_BAND_Q30,W001,CP001,13,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W002,CP002,21,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W003,CP003,31,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W004,CP004,42,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W005,CP005,82,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W006,CP006,103,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W006,CP007,109,False,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W007,CP008,129,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Jw_only,Jw,SMOOTH5_BAND_Q30,W008,CP009,152,True,,smooth5_candidate_band,band_floor_quantile,0.30,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode

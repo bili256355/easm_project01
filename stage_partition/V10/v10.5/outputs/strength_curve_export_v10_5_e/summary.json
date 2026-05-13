@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "n_main_curve_rows": 930,
+  "n_profile_energy_curve_rows": 2745,
+  "n_profile_energy_topk_rows": 143,
+  "k_values": [
+    7,
+    9,
+    11
+  ],
+  "objects": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ]
+}

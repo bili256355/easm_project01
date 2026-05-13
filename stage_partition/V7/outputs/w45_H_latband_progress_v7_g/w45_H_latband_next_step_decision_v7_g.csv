@@ -1,0 +1,2 @@
+﻿window_id,anchor_day,field,band_size,band_step,n_latbands,n_early_bands,n_late_bands,n_unstable_bands,latband_improves_stability,recommended_next_action,region_level_priority,decision_reason
+W002,45,H,3,1,9,1,1,7,partial,review_latband_quality_before_generalizing_to_other_objects,diagnostic,"Lat-band aggregation partially improves single-feature instability, but evidence is still not ready for confirmed regional timing."

@@ -1,0 +1,6 @@
+﻿figure,description,plot_backend
+V_strength_positive_lag_max_R2_S3_T3early_T3full_T3late_S4_cartopy.png,Positive-lag max R2 maps for V_strength,cartopy
+V_NS_diff_positive_lag_max_R2_S3_T3early_T3full_T3late_S4_cartopy.png,Positive-lag max R2 maps for V_NS_diff,cartopy
+T3_full_V_strength_lag_minus_tau0_delta_R2_cartopy.png,Lag-minus-tau0 delta R2 for V_strength,cartopy
+T3_full_V_NS_diff_lag_minus_tau0_delta_R2_cartopy.png,Lag-minus-tau0 delta R2 for V_NS_diff,cartopy
+T3_full_component_contrast_VNSdiff_minus_Vstrength_R2_cartopy.png,Component contrast R2 map for T3_full,cartopy

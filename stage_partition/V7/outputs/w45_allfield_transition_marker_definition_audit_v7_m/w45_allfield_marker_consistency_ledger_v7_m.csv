@@ -1,0 +1,11 @@
+﻿field_a,field_b,thresholds_pass90,thresholds_pass95,n_thresholds_pass90,n_thresholds_pass95,departure90_pass,departure95_pass,peak_raw_pass90,peak_smooth3_pass90,peak_any_pass90,peak_any_pass95,midpoint50_pass90,finish75_pass90,pass90_direction_consistency,early_field_candidate,late_field_candidate,overall_marker_consistency_label,interpretation
+P,V,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+P,H,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+P,Je,0.20;0.25,none,2,0,True,False,False,False,False,False,False,False,field_a_before_field_b,P,Je,departure_supported_order,Departure-from-pre supports the order; threshold/peak support should be checked.
+P,Jw,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+V,H,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+V,Je,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+V,Jw,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+H,Je,0.15;0.20;0.25;0.30;0.35;0.40,0.20;0.25;0.30,6,3,True,True,False,False,False,False,False,False,field_a_before_field_b,H,Je,robust_early_transition_order,Same direction appears across several threshold levels and at least one non-threshold marker family.
+H,Jw,none,none,0,0,False,False,False,False,False,False,False,False,none,,,not_distinguishable_across_markers,No marker family gives a 90% confirmed direction.
+Je,Jw,none,none,0,0,True,False,False,False,False,False,False,False,field_b_before_field_a,Jw,Je,departure_supported_order,Departure-from-pre supports the order; threshold/peak support should be checked.

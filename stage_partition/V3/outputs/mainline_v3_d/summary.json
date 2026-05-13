@@ -1,0 +1,71 @@
+{
+  "n_main_windows": 5,
+  "n_evidence_rows": 10,
+  "n_orphan_points": 0,
+  "n_orphan_bands": 0,
+  "n_limited_support_windows": 1,
+  "n_nonclean_retention_windows": 0,
+  "n_support_rule_changes": 5,
+  "legacy_near_peak_years_by_window": {
+    "W001": 45,
+    "W002": 45,
+    "W003": 45,
+    "W004": 45,
+    "W005": 45
+  },
+  "yearwise_support_summary": {
+    "W001": {
+      "near_peak_years": 14,
+      "overlap_any_years": 14,
+      "strict_overlap_years": 6,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 6,
+      "headline_support_fraction": 0.13333333333333333
+    },
+    "W002": {
+      "near_peak_years": 11,
+      "overlap_any_years": 26,
+      "strict_overlap_years": 9,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 9,
+      "headline_support_fraction": 0.2
+    },
+    "W003": {
+      "near_peak_years": 17,
+      "overlap_any_years": 28,
+      "strict_overlap_years": 12,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 12,
+      "headline_support_fraction": 0.26666666666666666
+    },
+    "W004": {
+      "near_peak_years": 14,
+      "overlap_any_years": 14,
+      "strict_overlap_years": 0,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 0,
+      "headline_support_fraction": 0.0
+    },
+    "W005": {
+      "near_peak_years": 22,
+      "overlap_any_years": 32,
+      "strict_overlap_years": 12,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 12,
+      "headline_support_fraction": 0.26666666666666666
+    }
+  },
+  "W004_status_summary": {
+    "strict_support_score": 0.08,
+    "legacy_support_score": 0.5,
+    "param_path_hit_fraction": 0.4,
+    "support_reliability_flag": "limited"
+  },
+  "point_significance_summary": {
+    "n_points_audited": 6,
+    "n_core_significant_points": 0,
+    "n_significant_but_moderate": 0,
+    "n_weak_or_borderline_points": 6,
+    "n_neighbor_competition_losers": 0
+  }
+}

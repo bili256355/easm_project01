@@ -1,0 +1,5 @@
+﻿method_component,status,evidence,can_continue_to_all_fields,reason,next_action
+state_framework,method_unclosed,hard_state_decisions=0,False,H/Jw-only method trial,inspect_state_decisions
+growth_framework,method_unclosed,hard_growth_decisions=0,False,growth=dS/dt trial only,inspect_growth_decisions
+baseline_sensitivity,not_stable,stable_across_baselines=0,False,baseline sensitivity must be checked before extension,review_baseline_sensitivity_summary
+overall_method_status,method_unclosed,hard_state=0; hard_growth=0; stable=0; branch_conflict=False,False,Do not extend unless H/Jw state/growth decisions are stable across baseline configs.,do_not_extend_to_P_V_Je

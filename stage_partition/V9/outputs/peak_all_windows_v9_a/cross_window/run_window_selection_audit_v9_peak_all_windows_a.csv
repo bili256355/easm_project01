@@ -1,0 +1,5 @@
+﻿window_id,anchor_day,system_window_start,system_window_end,run_selected,reason
+W045,45,40,48,True,"mode=list; targets=W045,W081,W113,W160"
+W081,81,75,87,True,"mode=list; targets=W045,W081,W113,W160"
+W113,113,108,118,True,"mode=list; targets=W045,W081,W113,W160"
+W160,160,155,165,True,"mode=list; targets=W045,W081,W113,W160"

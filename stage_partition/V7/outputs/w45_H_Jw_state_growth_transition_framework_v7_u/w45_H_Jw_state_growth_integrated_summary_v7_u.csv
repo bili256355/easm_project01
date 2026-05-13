@@ -1,0 +1,7 @@
+﻿question,state_result,growth_result,interpretation_allowed,interpretation_forbidden,method_status
+who_leaves_pre_first,synchronous_equivalent (hard_decision; Δ=0.0),not_a_growth_question,Use durable departure searched after the pre-period only; non-durable departure_from_pre is a candidate diagnostic.,Do not infer post-state order from departure alone; do not use pre-period crossings as departure.,hard_decision_available
+who_becomes_post_like_first,unresolved (method_unclosed; Δ=-2.0),not_a_growth_question,This is the main state-progress order/synchrony question.,Do not replace with P_proj t50 if state event is invalid/unresolved.,method_unclosed
+who_becomes_durably_post_like_first,unresolved (method_unclosed; Δ=-2.0),not_a_growth_question,Use as stronger state-progress order if hard decision exists.,Do not use first-passage as durable conversion.,method_unclosed
+who_has_earlier_max_growth,not_a_state_question,unresolved (directional_tendency_only; Δ=9.0),"This is rapid-change timing, not state-transition order.",Do not call this state lead.,tendency_only
+who_has_earlier_postward_growth,not_a_state_question,unresolved (method_unclosed; Δ=3.0),This is postward growth timing only.,Do not infer durable post-dominance from peak growth.,method_unclosed
+whether_state_and_growth_order_agree,hard_state_decisions=1,hard_growth_decisions=0,Compare state and growth only after each layer has its own decision.,Do not collapse state and growth into one transition day.,usable_for_comparison

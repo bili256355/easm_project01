@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "created_at": "2026-05-02T15:44:06",
+  "output_tag": "w45_H_feature_progress_v7_f",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "field": "H",
+  "notes": [
+    "W45 H feature-level progress audit only.",
+    "This run recomputes H feature-level progress from smoothed fields but does not alter V7-e whole-field progress outputs.",
+    "No causal/pathway interpretation is made."
+  ],
+  "finished_at": "2026-05-02T15:45:12",
+  "n_h_features": 11,
+  "n_bootstrap": 1000,
+  "n_loyo": 45,
+  "output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_feature_progress_v7_f",
+  "log_dir": "D:\\easm_project01\\stage_partition\\V7\\logs\\w45_H_feature_progress_v7_f",
+  "core_outputs": [
+    "w45_H_feature_progress_observed_v7_f.csv",
+    "w45_H_feature_progress_curves_long_v7_f.csv",
+    "w45_H_feature_progress_bootstrap_samples_v7_f.csv",
+    "w45_H_feature_progress_bootstrap_summary_v7_f.csv",
+    "w45_H_feature_timing_spread_v7_f.csv",
+    "w45_H_whole_vs_feature_progress_v7_f.csv",
+    "w45_H_feature_next_step_decision_v7_f.csv"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "n_scope_config_rows": 240,
+  "n_candidate_comparison_rows": 2169,
+  "n_support_comparison_rows": 2148,
+  "n_band_comparison_rows": 2148,
+  "n_window_comparison_rows": 2030,
+  "n_lineage_mapping_rows": 2155,
+  "n_smooth5_internal_summary_rows": 60,
+  "n_shift_type_summary_rows": 253,
+  "n_order_inversion_summary_rows": 253,
+  "n_new_candidate_inventory_rows": 21,
+  "n_detector_width_bootstrap_summary_rows": 24
+}

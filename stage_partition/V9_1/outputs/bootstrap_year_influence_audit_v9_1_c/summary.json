@@ -1,0 +1,15 @@
+{
+  "version": "bootstrap_year_influence_audit_v9_1_c",
+  "elapsed_seconds": 234.25466513633728,
+  "windows_processed": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "bootstrap_n": 1000,
+  "perm_n": 500,
+  "modifies_v9": false,
+  "uses_single_year_peak": false,
+  "output_root": "D:\\easm_project01\\stage_partition\\V9_1\\outputs\\bootstrap_year_influence_audit_v9_1_c"
+}

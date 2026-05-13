@@ -1,0 +1,6 @@
+window_id,retained_or_dropped,retention_reason_primary,retention_reason_secondary,related_point_ids,related_band_ids,n_point_evidence_rows,n_band_evidence_rows,support_score,n_bootstrap_effective,retention_rule_version,retention_semantics,is_window_native_consistent,retention_warning
+W001,retained,has_point_band_evidence_and_support,window_native_main_window,RP001,RB001,1,1,0.95,95,window_native_v3_a,current_window_native,true,
+W002,retained,has_point_band_evidence_and_support,window_native_main_window,RP002,RB002,1,1,0.9,90,window_native_v3_a,current_window_native,true,
+W003,retained,has_point_band_evidence_and_support,window_native_main_window,RP003,RB003,1,1,0.97,97,window_native_v3_a,current_window_native,true,
+W004,retained,has_point_band_evidence_and_support,window_native_main_window,RP004,RB004,1,1,0.51,51,window_native_v3_a,current_window_native,true,
+W005,retained,has_point_band_evidence_and_support,window_native_main_window,RP005,RB005,1,1,0.9,90,window_native_v3_a,current_window_native,true,

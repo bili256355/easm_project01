@@ -1,0 +1,6 @@
+merged_window_id,source_point_days,source_band_starts,source_band_ends,n_merged_points
+RW01,45,43,47,1
+RW02,81,76,85,1
+RW03,113,109,116,1
+RW04,135,135,135,1
+RW05,160,156,163,1

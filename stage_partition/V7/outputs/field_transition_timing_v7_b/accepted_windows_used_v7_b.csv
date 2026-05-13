@@ -1,0 +1,5 @@
+window_id,anchor_day,anchor_month_day,accepted_window_start,accepted_window_end,analysis_window_start,analysis_window_end,buffer_days,source_window_id,max_member_bootstrap_match_fraction,note
+W002,45,05-16,40,48,35,53,5,W002,0.993,accepted V6/V6_1 window with V7-b expanded analysis window
+W003,81,06-21,75,86,70,91,5,W003,0.951,accepted V6/V6_1 window with V7-b expanded analysis window
+W005,113,07-23,107,117,102,122,5,W005,0.987,accepted V6/V6_1 window with V7-b expanded analysis window
+W007,160,09-08,155,164,150,169,5,W007,0.962,accepted V6/V6_1 window with V7-b expanded analysis window

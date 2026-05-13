@@ -1,0 +1,69 @@
+{
+  "version": "W045_Jw_H_peak_sensitivity_cause_audit_v1",
+  "target_window": "W045",
+  "target_objects": [
+    "H",
+    "Jw"
+  ],
+  "n_selected_rows": 144,
+  "n_clusters": 6,
+  "score_landscape_status": "OK",
+  "profile_component_status": "OK",
+  "figure_status": "OK",
+  "diagnosis_records": [
+    {
+      "window_id": "W045",
+      "object_or_pair": "H",
+      "record_type": "object",
+      "implementation_status": "WARN",
+      "day_distribution_type": "TWO_OR_MORE_STABLE_CLUSTERS",
+      "dominant_config_factor": "selection_rule",
+      "dominant_config_factor_eta2": 0.6391812733688452,
+      "dominant_config_hint": "selection_rule_dominant",
+      "landscape_type": "MULTI_LOCAL_PEAK",
+      "search_window_status": "WIDE_OR_OUTSIDE_SYSTEM_MIXING",
+      "component_mixture_status": "COMPONENT_FEATURES_AVAILABLE",
+      "physical_distinctness_status": "NOT_DISTINCT",
+      "order_sensitivity_source": "NA_OBJECT_LEVEL",
+      "primary_sensitivity_cause": "SEARCH_WINDOW_MIXING",
+      "recommended_next_step": "Selected peaks are boundary/outside-system dominated; audit search window before subpeak interpretation.",
+      "confidence": 0.75
+    },
+    {
+      "window_id": "W045",
+      "object_or_pair": "Jw",
+      "record_type": "object",
+      "implementation_status": "WARN",
+      "day_distribution_type": "TWO_OR_MORE_STABLE_CLUSTERS",
+      "dominant_config_factor": "selection_rule",
+      "dominant_config_factor_eta2": 0.5880251680310699,
+      "dominant_config_hint": "selection_rule_dominant",
+      "landscape_type": "EDGE_PEAK",
+      "search_window_status": "SEARCH_ROBUST_OR_NONDOMINANT",
+      "component_mixture_status": "COMPONENT_FEATURES_AVAILABLE",
+      "physical_distinctness_status": "NOT_DISTINCT",
+      "order_sensitivity_source": "NA_OBJECT_LEVEL",
+      "primary_sensitivity_cause": "STATISTICAL_MULTICLUSTER_NOT_YET_PHYSICAL",
+      "recommended_next_step": "Multiple clusters exist but physical distinctness is not strong enough for interpretation.",
+      "confidence": 0.65
+    },
+    {
+      "window_id": "W045",
+      "object_or_pair": "Jw_minus_H",
+      "record_type": "pair",
+      "implementation_status": "WARN;WARN",
+      "day_distribution_type": "PAIR_LAG_DISTRIBUTION",
+      "dominant_config_factor": "NA_PAIR_LEVEL",
+      "dominant_config_factor_eta2": NaN,
+      "dominant_config_hint": "{\"Jw_after_H\": 0.8611111111111112, \"Jw_before_H\": 0.08333333333333333, \"near_tie\": 0.05555555555555555}",
+      "landscape_type": "NA_PAIR_LEVEL",
+      "search_window_status": "NA_PAIR_LEVEL",
+      "component_mixture_status": "NA_PAIR_LEVEL",
+      "physical_distinctness_status": "NA_PAIR_LEVEL",
+      "order_sensitivity_source": "BOTH_OR_NEAR_BALANCED",
+      "primary_sensitivity_cause": "ORDER_RELATIVELY_STABLE",
+      "recommended_next_step": "Pairwise order is more stable than object peak days; compare with object-level cause audit.",
+      "confidence": 0.6
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+Je_only,Je,BAND_Q40,W001,CP001,26,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W002,CP002,33,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W003,CP003,46,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W004,CP004,81,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W005,CP005,94,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W006,CP006,111,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W007,CP007,136,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+Je_only,Je,BAND_Q40,W008,CP008,162,True,,candidate_band,band_floor_quantile,0.40,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode

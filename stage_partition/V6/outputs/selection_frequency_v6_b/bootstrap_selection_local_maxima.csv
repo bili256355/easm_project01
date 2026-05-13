@@ -1,0 +1,11 @@
+peak_id,peak_day,peak_month_day,selection_frequency_raw,selection_frequency_smooth,source_column
+SF020,19,04-20,0.186,0.14733333333333334,selection_frequency_smooth
+SF034,33,05-04,0.093,0.10066666666666668,selection_frequency_smooth
+SF046,45,05-16,0.398,0.2753333333333334,selection_frequency_smooth
+SF066,65,06-05,0.21,0.12366666666666666,selection_frequency_smooth
+SF083,82,06-22,0.126,0.12233333333333335,selection_frequency_smooth
+SF096,95,07-05,0.182,0.13033333333333336,selection_frequency_smooth
+SF114,113,07-23,0.194,0.19666666666666668,selection_frequency_smooth
+SF132,131,08-10,0.115,0.11233333333333335,selection_frequency_smooth
+SF137,136,08-15,0.131,0.11833333333333335,selection_frequency_smooth
+SF162,161,09-09,0.198,0.1646666666666667,selection_frequency_smooth

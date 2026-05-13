@@ -1,0 +1,4 @@
+﻿required,resolved_key,status,aliases
+lat,lat,exact,
+lon,lon,exact,
+u200,u200_smoothed,exact,u200_smoothed;u200;Je_smoothed;Je

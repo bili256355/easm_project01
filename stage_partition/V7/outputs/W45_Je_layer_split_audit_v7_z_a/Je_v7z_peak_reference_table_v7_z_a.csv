@@ -1,0 +1,7 @@
+﻿object,detector_type,candidate_id,peak_day,peak_score,peak_prominence,peak_rank,window_start,window_end,relation_to_W45,overlap_days_with_W45,window_id,center_day,observed_peak_day,bootstrap_match_fraction,strict_match_fraction,near_match_fraction,return_day_median,return_day_q05,return_day_q95,return_day_q025,return_day_q975,n_valid_matches,support_class,source_table
+Je,raw_profile,CP001,46,12.201986759874025,8.956347582684156,1,36,56,overlap_W45,9,Je_raw_profile_CP001,46.0,46.0,0.978,0.883,0.978,46.0,44.0,49.0,43.0,49.0,978,accepted_window,profile_registry
+Je,raw_profile,CP002,26,6.0665828732930125,2.9349912308518817,2,16,36,pre_W45,0,Je_raw_profile_CP002,26.0,26.0,0.825,0.653,0.825,26.0,22.0,30.0,21.0,31.0,825,candidate_window,profile_registry
+Je,raw_profile,CP003,33,5.442389697096082,0.4286553699451207,3,23,43,overlap_W45,4,Je_raw_profile_CP003,33.0,33.0,0.763,0.628,0.763,34.0,28.0,36.0,28.0,36.0,763,weak_window,profile_registry
+Je,shape_pattern,CP001,33,7.550033871833324,5.864856393172103,1,23,43,overlap_W45,4,Je_shape_pattern_CP001,33.0,33.0,0.957,0.88,0.957,33.0,30.0,35.0,29.0,36.0,957,accepted_window,shape_registry
+Je,shape_pattern,CP002,20,2.921014376083699,0.8721847998369197,2,14,30,pre_W45,0,Je_shape_pattern_CP002,22.0,20.0,0.794,0.506,0.794,19.0,15.0,22.0,15.0,22.0,794,weak_window,shape_registry
+Je,shape_pattern,CP003,45,1.1331629578350275,0.4998555187311924,3,35,55,overlap_W45,9,Je_shape_pattern_CP003,45.0,45.0,0.914,0.84,0.914,45.0,43.0,48.0,43.0,49.0,914,candidate_window,shape_registry

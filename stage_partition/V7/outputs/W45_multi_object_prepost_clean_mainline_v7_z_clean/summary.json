@@ -1,0 +1,10 @@
+{
+  "version": "v7_z_clean",
+  "output_tag": "W45_multi_object_prepost_clean_mainline_v7_z_clean",
+  "n_objects": 5,
+  "n_bootstrap": 1000,
+  "n_final_claims": 4,
+  "n_downgraded_signals": 6,
+  "core_method": "raw/profile object-window + pre-post S_dist/R_diff-S_pattern + hardened evidence-family gate",
+  "shape_pattern_detector_status": "excluded_from_main_object_window; use only as external sensitivity probe"
+}

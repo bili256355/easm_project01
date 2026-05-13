@@ -1,0 +1,4 @@
+﻿region_id,region_label,feature_indices_str,lat_list,lat_min,lat_max,lat_center,n_features,region_change_class,region_relative_contribution,construction_reason
+0,H_region_0_stable_negative_change_15_17,0;1,15;17,15.0,17.0,16.0,2,stable_negative_change,0.11858827326964612,contiguous latitude features with same bootstrap dH 90% sign class
+1,H_region_1_ambiguous_change_19_21,2;3,19;21,19.0,21.0,20.0,2,ambiguous_change,0.11136690433898269,contiguous latitude features with same bootstrap dH 90% sign class
+2,H_region_2_stable_positive_change_23_35,4;5;6;7;8;9;10,23;25;27;29;31;33;35,23.0,35.0,29.0,7,stable_positive_change,0.7700448223913712,contiguous latitude features with same bootstrap dH 90% sign class

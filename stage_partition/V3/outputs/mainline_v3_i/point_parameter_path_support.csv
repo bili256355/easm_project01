@@ -1,0 +1,7 @@
+point_id,path_presence_rate,path_strict_match_rate,path_near_support_rate,path_ambiguous_rate,path_offset_min,path_offset_max,n_path_configs
+LP006,1.0,0.8,0.0,1.0,-2.0,4.0,20
+RP001,1.0,1.0,0.0,0.0,-1.0,0.0,20
+RP002,1.0,1.0,0.0,0.0,-1.0,2.0,20
+RP003,1.0,1.0,0.0,0.0,-2.0,0.0,20
+RP004,1.0,1.0,0.0,1.0,-1.0,1.0,20
+RP005,1.0,1.0,0.0,0.0,-1.0,1.0,20

@@ -1,0 +1,36 @@
+{
+  "audit_name": "peak_sensitivity_cause_audit_w045_jw_h_v1_1",
+  "started_at_utc": "2026-05-12T03:50:40.161724+00:00",
+  "completed_at_utc": "2026-05-12T03:50:41.271808+00:00",
+  "status": "success",
+  "v9_root": "D:\\easm_project01\\stage_partition\\V9",
+  "v1_input_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1",
+  "v1_1_output_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1",
+  "does_not_rerun_v9_peak_detector": true,
+  "does_not_rerun_v1_sensitivity": true,
+  "does_not_redefine_accepted_windows": true,
+  "does_not_perform_physical_subpeak_classification": true,
+  "reads_v1_outputs_only": true,
+  "core_lat_proxy_method": "max_lat_from_v1_profile_component_audit",
+  "system_window_fallback": [
+    42.0,
+    48.0
+  ],
+  "near_tie_days": 2.0,
+  "outputs": {
+    "config_admissibility_audit_W045_Jw_H.csv": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\config_admissibility_audit_W045_Jw_H.csv",
+    "jw_h_order_filtered_sensitivity_W045.csv": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\jw_h_order_filtered_sensitivity_W045.csv",
+    "jw_axis_core_shift_audit_W045.csv": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\jw_axis_core_shift_audit_W045.csv",
+    "h_candidate_admissibility_audit_W045.csv": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\h_candidate_admissibility_audit_W045.csv",
+    "cluster_distinctness_revision_W045_Jw_H.csv": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\cluster_distinctness_revision_W045_Jw_H.csv",
+    "sensitivity_cause_diagnosis_W045_Jw_H_v1_1.csv": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\sensitivity_cause_diagnosis_W045_Jw_H_v1_1.csv",
+    "W045_JW_H_PEAK_SENSITIVITY_CAUSE_AUDIT_V1_1_SUMMARY.md": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\cross_window\\W045_JW_H_PEAK_SENSITIVITY_CAUSE_AUDIT_V1_1_SUMMARY.md"
+  },
+  "figures": [
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig1_filtered_jw_h_order_W045.png",
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig2_config_admissibility_strip_W045_Jw_H.png",
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig3_jw_axis_core_shift_W045.png",
+    "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_sensitivity_cause_audit_w045_jw_h_v1_1\\figures\\fig4_h_candidate_legality_W045.png"
+  ],
+  "errors": []
+}

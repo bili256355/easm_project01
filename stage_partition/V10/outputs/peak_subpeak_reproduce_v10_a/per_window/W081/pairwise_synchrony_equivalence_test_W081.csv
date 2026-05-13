@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,tau_sync_primary,tau_sync_q50,tau_sync_q75,tau_sync_q90,delta_observed,delta_median,delta_q025,delta_q975,P_within_tau_q50,P_within_tau_q75,P_within_tau_q90,synchrony_decision,tau_quality_flag
+W081,H,Je,4.0,2.0,4.0,6.0,4.0,2.0,-9.0,13.25,0.3753784056508577,0.5893037336024218,0.7245206861755802,synchrony_indeterminate,normal
+W081,H,Jw,4.0,2.0,4.0,6.0,6.0,5.0,-6.0,14.0,0.24424424424424424,0.44844844844844844,0.6646646646646647,synchrony_indeterminate,normal
+W081,H,P,4.0,2.0,4.0,6.0,5.0,4.0,-4.0,12.0,0.306,0.559,0.746,synchrony_indeterminate,normal
+W081,H,V,4.0,2.0,4.0,6.0,3.0,2.0,-7.0,11.0,0.479,0.718,0.87,synchrony_indeterminate,normal
+W081,Je,Jw,4.0,2.0,4.0,6.0,2.0,1.0,-8.0,13.274999999999977,0.38484848484848483,0.5898989898989899,0.7444444444444445,synchrony_indeterminate,normal
+W081,Je,P,4.0,2.0,4.0,6.0,1.0,1.0,-9.0,13.0,0.38042381432896066,0.6074672048435923,0.7759838546922301,synchrony_indeterminate,normal
+W081,Je,V,4.0,2.0,4.0,6.0,-1.0,0.0,-12.0,12.0,0.3703329969727548,0.5802219979818365,0.7669021190716448,synchrony_indeterminate,normal
+W081,Jw,P,4.0,2.0,4.0,6.0,-1.0,0.0,-9.0,9.0,0.45345345345345345,0.7437437437437437,0.8628628628628628,synchrony_indeterminate,normal
+W081,Jw,V,4.0,2.0,4.0,6.0,-3.0,-2.0,-13.0,9.0,0.42742742742742745,0.6606606606606606,0.8088088088088088,synchrony_indeterminate,normal
+W081,P,V,4.0,2.0,4.0,6.0,-2.0,-2.0,-11.0,7.0,0.555,0.774,0.881,synchrony_indeterminate,normal

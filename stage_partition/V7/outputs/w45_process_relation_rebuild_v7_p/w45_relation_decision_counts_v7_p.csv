@@ -1,0 +1,2 @@
+﻿clean_global_lead_pairs,confirmed_layer_specific_pairs,tendency_layer_specific_pairs,phase_crossing_or_frontloaded_pairs,same_phase_candidate_pairs,not_comparable_pairs,field_low_caution_count,field_moderate_or_high_caution_count,interpretation
+0,3,10,8,2,0,0,5,Clean global lead is strict. Confirmed/tendency layer-specific pairs must use layer-specific language and cannot be counted as global order.

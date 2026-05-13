@@ -1,0 +1,215 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "input_smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+    "input_v1_1_structural_indices": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_doy_anomaly.csv",
+    "output_tag": "lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a",
+    "random_seed": 20260429,
+    "eof_lat_range": [
+      10.0,
+      60.0
+    ],
+    "eof_lon_range": [
+      100.0,
+      135.0
+    ],
+    "eof_value_mode": "doy_anomaly",
+    "eof_method": "iterative_topk",
+    "n_modes": 5,
+    "n_iter": 28,
+    "spatial_stride": 1,
+    "use_coslat_weight": true,
+    "max_lag": 5,
+    "min_pairs": 30,
+    "lag_tau0_margin": 0.02,
+    "windows": {
+      "S1": [
+        1,
+        39
+      ],
+      "T1": [
+        40,
+        48
+      ],
+      "S2": [
+        49,
+        74
+      ],
+      "T2": [
+        75,
+        86
+      ],
+      "S3": [
+        87,
+        106
+      ],
+      "T3": [
+        107,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ],
+      "T4": [
+        155,
+        164
+      ],
+      "S5": [
+        165,
+        183
+      ]
+    },
+    "reconstruction_windows": [
+      "S3",
+      "T3",
+      "S4"
+    ],
+    "reconstruction_comparisons": {
+      "T3_minus_S3": [
+        "T3",
+        "S3"
+      ],
+      "S4_minus_T3": [
+        "S4",
+        "T3"
+      ]
+    },
+    "regions": {
+      "main_28_35": {
+        "lat": [
+          28.0,
+          35.0
+        ],
+        "lon": [
+          100.0,
+          125.0
+        ]
+      },
+      "south_10_25": {
+        "lat": [
+          10.0,
+          25.0
+        ],
+        "lon": [
+          105.0,
+          130.0
+        ]
+      },
+      "scs_10_20": {
+        "lat": [
+          10.0,
+          20.0
+        ],
+        "lon": [
+          105.0,
+          130.0
+        ]
+      },
+      "highlat_40_60": {
+        "lat": [
+          40.0,
+          60.0
+        ],
+        "lon": [
+          100.0,
+          135.0
+        ]
+      },
+      "highlat_35_60": {
+        "lat": [
+          35.0,
+          60.0
+        ],
+        "lon": [
+          100.0,
+          135.0
+        ]
+      },
+      "lowlat_20_30": {
+        "lat": [
+          20.0,
+          30.0
+        ],
+        "lon": [
+          100.0,
+          135.0
+        ]
+      },
+      "main_easm_domain": {
+        "lat": [
+          10.0,
+          60.0
+        ],
+        "lon": [
+          100.0,
+          135.0
+        ]
+      }
+    },
+    "p_structural_indices": [
+      "P_highlat_40_60_mean",
+      "P_highlat_35_60_mean",
+      "P_main_28_35_mean",
+      "P_south_10_25_mean",
+      "P_highlat_minus_main",
+      "P_south_minus_main"
+    ],
+    "v_structural_indices": [
+      "V_pos_north_edge_lat",
+      "V_pos_band_width",
+      "V_highlat_35_55_mean",
+      "V_lowlat_20_30_mean",
+      "V_high_minus_low_35_55_minus_20_30"
+    ],
+    "selected_structural_pairs": [
+      [
+        "V_pos_north_edge_lat",
+        "P_highlat_40_60_mean"
+      ],
+      [
+        "V_highlat_35_55_mean",
+        "P_highlat_40_60_mean"
+      ],
+      [
+        "V_high_minus_low_35_55_minus_20_30",
+        "P_highlat_40_60_mean"
+      ],
+      [
+        "V_pos_band_width",
+        "P_highlat_40_60_mean"
+      ],
+      [
+        "V_pos_north_edge_lat",
+        "P_highlat_35_60_mean"
+      ]
+    ]
+  },
+  "outputs": {
+    "tables": [
+      "eof_pc1_interpretability_diagnosis.csv",
+      "eof_pc_lead_lag_by_window.csv",
+      "eof_pc_structural_index_correlation.csv",
+      "eof_reconstruction_region_change_skill.csv",
+      "eof_variance_summary.csv",
+      "eof_vs_structural_index_lead_lag_comparison.csv",
+      "p_eof_loading_region_summary.csv",
+      "p_eof_pc_scores.csv",
+      "v_eof_loading_region_summary.csv",
+      "v_eof_pc_scores.csv"
+    ],
+    "figures": [
+      "P_EOF_loading_modes_1_3.png",
+      "P_observed_vs_PC_reconstruction_S4_minus_T3.png",
+      "P_observed_vs_PC_reconstruction_T3_minus_S3.png",
+      "V_EOF_loading_modes_1_3.png",
+      "V_observed_vs_PC_reconstruction_S4_minus_T3.png",
+      "V_observed_vs_PC_reconstruction_T3_minus_S3.png"
+    ]
+  },
+  "method_notes": {
+    "field_value_mode": "doy_anomaly",
+    "topk_solver": "deterministic subspace iteration; avoids forming full covariance matrix; method recorded to avoid hidden simplification",
+    "coslat_weighting": true
+  }
+}

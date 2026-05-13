@@ -1,0 +1,6 @@
+﻿window_id,object,n_features,equal_weight_scale,block_variance_after_scaling,feature_role
+W113,P,871,1/sqrt(871),1.0,MEOF_equal_weight_object_block
+W113,V,737,1/sqrt(737),1.0,MEOF_equal_weight_object_block
+W113,H,737,1/sqrt(737),1.0,MEOF_equal_weight_object_block
+W113,Je,737,1/sqrt(737),1.0,MEOF_equal_weight_object_block
+W113,Jw,737,1/sqrt(737),1.0,MEOF_equal_weight_object_block

@@ -1,0 +1,26 @@
+﻿unit_type,unit_label,n_units_or_points,lat_min,lat_max,midpoint_median,midpoint_q05,midpoint_q95,midpoint_q90_width,dominant_progress_quality_label,interpretation
+V7_f_single_2deg_interp_feature,feature,1,,,38.0,34.0,52.0,18.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,39.0,34.0,52.0,18.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,37.0,30.0,53.0,23.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,38.0,32.0,54.0,22.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,39.0,36.0,51.0,15.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,39.0,37.0,49.0,12.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,39.0,37.0,44.0,7.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,39.0,37.0,49.0,12.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,39.0,37.0,50.0,13.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,43.0,37.0,51.0,14.0,nonmonotonic_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_f_single_2deg_interp_feature,feature,1,,,49.0,38.0,51.0,13.0,monotonic_clear_progress,existing V7-f single 2-degree interpolation-feature diagnostic; not raw025 region
+V7_i_single_2deg_latbin_feature,15.0,4,,,38.0,34.0,52.0,18.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,17.0,8,,,39.0,34.0,52.0,18.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,19.0,8,,,37.0,30.0,53.0,23.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,21.0,8,,,38.0,30.0,54.0,24.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,23.0,8,,,39.0,36.0,51.0,15.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,25.0,8,,,39.0,37.0,49.0,12.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,27.0,8,,,39.0,37.0,44.04999999999996,7.0499999999999545,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,29.0,8,,,39.0,37.0,49.0,12.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,31.0,8,,,39.0,37.0,50.0,13.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,33.0,8,,,43.0,37.0,51.0,14.0,nonmonotonic_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_i_single_2deg_latbin_feature,35.0,5,,,49.0,37.0,51.0,14.0,monotonic_clear_progress,existing V7-i single 2-degree lat-bin mean feature diagnostic; not three-region result
+V7_j_raw025_threeband_region,R1_low,27,15.0,21.5,39.0,37.0,52.0,15.0,nonmonotonic_progress,new raw025 equal-count latitude region-vector progress; does not use 2-degree interpolation
+V7_j_raw025_threeband_region,R2_mid,27,21.75,28.25,39.0,37.0,49.0,12.0,nonmonotonic_progress,new raw025 equal-count latitude region-vector progress; does not use 2-degree interpolation
+V7_j_raw025_threeband_region,R3_high,27,28.5,35.0,41.0,37.0,51.0,14.0,monotonic_clear_progress,new raw025 equal-count latitude region-vector progress; does not use 2-degree interpolation

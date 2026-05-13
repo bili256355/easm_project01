@@ -1,0 +1,109 @@
+{
+  "version": "v9_1_e_targeted_svd_order_mode_audit",
+  "output_tag": "targeted_svd_order_mode_audit_v9_1_e",
+  "created_at": "2026-05-08 21:20:14",
+  "stage_root": "D:\\easm_project01\\stage_partition",
+  "windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "modifies_v9": false,
+  "reads_v9_outputs": true,
+  "reads_v9_1_c_outputs": true,
+  "requires_v9_1_d_helpers": true,
+  "uses_single_year_peak": false,
+  "uses_single_year_peak_for_target": false,
+  "state_included": false,
+  "growth_included": false,
+  "process_a_included": false,
+  "method_role": "target_guided_SVD_order_mode_audit_not_physical_type_assignment",
+  "config": {
+    "windows": [
+      "W045",
+      "W081",
+      "W113",
+      "W160"
+    ],
+    "objects": [
+      "P",
+      "V",
+      "H",
+      "Je",
+      "Jw"
+    ],
+    "priority_pairs": [
+      [
+        "P",
+        "V"
+      ],
+      [
+        "Jw",
+        "P"
+      ],
+      [
+        "Jw",
+        "V"
+      ],
+      [
+        "Jw",
+        "H"
+      ],
+      [
+        "Jw",
+        "Je"
+      ],
+      [
+        "H",
+        "Jw"
+      ],
+      [
+        "Je",
+        "Jw"
+      ],
+      [
+        "V",
+        "Je"
+      ],
+      [
+        "H",
+        "Je"
+      ],
+      [
+        "P",
+        "H"
+      ],
+      [
+        "P",
+        "Je"
+      ]
+    ],
+    "max_pair_targets_per_window": 6,
+    "max_object_targets_per_window": 3,
+    "min_pair_abs_effect": 0.1,
+    "min_object_peak_day_effect": 1.0,
+    "min_object_prob_effect": 0.1,
+    "min_target_std": 1e-09,
+    "group_bootstrap_n": 500,
+    "debug_group_bootstrap_n": 50,
+    "perm_n": 500,
+    "debug_perm_n": 50,
+    "min_group_size_for_peak": 10,
+    "evidence_usable": 0.9,
+    "evidence_credible": 0.95,
+    "evidence_strict": 0.99,
+    "loo_pattern_corr_caution": 0.5,
+    "loo_pattern_corr_good": 0.7,
+    "cv_corr_usable": 0.3,
+    "cv_corr_credible": 0.45,
+    "debug": false,
+    "skip_group_peak_for_unsupported_modes": true,
+    "eligible_group_peak_statuses": [
+      "usable_targeted_mode",
+      "credible_targeted_mode",
+      "strict_targeted_mode"
+    ],
+    "perm_batch_size": 128
+  }
+}

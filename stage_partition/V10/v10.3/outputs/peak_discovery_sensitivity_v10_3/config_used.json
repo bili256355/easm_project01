@@ -1,0 +1,9 @@
+{
+  "output_tag": "peak_discovery_sensitivity_v10_3",
+  "bootstrap_mode": "baseline_and_match",
+  "n_bootstrap": 1000,
+  "progress": true,
+  "include_smoothing_group": true,
+  "include_smooth5_internal_group": true,
+  "smooth5_output_tag": "baseline_smooth5_a"
+}

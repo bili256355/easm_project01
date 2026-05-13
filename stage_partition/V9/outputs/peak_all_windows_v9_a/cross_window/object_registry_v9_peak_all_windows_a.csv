@@ -1,0 +1,6 @@
+﻿object_name,field_role,lon_min,lon_max,lat_min,lat_max,lat_step,profile_shape,target_lat_min,target_lat_max,v9_role
+P,precip,105,125,15,39,2.0,"(45, 183, 13)",15.0,39.0,peak_detector_profile_input
+V,v850,105,125,10,30,2.0,"(45, 183, 11)",10.0,30.0,peak_detector_profile_input
+H,z500,110,140,15,35,2.0,"(45, 183, 11)",15.0,35.0,peak_detector_profile_input
+Je,u200,120,150,25,45,2.0,"(45, 183, 11)",25.0,45.0,peak_detector_profile_input
+Jw,u200,80,110,25,45,2.0,"(45, 183, 11)",25.0,45.0,peak_detector_profile_input

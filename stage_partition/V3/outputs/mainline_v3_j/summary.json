@@ -1,0 +1,249 @@
+{
+  "n_main_windows": 5,
+  "n_evidence_rows": 10,
+  "n_orphan_points": 0,
+  "n_orphan_bands": 0,
+  "n_limited_support_windows": 1,
+  "n_nonclean_retention_windows": 0,
+  "n_support_rule_changes": 5,
+  "legacy_near_peak_years_by_window": {
+    "W001": 45,
+    "W002": 45,
+    "W003": 45,
+    "W004": 45,
+    "W005": 45
+  },
+  "yearwise_support_summary": {
+    "W001": {
+      "near_peak_years": 14,
+      "overlap_any_years": 14,
+      "strict_overlap_years": 6,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 6,
+      "headline_support_fraction": 0.13333333333333333
+    },
+    "W002": {
+      "near_peak_years": 11,
+      "overlap_any_years": 26,
+      "strict_overlap_years": 9,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 9,
+      "headline_support_fraction": 0.2
+    },
+    "W003": {
+      "near_peak_years": 17,
+      "overlap_any_years": 28,
+      "strict_overlap_years": 12,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 12,
+      "headline_support_fraction": 0.26666666666666666
+    },
+    "W004": {
+      "near_peak_years": 14,
+      "overlap_any_years": 14,
+      "strict_overlap_years": 0,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 0,
+      "headline_support_fraction": 0.0
+    },
+    "W005": {
+      "near_peak_years": 22,
+      "overlap_any_years": 32,
+      "strict_overlap_years": 12,
+      "headline_support_mode": "strict_overlap",
+      "headline_support_count": 12,
+      "headline_support_fraction": 0.26666666666666666
+    }
+  },
+  "W004_status_summary": {
+    "strict_support_score": 0.08,
+    "legacy_support_score": 0.5,
+    "param_path_hit_fraction": 0.4,
+    "support_reliability_flag": "limited"
+  },
+  "point_significance_summary": {
+    "n_points_audited": 6,
+    "n_strict_core_significant": 0,
+    "n_strict_local_significant": 0,
+    "n_strict_borderline": 4,
+    "n_strict_weak_or_unresolved": 2,
+    "n_significant_points_global": 0,
+    "n_significant_points_local": 0,
+    "n_points_match_exist_frequent": 6,
+    "n_points_match_exceed_supportive": 0,
+    "strong_vs_weak_gradient_present": true,
+    "strong_vs_weak_gradient_present_conditional": true,
+    "strong_vs_weak_gradient_present_matched": true,
+    "local_match_by_point": {
+      "RP001": {
+        "point_day": 45,
+        "p_match_exist": 0.442,
+        "p_match_exceed_conditional": 0.44594594594594594,
+        "local_joint_challenge_score": 0.1971081081081081,
+        "observed_matched_stat": 2.3526894143749066,
+        "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+      },
+      "RP002": {
+        "point_day": 81,
+        "p_match_exist": 0.43,
+        "p_match_exceed_conditional": 0.7037037037037037,
+        "local_joint_challenge_score": 0.3025925925925926,
+        "observed_matched_stat": 1.8065659429142245,
+        "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+      },
+      "RP003": {
+        "point_day": 113,
+        "p_match_exist": 0.41,
+        "p_match_exceed_conditional": 0.5679611650485437,
+        "local_joint_challenge_score": 0.23286407766990289,
+        "observed_matched_stat": 2.108081916398763,
+        "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+      },
+      "LP006": {
+        "point_day": 132,
+        "p_match_exist": 0.384,
+        "p_match_exceed_conditional": 0.8082901554404145,
+        "local_joint_challenge_score": 0.31038341968911914,
+        "observed_matched_stat": 1.0943331098921916,
+        "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+      },
+      "RP004": {
+        "point_day": 135,
+        "p_match_exist": 0.38,
+        "p_match_exceed_conditional": 0.806282722513089,
+        "local_joint_challenge_score": 0.3063874345549738,
+        "observed_matched_stat": 1.1411886961761106,
+        "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+      },
+      "RP005": {
+        "point_day": 160,
+        "p_match_exist": 0.368,
+        "p_match_exceed_conditional": 0.7405405405405405,
+        "local_joint_challenge_score": 0.2725189189189189,
+        "observed_matched_stat": 1.6737421945670503,
+        "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+      }
+    },
+    "point_null_scale_warning_count": 4,
+    "neighbor_competition_closed_pairs": 1,
+    "neighbor_competition_ties": 1
+  },
+  "point_btrack_summary": {
+    "n_reference_points": 6,
+    "n_formal_primary_points": 5,
+    "n_headline_primary_points": 5,
+    "n_robust_primary_points": 2,
+    "n_supported_primary_points": 0,
+    "n_primary_points_with_caution": 2,
+    "n_ambiguous_neighbor_pairs": 2,
+    "n_neighbor_candidates_with_support": 0,
+    "n_weak_neighbor_peaks": 0,
+    "n_caution_points": 4,
+    "formal_primary_counts": {
+      "robust_primary_point": 2,
+      "primary_point_with_caution": 2,
+      "ambiguous_neighbor_pair": 1
+    },
+    "neighbor_competition_counts": {
+      "ambiguous_neighbor_pair": 1
+    },
+    "judgement_by_point": {
+      "RP001": {
+        "point_day": 45,
+        "month_day": "05-16",
+        "point_role_group": "formal_primary",
+        "point_role_detail": "formal_primary_point",
+        "is_headline_primary": true,
+        "judgement": "robust_primary_point",
+        "bootstrap_match_rate": 0.98,
+        "yearwise_exact_hit_fraction": 0.2222222222222222,
+        "path_presence_rate": 1.0,
+        "caution_note": null
+      },
+      "RP002": {
+        "point_day": 81,
+        "month_day": "06-21",
+        "point_role_group": "formal_primary",
+        "point_role_detail": "formal_primary_point",
+        "is_headline_primary": true,
+        "judgement": "primary_point_with_caution",
+        "bootstrap_match_rate": 0.91,
+        "yearwise_exact_hit_fraction": 0.13333333333333333,
+        "path_presence_rate": 1.0,
+        "caution_note": "atrack_warning;yearwise_exact_support_limited"
+      },
+      "RP003": {
+        "point_day": 113,
+        "month_day": "07-23",
+        "point_role_group": "formal_primary",
+        "point_role_detail": "formal_primary_point",
+        "is_headline_primary": true,
+        "judgement": "robust_primary_point",
+        "bootstrap_match_rate": 0.98,
+        "yearwise_exact_hit_fraction": 0.2,
+        "path_presence_rate": 1.0,
+        "caution_note": null
+      },
+      "LP006": {
+        "point_day": 132,
+        "month_day": "08-11",
+        "point_role_group": "neighbor_competition",
+        "point_role_detail": "neighbor_local_peak",
+        "is_headline_primary": false,
+        "judgement": "ambiguous_neighbor_pair",
+        "bootstrap_match_rate": 0.78,
+        "yearwise_exact_hit_fraction": 0.24444444444444444,
+        "path_presence_rate": 1.0,
+        "caution_note": "not_headline_primary;high_neighbor_ambiguity;atrack_warning;neighbor_tie"
+      },
+      "RP004": {
+        "point_day": 135,
+        "month_day": "08-14",
+        "point_role_group": "formal_primary",
+        "point_role_detail": "formal_primary_point",
+        "is_headline_primary": true,
+        "judgement": "ambiguous_neighbor_pair",
+        "bootstrap_match_rate": 0.75,
+        "yearwise_exact_hit_fraction": 0.2222222222222222,
+        "path_presence_rate": 1.0,
+        "caution_note": "high_neighbor_ambiguity;atrack_warning;neighbor_tie"
+      },
+      "RP005": {
+        "point_day": 160,
+        "month_day": "09-08",
+        "point_role_group": "formal_primary",
+        "point_role_detail": "formal_primary_point",
+        "is_headline_primary": true,
+        "judgement": "primary_point_with_caution",
+        "bootstrap_match_rate": 0.91,
+        "yearwise_exact_hit_fraction": 0.26666666666666666,
+        "path_presence_rate": 1.0,
+        "caution_note": "atrack_warning"
+      }
+    },
+    "source_run_tag": "mainline_v3_j",
+    "uses_existing_point_stability_outputs": true,
+    "point_layer_scope": "formal_primary_points_plus_neighbor_competition_points",
+    "btrack_backend_mode": "reuse_existing_outputs",
+    "btrack_backend_independence": "partial"
+  },
+  "point_btrack_backend_mode": "reuse_existing_outputs",
+  "point_btrack_backend_independence": "partial",
+  "point_btrack_formal_primary_counts": {
+    "robust_primary_point": 2,
+    "primary_point_with_caution": 2,
+    "ambiguous_neighbor_pair": 1
+  },
+  "point_btrack_neighbor_competition_counts": {
+    "ambiguous_neighbor_pair": 1
+  },
+  "point_null_scale_warning_count": 4,
+  "n_significant_points_global": 0,
+  "n_significant_points_local": 0,
+  "neighbor_competition_closed_pairs": 1,
+  "neighbor_competition_ties": 1,
+  "strong_vs_weak_gradient_present": true,
+  "strong_vs_weak_gradient_present_conditional": true,
+  "n_points_local_exist_frequent": 0,
+  "n_points_local_conditional_strong": 0
+}

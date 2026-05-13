@@ -1,0 +1,11 @@
+﻿object_A,object_B,raw_profile_relation,shape_pattern_relation,detector_sensitivity
+P,V,U,U,detector_unresolved
+P,H,B,B,detector_consistent
+P,Je,U,B,shape_pattern_only
+P,Jw,B,B,detector_consistent
+V,H,B,B,detector_consistent
+V,Je,U,B,shape_pattern_only
+V,Jw,B,B,detector_consistent
+H,Je,A,B,detector_conflict
+H,Jw,A,U,raw_profile_only
+Je,Jw,B,A,detector_conflict

@@ -1,0 +1,21 @@
+{
+  "version": "bootstrap_year_influence_audit_v9_1_c",
+  "started_at": "2026-05-08 17:12:58",
+  "modifies_v9": false,
+  "reads_v9_outputs": true,
+  "replays_v9_bootstrap_with_year_counts": true,
+  "uses_single_year_peak": false,
+  "state_included": false,
+  "growth_included": false,
+  "process_a_included": false,
+  "windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "bootstrap_n": 1000,
+  "perm_n": 500,
+  "ridge_alpha": 1.0,
+  "interpretation_boundary": "statistical year influence candidates only; not physical year types"
+}

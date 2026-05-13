@@ -1,0 +1,21 @@
+window_id,anchor_day,field,order_score_mean_prob_earlier_than_others,n_pairwise_comparisons,dominant_role_hint,caution
+W002,45,P,0.449,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W002,45,V,0.2825,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W002,45,H,0.9055,4,earlier_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W002,45,Je,0.1755,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W002,45,Jw,0.4975,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W003,81,P,0.37375,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W003,81,V,0.67275,4,earlier_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W003,81,H,0.65,4,earlier_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W003,81,Je,0.232,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W003,81,Jw,0.3865,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W005,113,P,0.49775,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W005,113,V,0.21325000000000002,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W005,113,H,0.14250000000000002,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W005,113,Je,0.5962500000000001,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W005,113,Jw,0.8577499999999999,4,earlier_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W007,160,P,0.59575,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence
+W007,160,V,0.282,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W007,160,H,0.6667500000000001,4,earlier_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W007,160,Je,0.27525,4,later_tending,rank summary is auxiliary; use pairwise edge table for evidence
+W007,160,Jw,0.5605,4,mixed_or_middle,rank summary is auxiliary; use pairwise edge table for evidence

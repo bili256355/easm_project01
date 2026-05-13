@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "created_at": "2026-05-02T17:07:58",
+  "output_tag": "w45_H_latbin_profile_progress_v7_i",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "field": "H",
+  "does_not_modify_v7e": true,
+  "does_not_use_region_aggregation": true,
+  "purpose": "test whether replacing current 2-degree latitude interpolation with true 2-degree latitude-bin mean improves W45-H progress stability",
+  "finished_at": "2026-05-02T17:08:42",
+  "n_years": 45,
+  "n_days": 183,
+  "n_latbin_features": 11,
+  "n_bootstrap": 1000,
+  "outputs": {
+    "feature_provenance": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latbin_profile_progress_v7_i\\w45_H_latbin_feature_provenance_v7_i.csv",
+    "construction_comparison": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latbin_profile_progress_v7_i\\w45_H_profile_construction_comparison_v7_i.csv",
+    "observed": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latbin_profile_progress_v7_i\\w45_H_latbin_progress_observed_v7_i.csv",
+    "bootstrap_summary": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latbin_profile_progress_v7_i\\w45_H_latbin_progress_bootstrap_summary_v7_i.csv",
+    "interp_vs_latbin_comparison": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latbin_profile_progress_v7_i\\w45_H_interp_vs_latbin_progress_comparison_v7_i.csv",
+    "upstream_implication": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latbin_profile_progress_v7_i\\w45_H_latbin_upstream_implication_v7_i.csv"
+  },
+  "notes": [
+    "This run directly audits the upstream implementation issue: current 2-degree profile construction is interpolation, not true latitude-bin averaging.",
+    "V7-i replaces only the H profile construction for this W45 diagnostic with lat-bin mean after lon mean.",
+    "This run does not change V7-e, V7-e1, V7-e2, V7-f, V7-g, or V7-h outputs.",
+    "Do not interpret lat-bin progress as causal/pathway evidence."
+  ]
+}

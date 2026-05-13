@@ -1,0 +1,67 @@
+{
+  "n_points_audited": 6,
+  "n_strict_core_significant": 0,
+  "n_strict_local_significant": 0,
+  "n_strict_borderline": 4,
+  "n_strict_weak_or_unresolved": 2,
+  "n_significant_points_global": 0,
+  "n_significant_points_local": 0,
+  "n_points_match_exist_frequent": 6,
+  "n_points_match_exceed_supportive": 0,
+  "strong_vs_weak_gradient_present": true,
+  "strong_vs_weak_gradient_present_conditional": true,
+  "strong_vs_weak_gradient_present_matched": true,
+  "local_match_by_point": {
+    "RP001": {
+      "point_day": 45,
+      "p_match_exist": 0.442,
+      "p_match_exceed_conditional": 0.44594594594594594,
+      "local_joint_challenge_score": 0.1971081081081081,
+      "observed_matched_stat": 2.3526894143749066,
+      "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+    },
+    "RP002": {
+      "point_day": 81,
+      "p_match_exist": 0.43,
+      "p_match_exceed_conditional": 0.7037037037037037,
+      "local_joint_challenge_score": 0.3025925925925926,
+      "observed_matched_stat": 1.8065659429142245,
+      "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+    },
+    "RP003": {
+      "point_day": 113,
+      "p_match_exist": 0.41,
+      "p_match_exceed_conditional": 0.5679611650485437,
+      "local_joint_challenge_score": 0.23286407766990289,
+      "observed_matched_stat": 2.108081916398763,
+      "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+    },
+    "LP006": {
+      "point_day": 132,
+      "p_match_exist": 0.384,
+      "p_match_exceed_conditional": 0.8082901554404145,
+      "local_joint_challenge_score": 0.31038341968911914,
+      "observed_matched_stat": 1.0943331098921916,
+      "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+    },
+    "RP004": {
+      "point_day": 135,
+      "p_match_exist": 0.38,
+      "p_match_exceed_conditional": 0.806282722513089,
+      "local_joint_challenge_score": 0.3063874345549738,
+      "observed_matched_stat": 1.1411886961761106,
+      "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+    },
+    "RP005": {
+      "point_day": 160,
+      "p_match_exist": 0.368,
+      "p_match_exceed_conditional": 0.7405405405405405,
+      "local_joint_challenge_score": 0.2725189189189189,
+      "observed_matched_stat": 1.6737421945670503,
+      "strict_local_interpretation": "common_matched_peak_and_observed_not_strong"
+    }
+  },
+  "point_null_scale_warning_count": 4,
+  "neighbor_competition_closed_pairs": 1,
+  "neighbor_competition_ties": 1
+}

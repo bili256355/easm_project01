@@ -1,0 +1,10 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+V_only,V,BAND_PROM_045,W001,CP001,16,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W002,CP002,30,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W003,CP003,45,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W004,CP005,80,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W004,CP004,69,False,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W005,CP006,95,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W006,CP007,114,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W007,CP008,136,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,BAND_PROM_045,W008,CP009,161,True,,candidate_band,band_prominence_ratio,0.45,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode

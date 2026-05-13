@@ -1,0 +1,10 @@
+﻿window,n_lagged_candidate_tests,n_lagged_graph_selected,n_lagged_pcmci_plus_supported,n_tau0_candidate_tests,n_tau0_graph_selected,n_tau0_supported
+S1,1540,7,3,308,24,10
+S2,1540,5,0,308,30,20
+S3,1540,8,2,308,18,2
+S4,1540,8,2,308,30,16
+S5,1540,8,2,308,40,26
+T1,1540,5,0,308,10,4
+T2,1540,3,0,308,14,10
+T3,1540,2,0,308,6,0
+T4,1540,2,1,308,16,0

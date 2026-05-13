@@ -1,0 +1,223 @@
+{
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "input_v1_index_anomalies": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+    "input_v1_index_values_smoothed": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+    "input_smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+    "previous_v1_stability_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables",
+    "generated_index_anomalies_name": "v1_1_index_values_doy_anomaly.csv",
+    "generated_index_raw_name": "v1_1_index_values_raw.csv",
+    "output_tag": "lead_lag_screen_v1_1_structural_vp_a",
+    "random_seed": 20260429,
+    "max_lag": 5,
+    "diagnostic_max_lag": 10,
+    "write_diagnostic_lags": true,
+    "n_surrogates": 1000,
+    "n_direction_bootstrap": 1000,
+    "surrogate_chunk_size": 100,
+    "bootstrap_chunk_size": 100,
+    "surrogate_mode": "pooled_window_variable_ar1",
+    "run_audit_surrogate_null": true,
+    "audit_surrogate_mode": "pooled_phi_yearwise_scale_ar1",
+    "n_audit_surrogates": 1000,
+    "min_valid_year_fraction": 0.7,
+    "min_pairs": 30,
+    "p_supported": 0.05,
+    "p_marginal": 0.1,
+    "q_within_window_supported": 0.1,
+    "old_v_indices": [
+      "V_strength",
+      "V_pos_centroid_lat",
+      "V_NS_diff"
+    ],
+    "old_p_indices": [
+      "P_main_band_share",
+      "P_south_band_share_18_24",
+      "P_main_minus_south",
+      "P_spread_lat",
+      "P_north_band_share_35_45",
+      "P_north_minus_main_35_45",
+      "P_total_centroid_lat_10_50"
+    ],
+    "new_v_indices": [
+      "V_pos_north_edge_lat",
+      "V_pos_south_edge_lat",
+      "V_pos_band_width",
+      "V_pos_centroid_lat_recomputed",
+      "V_highlat_35_55_mean",
+      "V_lowlat_20_30_mean",
+      "V_high_minus_low_35_55_minus_20_30",
+      "V_lowlat_weakening_proxy_20_30"
+    ],
+    "new_p_indices": [
+      "P_main_28_35_mean",
+      "P_south_10_25_mean",
+      "P_scs_10_20_mean",
+      "P_highlat_40_60_mean",
+      "P_highlat_35_60_mean",
+      "P_highlat_minus_main",
+      "P_south_minus_main",
+      "P_south_plus_highlat_minus_main"
+    ],
+    "index_lon_range": [
+      100.0,
+      135.0
+    ],
+    "p_main_lat_range": [
+      28.0,
+      35.0
+    ],
+    "p_main_lon_range": [
+      100.0,
+      125.0
+    ],
+    "p_south_lat_range": [
+      10.0,
+      25.0
+    ],
+    "p_south_lon_range": [
+      105.0,
+      130.0
+    ],
+    "p_scs_lat_range": [
+      10.0,
+      20.0
+    ],
+    "p_scs_lon_range": [
+      105.0,
+      130.0
+    ],
+    "p_highlat_40_60_lat_range": [
+      40.0,
+      60.0
+    ],
+    "p_highlat_35_60_lat_range": [
+      35.0,
+      60.0
+    ],
+    "v_highlat_lat_range": [
+      35.0,
+      55.0
+    ],
+    "v_lowlat_lat_range": [
+      20.0,
+      30.0
+    ],
+    "v_positive_threshold_abs": 0.1,
+    "v_positive_threshold_fraction_of_max": 0.1,
+    "v_positive_min_consecutive_grid": 2,
+    "include_same_family_pairs": false,
+    "base_windows": {
+      "S1": [
+        1,
+        39
+      ],
+      "T1": [
+        40,
+        48
+      ],
+      "S2": [
+        49,
+        74
+      ],
+      "T2": [
+        75,
+        86
+      ],
+      "S3": [
+        87,
+        106
+      ],
+      "T3": [
+        107,
+        117
+      ],
+      "S4": [
+        118,
+        154
+      ],
+      "T4": [
+        155,
+        164
+      ],
+      "S5": [
+        165,
+        183
+      ]
+    },
+    "sensitivity_variants": [
+      {
+        "variant": "T3_current_107_117_len11",
+        "family": "T3_current",
+        "comparison_role": "baseline_T3_current",
+        "window_name": "T3_current",
+        "start_day": 107,
+        "end_day": 117,
+        "reference": "current V1_1 T3 window"
+      },
+      {
+        "variant": "S3_center_equal11_092_102",
+        "family": "equal_length_control",
+        "comparison_role": "S3_11day_control",
+        "window_name": "S3_equal11",
+        "start_day": 92,
+        "end_day": 102,
+        "reference": "11-day control centered within S3"
+      },
+      {
+        "variant": "S4_center_equal11_131_141",
+        "family": "equal_length_control",
+        "comparison_role": "S4_11day_control",
+        "window_name": "S4_equal11",
+        "start_day": 131,
+        "end_day": 141,
+        "reference": "11-day control centered within S4"
+      },
+      {
+        "variant": "T3_expand_symmetric17_104_120",
+        "family": "T3_expansion",
+        "comparison_role": "T3_symmetric_expansion_17day",
+        "window_name": "T3_expand17",
+        "start_day": 104,
+        "end_day": 120,
+        "reference": "T3 expanded 3 days backward and forward"
+      },
+      {
+        "variant": "T3_expand_symmetric23_101_123",
+        "family": "T3_expansion",
+        "comparison_role": "T3_symmetric_expansion_23day",
+        "window_name": "T3_expand23",
+        "start_day": 101,
+        "end_day": 123,
+        "reference": "T3 expanded 6 days backward and forward"
+      },
+      {
+        "variant": "T3_expand_backward17_101_117",
+        "family": "T3_expansion",
+        "comparison_role": "T3_backward_expansion_17day",
+        "window_name": "T3_back17",
+        "start_day": 101,
+        "end_day": 117,
+        "reference": "T3 expanded only backward toward S3"
+      },
+      {
+        "variant": "T3_expand_forward17_107_123",
+        "family": "T3_expansion",
+        "comparison_role": "T3_forward_expansion_17day",
+        "window_name": "T3_forw17",
+        "start_day": 107,
+        "end_day": 123,
+        "reference": "T3 expanded only forward toward S4"
+      }
+    ]
+  },
+  "method_contract": {
+    "v1_readonly": true,
+    "v1_1_main_outputs_not_modified": true,
+    "index_inputs": "reuse/copy V1_1 generated structural anomaly indices",
+    "screen_core": "same V1_1 run_screen + build_v1_1_reports",
+    "main_direction": "V→P only",
+    "target_side_windows": true,
+    "year_pairing": "same-year only"
+  }
+}

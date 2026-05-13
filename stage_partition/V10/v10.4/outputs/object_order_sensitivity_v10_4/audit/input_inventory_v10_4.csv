@@ -1,0 +1,8 @@
+input_name,path,exists,n_rows
+v10_1_lineage,D:\easm_project01\stage_partition\V10\v10.1\outputs\joint_main_window_reproduce_v10_1\lineage\joint_main_window_lineage_v10_1.csv,True,8
+v10_2_catalog,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\cross_object\object_native_candidate_catalog_all_objects_v10_2.csv,True,40
+v10_2_mapping,D:\easm_project01\stage_partition\V10\v10.2\outputs\object_native_peak_discovery_v10_2\lineage_mapping\object_candidate_to_joint_lineage_v10_2.csv,True,40
+v10_3_registry,D:\easm_project01\stage_partition\V10\v10.3\outputs\peak_discovery_sensitivity_v10_3\cross_scope\candidate_registry_all_scopes_configs_v10_3.csv,True,2155
+v10_3_config,D:\easm_project01\stage_partition\V10\v10.3\outputs\peak_discovery_sensitivity_v10_3\cross_scope\sensitivity_config_grid_v10_3.csv,True,40
+v10_3_lineage,D:\easm_project01\stage_partition\V10\v10.3\outputs\peak_discovery_sensitivity_v10_3\lineage_mapping\candidate_lineage_sensitivity_mapping_v10_3.csv,True,2155
+v10_window_ref,D:\easm_project01\stage_partition\V10\v10.3\outputs\peak_discovery_sensitivity_v10_3\lineage_mapping\v10_window_conditioned_selection_reference_used_v10_3.csv,True,20

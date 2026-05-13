@@ -1,0 +1,6 @@
+﻿marker,Je_feature_median,Je_iqr,late_feature_fraction,dominant_late_feature_contribution,Je_late_consistency_label,interpretation
+departure90,37.0,8.0,0.5454545454545454,,Je_feature_mixed_late,"Je departure90: Je_feature_mixed_late; this is a consistency check, not the main research target."
+t25,36.0,1.0,0.36363636363636365,,Je_feature_late_consistent,"Je t25: Je_feature_late_consistent; this is a consistency check, not the main research target."
+t50,41.0,6.0,0.36363636363636365,,Je_feature_mixed_late,"Je t50: Je_feature_mixed_late; this is a consistency check, not the main research target."
+t75,52.0,3.0,0.36363636363636365,,Je_feature_late_consistent,"Je t75: Je_feature_late_consistent; this is a consistency check, not the main research target."
+peak_smooth3,32.0,14.0,0.5454545454545454,,Je_feature_mixed_late,"Je peak_smooth3: Je_feature_mixed_late; this is a consistency check, not the main research target."

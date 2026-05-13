@@ -1,0 +1,6 @@
+﻿event_kind,event_name,H_event_status,Jw_event_status,H_day_observed,Jw_day_observed,observed_delta_Jw_minus_H,H_day_median,Jw_day_median,valid_bootstrap_pairs,delta_median,delta_q05,delta_q95,delta_q025,delta_q975,P_H_leads,P_Jw_leads,sync_equivalence_pass,final_decision,decision_level
+growth,max_growth_day,confirmed_event,confirmed_event,35.0,49.0,14.0,35.0,48.0,1000,9.0,-12.0,19.0,-19.0,21.0,0.696,0.199,False,unresolved,directional_tendency_only
+growth,postward_growth_peak_day,confirmed_event,confirmed_event,35.0,50.0,15.0,37.0,49.0,1000,3.0,-12.0,16.0,-13.0,17.0,0.611,0.179,False,unresolved,method_unclosed
+growth,rapid_growth_start,confirmed_event,confirmed_event,34.0,48.0,14.0,34.0,45.0,1000,10.0,-12.0,19.0,-16.025,19.0,0.736,0.186,False,unresolved,directional_tendency_only
+growth,rapid_growth_center,confirmed_event,confirmed_event,36.007798283960085,50.46856899693187,14.460770712971787,35.90602235007238,48.37817682407695,1000,10.604410076128811,-10.806908515999549,17.750062624157856,-16.10528996232584,18.616794494452,0.739,0.213,False,unresolved,directional_tendency_only
+growth,rapid_growth_end,confirmed_event,confirmed_event,38.0,53.0,15.0,38.0,51.0,1000,11.0,-9.049999999999997,18.0,-16.025,19.0,0.729,0.192,False,unresolved,directional_tendency_only

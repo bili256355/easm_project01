@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "audit": "v1_1_eof_pc1_v1_adjudication_a",
+  "primary_question": "Whether EOF-PC1 is eligible to adjudicate V1 old-index T3 V→P weakening.",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_v1_adjudication_a",
+  "inputs": {
+    "p_pc_scores": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\tables\\p_eof_pc_scores.csv",
+    "v_pc_scores": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\tables\\v_eof_pc_scores.csv",
+    "v1_1_index_anomalies": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_doy_anomaly.csv",
+    "v1_1_classified_pairs": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\tables\\v1_1_v_to_p_classified_pairs.csv"
+  },
+  "diagnosis_counts": {
+    "not_supported": 3,
+    "mixed": 1,
+    "supported": 1
+  },
+  "t3_diagnosis": [
+    {
+      "diagnosis_id": "pc1_represents_v1_old_index_space",
+      "support_level": "mixed",
+      "primary_evidence": "T3 V_PC1 alignment=partially_aligned_with_old_index_space; T3 P_PC1 alignment=aligned_with_old_index_space.",
+      "counter_evidence": "PC1 cannot adjudicate old-index pair weakening if either side is not aligned with the old-index space.",
+      "allowed_statement": "EOF-PC1 is in the same problem space as V1 old indices only if both V and P PC1 align with old-index spaces.",
+      "forbidden_statement": "Do not use EOF-PC1 to refute V1 T3 weakening when PC1 is not aligned with V1 old-index space."
+    },
+    {
+      "diagnosis_id": "old_index_aggregate_mode_weakens_in_T3",
+      "support_level": "not_supported",
+      "primary_evidence": "T3 old-index PC1 lag_tau0_class=stable_lag_dominant; T3 old-old stable pair count=4.",
+      "counter_evidence": "If old-index aggregate PC1 remains stable while individual old pairs drop, the weakening is pair-level rather than aggregate-space decoupling.",
+      "allowed_statement": "This diagnostic separates pair-level weakening from old-index aggregate-mode weakening.",
+      "forbidden_statement": "Do not equate many failed individual pairs with aggregate old-index space decoupling without checking old-index PC1."
+    },
+    {
+      "diagnosis_id": "pc1_relation_survives_seasonal_control",
+      "support_level": "supported",
+      "primary_evidence": "T3 raw abs r=0.212; doy-residual abs r=0.212; window-centered abs r=0.212.",
+      "counter_evidence": "If PC1 relation drops after day/window controls, EOF-PC1 may mainly reflect seasonal progression/background mode.",
+      "allowed_statement": "EOF-PC1 has more adjudication value if its relation survives seasonal/background controls.",
+      "forbidden_statement": "Do not treat raw EOF-PC1 correlation as V1-style evidence if it collapses after seasonal controls."
+    },
+    {
+      "diagnosis_id": "pc1_has_v1_style_stable_lag_in_T3",
+      "support_level": "not_supported",
+      "primary_evidence": "T3 EOF-PC1 lag_tau0_class=tau0_abs_dominant.",
+      "counter_evidence": "EOF-PC1 cannot refute stable-lag pair weakening if EOF-PC1 itself is tau0-coupled, same-day dominant, or weak under the same lag-vs-tau0 logic.",
+      "allowed_statement": "Use V1-style lag-vs-tau0 classification, not raw correlation alone, when comparing EOF-PC1 with V1/V1_1.",
+      "forbidden_statement": "Do not say EOF-PC1 contradicts V1 if EOF-PC1 is not stable-lag-dominant in T3."
+    },
+    {
+      "diagnosis_id": "eof_pc1_can_adjudicate_v1_t3_weakening",
+      "support_level": "not_supported",
+      "primary_evidence": "both_aligned=False; seasonal_control_survives=True; EOF-PC1_T3_class=tau0_abs_dominant.",
+      "counter_evidence": "EOF-PC1 needs old-index alignment, seasonal-control robustness, and V1-style stable lag in T3 before it can adjudicate V1's T3 weakening.",
+      "allowed_statement": "Only if all prerequisites pass can EOF-PC1 be used as a serious counterpoint to V1 T3 weakening.",
+      "forbidden_statement": "Do not use EOF-PC1 as a judge of V1 T3 weakening when any prerequisite fails."
+    }
+  ],
+  "guardrails": [
+    "This audit does not use highlat branch as the adjudication criterion.",
+    "EOF-PC1 can adjudicate V1 only if it aligns with old-index spaces, survives seasonal controls, and is V1-style stable-lag in T3.",
+    "Old-index aggregate PC1 distinguishes pair-level weakening from aggregate-space decoupling."
+  ]
+}

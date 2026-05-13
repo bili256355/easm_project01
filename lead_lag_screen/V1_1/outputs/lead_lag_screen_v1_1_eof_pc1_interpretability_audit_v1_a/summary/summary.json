@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "audit": "eof_pc1_interpretability_audit_v1_a",
+  "primary_question": "Whether EOF-PC1 actually represents the T3 high-latitude/boundary/retreat structures that V1_1 structural indices exposed.",
+  "input_smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz",
+  "input_v1_1_structural_indices": "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_structural_vp_a\\indices\\v1_1_index_values_doy_anomaly.csv",
+  "domain": {
+    "lat_range": [
+      10.0,
+      60.0
+    ],
+    "lon_range": [
+      100.0,
+      135.0
+    ],
+    "spatial_stride": 1
+  },
+  "full_data_extent": {
+    "lat_min": 10.0,
+    "lat_max": 60.0,
+    "lon_min": 20.0,
+    "lon_max": 150.0
+  },
+  "domain_shape": {
+    "n_year": 45,
+    "n_day": 183,
+    "n_lat": 201,
+    "n_lon": 141
+  },
+  "eof_value_mode": "doy_anomaly",
+  "eof_method": "iterative_topk",
+  "n_modes": 5,
+  "p_evr": [
+    0.11762265008761566,
+    0.07768528807897376,
+    0.04831980267367039,
+    0.04246645282648838,
+    0.03438301973817842
+  ],
+  "v_evr": [
+    0.1479044394191378,
+    0.1361688040878746,
+    0.10800832809350056,
+    0.08084127681261757,
+    0.06014571566071351
+  ],
+  "diagnosis_counts": {
+    "not_supported": 5,
+    "mixed_or_not_supported": 1
+  },
+  "figure_paths": [
+    "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\figures\\P_EOF_loading_modes_1_3.png",
+    "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\figures\\V_EOF_loading_modes_1_3.png",
+    "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\figures\\P_observed_vs_PC_reconstruction_T3_minus_S3.png",
+    "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\figures\\V_observed_vs_PC_reconstruction_T3_minus_S3.png",
+    "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\figures\\P_observed_vs_PC_reconstruction_S4_minus_T3.png",
+    "D:\\easm_project01\\lead_lag_screen\\V1_1\\outputs\\lead_lag_screen_v1_1_eof_pc1_interpretability_audit_v1_a\\figures\\V_observed_vs_PC_reconstruction_S4_minus_T3.png"
+  ],
+  "guardrails": [
+    "This audit does not replace V1_1 structural V→P screen.",
+    "EOF-PC1 continuity cannot refute T3 pair-level weakening unless PC1 reconstructs the T3 structures under dispute.",
+    "PC1 is a variance representation, not a V–P coupled-mode optimizer."
+  ]
+}

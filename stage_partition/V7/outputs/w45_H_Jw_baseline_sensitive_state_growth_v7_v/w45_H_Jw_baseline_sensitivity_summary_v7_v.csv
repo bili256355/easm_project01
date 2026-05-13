@@ -1,0 +1,21 @@
+﻿event_layer,branch,event_name,C0_decision,C1_decision,C2_decision,C0_validity,C1_validity,C2_validity,baseline_sensitivity,main_interpretation
+state,distance,S25_day,invalid_event,invalid_event,invalid_event,H=left_censored;Jw=left_censored,H=left_censored;Jw=left_censored,H=left_censored;Jw=left_censored,invalid_across_baselines,Event is invalid across available baselines.
+state,distance,S50_day,invalid_event,invalid_event,unresolved,H=valid;Jw=valid,H=left_censored;Jw=valid,H=valid;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+state,distance,S75_day,invalid_event,unresolved,invalid_event,H=valid;Jw=valid,H=valid;Jw=valid,H=right_censored;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+state,distance,durable_S50_day,invalid_event,invalid_event,unresolved,H=valid;Jw=valid,H=left_censored;Jw=valid,H=valid;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+state,distance,durable_S75_day,invalid_event,invalid_event,invalid_event,H=valid;Jw=not_durable,H=valid;Jw=not_durable,H=right_censored;Jw=not_durable,invalid_across_baselines,Event is invalid across available baselines.
+state,pattern,S25_day,invalid_event,invalid_event,unresolved,H=valid;Jw=valid,H=valid;Jw=valid,H=valid;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+state,pattern,S50_day,unresolved,unresolved,unresolved,H=valid;Jw=valid,H=valid;Jw=valid,H=valid;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+state,pattern,S75_day,invalid_event,invalid_event,invalid_event,H=right_censored;Jw=valid,H=right_censored;Jw=valid,H=right_censored;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+state,pattern,durable_S50_day,unresolved,unresolved,unresolved,H=valid;Jw=valid,H=valid;Jw=valid,H=valid;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+state,pattern,durable_S75_day,invalid_event,invalid_event,invalid_event,H=right_censored;Jw=valid,H=right_censored;Jw=valid,H=right_censored;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+growth,distance,growth_onset_day,invalid_event,invalid_event,invalid_event,H=left_censored;Jw=valid,H=left_censored;Jw=valid,H=left_censored;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+growth,distance,growth_peak_day,invalid_event,invalid_event,invalid_event,H=valid;Jw=valid,H=valid;Jw=valid,H=valid;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+growth,distance,growth_window_center,invalid_event,invalid_event,invalid_event,H=left_censored;Jw=valid,H=valid;Jw=right_censored,H=left_censored;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+growth,distance,growth_window_end,invalid_event,invalid_event,invalid_event,H=left_censored;Jw=valid,H=valid;Jw=right_censored,H=left_censored;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+growth,distance,growth_window_start,invalid_event,invalid_event,invalid_event,H=left_censored;Jw=valid,H=valid;Jw=right_censored,H=left_censored;Jw=valid,invalid_across_baselines,Event is invalid across available baselines.
+growth,pattern,growth_onset_day,unresolved,invalid_event,invalid_event,H=valid;Jw=valid,H=left_censored;Jw=valid,H=left_censored;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+growth,pattern,growth_peak_day,unresolved,unresolved,unresolved,H=valid;Jw=valid,H=valid;Jw=valid,H=valid;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+growth,pattern,growth_window_center,unresolved,invalid_event,invalid_event,H=valid;Jw=valid,H=left_censored;Jw=valid,H=left_censored;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+growth,pattern,growth_window_end,unresolved,invalid_event,invalid_event,H=valid;Jw=valid,H=left_censored;Jw=valid,H=left_censored;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.
+growth,pattern,growth_window_start,unresolved,invalid_event,invalid_event,H=valid;Jw=valid,H=left_censored;Jw=valid,H=left_censored;Jw=valid,mixed_or_unresolved,No stable hard decision across baselines.

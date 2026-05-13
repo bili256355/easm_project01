@@ -1,0 +1,72 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V6_1",
+  "run_scope": "lightweight_derived_window_layer_from_v6_points",
+  "source_v6_output_tag": "mainline_v6_a",
+  "n_windows": 7,
+  "n_memberships": 8,
+  "n_uncertainty_rows": 7,
+  "competition_included": false,
+  "parameter_path_included": false,
+  "final_judgement_included": false,
+  "yearwise_gating_included": false,
+  "uncertainty_is_window_attribute_only": true,
+  "top_windows": [
+    {
+      "window_id": "W002",
+      "start_day": 40,
+      "end_day": 48,
+      "main_peak_day": 45,
+      "n_member_points": 1,
+      "max_member_bootstrap_match_fraction": 0.993
+    },
+    {
+      "window_id": "W005",
+      "start_day": 107,
+      "end_day": 117,
+      "main_peak_day": 113,
+      "n_member_points": 1,
+      "max_member_bootstrap_match_fraction": 0.987
+    },
+    {
+      "window_id": "W007",
+      "start_day": 155,
+      "end_day": 164,
+      "main_peak_day": 160,
+      "n_member_points": 1,
+      "max_member_bootstrap_match_fraction": 0.962
+    },
+    {
+      "window_id": "W003",
+      "start_day": 75,
+      "end_day": 86,
+      "main_peak_day": 81,
+      "n_member_points": 1,
+      "max_member_bootstrap_match_fraction": 0.951
+    },
+    {
+      "window_id": "W006",
+      "start_day": 128,
+      "end_day": 138,
+      "main_peak_day": 132,
+      "n_member_points": 2,
+      "max_member_bootstrap_match_fraction": 0.899
+    },
+    {
+      "window_id": "W004",
+      "start_day": 94,
+      "end_day": 99,
+      "main_peak_day": 96,
+      "n_member_points": 1,
+      "max_member_bootstrap_match_fraction": 0.807
+    },
+    {
+      "window_id": "W001",
+      "start_day": 16,
+      "end_day": 20,
+      "main_peak_day": 18,
+      "n_member_points": 1,
+      "max_member_bootstrap_match_fraction": 0.745
+    }
+  ]
+}

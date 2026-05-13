@@ -1,0 +1,11 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+joint_all,joint_all,DET_WIDTH_16,W001,CP001,16,True,0.927,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W002,CP002,45,True,0.995,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W003,CP003,57,True,0.331,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W004,CP004,67,True,0.793,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W005,CP005,80,True,0.949,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W006,CP006,96,True,0.904,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W007,CP007,113,True,0.997,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W008,CP008,130,True,0.907,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W008,CP009,135,False,0.83,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+joint_all,joint_all,DET_WIDTH_16,W009,CP010,160,True,0.972,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

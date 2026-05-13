@@ -1,0 +1,13 @@
+{
+  "version": "v9_1_f_result_registry_a",
+  "purpose": "read-only statistical evidence registry for V9 + V9.1_f hotfix02",
+  "v91_root": "D:\\easm_project01\\stage_partition\\V9_1",
+  "v9_output_root": "D:\\easm_project01\\stage_partition\\V9\\outputs\\peak_all_windows_v9_a",
+  "f_output_root": "D:\\easm_project01\\stage_partition\\V9_1\\outputs\\bootstrap_composite_mca_audit_v9_1_f",
+  "output_root": "D:\\easm_project01\\stage_partition\\V9_1\\outputs\\v9_1_f_result_registry_a",
+  "does_not_rerun_peak_or_mca": true,
+  "physical_interpretation_included": false,
+  "n_registry_rows": 15,
+  "n_ready_for_physical_audit": 15,
+  "created_at": "2026-05-09 18:40:48"
+}

@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "input_tag": "lead_lag_screen_v1_smooth5_a",
+    "output_tag": "lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+    "ci_level": "90",
+    "p_lag_gt_tau0_threshold": 0.9,
+    "p_forward_gt_reverse_threshold": 0.9,
+    "core_evidence_prefixes": [
+      "Tier1a",
+      "Tier1b",
+      "Tier2"
+    ],
+    "sensitive_evidence_prefixes": [
+      "Tier3"
+    ]
+  },
+  "required_inputs": [
+    "lead_lag_evidence_tier_summary.csv",
+    "lead_lag_directional_robustness.csv",
+    "lead_lag_pair_summary.csv (optional enrichment)"
+  ],
+  "outputs": [
+    "tables/lead_lag_pair_summary_stability_judged.csv",
+    "tables/window_stability_rollup.csv",
+    "tables/window_family_stability_rollup.csv",
+    "tables/evidence_tier_vs_stability_rollup.csv",
+    "tables/lag_vs_tau0_stability_rollup.csv",
+    "tables/t3_stability_audit.csv",
+    "tables/v1_core_candidate_pool_stability_judged.csv"
+  ]
+}

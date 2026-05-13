@@ -1,0 +1,4 @@
+﻿window_id,target_name,top1_year,top1_fraction_of_total_abs_leverage,top3_fraction_of_total_abs_leverage,top5_fraction_of_total_abs_leverage,extreme_year_dominated_flag
+W045,W045_Je_vs_Jw_delta_peak,1991,0.07035322413660594,0.1937428135261682,0.29804784100618925,False
+W045,W045_P_vs_Jw_delta_peak,1991,0.08500106270580299,0.22292410432382648,0.3305384684099149,False
+W045,W045_V_vs_Jw_delta_peak,1982,0.08326203337319711,0.22086426788451818,0.33676589801831597,False

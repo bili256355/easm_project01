@@ -1,0 +1,9 @@
+﻿object,candidate_id,point_day,month_day,registry_rank,source_run_tag,peak_score,peak_prominence,is_formal_primary,nearest_primary_day,bootstrap_strict_fraction,bootstrap_match_fraction,bootstrap_near_fraction,bootstrap_no_match_fraction,median_bootstrap_matched_peak_score,median_bootstrap_abs_offset_days,object_support_class
+H,CP001,19,04-20,1,H_object_native_peak_discovery_v10_2,18.08402735192542,4.598182544472039,True,19,0.623,0.784,0.055,0.161,19.259514432021046,2.0,object_weak_candidate
+H,CP002,35,05-06,2,H_object_native_peak_discovery_v10_2,10.10918859242761,2.7174480345794594,True,35,0.734,0.908,0.032,0.06,12.091400365609125,1.0,object_candidate
+H,CP003,57,05-28,3,H_object_native_peak_discovery_v10_2,3.066305324426809,0.3353298556509663,False,77,0.419,0.724,0.136,0.14,5.448642399694845,3.0,object_weak_candidate
+H,CP004,77,06-17,4,H_object_native_peak_discovery_v10_2,13.498661553176767,7.605537770951037,True,77,0.73,0.942,0.057,0.001,15.33332424279672,1.0,object_candidate
+H,CP005,95,07-05,5,H_object_native_peak_discovery_v10_2,13.787305052806543,9.529727098226754,True,95,0.663,0.889,0.018,0.093,16.54195292505463,2.0,object_candidate
+H,CP006,115,07-25,6,H_object_native_peak_discovery_v10_2,34.607065236011024,34.03240521836985,True,115,0.854,0.996,0.004,0.0,35.04591756724116,1.0,object_strong_candidate
+H,CP007,129,08-08,7,H_object_native_peak_discovery_v10_2,4.241067494898854,3.690235040788872,False,115,0.645,0.887,0.054,0.059,6.884640926412253,2.0,object_candidate
+H,CP008,155,09-03,8,H_object_native_peak_discovery_v10_2,9.746850391531572,9.19946629316152,True,155,0.798,0.936,0.045,0.019,11.537571951131884,1.0,object_candidate

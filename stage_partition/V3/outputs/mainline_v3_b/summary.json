@@ -1,0 +1,22 @@
+{
+  "n_main_windows": 5,
+  "n_evidence_rows": 10,
+  "n_orphan_points": 0,
+  "n_orphan_bands": 0,
+  "n_limited_support_windows": 1,
+  "n_nonclean_retention_windows": 0,
+  "n_support_rule_changes": 5,
+  "n_years_supporting_each_window": {
+    "W001": 45,
+    "W002": 45,
+    "W003": 45,
+    "W004": 45,
+    "W005": 45
+  },
+  "W004_status_summary": {
+    "strict_support_score": 0.08,
+    "legacy_support_score": 0.5,
+    "param_path_hit_fraction": 0.4,
+    "support_reliability_flag": "limited"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "input_tag": "lead_lag_screen_v1_smooth5_a",
+    "stability_tag": "lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+    "previous_audit_tag": "lead_lag_screen_v1_smooth5_a_t3_v_to_p_audit",
+    "output_tag": "lead_lag_screen_v1_smooth5_a_t3_v_to_p_lag0_reduction_audit",
+    "foundation_tag": "baseline_smooth5_a",
+    "focus_window": "T3",
+    "high_quantile": 0.75,
+    "low_quantile": 0.25,
+    "max_lag": 5,
+    "make_figures": true,
+    "no_cartopy": false,
+    "map_extent": [
+      20.0,
+      150.0,
+      10.0,
+      60.0
+    ]
+  },
+  "required_inputs": [
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables\\lead_lag_pair_summary_stability_judged.csv",
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_null_summary.csv",
+    "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_values_smoothed.csv",
+    "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\preprocess\\smoothed_fields.npz"
+  ],
+  "optional_inputs": [
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_audit_surrogate_null_summary.csv",
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_surrogate_ar1_params.csv",
+    "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\tables\\index_window_representativeness.csv",
+    "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\tables\\window_family_joint_field_coverage.csv"
+  ]
+}

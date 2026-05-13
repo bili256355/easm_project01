@@ -1,0 +1,6 @@
+﻿window_id,object,n_raw_features,n_all_nan_features,n_partial_nan_features,n_zero_variance_features,n_kept_features,kept_feature_fraction,partial_nan_max_fraction,all_nan_day_min,all_nan_day_max,nan_warning_status,alignment_warning
+W113,P,871,0,0,0,871,1.0,0.0,,,no_nan_issue,none
+W113,V,737,0,0,0,737,1.0,0.0,,,no_nan_issue,none
+W113,H,737,0,0,0,737,1.0,0.0,,,no_nan_issue,none
+W113,Je,737,0,0,0,737,1.0,0.0,,,no_nan_issue,none
+W113,Jw,737,0,0,0,737,1.0,0.0,,,no_nan_issue,none

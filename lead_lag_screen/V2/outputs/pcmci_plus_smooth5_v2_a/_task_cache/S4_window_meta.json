@@ -1,0 +1,14 @@
+{
+  "window": "S4",
+  "target_window_start": 118,
+  "target_window_end": 154,
+  "extended_day_start": 113,
+  "extended_day_end": 154,
+  "n_years": 45,
+  "n_variables": 20,
+  "n_extended_days": 42,
+  "n_total_values": 37800,
+  "n_masked_values": 1,
+  "masked_fraction": 2.6455026455026456e-05,
+  "target_side_window_semantics": "Y(t) is in the named window; X(t-tau) can come from the backward tau_max padding; no cross-year stitching."
+}

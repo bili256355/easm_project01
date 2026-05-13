@@ -1,0 +1,5 @@
+﻿window_id,selection_bias_flag,original_n_targets,original_n_perm_strict_99,original_n_signflip_direction_specific_99,original_n_mode_stable,original_n_extreme_year_dominated,original_n_pair_specific,original_n_common_mode,original_n_locking,original_n_gradient,added_n_targets,added_n_perm_strict_99,added_n_signflip_direction_specific_99,added_n_mode_stable,added_n_extreme_year_dominated,added_n_pair_specific,added_n_common_mode,added_n_locking,added_n_gradient
+W045,likely_undercoverage,3,3,3,3,0,1,2,0,0,7,7,7,7,0,0,6,0,1
+W081,likely_undercoverage,3,3,3,3,0,1,2,0,0,7,7,7,7,0,0,0,1,6
+W113,likely_undercoverage,5,5,5,5,0,1,1,3,0,5,5,5,5,0,0,4,0,1
+W160,likely_undercoverage,4,4,4,4,0,0,3,0,1,6,6,6,6,0,0,1,1,4

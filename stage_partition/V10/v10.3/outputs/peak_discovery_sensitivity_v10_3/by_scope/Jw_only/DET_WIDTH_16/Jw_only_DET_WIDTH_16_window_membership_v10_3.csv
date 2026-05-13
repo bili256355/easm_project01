@@ -1,0 +1,11 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+Jw_only,Jw,DET_WIDTH_16,W001,CP001,13,True,0.696,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W002,CP002,22,True,0.711,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W003,CP003,42,True,0.926,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W003,CP004,48,False,0.789,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W004,CP005,83,True,0.855,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W005,CP006,103,True,0.857,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W005,CP007,109,False,0.842,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W006,CP008,129,True,0.936,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W007,CP009,151,True,0.76,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+Jw_only,Jw,DET_WIDTH_16,W008,CP010,165,True,0.574,detector_width,detector_width,16,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

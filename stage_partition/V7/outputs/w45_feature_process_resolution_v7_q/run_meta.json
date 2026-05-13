@@ -1,0 +1,30 @@
+{
+  "version": "w45_feature_process_resolution_v7_q",
+  "created_at": "2026-05-03T14:09:54",
+  "status": "success",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "fields": [
+    "P",
+    "V",
+    "H",
+    "Je",
+    "Jw"
+  ],
+  "input_representation": "current_2deg_interpolated_profile_state",
+  "v7_m_outputs_used_as_input": false,
+  "v7_n_outputs_used_as_input": false,
+  "v7_o_outputs_used_as_input": false,
+  "v7_p_outputs_used_as_input": false,
+  "feature_level_resolution": true,
+  "whole_field_relation_cards_used_as_input": false,
+  "n_bootstrap": 1000,
+  "outputs": [
+    "input_base_audit_v7_q.json",
+    "w45_feature_process_markers_v7_q.csv",
+    "w45_field_feature_timing_distribution_v7_q.csv",
+    "w45_pair_feature_distribution_relation_v7_q.csv",
+    "w45_H_Jw_feature_relation_detail_v7_q.csv",
+    "w45_feature_level_organization_summary_v7_q.md"
+  ]
+}

@@ -1,0 +1,9 @@
+backend,peak_day,peak_value,peak_prominence,peak_rank,candidate_kind,retained_as,drop_stage,drop_reason
+ruptures_window,113,9.678099825113602,7.556092339736476,1,raw_local_peak,edge,edge_selection,
+ruptures_window,81,9.238311473412097,4.2285212740596405,2,raw_local_peak,edge,edge_selection,
+ruptures_window,160,7.120567750300529,2.684733245250058,3,raw_local_peak,primary,,
+ruptures_window,96,6.44414632933013,1.1935943825533588,4,raw_local_peak,primary,,
+ruptures_window,45,5.878578493131532,3.6472619692422086,5,raw_local_peak,primary,,
+ruptures_window,135,3.7666081070788318,1.4709574724059107,6,raw_local_peak,primary,,
+ruptures_window,132,3.7541518352022365,0.00977477683365846,7,raw_local_peak,primary,,
+ruptures_window,18,3.021425291663116,0.3019803443929008,8,raw_local_peak,dropped,backend_native_rule,not_promoted_to_primary_or_edge

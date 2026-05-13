@@ -1,0 +1,6 @@
+﻿object,point_id,point_day,month_day,peak_score,source_type,raw_point_day,matched_peak_day
+P,RP001,45,05-16,26.563465838769993,formal_primary,44,45
+P,RP002,82,06-22,59.21762425438138,formal_primary,81,82
+P,RP003,113,07-23,26.616812351441734,formal_primary,112,113
+P,RP004,138,08-17,5.071550450487186,formal_primary,137,138
+P,RP005,158,09-06,21.186921722771807,formal_primary,157,158

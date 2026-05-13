@@ -1,0 +1,33 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V7",
+  "run_label": "field_transition_pairwise_order_v7_c",
+  "status": "success",
+  "scope": "pairwise field transition timing order from V7-b bootstrap/LOYO samples",
+  "source_v7_b_output_tag": "field_transition_timing_v7_b",
+  "accepted_peak_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "n_pairwise_tests": 40,
+  "order_confidence_counts": {
+    "ambiguous_order": 16,
+    "moderate_order": 13,
+    "robust_censored_order": 6,
+    "sync_or_overlap": 3,
+    "robust_order": 2
+  },
+  "n_order_edges": 21,
+  "downstream_lead_lag_included": false,
+  "pathway_included": false,
+  "spatial_earliest_region_included": false,
+  "causal_interpretation_included": false
+}

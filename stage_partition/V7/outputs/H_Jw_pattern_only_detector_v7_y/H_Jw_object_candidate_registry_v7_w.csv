@@ -1,0 +1,6 @@
+﻿object,candidate_id,point_day,month_day,registry_rank,source_run_tag,peak_score,peak_prominence,is_formal_primary,nearest_primary_day
+H,CP001,38,05-09,1,H_Jw_pattern_only_detector_v7_y_H,0.2829520409536668,0.27681767226017107,False,
+H,CP002,48,05-19,2,H_Jw_pattern_only_detector_v7_y_H,0.008775803099103918,0.0015481834657062737,False,
+H,CP003,58,05-29,3,H_Jw_pattern_only_detector_v7_y_H,0.06265965540176067,0.003996074700059471,False,
+Jw,CP001,16,04-17,1,H_Jw_pattern_only_detector_v7_y_Jw,3.7548200096440065,0.16796474903330072,False,40.0
+Jw,CP002,40,05-11,2,H_Jw_pattern_only_detector_v7_y_Jw,14.495777682247253,12.722490701922752,True,40.0

@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "created_utc": "2026-04-30T08:40:21.478213+00:00",
+  "run_label": "field_transition_interval_timing_v7_d",
+  "accepted_peak_days": [
+    45,
+    81,
+    113,
+    160
+  ],
+  "excluded_candidate_days": [
+    18,
+    96,
+    132,
+    135
+  ],
+  "n_windows": 4,
+  "n_bootstrap": 1000,
+  "n_interval_observed_rows": 40,
+  "n_bootstrap_rows": 40000,
+  "n_loyo_rows": 1800,
+  "window_class_counts": {
+    "weak_partial_order_window": 3,
+    "boundary_limited_window": 1
+  },
+  "pair_label_counts_detector_score": {
+    "ambiguous_interval_order": 17,
+    "moderate_shifted_order": 10,
+    "boundary_limited_interval_order": 7,
+    "shifted_overlap_order": 3,
+    "sync_or_overlap": 2,
+    "separated_order": 1
+  },
+  "method": "active_interval_timing_from_detector_score_and_prepost_contrast; timing order only, not causality"
+}

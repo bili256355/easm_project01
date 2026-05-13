@@ -1,0 +1,10 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+V_only,V,MATCH_RADIUS_3_6_9,W001,CP001,16,True,0.618,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W002,CP002,30,True,0.697,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W003,CP003,45,True,0.992,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W004,CP005,80,True,0.93,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W004,CP004,69,False,0.784,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W005,CP006,95,True,0.953,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W006,CP007,114,True,0.949,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W007,CP008,136,True,0.87,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+V_only,V,MATCH_RADIUS_3_6_9,W008,CP009,161,True,0.917,bootstrap_match_radius,strict_match/match/near,3/6/9,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

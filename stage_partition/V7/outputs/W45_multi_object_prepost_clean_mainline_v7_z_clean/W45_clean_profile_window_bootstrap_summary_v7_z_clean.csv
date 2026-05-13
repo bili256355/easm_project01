@@ -1,0 +1,17 @@
+﻿object,candidate_id,peak_day,bootstrap_support,strict_support,near_support,return_day_median,return_day_q025,return_day_q975,support_class
+P,CP001,43.0,0.976,0.802,0.999,43.0,39.0,47.0,accepted_window_95
+P,CP002,65.0,0.736,0.66,0.826,65.0,57.0,69.0,weak_window_50
+P,CP003,19.0,0.891,0.395,0.942,18.0,14.0,26.0,candidate_window_80
+P,CP004,16.0,0.843,0.615,0.938,15.0,10.0,23.0,candidate_window_80
+V,CP001,44.0,0.995,0.852,1.0,45.0,40.0,48.0,accepted_window_95
+V,CP002,30.0,0.796,0.668,0.875,30.0,22.0,33.0,weak_window_50
+V,CP003,16.0,0.896,0.638,0.975,16.0,10.0,21.0,candidate_window_80
+H,CP001,19.0,0.943,0.777,0.96,19.0,14.0,22.0,candidate_window_80
+H,CP002,31.0,0.821,0.529,0.839,32.0,27.0,36.0,candidate_window_80
+H,CP003,56.0,0.722,0.428,0.888,55.0,50.0,64.0,weak_window_50
+H,CP004,62.0,0.439,0.274,0.695,59.0,54.0,66.0,unstable_window
+Je,CP001,28.0,0.768,0.396,0.967,29.0,20.0,35.0,weak_window_50
+Je,CP002,21.0,0.651,0.414,0.857,20.0,14.0,29.0,weak_window_50
+Je,CP003,46.0,0.759,0.586,0.866,46.0,43.0,54.0,weak_window_50
+Jw,CP001,49.0,0.883,0.591,0.964,49.0,42.0,54.0,candidate_window_80
+Jw,CP002,15.0,0.986,0.835,0.986,15.0,12.0,19.0,accepted_window_95

@@ -1,0 +1,6 @@
+﻿object,field_key,lat_min,lat_max,lon_min,lon_max,n_years,n_days,n_lat_features
+P,precip_smoothed,15.0,39.0,105.0,125.0,45,183,13
+V,v850_smoothed,10.0,30.0,105.0,125.0,45,183,11
+H,z500_smoothed,15.0,35.0,110.0,140.0,45,183,11
+Je,u200_smoothed,25.0,45.0,120.0,150.0,45,183,11
+Jw,u200_smoothed,25.0,45.0,80.0,110.0,45,183,11

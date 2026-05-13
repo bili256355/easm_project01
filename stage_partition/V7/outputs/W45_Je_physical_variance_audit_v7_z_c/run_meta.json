@@ -1,0 +1,87 @@
+{
+  "version": "v7_z_c",
+  "output_tag": "W45_Je_physical_variance_audit_v7_z_c",
+  "smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "axis_info": {
+    "year_axis": 0,
+    "day_axis": 1,
+    "lat_axis": 2,
+    "lon_axis": 3
+  },
+  "n_year": 45,
+  "n_day": 183,
+  "target_lat": [
+    25.0,
+    27.0,
+    29.0,
+    31.0,
+    33.0,
+    35.0,
+    37.0,
+    39.0,
+    41.0,
+    43.0,
+    45.0
+  ],
+  "je_region": {
+    "lon_min": 120.0,
+    "lon_max": 150.0,
+    "lat_min": 25.0,
+    "lat_max": 45.0
+  },
+  "config": {
+    "version": "v7_z_c",
+    "output_tag": "W45_Je_physical_variance_audit_v7_z_c",
+    "field_aliases": [
+      "u200",
+      "U200",
+      "u200_smoothed",
+      "U200_smoothed",
+      "u",
+      "U",
+      "uwnd200",
+      "ua200"
+    ],
+    "lat_aliases": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "lon_aliases": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "year_aliases": [
+      "years",
+      "year"
+    ],
+    "je_lon_min": 120.0,
+    "je_lon_max": 150.0,
+    "je_lat_min": 25.0,
+    "je_lat_max": 45.0,
+    "lat_step": 2.0,
+    "full_start_day": 0,
+    "full_end_day": 70,
+    "early_pre_start": 20,
+    "early_pre_end": 29,
+    "low_variance_start": 30,
+    "low_variance_end": 34,
+    "early_core_start": 26,
+    "early_core_end": 33,
+    "early_post_start": 35,
+    "early_post_end": 39,
+    "w45_start": 40,
+    "w45_end": 48,
+    "late_main_start": 40,
+    "late_main_end": 52,
+    "n_bootstrap": 1000,
+    "random_seed": 42,
+    "low_quantile": 0.1,
+    "min_window_start": 20,
+    "min_window_end": 40,
+    "eps": 1e-12,
+    "save_by_year_metrics": false,
+    "skip_figures": false
+  }
+}

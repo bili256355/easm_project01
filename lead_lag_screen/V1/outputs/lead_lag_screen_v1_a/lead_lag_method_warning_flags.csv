@@ -1,0 +1,5 @@
+﻿scope_type,scope_id,warning_type,warning_level,warning_message,affected_pairs,suggested_action
+project,all,high_phi_clipping,high,12 window-variable AR(1) parameter rows have severe phi clipping.,382,Do not freeze strict pool without reporting high-persistence risk; inspect severe variables/windows.
+project,all,audit_null_more_conservative,medium,Audit null is more conservative for 336 pairs.,336,Prefer Tier1/Tier2 split instead of treating all main yes equally.
+project,all,many_yes_with_same_day_coupling,medium,213/251 main yes pairs include same-day coupling.,213,Do not interpret main yes as pure one-way lag propagation.
+window,S5,audit_stable_yes_collapse,high,Window S5 has 20 main yes pairs but zero Tier1 audit-stable yes pairs.,20,Treat this window's main yes as audit-sensitive until further checked.

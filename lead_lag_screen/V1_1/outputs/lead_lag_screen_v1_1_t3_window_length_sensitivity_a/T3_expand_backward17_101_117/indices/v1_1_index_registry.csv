@@ -1,0 +1,27 @@
+﻿index_name,family,old_or_new,source_field,definition
+V_strength,V,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+V_pos_centroid_lat,V,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+V_NS_diff,V,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_main_band_share,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_south_band_share_18_24,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_main_minus_south,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_spread_lat,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_north_band_share_35_45,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_north_minus_main_35_45,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+P_total_centroid_lat_10_50,P,old_v1,V1_index_anomalies,Read-only V1 anomaly index.
+V_pos_north_edge_lat,V,new_v1_1,v850_smoothed,Northern edge latitude of positive v850 band over 100-135E.
+V_pos_south_edge_lat,V,new_v1_1,v850_smoothed,Southern edge latitude of positive v850 band over 100-135E.
+V_pos_band_width,V,new_v1_1,v850_smoothed,Positive v850 band width = north_edge - south_edge.
+V_pos_centroid_lat_recomputed,V,new_v1_1,v850_smoothed,Positive-value weighted centroid latitude of v850 profile over 100-135E.
+V_highlat_35_55_mean,V,new_v1_1,v850_smoothed,"Area-weighted v850 mean over 35-55N,100-135E."
+V_lowlat_20_30_mean,V,new_v1_1,v850_smoothed,"Area-weighted v850 mean over 20-30N,100-135E."
+V_high_minus_low_35_55_minus_20_30,V,new_v1_1,v850_smoothed,V_highlat_35_55_mean - V_lowlat_20_30_mean.
+V_lowlat_weakening_proxy_20_30,V,new_v1_1,v850_smoothed,Negative of V_lowlat_20_30_mean; larger means low-lat v850 weakening.
+P_main_28_35_mean,P,new_v1_1,precip_smoothed,"Area-weighted precipitation mean over 28-35N,100-125E."
+P_south_10_25_mean,P,new_v1_1,precip_smoothed,"Area-weighted precipitation mean over 10-25N,105-130E."
+P_scs_10_20_mean,P,new_v1_1,precip_smoothed,"Area-weighted precipitation mean over 10-20N,105-130E."
+P_highlat_40_60_mean,P,new_v1_1,precip_smoothed,"Area-weighted precipitation mean over 40-60N,100-135E."
+P_highlat_35_60_mean,P,new_v1_1,precip_smoothed,"Area-weighted precipitation mean over 35-60N,100-135E."
+P_highlat_minus_main,P,new_v1_1,precip_smoothed,P_highlat_40_60_mean - P_main_28_35_mean.
+P_south_minus_main,P,new_v1_1,precip_smoothed,P_south_10_25_mean - P_main_28_35_mean.
+P_south_plus_highlat_minus_main,P,new_v1_1,precip_smoothed,P_south_10_25_mean + P_highlat_40_60_mean - P_main_28_35_mean.

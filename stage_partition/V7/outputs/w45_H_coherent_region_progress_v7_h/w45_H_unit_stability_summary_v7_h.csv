@@ -1,0 +1,5 @@
+﻿unit_type,n_units,median_q90_width,mean_q90_width,n_unstable_units,n_valid_units
+whole_field_H,1,14.0,14.0,0,1
+single_lat_feature,11,14.0,15.181818181818182,10,1
+local_3_lat_band,9,14.0,14.222222222222221,7,2
+coherent_region,3,17.0,16.0,3,0

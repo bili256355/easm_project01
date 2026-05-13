@@ -1,0 +1,6 @@
+﻿field,n_days,n_features,feature_metadata_status,feature_axis_type,feature_coordinate_min,feature_coordinate_max,state_nan_fraction,state_builder_source,smoothed_fields_path,state_rebuild_status
+P,183,13,available,feature_index,0.0,12.0,0.04371584699453552,stage_partition_v7.field_state,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,success
+V,183,11,available,feature_index,0.0,10.0,0.04371584699453552,stage_partition_v7.field_state,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,success
+H,183,11,available,feature_index,0.0,10.0,0.04371584699453552,stage_partition_v7.field_state,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,success
+Je,183,11,available,feature_index,0.0,10.0,0.04371584699453552,stage_partition_v7.field_state,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,success
+Jw,183,11,available,feature_index,0.0,10.0,0.04371584699453552,stage_partition_v7.field_state,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,success

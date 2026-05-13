@@ -1,0 +1,12 @@
+﻿variant_id,window,n_lagged_tests,n_lagged_graph_selected,n_lagged_raw_p05,n_lagged_supported_window_fdr,n_lagged_supported_family_fdr,n_tau0_tests,n_tau0_graph_selected,n_tau0_supported
+c1_targeted_no_same_family_controls,S3,105,8,8,4,4,21,12,11
+c1_targeted_no_same_family_controls,T3,105,0,0,0,0,21,7,5
+c2_family_representative_standard,S1,480,11,11,2,4,96,24,18
+c2_family_representative_standard,S2,480,6,6,3,4,96,26,26
+c2_family_representative_standard,S3,480,6,6,2,4,96,22,16
+c2_family_representative_standard,S4,480,5,5,1,1,96,28,20
+c2_family_representative_standard,S5,480,1,1,0,0,96,36,30
+c2_family_representative_standard,T1,480,5,5,1,4,96,16,6
+c2_family_representative_standard,T2,480,3,3,0,1,96,20,10
+c2_family_representative_standard,T3,480,2,2,0,0,96,12,0
+c2_family_representative_standard,T4,480,0,0,0,0,96,14,6

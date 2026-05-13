@@ -1,0 +1,79 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V6",
+  "run_scope": "baseline_detected_peaks_bootstrap_screening_only",
+  "candidate_scope": "all_baseline_detected_local_peaks",
+  "headline_metric": "bootstrap_local_peak_recurrence",
+  "bootstrap_n_resamples": 1000,
+  "bootstrap_strict_window_days": 2,
+  "bootstrap_match_window_days": 5,
+  "bootstrap_near_window_days": 8,
+  "year_support_mode": "auxiliary_only",
+  "year_support_is_auxiliary": true,
+  "yearwise_match_window_days": 5,
+  "window_judgement_included": false,
+  "competition_included": false,
+  "parameter_path_included": false,
+  "final_judgement_included": false,
+  "n_candidates": 8,
+  "n_candidates_bootstrap_summarized": 8,
+  "n_candidates_yearwise_summarized": 8,
+  "top_bootstrap_candidates": [
+    {
+      "candidate_id": "CP002",
+      "point_day": 45,
+      "is_formal_primary": true,
+      "bootstrap_match_fraction": 0.993,
+      "bootstrap_strict_fraction": 0.901
+    },
+    {
+      "candidate_id": "CP005",
+      "point_day": 113,
+      "is_formal_primary": true,
+      "bootstrap_match_fraction": 0.987,
+      "bootstrap_strict_fraction": 0.814
+    },
+    {
+      "candidate_id": "CP008",
+      "point_day": 160,
+      "is_formal_primary": true,
+      "bootstrap_match_fraction": 0.962,
+      "bootstrap_strict_fraction": 0.7
+    },
+    {
+      "candidate_id": "CP003",
+      "point_day": 81,
+      "is_formal_primary": true,
+      "bootstrap_match_fraction": 0.951,
+      "bootstrap_strict_fraction": 0.574
+    },
+    {
+      "candidate_id": "CP006",
+      "point_day": 132,
+      "is_formal_primary": false,
+      "bootstrap_match_fraction": 0.899,
+      "bootstrap_strict_fraction": 0.467
+    },
+    {
+      "candidate_id": "CP007",
+      "point_day": 135,
+      "is_formal_primary": true,
+      "bootstrap_match_fraction": 0.854,
+      "bootstrap_strict_fraction": 0.485
+    },
+    {
+      "candidate_id": "CP004",
+      "point_day": 96,
+      "is_formal_primary": false,
+      "bootstrap_match_fraction": 0.807,
+      "bootstrap_strict_fraction": 0.551
+    },
+    {
+      "candidate_id": "CP001",
+      "point_day": 18,
+      "is_formal_primary": false,
+      "bootstrap_match_fraction": 0.745,
+      "bootstrap_strict_fraction": 0.582
+    }
+  ]
+}

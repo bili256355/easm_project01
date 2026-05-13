@@ -1,0 +1,3 @@
+﻿pc_name,input_indices
+old_V_index_PC1,V_strength;V_pos_centroid_lat;V_NS_diff
+old_P_index_PC1,P_main_band_share;P_south_band_share_18_24;P_main_minus_south;P_spread_lat;P_north_band_share_35_45;P_north_minus_main_35_45;P_total_centroid_lat_10_50

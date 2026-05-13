@@ -1,0 +1,13 @@
+﻿candidate_id,peak_day,peak_score,peak_prominence_vs_median,peak_rank,is_in_early_candidate_range,is_in_early_core_range,is_in_late_main_range,relation_to_day33,relation_to_day46,detector_scope,support_class_observed
+CP001,29,3.3708842579243115,1.336344355994484,1,True,True,False,near_day33,other,full_day0_70,observed_main
+CP002,18,3.158206351220613,1.1236664492907855,2,False,False,False,other,other,full_day0_70,observed_secondary
+CP003,66,2.4726530824123234,0.43811318048249603,3,False,False,False,other,other,full_day0_70,observed_secondary
+CP004,70,2.374985602622056,0.34044570069222857,4,False,False,False,other,other,full_day0_70,observed_secondary
+CP005,45,2.0428691323930868,0.008329230463259396,5,False,False,True,other,near_day46,full_day0_70,observed_secondary
+CP006,52,1.7667945429719358,-0.26774535895789153,6,False,False,True,other,other,full_day0_70,observed_secondary
+CP001,29,3.3708842579243115,0.8619277357470576,1,True,True,False,near_day33,other,early_only_day0_40,observed_main
+CP002,18,3.158206351220613,0.649249829043359,2,False,False,False,other,other,early_only_day0_40,observed_secondary
+CP003,5,0.8886470150870848,-1.6203095070901692,3,False,False,False,other,other,early_only_day0_40,observed_secondary
+CP001,29,3.3708842579243115,0.8155207946037875,1,True,True,False,near_day33,other,late_excluded_day0_39,observed_main
+CP002,18,3.158206351220613,0.6028428879000889,2,False,False,False,other,other,late_excluded_day0_39,observed_secondary
+CP003,5,0.8886470150870848,-1.6667164482334393,3,False,False,False,other,other,late_excluded_day0_39,observed_secondary

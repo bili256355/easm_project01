@@ -1,0 +1,13 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+P_only,P,SMOOTH5_DET_WIDTH_16,W001,CP001,17,True,0.999,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W002,CP002,32,True,0.897,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W003,CP003,45,True,0.989,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W004,CP004,55,True,0.746,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W005,CP005,66,True,0.955,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W006,CP007,83,True,0.942,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W006,CP006,78,False,0.923,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W007,CP008,97,True,0.932,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W008,CP009,113,True,0.966,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W009,CP010,126,True,0.944,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W010,CP011,139,True,0.976,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run
+P_only,P,SMOOTH5_DET_WIDTH_16,W011,CP012,156,True,0.976,smooth5_detector_width,detector_width,16,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,run

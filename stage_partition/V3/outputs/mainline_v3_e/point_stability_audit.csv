@@ -1,0 +1,7 @@
+point_id,bootstrap_presence_fraction,param_presence_fraction,yearwise_near_fraction,yearwise_strict_fraction,median_yearwise_peak_score,stability_warning
+RP001,0.9,1.0,0.2222222222222222,0.24444444444444444,20.426665986453862,yearwise_near_below_floor
+RP002,0.59,1.0,0.13333333333333333,0.26666666666666666,26.900038870807165,bootstrap_below_stability_floor;yearwise_near_below_floor
+RP003,0.85,1.0,0.2,0.3333333333333333,26.742829388872,yearwise_near_below_floor
+LP006,0.48,0.8,0.24444444444444444,0.4222222222222222,25.426588962877148,bootstrap_below_stability_floor;yearwise_near_below_floor
+RP004,0.52,1.0,0.2222222222222222,0.35555555555555557,25.65321765310044,bootstrap_below_stability_floor;yearwise_near_below_floor
+RP005,0.69,1.0,0.26666666666666666,0.4222222222222222,26.302294844216263,yearwise_near_below_floor

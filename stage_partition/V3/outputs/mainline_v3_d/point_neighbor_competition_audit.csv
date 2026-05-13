@@ -1,0 +1,7 @@
+point_id,neighbor_point_id,neighbor_point_day,score_ratio_vs_neighbor,bootstrap_win_fraction,yearwise_win_fraction,competition_outcome
+RP001,,,,,,no_neighbor
+RP002,,,,,,no_neighbor
+RP003,,,,,,no_neighbor
+LP006,RP004,135.0,0.9966929737518524,0.93,0.9333333333333333,neighbor_competition_winner
+RP004,LP006,132.0,1.0033179989577923,0.89,0.9777777777777777,neighbor_competition_winner
+RP005,,,,,,no_neighbor

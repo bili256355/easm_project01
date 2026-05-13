@@ -1,0 +1,13 @@
+{
+  "candidate_count": 11,
+  "candidate_source_counts": {
+    "base": 7,
+    "edge": 4
+  },
+  "general_status_counts": {
+    "general_fail": 11
+  },
+  "failure_mode_counts": {
+    "single_block_dominant": 11
+  }
+}

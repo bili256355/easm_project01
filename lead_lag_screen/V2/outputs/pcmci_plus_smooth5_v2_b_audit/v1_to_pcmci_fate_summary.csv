@@ -1,0 +1,7 @@
+﻿v1_to_pcmci_fate,n_pairs
+V1_yes_and_PCMCI_lagged_supported,5
+V1_yes_graph_raw_p05_lost_by_fdr,8
+V1_yes_no_PCMCI_lagged_or_tau0_signal,203
+V1_yes_only_tau0_graph_selected_in_PCMCI,11
+V1_yes_only_tau0_supported_in_PCMCI,21
+not_v1_lead_lag_yes,2524

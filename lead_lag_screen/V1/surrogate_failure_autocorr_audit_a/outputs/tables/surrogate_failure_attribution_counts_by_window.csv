@@ -1,0 +1,10 @@
+﻿window,both_observed_weak_and_null_high,does_not_exceed_ar1_null_threshold,null_threshold_high,observed_moderate_but_null_high,observed_weak,uncertain_or_existing_v1_pq_failure,n_positive_lag_not_supported
+S1,0,42,0,0,80,1,123
+S2,0,52,2,0,78,0,132
+S3,5,84,11,1,77,2,180
+S4,0,82,0,0,104,0,186
+S5,10,95,16,14,71,1,207
+T1,6,69,27,34,37,0,173
+T2,21,46,35,32,54,0,188
+T3,13,61,33,49,49,6,211
+T4,16,70,31,43,54,0,214

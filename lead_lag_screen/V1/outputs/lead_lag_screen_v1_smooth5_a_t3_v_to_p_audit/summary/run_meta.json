@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "input_tag": "lead_lag_screen_v1_smooth5_a",
+    "stability_tag": "lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b",
+    "output_tag": "lead_lag_screen_v1_smooth5_a_t3_v_to_p_audit",
+    "focus_window": "T3",
+    "comparison_windows": [
+      "S1",
+      "T1",
+      "S2",
+      "T2",
+      "S3",
+      "T3",
+      "S4",
+      "T4",
+      "S5"
+    ],
+    "include_index_validity_context": true
+  },
+  "required_inputs": [
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables\\lead_lag_pair_summary_stability_judged.csv",
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_null_summary.csv",
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_audit_surrogate_null_summary.csv",
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_pair_summary.csv",
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_curve_long.csv"
+  ],
+  "optional_inputs": [
+    "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a\\lead_lag_surrogate_ar1_params.csv",
+    "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\tables\\index_window_representativeness.csv",
+    "D:\\easm_project01\\index_validity\\V1_b_window_family_guardrail\\outputs\\window_family_guardrail_v1_b_smoothed_a\\tables\\window_family_joint_field_coverage.csv"
+  ]
+}

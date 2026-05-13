@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-21T11:08:24.401131Z",
+  "ended_at_utc": "2026-04-21T11:08:51.404421Z",
+  "layer_name": "stage_partition",
+  "version_name": "V2",
+  "foundation_dependency": "V1",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "Ruptures.Window is the only active main detector in this run.",
+    "Primary windows are built by a window-native construction layer from breakpoint-supported profile bands.",
+    "peak_width=0 is treated as a peak-shape audit signal, not as the primary determinant of window width.",
+    "Multiple nearby primary points can be consolidated into a single transition window.",
+    "Empty-slice warnings are converted into explicit missing-slice and invalid-sample audits."
+  ]
+}

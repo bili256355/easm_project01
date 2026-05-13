@@ -1,0 +1,11 @@
+﻿field_a,field_b,median_delta_onset_b_minus_a,mean_delta_onset_b_minus_a,q05_delta_onset,q95_delta_onset,q025_delta_onset,q975_delta_onset,prob_delta_onset_gt_0,prob_delta_onset_lt_0,prob_delta_onset_eq_0,n_bootstrap_valid,pass_90,pass_95,early_field_candidate,late_field_candidate,onset_order_label,onset_order_interpretation
+P,V,1.0,1.271,-1.0,4.0,-1.0249999999999986,4.024999999999977,0.695,0.087,0.218,1000,False,False,P,V,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+P,H,-3.0,-3.195,-7.0,1.0,-8.0,2.0,0.055,0.907,0.038,1000,False,False,H,P,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+P,Je,4.0,3.61,0.9500000000000028,7.0,0.0,7.0,0.95,0.022,0.028,1000,True,False,P,Je,confirmed_onset_order_90,This is onset timing only; do not interpret as full transition order or causality.
+P,Jw,-1.0,-0.618,-4.0,4.0,-5.0,5.0,0.262,0.586,0.152,1000,False,False,Jw,P,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+V,H,-5.0,-4.466,-8.0,0.0,-8.0,1.0249999999999773,0.038,0.945,0.017,1000,False,False,H,V,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+V,Je,2.0,2.339,-1.0,6.0,-2.0,6.0,0.807,0.082,0.111,1000,False,False,V,Je,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+V,Jw,-2.0,-1.889,-6.0,2.0,-7.0,3.0249999999999773,0.161,0.732,0.107,1000,False,False,Jw,V,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+H,Je,7.0,6.805,3.0,10.0,2.0,10.0,0.987,0.01,0.003,1000,True,True,H,Je,confirmed_onset_order_95,This is onset timing only; do not interpret as full transition order or causality.
+H,Jw,2.0,2.577,0.0,6.0,-1.0,7.024999999999977,0.91,0.033,0.057,1000,False,False,H,Jw,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.
+Je,Jw,-5.0,-4.228,-8.0,1.0,-8.0,2.0,0.052,0.905,0.043,1000,False,False,Jw,Je,onset_direction_tendency,This is onset timing only; do not interpret as full transition order or causality.

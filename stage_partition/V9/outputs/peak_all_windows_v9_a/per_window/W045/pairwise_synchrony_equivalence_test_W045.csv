@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,tau_sync_primary,tau_sync_q50,tau_sync_q75,tau_sync_q90,delta_observed,delta_median,delta_q025,delta_q975,P_within_tau_q50,P_within_tau_q75,P_within_tau_q90,synchrony_decision,tau_quality_flag
+W045,P,V,3.0,1.0,3.0,6.0,0.0,1.0,-3.0,6.0,0.567,0.862,0.984,synchrony_tendency,normal
+W045,P,H,3.0,1.0,3.0,6.0,-10.0,-8.0,-14.0,12.0,0.081,0.178,0.281,synchrony_indeterminate,normal
+W045,P,Je,3.0,1.0,3.0,6.0,1.0,2.0,-2.0,8.0,0.404,0.74,0.935,synchrony_indeterminate,normal
+W045,P,Jw,3.0,1.0,3.0,6.0,-4.0,-1.5,-7.0,8.0,0.232,0.538,0.899,synchrony_indeterminate,normal
+W045,V,H,3.0,1.0,3.0,6.0,-10.0,-9.0,-15.0,11.0,0.103,0.173,0.263,synchrony_indeterminate,normal
+W045,V,Je,3.0,1.0,3.0,6.0,1.0,1.0,-5.0,6.0,0.459,0.82,0.969,synchrony_tendency,normal
+W045,V,Jw,3.0,1.0,3.0,6.0,-4.0,-2.0,-9.0,5.0,0.205,0.501,0.893,synchrony_indeterminate,normal
+W045,H,Je,3.0,1.0,3.0,6.0,11.0,10.0,-9.024999999999999,16.0,0.115,0.178,0.249,synchrony_indeterminate,normal
+W045,H,Jw,3.0,1.0,3.0,6.0,6.0,6.0,-12.0,16.0,0.051,0.153,0.413,synchrony_indeterminate,normal
+W045,Je,Jw,3.0,1.0,3.0,6.0,-5.0,-4.0,-10.0,5.0,0.179,0.399,0.788,synchrony_indeterminate,normal

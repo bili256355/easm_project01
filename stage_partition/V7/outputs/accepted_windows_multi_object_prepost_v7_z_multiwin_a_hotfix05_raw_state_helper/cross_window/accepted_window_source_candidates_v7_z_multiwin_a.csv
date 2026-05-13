@@ -1,0 +1,5 @@
+﻿candidate_path,read_status,has_anchor_day,has_start_end,has_support,has_status,n_rows,n_accepted_like_rows,selection_status,selection_reason,window_id,anchor_day,system_window_start,system_window_end
+hardcoded_current_V7_significant_windows,not_applicable_hardcoded,True,True,True,True,4,4,selected,default hardcoded windows; no accepted_windows registry required,W045,45,40,48
+hardcoded_current_V7_significant_windows,not_applicable_hardcoded,True,True,True,True,4,4,selected,default hardcoded windows; no accepted_windows registry required,W081,81,75,87
+hardcoded_current_V7_significant_windows,not_applicable_hardcoded,True,True,True,True,4,4,selected,default hardcoded windows; no accepted_windows registry required,W113,113,108,118
+hardcoded_current_V7_significant_windows,not_applicable_hardcoded,True,True,True,True,4,4,selected,default hardcoded windows; no accepted_windows registry required,W160,160,155,165

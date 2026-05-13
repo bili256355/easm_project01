@@ -1,0 +1,8 @@
+﻿canonical_pair,directional_pairs_seen,windows_present,n_windows,n_results,n_pair_specific_reversal,n_common_mode_reversal,n_one_sided_locking,n_continuous_gradient,n_pair_specific_status,n_common_mode_status,recurrent_pair_flag,evidence_levels_by_window
+Jw-V,Jw-V;V-Jw,W045;W081;W113;W160,4,4,0,3,1,0,3,1,True,W045:robust_common_mode_reversal; W081:robust_common_mode_reversal; W113:robust_one_sided_locking; W160:robust_common_mode_reversal
+H-Jw,H-Jw;Jw-H,W081;W113;W160,3,3,1,0,1,1,3,0,True,W081:robust_pair_specific_reversal; W113:robust_one_sided_locking; W160:robust_continuous_gradient
+P-V,P-V,W081;W113;W160,3,3,0,3,0,0,1,2,True,W081:robust_common_mode_reversal; W113:robust_common_mode_reversal; W160:robust_common_mode_reversal
+Je-V,V-Je,W113;W160,2,2,2,0,0,0,2,0,True,W113:robust_pair_specific_reversal; W160:robust_pair_specific_reversal
+H-Je,H-Je,W113,1,1,0,0,1,0,1,0,False,W113:robust_one_sided_locking
+Je-Jw,Je-Jw,W045,1,1,0,1,0,0,0,1,False,W045:robust_common_mode_reversal
+Jw-P,P-Jw,W045,1,1,1,0,0,0,1,0,False,W045:robust_pair_specific_reversal

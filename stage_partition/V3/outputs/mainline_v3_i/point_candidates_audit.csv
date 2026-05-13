@@ -1,0 +1,7 @@
+point_id,point_day,point_role,related_window_id,observed_peak_score,observed_peak_prominence,matched_observed_peak_day,matched_observed_peak_rank
+RP001,45,formal_primary_point,W001,5.878578493131532,3.6472619692422086,45,5
+RP002,81,formal_primary_point,W002,9.238311473412097,4.2285212740596405,81,2
+RP003,113,formal_primary_point,W003,9.678099825113602,7.556092339736476,113,1
+LP006,132,neighbor_local_peak,W004,3.7541518352022365,0.00977477683365846,132,7
+RP004,135,formal_primary_point,W004,3.7666081070788318,1.4709574724059107,135,6
+RP005,160,formal_primary_point,W005,7.120567750300529,2.684733245250058,160,3

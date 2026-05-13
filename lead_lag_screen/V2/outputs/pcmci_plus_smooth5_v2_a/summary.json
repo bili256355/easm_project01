@@ -1,0 +1,18 @@
+{
+  "layer": "lead_lag_screen/V2",
+  "output_tag": "pcmci_plus_smooth5_v2_a",
+  "method": "PCMCI+ with ParCorr",
+  "input": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_smooth5_a\\indices\\index_anomalies.csv",
+  "n_windows": 9,
+  "n_years": 45,
+  "n_variables": 20,
+  "n_reported_directed_pairs": 308,
+  "n_lagged_candidate_tests": 13860,
+  "n_lagged_graph_selected": 48,
+  "n_lagged_pcmci_plus_supported": 10,
+  "n_tau0_candidate_tests": 2772,
+  "n_tau0_supported": 88,
+  "support_rule": "lagged main output: graph_selected and within-window BH q <= fdr_alpha",
+  "not_pathway_result": true,
+  "finished_at": "2026-04-27T22:30:42"
+}

@@ -1,0 +1,6 @@
+window_id,n_total_samples,n_valid_samples,n_invalid_samples,invalid_ratio,sample_scope,n_bootstrap_requested,n_bootstrap_effective,support_score,support_score_source,legacy_bootstrap_match_fraction,strict_bootstrap_match_fraction,legacy_param_path_hit_fraction,param_path_hits,param_path_trials,param_path_hit_fraction,permutation_empirical_pvalue_global,support_status,support_reliability_flag,support_warning
+W001,100,100,0,0.0,bootstrap_rep_validity,100,100,0.67,strict_bootstrap_match_fraction,0.93,0.67,1.0,12,20,0.6,1.0,resolved_window_level,high,strict_support_below_legacy
+W002,100,100,0,0.0,bootstrap_rep_validity,100,100,0.75,strict_bootstrap_match_fraction,0.83,0.75,1.0,20,20,1.0,1.0,resolved_window_level,high,strict_support_below_legacy
+W003,100,100,0,0.0,bootstrap_rep_validity,100,100,0.87,strict_bootstrap_match_fraction,0.94,0.87,1.0,20,20,1.0,1.0,resolved_window_level,high,strict_support_below_legacy
+W004,100,100,0,0.0,bootstrap_rep_validity,100,100,0.08,strict_bootstrap_match_fraction,0.5,0.08,0.6,8,20,0.4,1.0,resolved_window_level,limited,strict_support_below_legacy;strict_support_below_retention_floor
+W005,100,100,0,0.0,bootstrap_rep_validity,100,100,0.75,strict_bootstrap_match_fraction,0.89,0.75,1.0,20,20,1.0,1.0,resolved_window_level,high,strict_support_below_legacy

@@ -1,0 +1,6 @@
+object_name,field_role,lon_min,lon_max,lat_min,lat_max,n_years,n_days,n_lat,n_lon,basis
+P,precip,105,125,15,39,45,183,97,81,2d_field
+V,v850,105,125,10,30,45,183,81,81,2d_field
+H,z500,110,140,15,35,45,183,81,121,2d_field
+Je,u200,120,150,25,45,45,183,81,121,2d_field
+Jw,u200,80,110,25,45,45,183,81,121,2d_field

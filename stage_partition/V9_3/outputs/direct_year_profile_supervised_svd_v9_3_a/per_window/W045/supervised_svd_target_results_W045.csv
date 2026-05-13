@@ -1,0 +1,11 @@
+﻿window_id,target_pair,target_set,n_valid_years,corr_score_y,dominant_object,dominant_object_loading_fraction,dominant_time_half
+W045,P-V,exploratory_full_pair,45,0.6455426868387355,H,0.37407697311536886,balanced_or_full_window
+W045,P-H,exploratory_full_pair,45,0.7578917679909061,P,0.2621391013165083,late_half
+W045,P-Je,exploratory_full_pair,45,0.7088946437056657,V,0.25524674997121216,late_half
+W045,P-Jw,priority,45,0.7563005741408005,V,0.2574612386460618,early_half
+W045,V-H,exploratory_full_pair,45,0.6724888550183449,P,0.3210444253128249,early_half
+W045,V-Je,exploratory_full_pair,45,0.7059924612385593,H,0.30985130950452033,late_half
+W045,V-Jw,priority,45,0.776180910811815,V,0.25125102788788645,early_half
+W045,H-Je,exploratory_full_pair,45,0.7295230993620169,H,0.25597641194695964,balanced_or_full_window
+W045,H-Jw,exploratory_full_pair,45,0.7342247431199946,V,0.2611228983250532,late_half
+W045,Je-Jw,priority,45,0.7169571015715516,V,0.3102954266577693,balanced_or_full_window

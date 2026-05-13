@@ -1,0 +1,6 @@
+﻿input_name,path,exists,status
+smoothed_fields,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,True,ok
+v7z_result_dir,D:\easm_project01\stage_partition\V7\outputs\W45_multi_object_prepost_stat_validation_v7_z,True,ok
+je_audit_a_dir,D:\easm_project01\stage_partition\V7\outputs\W45_Je_layer_split_audit_v7_z_a,True,ok
+je_audit_a_decision,D:\easm_project01\stage_partition\V7\outputs\W45_Je_layer_split_audit_v7_z_a\Je_layer_split_audit_decision_v7_z_a.csv,True,ok
+je_audit_a_norm,D:\easm_project01\stage_partition\V7\outputs\W45_Je_layer_split_audit_v7_z_a\Je_shape_normalization_norm_audit_v7_z_a.csv,True,ok

@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "created_at": "2026-05-02T16:01:12",
+  "output_tag": "w45_H_latband_progress_v7_g",
+  "window_id": "W002",
+  "anchor_day": 45,
+  "field": "H",
+  "band_size": 3,
+  "band_step": 1,
+  "notes": [
+    "W45 H local latitude-band progress diagnostic only.",
+    "This run changes only the subfield unit from single-lat feature to sliding local latitude band.",
+    "It does not alter V7-e whole-field progress, V7-e1 tests, or V7-e2 failure audit outputs.",
+    "No causal/pathway interpretation is made."
+  ],
+  "finished_at": "2026-05-02T16:01:58",
+  "n_h_features": 11,
+  "n_latbands": 9,
+  "n_bootstrap": 1000,
+  "output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\w45_H_latband_progress_v7_g",
+  "log_dir": "D:\\easm_project01\\stage_partition\\V7\\logs\\w45_H_latband_progress_v7_g",
+  "core_outputs": [
+    "w45_H_latband_progress_observed_v7_g.csv",
+    "w45_H_latband_progress_curves_long_v7_g.csv",
+    "w45_H_latband_progress_bootstrap_samples_v7_g.csv",
+    "w45_H_latband_progress_bootstrap_summary_v7_g.csv",
+    "w45_H_latband_timing_spread_v7_g.csv",
+    "w45_H_whole_feature_latband_comparison_v7_g.csv",
+    "w45_H_latband_upstream_implication_v7_g.csv",
+    "w45_H_latband_next_step_decision_v7_g.csv",
+    "w45_H_latband_progress_summary_v7_g.md"
+  ]
+}

@@ -1,0 +1,8 @@
+﻿check_item,result,decision,evidence,risk
+day26_or_day33_raw_before_after_support,supported,early_raw_change_supported,day26 raw_l2=supported_positive_change; day33 raw_l2=supported_positive_change,raw_l2 is directionless; compare with feature/detector checks
+day46_raw_main_support,supported,late_raw_main_supported,day46 raw_l2=supported_positive_change,none_for_raw_l2_directionless_change
+raw_feature_early_support,6,feature_early_support_present,number of direct raw features with peak in day26-33,feature peaks are descriptive unless bootstrap-supported separately
+early_window_detector_support,True,early_detector_reproduced,early-only / late-excluded raw detector bootstrap,"detector is local raw contrast, not the full V7-z detector"
+peak_vs_ramp_structure,weak_peak_like,weak_peak_like,cumulative raw change + detector/feature peak audit,"classification is diagnostic, not a physical mechanism"
+previous_normalization_risk,True,previous_audit_flagged_normalization_sensitivity,V7-z-je-audit-a decision table,only available if audit-a outputs are present
+final_Je_day26_33_status,raw_supported_weak_early_peak,raw_supported_weak_early_peak,combined raw before-after + feature + detector + ramp + audit-a sensitivity,does not alter V7-z final claims automatically

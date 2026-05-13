@@ -1,0 +1,10 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W001,CP001,15,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W002,CP002,30,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W003,CP003,45,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W004,CP005,78,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W004,CP004,67,False,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W005,CP006,96,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W006,CP007,113,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W007,CP008,136,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode
+V_only,V,SMOOTH5_BAND_MAX_HW_8,W008,CP009,160,True,,smooth5_candidate_band,band_max_half_width,8,smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,not_run_by_mode

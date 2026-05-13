@@ -1,0 +1,9 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+joint_all,joint_all,PROTECT_THR_090,W001,CP001,18,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W002,CP002,45,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W003,CP003,81,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W004,CP004,96,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W005,CP005,113,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W006,CP007,135,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W006,CP006,132,False,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode
+joint_all,joint_all,PROTECT_THR_090,W007,CP008,160,True,,window_merge,significant_peak_threshold,0.90,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,not_run_by_mode

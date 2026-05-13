@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "started_at_utc": "2026-04-21T13:45:58.883886Z",
+  "ended_at_utc": "2026-04-21T13:46:23.120497Z",
+  "layer_name": "stage_partition",
+  "version_name": "V3",
+  "foundation_dependency": "V1",
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "notes": [
+    "V3 mainline uses raw smoothed field profiles and valid-day trimming.",
+    "Ruptures.Window is the only active detector in V3 phase-1.",
+    "stage_partition_main_windows.csv is the only formal downstream window-object table.",
+    "V3 support and retention audits are generated at the window-object level, not from legacy V2 peak tables."
+  ]
+}

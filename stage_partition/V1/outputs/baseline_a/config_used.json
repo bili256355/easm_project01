@@ -1,0 +1,94 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V1",
+  "foundation_root": "D:\\easm_project01\\foundation\\V1",
+  "paths": {
+    "project_root": "D:\\easm_project01\\stage_partition\\V1",
+    "outputs_root": "D:\\easm_project01\\stage_partition\\V1\\outputs\\baseline_a",
+    "logs_root": "D:\\easm_project01\\stage_partition\\V1\\logs\\baseline_a\\mainline"
+  },
+  "profiles": {
+    "lat_step_deg": 2.0,
+    "interp_method": "linear",
+    "nan_fraction_warn_threshold": 0.2,
+    "profile_specs": {
+      "P": {
+        "lon_range": [
+          105.0,
+          125.0
+        ],
+        "lat_grid": [
+          15.0,
+          39.0
+        ]
+      },
+      "V": {
+        "lon_range": [
+          105.0,
+          125.0
+        ],
+        "lat_grid": [
+          10.0,
+          30.0
+        ]
+      },
+      "H": {
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "lat_grid": [
+          15.0,
+          35.0
+        ]
+      },
+      "Je": {
+        "lon_range": [
+          120.0,
+          150.0
+        ],
+        "lat_grid": [
+          25.0,
+          45.0
+        ]
+      },
+      "Jw": {
+        "lon_range": [
+          80.0,
+          110.0
+        ],
+        "lat_grid": [
+          25.0,
+          45.0
+        ]
+      }
+    }
+  },
+  "state_vector": {
+    "standardize": true,
+    "block_equal_weight": true,
+    "standardize_eps": 1e-06
+  },
+  "score": {
+    "half_window": 5,
+    "smooth_window": 3,
+    "local_scale_eps": 1e-06
+  },
+  "candidate": {
+    "base_quantile": 0.75,
+    "edge_quantile": 0.68,
+    "min_width_days": 3,
+    "merge_gap_days": 2
+  },
+  "tests": {
+    "struct_test_reps": 500,
+    "continuity_min_score": 0.55,
+    "occurrence_min": 0.4,
+    "dominance_drop_ratio_threshold": 0.35,
+    "yearwise_peak_quantile": 0.75
+  },
+  "output": {
+    "save_figures": true,
+    "save_debug_tables": true
+  }
+}

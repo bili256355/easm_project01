@@ -1,0 +1,6 @@
+﻿object,field_role,lon_min,lon_max,lat_min,lat_max,n_lat_original,n_lon_original,n_cells_coarsened,spatial_res_deg
+P,precip,105.0,125.0,15.0,39.0,97,81,143,2.0
+V,v850,105.0,125.0,10.0,30.0,81,81,121,2.0
+H,z500,110.0,140.0,15.0,35.0,81,121,176,2.0
+Je,u200,120.0,150.0,25.0,45.0,81,121,176,2.0
+Jw,u200,80.0,110.0,25.0,45.0,81,121,176,2.0

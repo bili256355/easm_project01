@@ -1,0 +1,131 @@
+{
+  "foundation": {
+    "project_root": "D:\\easm_project01",
+    "foundation_layer": "foundation",
+    "foundation_version": "V1",
+    "preprocess_output_tag": "baseline_a"
+  },
+  "profile": {
+    "lat_step_deg": 2.0,
+    "p_lon_range": [
+      105.0,
+      125.0
+    ],
+    "p_lat_range": [
+      15.0,
+      39.0
+    ],
+    "v_lon_range": [
+      105.0,
+      125.0
+    ],
+    "v_lat_range": [
+      10.0,
+      30.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "je_lon_range": [
+      120.0,
+      150.0
+    ],
+    "je_lat_range": [
+      25.0,
+      45.0
+    ],
+    "jw_lon_range": [
+      80.0,
+      110.0
+    ],
+    "jw_lat_range": [
+      25.0,
+      45.0
+    ]
+  },
+  "state": {
+    "standardize": true,
+    "block_equal_contribution": true,
+    "trim_invalid_days": true
+  },
+  "detector": {
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "fixed_n_bkps": null,
+    "pen": 4.0,
+    "epsilon": null,
+    "local_peak_min_distance_days": 3,
+    "nearest_peak_search_radius_days": 10
+  },
+  "matching": {
+    "strict_match_radius_days": 2,
+    "match_radius_days": 4,
+    "near_radius_days": 8,
+    "ambiguous_score_tie_tol": 1e-08,
+    "ambiguous_day_tie_tol": 0
+  },
+  "competition": {
+    "neighbor_radius_days": 5,
+    "score_tie_tolerance": 0.03,
+    "bootstrap_tie_tolerance": 0.1,
+    "yearwise_tie_tolerance": 0.1,
+    "require_support_for_non_tie": true
+  },
+  "point_audit_universe": {
+    "enabled": true,
+    "radius_days": 4,
+    "weak_peak_min_prominence": 0.0,
+    "dedup_same_day_candidates": true
+  },
+  "bootstrap": {
+    "n_bootstrap": 200,
+    "random_seed": 42,
+    "progress": true
+  },
+  "yearwise": {
+    "progress": true,
+    "strict_exact_equivalent": true,
+    "exact_hit_max_abs_offset_days": 2
+  },
+  "parameter_path": {
+    "progress": true,
+    "bandwidth_values": [
+      18,
+      20,
+      22
+    ],
+    "pen_values": [
+      3.5,
+      4.0,
+      4.5
+    ]
+  },
+  "btrack_judgement": {
+    "formal_robust_match_rate_min": 0.95,
+    "formal_supported_match_rate_min": 0.85,
+    "formal_caution_match_rate_min": 0.75,
+    "formal_robust_ambiguous_rate_max": 0.1,
+    "formal_supported_ambiguous_rate_max": 0.2,
+    "formal_robust_offset_iqr_max": 3.0,
+    "formal_supported_offset_iqr_max": 6.0,
+    "formal_robust_yearwise_strict_min": 0.2,
+    "formal_supported_yearwise_total_support_min": 0.45,
+    "formal_caution_yearwise_total_support_min": 0.2,
+    "caution_path_presence_min": 0.8,
+    "neighbor_ambiguous_rate_min": 0.3,
+    "neighbor_weak_match_rate_max": 0.6,
+    "neighbor_high_tie_rate_min": 0.3
+  },
+  "output": {
+    "output_tag": "mainline_v4_b",
+    "write_plots": false
+  }
+}

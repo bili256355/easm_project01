@@ -1,0 +1,82 @@
+{
+  "version": "v9_1_f_bootstrap_composite_mca_audit",
+  "output_tag": "bootstrap_composite_mca_audit_v9_1_f",
+  "created_at": "2026-05-09 15:11:54",
+  "stage_root": "D:\\easm_project01\\stage_partition",
+  "windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "modifies_v9": false,
+  "reads_v9_outputs": true,
+  "requires_v9_1_c_helpers": true,
+  "uses_single_year_peak": false,
+  "bootstrap_samples_are_independent_physical_years": false,
+  "method_role": "bootstrap-space coupling diagnostic, not physical year-type identification",
+  "boundary_nan_handling": "drop all-NaN feature columns before standardization and SVD",
+  "partial_nan_handling": "column-mean imputation after all-NaN removal",
+  "zero_variance_handling": "drop zero-variance feature columns",
+  "object_block_equal_weight_after_mask": true,
+  "evidence_refinement_hotfix01": true,
+  "hotfix02_specificity_interpretability": {
+    "target_specificity_audit": true,
+    "cross_target_null": true,
+    "signflip_null": true,
+    "phase_composite_profiles": true,
+    "pattern_summary": true,
+    "evidence_v3": true
+  },
+  "config": {
+    "windows": [
+      "W045",
+      "W081",
+      "W113",
+      "W160"
+    ],
+    "objects": [
+      "P",
+      "V",
+      "H",
+      "Je",
+      "Jw"
+    ],
+    "bootstrap_n": 1000,
+    "debug_bootstrap_n": 100,
+    "perm_n": 500,
+    "debug_perm_n": 50,
+    "mode_stability_n": 300,
+    "debug_mode_stability_n": 50,
+    "perm_batch_size": 128,
+    "target_mode": "default",
+    "score_grouping": "tercile",
+    "evidence_usable": 0.9,
+    "evidence_credible": 0.95,
+    "evidence_strict": 0.99,
+    "mode_stability_good": 0.7,
+    "mode_stability_caution": 0.5,
+    "top1_extreme_fraction": 0.35,
+    "top3_extreme_fraction": 0.6,
+    "eps": 1e-12,
+    "quantile_schemes": [
+      "tercile",
+      "quartile",
+      "quintile",
+      "decile"
+    ],
+    "score_gradient_bins": 5,
+    "enable_cross_target_null": true,
+    "enable_signflip_null": true,
+    "enable_target_specificity": true,
+    "enable_phase_composite": true,
+    "enable_pattern_summary": true,
+    "signflip_n": 300,
+    "debug_signflip_n": 50,
+    "specificity_margin": 0.05,
+    "write_phase_composite_full": true,
+    "max_pattern_coefficients_per_target": 0,
+    "log_every_bootstrap": 50,
+    "debug": false
+  }
+}

@@ -1,0 +1,11 @@
+api_mode,bandwidth,threshold_scale,window_type,center_day,start_day,end_day
+legacy_api,9,,edge,45,28,50
+legacy_api,9,,edge,112,105,119
+legacy_api,9,,edge,158,150,175
+legacy_api,12,,edge,112,66,119
+legacy_api,12,,edge,159,149,175
+legacy_api,15,,edge,110,64,119
+legacy_api,15,,edge,161,148,174
+legacy_api,18,,edge,109,62,119
+legacy_api,18,,edge,161,146,173
+legacy_api,21,,edge,107,59,119

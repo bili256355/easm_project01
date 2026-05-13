@@ -1,0 +1,14 @@
+stage_partition/V5
+- scripts/run_stage_partition_v5.py: single entry for V5-a
+- src/stage_partition_v5/config.py: V5 contract + settings
+- src/stage_partition_v5/io.py: copied from V4, output/io helpers
+- src/stage_partition_v5/timeline.py: copied from V4
+- src/stage_partition_v5/safe_stats.py: copied from V4
+- src/stage_partition_v5/state_builder.py: copied from V4
+- src/stage_partition_v5/detector_ruptures_window.py: copied from V4 detector
+- src/stage_partition_v5/point_reference.py: reduced reference freezing only
+- src/stage_partition_v5/point_matching.py: new lightweight local-peak matching helper
+- src/stage_partition_v5/point_bootstrap_local_peak.py: new headline bootstrap metric
+- src/stage_partition_v5/point_yearwise_local_peak.py: new yearwise support helper
+- src/stage_partition_v5/report.py: simplified summary/meta
+- src/stage_partition_v5/pipeline.py: V5-a narrow pipeline

@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "audit": "transition_window_sensitivity_audit_a",
+  "n_pairs": 308,
+  "n_variants": 48,
+  "n_random_rows": 8,
+  "n_unique_windows_computed": 172,
+  "transition_original_counts": [
+    {
+      "base_transition": "T1",
+      "lead_lag_like": 48,
+      "strict_lag_like": 23,
+      "tau0_coupled_like": 25,
+      "median_null_p95": 0.3846899175507743,
+      "median_observed_minus_null": -0.1146022355391067
+    },
+    {
+      "base_transition": "T2",
+      "lead_lag_like": 40,
+      "strict_lag_like": 23,
+      "tau0_coupled_like": 17,
+      "median_null_p95": 0.36243869743645885,
+      "median_observed_minus_null": -0.12328589373253032
+    },
+    {
+      "base_transition": "T3",
+      "lead_lag_like": 35,
+      "strict_lag_like": 15,
+      "tau0_coupled_like": 20,
+      "median_null_p95": 0.3529394786130735,
+      "median_observed_minus_null": -0.13933149543923418
+    },
+    {
+      "base_transition": "T4",
+      "lead_lag_like": 21,
+      "strict_lag_like": 12,
+      "tau0_coupled_like": 9,
+      "median_null_p95": 0.35425984724009374,
+      "median_observed_minus_null": -0.15909498322548365
+    }
+  ],
+  "important_note": "This audit recomputes lightweight AR(1)-effective-n lead-lag diagnostics for window variants. It is intended for sensitivity comparison, not as a replacement for the V1 main surrogate/FDR results."
+}

@@ -1,0 +1,3 @@
+window_id,backend,window_type,start_day,end_day,center_day,native_support,peak_prominence,peak_width
+MWE01,movingwindow,edge,64,119,110,-269.7851706073892,20.037969183733594,54.718648303812
+MWE02,movingwindow,edge,148,174,161,-271.66767611191665,14.963202337734572,25.663869322230454

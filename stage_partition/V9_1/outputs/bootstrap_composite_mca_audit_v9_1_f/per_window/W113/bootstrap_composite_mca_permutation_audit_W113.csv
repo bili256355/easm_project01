@@ -1,0 +1,6 @@
+﻿window_id,target_name,permutation_percentile,permutation_empirical_p,permutation_level,observed_abs_corr
+W113,W113_V_vs_Je_delta_peak,1.0,0.0,strict_99,0.6835188060330579
+W113,W113_H_vs_Je_delta_peak,1.0,0.0,strict_99,0.6687713353032361
+W113,W113_P_vs_V_delta_peak,1.0,0.0,strict_99,0.6510453653922388
+W113,W113_Jw_vs_H_delta_peak,1.0,0.0,strict_99,0.5155881740062875
+W113,W113_Jw_vs_V_delta_peak,1.0,0.0,strict_99,0.5674206187582929

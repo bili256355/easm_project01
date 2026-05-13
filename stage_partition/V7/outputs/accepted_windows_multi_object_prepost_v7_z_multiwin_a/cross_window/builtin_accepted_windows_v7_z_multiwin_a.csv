@@ -1,0 +1,5 @@
+﻿window_id,anchor_day,system_window_start,system_window_end,bootstrap_support,accepted_status,source_file
+W045,45,40,48,0.95,builtin_strict_retained_95,BUILTIN_V7_Z_MULTIWIN_A
+W081,81,75,87,0.95,builtin_strict_retained_95,BUILTIN_V7_Z_MULTIWIN_A
+W113,113,108,118,0.95,builtin_strict_retained_95,BUILTIN_V7_Z_MULTIWIN_A
+W160,160,155,165,0.95,builtin_strict_retained_95,BUILTIN_V7_Z_MULTIWIN_A

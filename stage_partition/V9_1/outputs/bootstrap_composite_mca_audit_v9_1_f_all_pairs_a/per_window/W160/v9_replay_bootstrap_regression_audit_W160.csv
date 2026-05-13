@@ -1,0 +1,16 @@
+﻿window_id,table,object,status,max_day_summary_diff,n_v9,median_v9,q025_v9,q975_v9,n_replay,median_replay,q025_replay,q975_replay,object_A,object_B,max_probability_diff
+W160,object_bootstrap_distribution,H,pass,0.0,1000.0,155.0,148.0,165.0,1000.0,155.0,148.0,165.0,,,
+W160,object_bootstrap_distribution,Je,pass,0.0,1000.0,162.0,157.0,166.0,1000.0,162.0,157.0,166.0,,,
+W160,object_bootstrap_distribution,Jw,pass,0.0,998.0,155.0,142.0,167.0,998.0,155.0,142.0,167.0,,,
+W160,object_bootstrap_distribution,P,pass,0.0,1000.0,158.0,153.0,165.0,1000.0,158.0,153.0,165.0,,,
+W160,object_bootstrap_distribution,V,pass,0.0,999.0,161.0,148.0,166.0,999.0,161.0,148.0,166.0,,,
+W160,pairwise_peak_order,,pass,,,,,,,,,,H,Je,0.0
+W160,pairwise_peak_order,,pass,,,,,,,,,,H,Jw,4.85722573273506e-17
+W160,pairwise_peak_order,,pass,,,,,,,,,,Je,Jw,5.551115123125783e-17
+W160,pairwise_peak_order,,pass,,,,,,,,,,P,H,0.0
+W160,pairwise_peak_order,,pass,,,,,,,,,,P,Je,0.0
+W160,pairwise_peak_order,,pass,,,,,,,,,,P,Jw,3.469446951953614e-17
+W160,pairwise_peak_order,,pass,,,,,,,,,,P,V,5.551115123125783e-17
+W160,pairwise_peak_order,,pass,,,,,,,,,,V,H,2.7755575615628914e-17
+W160,pairwise_peak_order,,pass,,,,,,,,,,V,Je,5.551115123125783e-17
+W160,pairwise_peak_order,,pass,,,,,,,,,,V,Jw,9.367506770274758e-17

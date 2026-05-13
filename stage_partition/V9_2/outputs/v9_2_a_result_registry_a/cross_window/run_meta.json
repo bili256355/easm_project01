@@ -1,0 +1,21 @@
+{
+  "version": "v9_2_a_result_registry_a",
+  "created_at": "2026-05-10T18:05:54",
+  "source_output_dir": "D:\\easm_project01\\stage_partition\\V9_2\\outputs\\direct_year_2d_meof_peak_audit_v9_2_a",
+  "output_dir": "D:\\easm_project01\\stage_partition\\V9_2\\outputs\\v9_2_a_result_registry_a",
+  "source_output_tag": "direct_year_2d_meof_peak_audit_v9_2_a",
+  "output_tag": "v9_2_a_result_registry_a",
+  "shift_days_threshold": 3.0,
+  "strong_pair_change_threshold": 3,
+  "strong_peak_shift_threshold": 7.0,
+  "use_leave_one_year_as_evidence": false,
+  "physical_interpretation_included": false,
+  "does_not_rerun_meof_or_peak": true,
+  "n_window_mode_rows": 12,
+  "n_sequence_rows": 24,
+  "n_object_shift_rows": 60,
+  "n_order_change_rows": 120,
+  "n_detector_quality_rows": 120,
+  "group_peak_loo_input_rows": 0,
+  "note": "Read-only registry. Candidate timing patterns only; not final robust tiers and not physical interpretation."
+}

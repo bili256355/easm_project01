@@ -1,0 +1,2 @@
+pair_id,point_a_id,point_b_id,point_a_yearwise_dominant_rate,point_b_yearwise_dominant_rate,pair_yearwise_tie_rate,n_years_compared,pair_yearwise_method,pair_yearwise_requires_both_detected,pair_yearwise_is_conservative
+NP001,RP004,LP006,0.0,0.0,1.0,13,conservative_comparable_years_only,True,True

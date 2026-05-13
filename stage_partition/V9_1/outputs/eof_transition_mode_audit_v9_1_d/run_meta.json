@@ -1,0 +1,63 @@
+{
+  "version": "v9_1_d_eof_transition_mode_audit",
+  "output_tag": "eof_transition_mode_audit_v9_1_d",
+  "parent_version": "V9 peak_all_windows_v9_a",
+  "modifies_v9": false,
+  "reads_v9_outputs": true,
+  "uses_single_year_peak_for_eof_inputs": false,
+  "feature_basis": "whole-window multi-object year-anomaly profiles with object block equal weighting",
+  "windows": [
+    "W045",
+    "W081",
+    "W113",
+    "W160"
+  ],
+  "excluded_windows": [
+    {
+      "window_id": "W135",
+      "included_in_v9_1_d": false,
+      "reason": "excluded_by_V9_strict_accepted_window_set"
+    }
+  ],
+  "state_included": false,
+  "growth_included": false,
+  "process_a_included": false,
+  "config": {
+    "windows": [
+      "W045",
+      "W081",
+      "W113",
+      "W160"
+    ],
+    "objects": [
+      "P",
+      "V",
+      "H",
+      "Je",
+      "Jw"
+    ],
+    "n_modes_output": 4,
+    "n_modes_main": 3,
+    "min_group_size_for_peak": 10,
+    "group_bootstrap_n": 500,
+    "debug_group_bootstrap_n": 50,
+    "eof_stability_bootstrap_n": 300,
+    "debug_stability_bootstrap_n": 50,
+    "evidence_usable": 0.9,
+    "evidence_credible": 0.95,
+    "evidence_strict": 0.99,
+    "stability_corr_stable": 0.7,
+    "stability_corr_caution": 0.5,
+    "debug": false
+  },
+  "source_v7_module_version": "v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "source_v7_output_tag": "accepted_windows_multi_object_prepost_v7_z_multiwin_a_hotfix06_w45_profile_order",
+  "v9_1c_inputs_found": {
+    "object_influence": true,
+    "pairwise_influence": true,
+    "year_sets": true,
+    "summary": true
+  },
+  "elapsed_seconds": 689.467,
+  "finished_at": "2026-05-08 18:03:56"
+}

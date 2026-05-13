@@ -1,0 +1,122 @@
+{
+  "source_results_dir": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a",
+  "expected_detector": "ruptures_window",
+  "window_build_version": "window_native_v1",
+  "missing_required_files": [],
+  "source_files": {
+    "main_windows": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\ruptures_primary_windows.csv",
+      "exists": true,
+      "required": true,
+      "size_bytes": 567,
+      "modified_epoch": 1776769728.7203612,
+      "md5": "525a383969792596c752178c3c624504"
+    },
+    "window_catalog": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\window_catalog.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 666,
+      "modified_epoch": 1776769730.951499,
+      "md5": "16f480567d6fadf8ba41b921ab9f28c0"
+    },
+    "primary_points": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\ruptures_primary_points.csv",
+      "exists": true,
+      "required": true,
+      "size_bytes": 35,
+      "modified_epoch": 1776769728.668599,
+      "md5": "37feaf0291505f63a4788bb751d95a29"
+    },
+    "point_to_window_audit": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\ruptures_point_to_window_audit.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 605,
+      "modified_epoch": 1776769728.7208722,
+      "md5": "0407eb264e2670582209560680c7c940"
+    },
+    "band_merge_audit": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\ruptures_band_merge_audit.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 182,
+      "modified_epoch": 1776769728.7221272,
+      "md5": "eb2ac5590f1cd6ecd0d2f2f2de03fdf4"
+    },
+    "support_bands": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\ruptures_support_bands.csv",
+      "exists": true,
+      "required": true,
+      "size_bytes": 206,
+      "modified_epoch": 1776769728.7198355,
+      "md5": "6f1eb4151a34ce18edf25bd9da631c37"
+    },
+    "support_summary": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\support_summary.json",
+      "exists": true,
+      "required": false,
+      "size_bytes": 324,
+      "modified_epoch": 1776769731.4036894,
+      "md5": "4e6e0bd80cf6a04808221b8185616dd8"
+    },
+    "support_invalid_sample_audit": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\support_invalid_sample_audit.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 16848,
+      "modified_epoch": 1776769729.9992166,
+      "md5": "1b000d8435312bf96b88d4a97d116ca6"
+    },
+    "support_sample_validity_summary": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\support_sample_validity_summary.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 107,
+      "modified_epoch": 1776769730.0002503,
+      "md5": "d4ad590aba34a53797ba77baba594b6c"
+    },
+    "support_bootstrap": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\support_bootstrap_ruptures.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 10467,
+      "modified_epoch": 1776769729.99613,
+      "md5": "a6b38a9ef3f05b60ea7bd76fc1d6625e"
+    },
+    "support_param_path": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\support_param_path_ruptures.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 3221,
+      "modified_epoch": 1776769728.9145815,
+      "md5": "7d2fa8383f4b6aa22abf7a73bd236961"
+    },
+    "support_permutation": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\support_permutation_ruptures.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 84,
+      "modified_epoch": 1776769730.9504738,
+      "md5": "22e565e0965a4cc02110e0302000dc56"
+    },
+    "retention_audit": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\ruptures_retention_audit.csv",
+      "exists": true,
+      "required": false,
+      "size_bytes": 853,
+      "modified_epoch": 1776762582.9238124,
+      "md5": "61dff43047ca51ae6690d3cf50bfbc64"
+    },
+    "run_meta": {
+      "path": "D:\\easm_project01\\stage_partition\\V2\\outputs\\baseline_a\\run_meta.json",
+      "exists": true,
+      "required": false,
+      "size_bytes": 845,
+      "modified_epoch": 1776769731.4036894,
+      "md5": "2a9feed120350b0fd85538d37cbb17f1"
+    }
+  },
+  "modified_time_spread_hours": 1.9856888547208573,
+  "suspected_mixed_run_artifacts": true
+}

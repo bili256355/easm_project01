@@ -1,0 +1,52 @@
+{
+  "project_root": "D:\\easm_project01",
+  "smoothed_fields_relpath": "foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "output_tag": "w45_H_Jw_object_specific_v6style_window_detection_v7_w",
+  "detector_day_range": [
+    0,
+    70
+  ],
+  "standardization_scope": "full_season",
+  "objects": [
+    "H",
+    "Jw"
+  ],
+  "profile": {
+    "lat_step_deg": 2.0
+  },
+  "detector": {
+    "width": 20,
+    "model": "l2",
+    "min_size": 2,
+    "jump": 1,
+    "selection_mode": "pen",
+    "pen": 4.0,
+    "fixed_n_bkps": null,
+    "epsilon": null,
+    "local_peak_min_distance_days": 3,
+    "nearest_peak_search_radius_days": 10
+  },
+  "band": {
+    "min_band_half_width_days": 2,
+    "max_band_half_width_days": 10,
+    "peak_floor_quantile": 0.35,
+    "prominence_ratio_threshold": 0.5,
+    "respect_candidate_boundaries": true,
+    "truncate_at_intervening_candidate": true,
+    "truncate_at_local_valley": true,
+    "allow_band_merge": true,
+    "merge_gap_days": 1,
+    "close_neighbor_exemption_days": 4,
+    "protect_significant_peaks_from_merge": true,
+    "significant_peak_threshold": 0.95
+  },
+  "bootstrap": {
+    "n_bootstrap": 1000,
+    "random_seed": 42,
+    "strict_match_max_abs_offset_days": 2,
+    "match_max_abs_offset_days": 5,
+    "near_max_abs_offset_days": 8,
+    "progress": true
+  },
+  "write_figures": true
+}

@@ -1,0 +1,3 @@
+﻿input_source,smoothed_fields_path,required,exists,status,n_years,n_days,error
+baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,True,True,loaded,45,183,
+smooth5,D:\easm_project01\foundation\V1\outputs\baseline_smooth5_a\preprocess\smoothed_fields.npz,True,True,loaded,45,183,

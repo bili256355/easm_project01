@@ -1,0 +1,6 @@
+﻿window_id,target_name,object_A,object_B,n_score_bins,delta_gradient_slope,A_earlier_gradient_slope,B_earlier_gradient_slope,delta_monotonicity_score,A_earlier_monotonicity_score,B_earlier_monotonicity_score,gradient_status
+W113,W113_V_vs_Je_delta_peak,V,Je,5,1.8,0.09341708542713567,-0.15516331658291457,0.9999999999999998,0.9999999999999998,-0.9999999999999998,clear_continuous_gradient
+W113,W113_H_vs_Je_delta_peak,H,Je,5,1.6,0.024120603015075376,-0.06076633165829146,0.9999999999999998,0.6999999999999998,-0.8999999999999998,clear_continuous_gradient
+W113,W113_P_vs_V_delta_peak,P,V,5,2.1,0.209,-0.185,0.9999999999999998,0.9999999999999998,-0.9999999999999998,clear_continuous_gradient
+W113,W113_Jw_vs_H_delta_peak,Jw,H,5,1.6,0.008999999999999985,-0.006,0.9999999999999998,0.4999999999999999,-0.4999999999999999,clear_continuous_gradient
+W113,W113_Jw_vs_V_delta_peak,Jw,V,5,1.9,0.044,-0.027500000000000004,0.9999999999999998,0.8207826816681233,-0.5642880936468347,clear_continuous_gradient

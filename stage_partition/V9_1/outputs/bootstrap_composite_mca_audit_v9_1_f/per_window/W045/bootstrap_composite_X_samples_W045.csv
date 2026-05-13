@@ -1,0 +1,6 @@
+﻿window_id,object,n_kept_features,note
+W045,P,923,full X matrix stored in bootstrap_composite_X_matrix_*.npz
+W045,V,781,full X matrix stored in bootstrap_composite_X_matrix_*.npz
+W045,H,781,full X matrix stored in bootstrap_composite_X_matrix_*.npz
+W045,Je,781,full X matrix stored in bootstrap_composite_X_matrix_*.npz
+W045,Jw,781,full X matrix stored in bootstrap_composite_X_matrix_*.npz

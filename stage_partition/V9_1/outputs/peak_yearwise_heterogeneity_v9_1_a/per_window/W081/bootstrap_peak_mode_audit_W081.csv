@@ -1,0 +1,6 @@
+﻿window_id,object,observed_peak_day,bootstrap_n,finite_bootstrap_n,bootstrap_median,bootstrap_q025,bootstrap_q975,bootstrap_width_q025_q975,mode_count,mode_merge_gap_days,mode1_day_range,mode1_day_weighted_mean,mode1_probability,mode2_day_range,mode2_day_weighted_mean,mode2_probability,mode3_day_range,mode3_day_weighted_mean,mode3_probability,distribution_type
+W081,H,77.0,1000,1000,77.0,70.0,83.0,13.0,2,2,68-88,77.35135135135135,0.999,91-91,91.0,0.001,,,,single_compact_mode
+W081,Je,81.0,1000,991,81.0,70.0,88.0,18.0,1,2,61-91,79.95257315842584,1.0,,,,,,,single_broad_mode
+W081,Jw,83.0,1000,999,82.0,73.0,88.0,15.0,1,2,69-91,81.62062062062063,1.0,,,,,,,single_broad_mode
+W081,P,82.0,1000,1000,82.0,75.975,87.0,11.025000000000006,3,2,73-90,81.53259779338013,0.997,65-65,65.0,0.002,70-70,70.0,0.001,single_compact_mode
+W081,V,80.0,1000,1000,80.0,70.0,86.0,16.0,1,2,67-89,79.744,1.0,,,,,,,single_broad_mode

@@ -1,0 +1,3 @@
+﻿variant_id,family_edge,n_lagged_tests,n_lagged_graph_selected,n_lagged_raw_p05,n_lagged_supported_window_fdr,n_lagged_supported_family_fdr,n_tau0_tests,n_tau0_graph_selected,n_tau0_supported,n_v1_lead_lag_yes,n_v1_yes_recovered_by_lagged_window_fdr,n_v1_yes_recovered_by_tau0,interpretation
+c1_targeted_no_same_family_controls,V->P,210,8,8,4,4,42,19,16,108,4,6,sensitivity recovery count; not pathway evidence
+c2_family_representative_standard,V->P,270,11,11,2,3,54,27,20,108,2,18,sensitivity recovery count; not pathway evidence

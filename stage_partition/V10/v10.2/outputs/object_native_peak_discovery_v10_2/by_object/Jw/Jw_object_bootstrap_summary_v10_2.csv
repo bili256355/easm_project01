@@ -1,0 +1,6 @@
+﻿object,candidate_id,point_day,bootstrap_strict_fraction,bootstrap_match_fraction,bootstrap_near_fraction,bootstrap_no_match_fraction,median_bootstrap_matched_peak_score,median_bootstrap_abs_offset_days,object_support_class
+Jw,CP001,41,0.638,0.913,0.075,0.012,14.644927615289122,2.0,object_candidate
+Jw,CP002,83,0.512,0.806,0.148,0.046,18.48147135066034,2.0,object_candidate
+Jw,CP003,104,0.494,0.898,0.094,0.008,28.87754797265793,3.0,object_candidate
+Jw,CP004,130,0.751,0.923,0.064,0.013,23.853320802708062,1.0,object_candidate
+Jw,CP005,152,0.407,0.729,0.163,0.108,16.74623173221812,3.0,object_weak_candidate

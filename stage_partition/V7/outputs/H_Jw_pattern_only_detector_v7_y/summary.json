@@ -1,0 +1,78 @@
+{
+  "version": "v7_y",
+  "output_tag": "H_Jw_pattern_only_detector_v7_y",
+  "primary_goal": "reuse V6_1/W45 window detector skeleton with object_scope=H/Jw and detector_day_range=day0-70",
+  "system_W45_reference": {
+    "window_id": "W002",
+    "anchor_day": 45,
+    "accepted_window": [
+      40,
+      48
+    ]
+  },
+  "detector_day_range": [
+    0,
+    70
+  ],
+  "objects": [
+    "H",
+    "Jw"
+  ],
+  "object_summaries": {
+    "H": {
+      "n_windows": 3,
+      "n_accepted_95_windows": 1,
+      "main_peak_days": [
+        38,
+        48,
+        58
+      ],
+      "pre_W45_peak_days": [
+        38
+      ],
+      "within_W45_peak_days": [
+        48
+      ],
+      "post_W45_peak_days": [
+        58
+      ]
+    },
+    "Jw": {
+      "n_windows": 2,
+      "n_accepted_95_windows": 0,
+      "main_peak_days": [
+        16,
+        40
+      ],
+      "pre_W45_peak_days": [
+        16
+      ],
+      "within_W45_peak_days": [
+        40
+      ],
+      "post_W45_peak_days": []
+    }
+  },
+  "detector_meta": [
+    {
+      "object": "H",
+      "n_features": 11,
+      "n_valid_full_season_days": 175,
+      "n_detector_days": 67,
+      "detector_status": "success",
+      "n_local_peaks": 3,
+      "n_primary_points": 0,
+      "n_candidates": 3
+    },
+    {
+      "object": "Jw",
+      "n_features": 11,
+      "n_valid_full_season_days": 175,
+      "n_detector_days": 67,
+      "detector_status": "success",
+      "n_local_peaks": 2,
+      "n_primary_points": 1,
+      "n_candidates": 2
+    }
+  ]
+}

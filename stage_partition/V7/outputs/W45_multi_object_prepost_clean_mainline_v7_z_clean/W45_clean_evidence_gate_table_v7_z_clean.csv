@@ -1,0 +1,11 @@
+﻿object_A,object_B,final_structure_class,evidence_level,sensitivity_status,gate_pass,allowed_statement,forbidden_statement
+H,Je,B_curve_tendency_only,Level1_or_2_curve_only,clean,False,B shows curve-level tendency only.,Do not promote to lead without raw/profile window support.
+H,Jw,A_curve_tendency_only,Level1_or_2_curve_only,clean,False,A shows curve-level tendency only.,Do not promote to lead without raw/profile window support.
+H,P,co_transition_with_A_curve_tendency,Level2_curve_tendency_only,clean,True,A and B co-transition in raw/profile object-window; A shows curve-level ahead tendency.,Do not write A leads B as a hard object-window timing claim.
+H,V,A_curve_tendency_only,Level1_or_2_curve_only,clean,False,A shows curve-level tendency only.,Do not promote to lead without raw/profile window support.
+Je,Jw,A_curve_tendency_only,Level1_or_2_curve_only,clean,False,A shows curve-level tendency only.,Do not promote to lead without raw/profile window support.
+Je,P,co_transition_with_A_curve_tendency,Level3_curve_supported_with_cotransition,clean,True,A and B co-transition in raw/profile object-window; A shows curve-level ahead tendency.,Do not write A leads B as a hard object-window timing claim.
+Je,V,co_transition_with_A_curve_tendency,Level3_curve_supported_with_cotransition,clean,True,A and B co-transition in raw/profile object-window; A shows curve-level ahead tendency.,Do not write A leads B as a hard object-window timing claim.
+Jw,P,B_curve_tendency_only,Level1_or_2_curve_only,clean,False,B shows curve-level tendency only.,Do not promote to lead without raw/profile window support.
+Jw,V,A_curve_tendency_only,Level1_or_2_curve_only,clean,False,A shows curve-level tendency only.,Do not promote to lead without raw/profile window support.
+P,V,co_transition_with_A_curve_tendency,Level2_curve_tendency_only,clean,True,A and B co-transition in raw/profile object-window; A shows curve-level ahead tendency.,Do not write A leads B as a hard object-window timing claim.

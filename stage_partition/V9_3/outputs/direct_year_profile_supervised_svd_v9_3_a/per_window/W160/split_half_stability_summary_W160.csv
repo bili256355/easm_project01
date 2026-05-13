@@ -1,0 +1,12 @@
+﻿window_id,target_pair,target_set,median_test_corr,frac_positive_test_corr,median_loading_corr,split_half_stability_flag
+W160,P-V,priority,0.05114538612035022,0.58,0.06693630163305524,unstable_or_unclear
+W160,P-H,exploratory_full_pair,0.05449211988944401,0.66,0.07053072775290276,marginal
+W160,P-Je,exploratory_full_pair,-0.05938972608231564,0.32,0.05114997688409683,unstable_or_unclear
+W160,P-Jw,exploratory_full_pair,0.017311273357140014,0.55,0.06028614664658438,unstable_or_unclear
+W160,V-H,exploratory_full_pair,0.027109190974086088,0.55,0.07537527068767133,unstable_or_unclear
+W160,V-Je,priority,-0.152976330773679,0.16,0.10092381550241189,unstable_or_unclear
+W160,V-Jw,exploratory_full_pair,0.01559019096384397,0.55,0.06554547719279835,unstable_or_unclear
+W160,H-Je,exploratory_full_pair,-0.03568384311905748,0.4,0.06664435873011387,unstable_or_unclear
+W160,H-Jw,priority,-0.1705884087771884,0.15,0.12844643833414676,unstable_or_unclear
+W160,Je-Jw,exploratory_full_pair,-0.09973284480588836,0.34,0.10219101254957981,unstable_or_unclear
+W160,Jw-V,priority,0.03468748855726156,0.58,0.08457532557619347,unstable_or_unclear

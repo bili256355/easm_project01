@@ -1,0 +1,8 @@
+﻿scope,object,config_id,window_id,candidate_id,point_day,is_main_peak,bootstrap_match_fraction_5d,sensitivity_group,changed_factor,changed_value,input_source,smoothed_fields_path,bootstrap_status
+H_only,H,DET_WIDTH_24,W001,CP001,19,True,0.602,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,DET_WIDTH_24,W002,CP002,34,True,0.722,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,DET_WIDTH_24,W003,CP003,77,True,0.958,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,DET_WIDTH_24,W004,CP004,95,True,0.791,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,DET_WIDTH_24,W005,CP005,115,True,0.988,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,DET_WIDTH_24,W006,CP006,131,True,0.846,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run
+H_only,H,DET_WIDTH_24,W007,CP007,154,True,0.858,detector_width,detector_width,24,baseline_smooth9,D:\easm_project01\foundation\V1\outputs\baseline_a\preprocess\smoothed_fields.npz,run

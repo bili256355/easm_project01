@@ -1,0 +1,7 @@
+﻿window_id,method,k,cluster_id,cluster_size,skip_reason,min_cluster_size_for_type_peak
+W113,kmedoids_behavior_pca,4,2,5,cluster_size_below_min_cluster_size_for_type_peak,8
+W113,kmedoids_behavior_pca,5,1,6,cluster_size_below_min_cluster_size_for_type_peak,8
+W113,kmedoids_behavior_pca,5,2,6,cluster_size_below_min_cluster_size_for_type_peak,8
+W113,kmedoids_behavior_pca,6,2,3,cluster_size_below_min_cluster_size_for_type_peak,8
+W113,kmedoids_behavior_pca,6,3,6,cluster_size_below_min_cluster_size_for_type_peak,8
+W113,kmedoids_behavior_pca,6,5,4,cluster_size_below_min_cluster_size_for_type_peak,8

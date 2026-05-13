@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "created_at": "2026-05-02T14:24:59",
+  "output_tag": "progress_order_significance_audit_v7_e1",
+  "source_v7e_output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e",
+  "output_dir": "D:\\easm_project01\\stage_partition\\V7\\outputs\\progress_order_significance_audit_v7_e1",
+  "log_dir": "D:\\easm_project01\\stage_partition\\V7\\logs\\progress_order_significance_audit_v7_e1",
+  "input_files": {
+    "bootstrap_samples": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e\\field_transition_progress_bootstrap_samples_v7_e.csv",
+    "loyo_samples": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e\\field_transition_progress_loyo_samples_v7_e.csv",
+    "pairwise_progress_order_summary": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e\\pairwise_progress_order_summary_v7_e.csv",
+    "accepted_windows": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e\\accepted_windows_used_v7_e.csv",
+    "source_run_meta": "D:\\easm_project01\\stage_partition\\V7\\outputs\\field_transition_progress_timing_v7_e\\run_meta.json"
+  },
+  "settings": {
+    "source_v7e_output_tag": "field_transition_progress_timing_v7_e",
+    "output_tag": "progress_order_significance_audit_v7_e1",
+    "random_seed": 20260430,
+    "fdr_alpha": 0.05
+  },
+  "n_pair_tests": 40,
+  "n_windows": 4,
+  "evidence_label_counts": {
+    "supported_directional_tendency": 35,
+    "not_distinguishable": 4,
+    "confirmed_directional_order": 1
+  },
+  "notes": [
+    "V7-e1 does not recompute progress timing; it audits pairwise midpoint deltas from V7-e outputs.",
+    "No minimum effective day threshold is used.",
+    "No pseudo-window null is used.",
+    "LOYO is treated as stability audit, not primary significance test.",
+    "not_distinguishable is not a proof of synchrony/equivalence."
+  ],
+  "source_v7e_run_meta_status": "success"
+}

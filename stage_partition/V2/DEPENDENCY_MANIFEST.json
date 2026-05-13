@@ -1,0 +1,9 @@
+{
+  "layer_name": "stage_partition",
+  "version_name": "V2",
+  "depends_on": {
+    "foundation": "V1"
+  },
+  "inherits_from": null,
+  "notes": "Independent implementation. No code inheritance from stage_partition/V1."
+}

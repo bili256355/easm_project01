@@ -1,0 +1,39 @@
+{
+  "status": "success",
+  "audit": "surrogate_failure_autocorr_audit_a",
+  "created_at": "2026-04-29T22:32:20",
+  "stability_csv": "D:\\easm_project01\\lead_lag_screen\\V1\\outputs\\lead_lag_screen_v1_smooth5_a_stability_judgement_v1_b\\tables\\lead_lag_pair_summary_stability_judged.csv",
+  "index_csv": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\indices\\index_anomalies.csv",
+  "output_dir": "D:\\easm_project01\\lead_lag_screen\\V1\\surrogate_failure_autocorr_audit_a\\outputs",
+  "n_stability_rows": 2772,
+  "n_index_rows": 8235,
+  "n_indices_used": 20,
+  "n_missing_indices": 0,
+  "windows": [
+    "S1",
+    "T1",
+    "S2",
+    "T2",
+    "S3",
+    "T3",
+    "S4",
+    "T4",
+    "S5"
+  ],
+  "lag_range": [
+    1,
+    5
+  ],
+  "threshold_method": "AR1 effective-n approximate max-over-positive-lags p95/p99; diagnostic only, not V1 replacement",
+  "key_outputs": [
+    "tables/index_autocorr_by_window.csv",
+    "tables/index_autocorr_summary_by_window.csv",
+    "tables/pair_autocorr_context.csv",
+    "tables/autocorr_by_v1_status_summary.csv",
+    "tables/surrogate_threshold_margin_by_pair.csv",
+    "tables/surrogate_failure_attribution_by_pair.csv",
+    "tables/surrogate_failure_attribution_counts_by_window.csv",
+    "tables/t3_t4_vs_other_window_autocorr_surrogate_contrast.csv",
+    "tables/surrogate_failure_autocorr_diagnosis_table.csv"
+  ]
+}

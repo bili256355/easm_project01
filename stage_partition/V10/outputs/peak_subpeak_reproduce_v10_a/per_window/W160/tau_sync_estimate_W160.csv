@@ -1,0 +1,2 @@
+﻿window_id,tau_sync_q50,tau_sync_q75,tau_sync_q90,tau_sync_primary,tau_source,n_objects_used,n_bootstrap_values_used,tau_quality_flag
+W160,1.0,4.0,8.0,4.0,pooled_q75_abs_bootstrap_peak_error,5,4997,normal

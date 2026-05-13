@@ -1,0 +1,11 @@
+﻿field_a,field_b,field_a_recommended_marker,field_b_recommended_marker,field_a_tie_markers,field_b_tie_markers,same_marker_type,marker_comparison_allowed,comparison_type,reason
+P,V,marker_tie,marker_tie,onset;midpoint;finish,onset;midpoint,False,False,not_allowed_marker_tie,"At least one field has tied best markers (P:onset;midpoint;finish, V:onset;midpoint); do not force an onset/midpoint comparison."
+P,H,marker_tie,onset,onset;midpoint;finish,onset,False,False,not_allowed_marker_tie,"At least one field has tied best markers (P:onset;midpoint;finish, H:onset); do not force an onset/midpoint comparison."
+P,Je,marker_tie,marker_tie,onset;midpoint;finish,onset;midpoint,False,False,not_allowed_marker_tie,"At least one field has tied best markers (P:onset;midpoint;finish, Je:onset;midpoint); do not force an onset/midpoint comparison."
+P,Jw,marker_tie,onset,onset;midpoint;finish,onset,False,False,not_allowed_marker_tie,"At least one field has tied best markers (P:onset;midpoint;finish, Jw:onset); do not force an onset/midpoint comparison."
+V,H,marker_tie,onset,onset;midpoint,onset,False,False,not_allowed_marker_tie,"At least one field has tied best markers (V:onset;midpoint, H:onset); do not force an onset/midpoint comparison."
+V,Je,marker_tie,marker_tie,onset;midpoint,onset;midpoint,False,False,not_allowed_marker_tie,"At least one field has tied best markers (V:onset;midpoint, Je:onset;midpoint); do not force an onset/midpoint comparison."
+V,Jw,marker_tie,onset,onset;midpoint,onset,False,False,not_allowed_marker_tie,"At least one field has tied best markers (V:onset;midpoint, Jw:onset); do not force an onset/midpoint comparison."
+H,Je,onset,marker_tie,onset,onset;midpoint,False,False,not_allowed_marker_tie,"At least one field has tied best markers (H:onset, Je:onset;midpoint); do not force an onset/midpoint comparison."
+H,Jw,onset,onset,onset,onset,True,True,onset_order_comparison,Both fields have unique recommended marker onset; same-marker comparison is allowed as onset order.
+Je,Jw,marker_tie,onset,onset;midpoint,onset,False,False,not_allowed_marker_tie,"At least one field has tied best markers (Je:onset;midpoint, Jw:onset); do not force an onset/midpoint comparison."

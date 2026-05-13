@@ -1,0 +1,13 @@
+﻿window_id,mode,explained_variance_ratio,n_pairs_with_order_change,n_pairs_reversal_like,max_abs_high_low_delta_shift,mean_leave_one_year_same_peak_fraction,peak_relevance_class,interpretation_permission
+W045,1,0.08564207596740468,3,0,7.0,,peak_relevant_moderate,statistical_timing_audit_only_not_physical_regime
+W045,2,0.07278649472906175,6,2,13.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W045,3,0.06900116041986044,6,3,21.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W081,1,0.08790059319007652,6,1,14.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W081,2,0.0797882614589426,7,1,18.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W081,3,0.0598080798001025,8,1,14.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W113,1,0.08452932781053314,7,0,11.0,,peak_relevant_moderate,statistical_timing_audit_only_not_physical_regime
+W113,2,0.06817102426587779,5,1,17.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W113,3,0.06198392361549959,7,0,13.0,,peak_relevant_moderate,statistical_timing_audit_only_not_physical_regime
+W160,1,0.08543510001307748,9,3,29.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W160,2,0.069749051914932,7,4,25.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime
+W160,3,0.057239018572394336,7,1,18.0,,peak_relevant_strong,statistical_timing_audit_only_not_physical_regime

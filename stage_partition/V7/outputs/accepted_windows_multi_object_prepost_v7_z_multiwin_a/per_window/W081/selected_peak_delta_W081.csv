@@ -1,0 +1,11 @@
+﻿window_id,object_A,object_B,metric_family,delta_definition,delta_observed,delta_median,delta_q025,delta_q975,delta_P_positive,delta_P_negative,decision
+W081,H,Je,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,2.0,0.0,-8.0,10.0,0.468,0.377,unresolved
+W081,H,Jw,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,-3.0,-2.0,-12.0,8.0,0.344,0.582,unresolved
+W081,H,P,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,3.0,2.0,-7.0,8.024999999999977,0.66,0.212,unresolved
+W081,H,V,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,17.0,0.0,-10.0,6.0,0.379,0.475,unresolved
+W081,Je,Jw,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,-5.0,-2.0,-13.0,9.0,0.298,0.636,unresolved
+W081,Je,P,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,1.0,1.0,-10.0,11.0,0.564,0.337,unresolved
+W081,Je,V,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,15.0,-1.0,-13.0,10.0,0.368,0.547,unresolved
+W081,Jw,P,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,6.0,3.0,-6.0,13.0,0.71,0.213,unresolved
+W081,Jw,V,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,20.0,0.0,-10.0,11.0,0.485,0.421,unresolved
+W081,P,V,selected_raw_profile_peak_timing,B_peak_day - A_peak_day; positive means A earlier,14.0,-2.0,-12.0,6.0,0.202,0.693,unresolved

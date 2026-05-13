@@ -1,0 +1,11 @@
+﻿field,event_kind,event_name,event_basis,observed_day,bootstrap_median,q05,q95,q025,q975,valid_bootstrap_count,event_status,durability_window
+H,growth,max_growth_day,field_change_norm_smooth3 maximum,35.0,35.0,30.0,50.0,30.0,54.0,1000,confirmed_event,none
+H,growth,postward_growth_peak_day,delta_P_dist_smooth3 maximum with delta_R_diff_smooth3 nonnegative,35.0,37.0,35.0,53.0,35.0,54.0,1000,confirmed_event,none
+H,growth,rapid_growth_start,field_change_norm_smooth3 >= q75 rapid-growth window,34.0,34.0,30.0,50.0,30.0,52.02499999999998,1000,confirmed_event,none
+H,growth,rapid_growth_center,field_change_norm_smooth3 >= q75 rapid-growth window,36.007798283960085,35.90602235007238,31.61920386074007,52.46109139531803,31.340204031290597,53.75421431841548,1000,confirmed_event,none
+H,growth,rapid_growth_end,field_change_norm_smooth3 >= q75 rapid-growth window,38.0,38.0,33.0,55.0,33.0,56.0,1000,confirmed_event,none
+Jw,growth,max_growth_day,field_change_norm_smooth3 maximum,49.0,48.0,31.0,52.0,30.0,52.0,1000,confirmed_event,none
+Jw,growth,postward_growth_peak_day,delta_P_dist_smooth3 maximum with delta_R_diff_smooth3 nonnegative,50.0,49.0,37.0,52.0,37.0,52.0,1000,confirmed_event,none
+Jw,growth,rapid_growth_start,field_change_norm_smooth3 >= q75 rapid-growth window,48.0,45.0,30.0,49.0,30.0,50.0,1000,confirmed_event,none
+Jw,growth,rapid_growth_center,field_change_norm_smooth3 >= q75 rapid-growth window,50.46856899693187,48.37817682407695,31.46853361642184,51.51069801247552,31.41006977694647,51.993903215155385,1000,confirmed_event,none
+Jw,growth,rapid_growth_end,field_change_norm_smooth3 >= q75 rapid-growth window,53.0,51.0,33.0,53.0,33.0,54.0,1000,confirmed_event,none
