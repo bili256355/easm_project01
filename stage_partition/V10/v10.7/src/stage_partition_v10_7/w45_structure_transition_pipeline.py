@@ -4,6 +4,7 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from concurrent.futures import ProcessPoolExecutor, as_completed
 import json
 import math
 import os
@@ -91,6 +92,15 @@ class Settings:
 
     n_permutation: int = 10
     n_bootstrap: int = 10
+    n_jobs: int = 1
+    progress_every: int = 100
+    pairwise_scope: str = "all"
+    pairwise_bootstrap_policy: str = "all"
+    # HOTFIX04: stage 5/6 can be skipped or run in a lighter mode.
+    # This is needed because full multioutput ridge permutation is often the real bottleneck.
+    multivariate_policy: str = "full"  # full | fast | skip
+    multivariate_n_permutation: int | None = None
+    object_contribution_policy: str = "full"  # full | fast | skip
     random_seed: int = 20260514
     min_years: int = 8
     pairwise_clear_p: float = 0.10
@@ -118,6 +128,27 @@ class Settings:
         env_boot = os.environ.get("V10_7_K_N_BOOT")
         if env_boot:
             self.n_bootstrap = int(env_boot)
+        env_jobs = os.environ.get("V10_7_K_N_JOBS")
+        if env_jobs:
+            self.n_jobs = max(1, int(env_jobs))
+        env_progress = os.environ.get("V10_7_K_PROGRESS_EVERY")
+        if env_progress:
+            self.progress_every = max(1, int(env_progress))
+        env_scope = os.environ.get("V10_7_K_PAIRWISE_SCOPE")
+        if env_scope:
+            self.pairwise_scope = str(env_scope)
+        env_bootpol = os.environ.get("V10_7_K_PAIRWISE_BOOTSTRAP_POLICY")
+        if env_bootpol:
+            self.pairwise_bootstrap_policy = str(env_bootpol)
+        env_mv = os.environ.get("V10_7_K_MULTIVARIATE_POLICY")
+        if env_mv:
+            self.multivariate_policy = str(env_mv)
+        env_mv_perm = os.environ.get("V10_7_K_MULTIVARIATE_N_PERM")
+        if env_mv_perm:
+            self.multivariate_n_permutation = int(env_mv_perm)
+        env_oc = os.environ.get("V10_7_K_OBJECT_CONTRIBUTION_POLICY")
+        if env_oc:
+            self.object_contribution_policy = str(env_oc)
 
     def with_project_root(self, project_root: Path) -> "Settings":
         self.project_root = Path(project_root)
@@ -669,23 +700,79 @@ def support_class_from_pair(r: float, p: float, settings: Settings) -> str:
     return "no_structure_mapping_support"
 
 
+def _pairwise_support_class_from_task(sr: float, p: float, task: dict[str, Any]) -> str:
+    if np.isfinite(sr) and np.isfinite(p):
+        if abs(sr) >= float(task["pairwise_clear_abs_r"]) and p <= float(task["pairwise_clear_p"]):
+            return "clear_structure_mapping_support"
+        if abs(sr) >= float(task["pairwise_weak_abs_r"]) and p <= float(task["pairwise_weak_p"]):
+            return "weak_structure_mapping_support"
+    return "no_structure_mapping_support"
+
+
+def _pairwise_corr_task(task: dict[str, Any]) -> dict[str, Any]:
+    """Top-level worker for per-pair permutation/bootstrap tests.
+
+    HOTFIX03 adds optional bootstrap policy:
+    - all: original behavior, CI for every pair.
+    - candidate: CI only for weak/clear pairs after permutation.
+    - none: skip pairwise bootstrap CI.
+    """
+    rng = np.random.default_rng(int(task["seed"]))
+    x = np.asarray(task["x"], dtype=float)
+    y = np.asarray(task["y"], dtype=float)
+    sr = spearmanr_np(x, y)
+    pr = pearsonr_np(x, y)
+    p = permutation_p_corr(x, y, rng, int(task["n_permutation"]), sr)
+    cls = _pairwise_support_class_from_task(sr, p, task)
+    policy = str(task.get("pairwise_bootstrap_policy", "all")).lower()
+    do_boot = policy == "all" or (policy == "candidate" and cls != "no_structure_mapping_support")
+    if do_boot and int(task["n_bootstrap"]) > 0:
+        ci_lo, ci_hi = bootstrap_ci_corr(x, y, rng, int(task["n_bootstrap"]))
+    else:
+        ci_lo, ci_hi = np.nan, np.nan
+    out = {k: task[k] for k in (
+        "mode", "mapping_type", "source_cluster", "target_cluster",
+        "source_object", "source_metric", "source_feature",
+        "target_object", "target_metric", "target_feature",
+    )}
+    out.update({
+        "spearman_r": sr,
+        "pearson_r": pr,
+        "bootstrap_ci_low": ci_lo,
+        "bootstrap_ci_high": ci_hi,
+        "permutation_p": p,
+        "support_class": cls,
+        "pairwise_bootstrap_policy": policy,
+    })
+    return out
+
+
+def _include_pairwise_task(scope: str, source_object: str, target_object: str) -> bool:
+    scope = str(scope or "all").lower()
+    if scope == "all":
+        return True
+    if scope == "h-source":
+        return source_object == "H"
+    if scope == "h-related":
+        return source_object == "H" or target_object == "H"
+    return True
+
+
 def pairwise_mapping(settings: Settings, feature_df: pd.DataFrame, years: np.ndarray) -> pd.DataFrame:
-    rng = np.random.default_rng(settings.random_seed + 11)
-    rows = []
-    for mode in settings.modes:
-        for mt in settings.mapping_types:
+    tasks: list[dict[str, Any]] = []
+    seed_base = settings.random_seed + 110000
+    task_id = 0
+    for mode_i, mode in enumerate(settings.modes):
+        for mt_i, mt in enumerate(settings.mapping_types):
             src_cluster, tgt_cluster = mapping_clusters(mt)
             X, x_feats, x_objs, x_mets = get_vector_matrix(feature_df, years, mode, src_cluster)
             Y, y_feats, y_objs, y_mets = get_vector_matrix(feature_df, years, mode, tgt_cluster)
             for i, sf in enumerate(x_feats):
                 for j, tf in enumerate(y_feats):
-                    x = X[:, i]
-                    y = Y[:, j]
-                    sr = spearmanr_np(x, y)
-                    pr = pearsonr_np(x, y)
-                    p = permutation_p_corr(x, y, rng, settings.n_permutation, sr)
-                    ci_lo, ci_hi = bootstrap_ci_corr(x, y, rng, settings.n_bootstrap)
-                    rows.append({
+                    if not _include_pairwise_task(settings.pairwise_scope, x_objs[i], y_objs[j]):
+                        continue
+                    tasks.append({
+                        "seed": seed_base + task_id * 9973,
                         "mode": mode,
                         "mapping_type": mt,
                         "source_cluster": src_cluster,
@@ -696,13 +783,49 @@ def pairwise_mapping(settings: Settings, feature_df: pd.DataFrame, years: np.nda
                         "target_object": y_objs[j],
                         "target_metric": y_mets[j],
                         "target_feature": tf,
-                        "spearman_r": sr,
-                        "pearson_r": pr,
-                        "bootstrap_ci_low": ci_lo,
-                        "bootstrap_ci_high": ci_hi,
-                        "permutation_p": p,
-                        "support_class": support_class_from_pair(sr, p, settings),
+                        "x": X[:, i],
+                        "y": Y[:, j],
+                        "n_permutation": settings.n_permutation,
+                        "n_bootstrap": settings.n_bootstrap,
+                        "pairwise_clear_p": settings.pairwise_clear_p,
+                        "pairwise_weak_p": settings.pairwise_weak_p,
+                        "pairwise_clear_abs_r": settings.pairwise_clear_abs_r,
+                        "pairwise_weak_abs_r": settings.pairwise_weak_abs_r,
+                        "pairwise_bootstrap_policy": settings.pairwise_bootstrap_policy,
                     })
+                    task_id += 1
+
+    if not tasks:
+        return pd.DataFrame()
+
+    n_jobs = max(1, int(getattr(settings, "n_jobs", 1)))
+    progress_every = max(1, int(getattr(settings, "progress_every", 100)))
+    print(
+        f"[V10.7_k] pairwise mapping start: tasks={len(tasks)}, "
+        f"scope={settings.pairwise_scope}, boot_policy={settings.pairwise_bootstrap_policy}, "
+        f"n_perm={settings.n_permutation}, n_boot={settings.n_bootstrap}, n_jobs={n_jobs}",
+        flush=True,
+    )
+    import time
+    t0 = time.time()
+    rows = []
+    if n_jobs <= 1:
+        for done, t in enumerate(tasks, start=1):
+            rows.append(_pairwise_corr_task(t))
+            if done == 1 or done % progress_every == 0 or done == len(tasks):
+                elapsed = time.time() - t0
+                rate = done / elapsed if elapsed > 0 else float("nan")
+                print(f"[V10.7_k] pairwise progress {done}/{len(tasks)} elapsed={elapsed/60:.1f} min rate={rate:.2f}/s", flush=True)
+    else:
+        with ProcessPoolExecutor(max_workers=n_jobs) as ex:
+            futs = [ex.submit(_pairwise_corr_task, t) for t in tasks]
+            for done, fut in enumerate(as_completed(futs), start=1):
+                rows.append(fut.result())
+                if done == 1 or done % progress_every == 0 or done == len(tasks):
+                    elapsed = time.time() - t0
+                    rate = done / elapsed if elapsed > 0 else float("nan")
+                    print(f"[V10.7_k] pairwise progress {done}/{len(tasks)} elapsed={elapsed/60:.1f} min rate={rate:.2f}/s", flush=True)
+    print(f"[V10.7_k] pairwise mapping done: elapsed={(time.time()-t0)/60:.1f} min", flush=True)
     return pd.DataFrame(rows)
 
 
@@ -768,18 +891,57 @@ def mapping_status(cv_r2: float, p: float, settings: Settings) -> str:
     return "no_structure_mapping"
 
 
+def _empty_skill_df(reason: str = "not_evaluated") -> pd.DataFrame:
+    return pd.DataFrame(columns=[
+        "mode", "mapping_type", "method", "alpha", "n_source_features",
+        "n_target_features", "cv_r2", "cv_rmse", "permutation_p",
+        "mapping_status", "skip_reason",
+    ])
+
+
+def _empty_contrib_df(reason: str = "not_evaluated") -> pd.DataFrame:
+    return pd.DataFrame(columns=[
+        "mode", "mapping_type", "method", "alpha", "source_removed",
+        "full_skill_cv_r2", "skill_without_source_cv_r2",
+        "skill_without_source_cv_rmse", "skill_drop", "null_drop_p90",
+        "permutation_p", "contribution_class", "skip_reason",
+    ])
+
+
 def multivariate_mapping(settings: Settings, feature_df: pd.DataFrame, years: np.ndarray) -> tuple[pd.DataFrame, dict[tuple[str, str, float], tuple[np.ndarray, np.ndarray, float]]]:
+    if str(settings.multivariate_policy).lower() == "skip":
+        print("[V10.7_k]   multivariate_policy=skip: skip ridge mapping and continue with pairwise/H-specific outputs", flush=True)
+        return _empty_skill_df("skipped_by_multivariate_policy"), {}
+
     rng = np.random.default_rng(settings.random_seed + 22)
     rows = []
     cache: dict[tuple[str, str, float], tuple[np.ndarray, np.ndarray, float]] = {}
-    for mode in settings.modes:
-        for mt in settings.mapping_types:
+
+    if str(settings.multivariate_policy).lower() == "fast":
+        modes = tuple(settings.primary_modes)
+        mapping_types = tuple(settings.mapping_types)
+        alphas = (settings.main_alpha,)
+        n_perm = int(settings.multivariate_n_permutation or min(200, settings.n_permutation))
+        print(f"[V10.7_k]   multivariate_policy=fast: modes={modes}, alpha={alphas}, n_perm={n_perm}", flush=True)
+    else:
+        modes = tuple(settings.modes)
+        mapping_types = tuple(settings.mapping_types)
+        alphas = tuple(settings.ridge_alphas)
+        n_perm = int(settings.multivariate_n_permutation or settings.n_permutation)
+        print(f"[V10.7_k]   multivariate_policy=full: modes={modes}, alphas={alphas}, n_perm={n_perm}", flush=True)
+
+    total = len(modes) * len(mapping_types) * len(alphas)
+    done = 0
+    for mode in modes:
+        for mt in mapping_types:
             src_cluster, tgt_cluster = mapping_clusters(mt)
             X, x_feats, _, _ = get_vector_matrix(feature_df, years, mode, src_cluster)
             Y, y_feats, _, _ = get_vector_matrix(feature_df, years, mode, tgt_cluster)
-            for alpha in settings.ridge_alphas:
+            for alpha in alphas:
+                done += 1
+                print(f"[V10.7_k]   ridge mapping {done}/{total}: mode={mode}, mapping_type={mt}, alpha={alpha}", flush=True)
                 preds, cv_r2, cv_rmse = loo_cv_predict_ridge(X, Y, alpha)
-                p = permutation_p_mapping(X, Y, alpha, cv_r2, rng, settings.n_permutation)
+                p = permutation_p_mapping(X, Y, alpha, cv_r2, rng, n_perm)
                 rows.append({
                     "mode": mode,
                     "mapping_type": mt,
@@ -791,16 +953,35 @@ def multivariate_mapping(settings: Settings, feature_df: pd.DataFrame, years: np
                     "cv_rmse": cv_rmse,
                     "permutation_p": p,
                     "mapping_status": mapping_status(cv_r2, p, settings),
+                    "skip_reason": "",
                 })
                 cache[(mode, mt, alpha)] = (X, Y, cv_r2)
     return pd.DataFrame(rows), cache
 
-
 def remove_one_source(settings: Settings, feature_df: pd.DataFrame, years: np.ndarray, full_skill_df: pd.DataFrame) -> pd.DataFrame:
+    if str(settings.object_contribution_policy).lower() == "skip" or str(settings.multivariate_policy).lower() == "skip":
+        print("[V10.7_k]   object_contribution skipped", flush=True)
+        return _empty_contrib_df("skipped_by_policy")
+    if full_skill_df.empty:
+        return _empty_contrib_df("no_multivariate_skill_rows")
+
     rng = np.random.default_rng(settings.random_seed + 33)
     rows = []
-    for mode in settings.modes:
-        for mt in settings.mapping_types:
+    if str(settings.object_contribution_policy).lower() == "fast":
+        modes = tuple(settings.primary_modes)
+        mapping_types = tuple(settings.mapping_types)
+        n_perm = int(settings.multivariate_n_permutation or min(200, settings.n_permutation))
+        print(f"[V10.7_k]   object_contribution_policy=fast: modes={modes}, n_perm={n_perm}", flush=True)
+    else:
+        modes = tuple(settings.modes)
+        mapping_types = tuple(settings.mapping_types)
+        n_perm = int(settings.multivariate_n_permutation or settings.n_permutation)
+        print(f"[V10.7_k]   object_contribution_policy=full: modes={modes}, n_perm={n_perm}", flush=True)
+
+    total = len(modes) * len(mapping_types) * len(settings.object_order)
+    done = 0
+    for mode in modes:
+        for mt in mapping_types:
             src_cluster, tgt_cluster = mapping_clusters(mt)
             X_full, x_feats, x_objs, _ = get_vector_matrix(feature_df, years, mode, src_cluster)
             Y, _, _, _ = get_vector_matrix(feature_df, years, mode, tgt_cluster)
@@ -809,6 +990,8 @@ def remove_one_source(settings: Settings, feature_df: pd.DataFrame, years: np.nd
                 continue
             full_skill = float(full_row["cv_r2"].iloc[0])
             for obj in settings.object_order:
+                done += 1
+                print(f"[V10.7_k]   remove-one-source {done}/{total}: mode={mode}, mapping_type={mt}, remove={obj}", flush=True)
                 keep = np.array([o != obj for o in x_objs], dtype=bool)
                 if not np.any(keep) or np.all(keep):
                     continue
@@ -819,7 +1002,7 @@ def remove_one_source(settings: Settings, feature_df: pd.DataFrame, years: np.nd
                 Xv, Yv, ok = _valid_xy(X_full, Y)
                 if Xv.shape[0] >= 5 and np.isfinite(drop):
                     keep_v = keep
-                    for _ in range(settings.n_permutation):
+                    for _ in range(n_perm):
                         yp = Yv[rng.permutation(Yv.shape[0])]
                         _, fnull, _ = loo_cv_predict_ridge(Xv, yp, settings.main_alpha)
                         _, snull, _ = loo_cv_predict_ridge(Xv[:, keep_v], yp, settings.main_alpha)
@@ -850,6 +1033,7 @@ def remove_one_source(settings: Settings, feature_df: pd.DataFrame, years: np.nd
                     "null_drop_p90": null_p90,
                     "permutation_p": perm_p,
                     "contribution_class": cls,
+                    "skip_reason": "",
                 })
     return pd.DataFrame(rows)
 
@@ -858,48 +1042,64 @@ def remove_one_source(settings: Settings, feature_df: pd.DataFrame, years: np.nd
 
 def build_route_decision(settings: Settings, pair_df: pd.DataFrame, skill_df: pd.DataFrame, contrib_df: pd.DataFrame) -> pd.DataFrame:
     rows = []
-    primary = skill_df[skill_df["mode"].isin(settings.primary_modes)]
-    detected = primary[primary["mapping_status"].isin(["structure_mapping_detected", "weak_structure_mapping"])]
-    if detected.empty:
+    if skill_df.empty or str(settings.multivariate_policy).lower() == "skip":
         rows.append({
             "decision_item": "E2_to_M_structure_mapping",
-            "status": "no_structure_mapping_detected",
-            "evidence": "No primary-mode state/transition mapping passed ridge/shuffled-year route threshold.",
-            "route_implication": "Do not claim W33 connects to W45 through current structure-vector mapping.",
+            "status": "not_evaluated_multivariate_skipped",
+            "evidence": "Multivariate ridge mapping was skipped by runtime policy; inspect pairwise/H-specific target mapping only.",
+            "route_implication": "Do not draw any overall E2→M structure-mapping conclusion from this run.",
         })
     else:
-        best = detected.sort_values(["mapping_status", "cv_r2"], ascending=[True, False]).head(3)
-        rows.append({
-            "decision_item": "E2_to_M_structure_mapping",
-            "status": "candidate_structure_mapping_detected",
-            "evidence": "; ".join(f"{r.mode}:{r.mapping_type}:cv_r2={r.cv_r2:.3f},p={r.permutation_p:.3f},{r.mapping_status}" for r in best.itertuples()),
-            "route_implication": "Inspect object contribution and H-specific target mapping before physical interpretation.",
-        })
+        primary = skill_df[skill_df["mode"].isin(settings.primary_modes)]
+        detected = primary[primary["mapping_status"].isin(["structure_mapping_detected", "weak_structure_mapping"])]
+        if detected.empty:
+            rows.append({
+                "decision_item": "E2_to_M_structure_mapping",
+                "status": "no_structure_mapping_detected",
+                "evidence": "No primary-mode state/transition mapping passed ridge/shuffled-year route threshold.",
+                "route_implication": "Do not claim W33 connects to W45 through current structure-vector mapping.",
+            })
+        else:
+            best = detected.sort_values(["mapping_status", "cv_r2"], ascending=[True, False]).head(3)
+            rows.append({
+                "decision_item": "E2_to_M_structure_mapping",
+                "status": "candidate_structure_mapping_detected",
+                "evidence": "; ".join(f"{r.mode}:{r.mapping_type}:cv_r2={r.cv_r2:.3f},p={r.permutation_p:.3f},{r.mapping_status}" for r in best.itertuples()),
+                "route_implication": "Inspect object contribution and H-specific target mapping before physical interpretation.",
+            })
 
-    h_rows = contrib_df[(contrib_df["mode"].isin(settings.primary_modes)) & (contrib_df["source_removed"] == "H")]
-    key_h = h_rows[h_rows["contribution_class"] == "key_structure_mapping_dimension"]
-    if not key_h.empty:
+    if contrib_df.empty or str(settings.object_contribution_policy).lower() == "skip" or str(settings.multivariate_policy).lower() == "skip":
         rows.append({
             "decision_item": "H_E2_structure_contribution",
-            "status": "H_key_structure_mapping_dimension",
-            "evidence": "; ".join(f"{r.mode}:{r.mapping_type}:drop={r.skill_drop:.3f},p={r.permutation_p:.3f}" for r in key_h.itertuples()),
-            "route_implication": "Retain H as a possible W33 structural preconfiguration dimension; require spatial/physical audit.",
-        })
-    elif not h_rows.empty and (h_rows["skill_drop"] > 0).any():
-        pos = h_rows[h_rows["skill_drop"] > 0].sort_values("skill_drop", ascending=False).head(3)
-        rows.append({
-            "decision_item": "H_E2_structure_contribution",
-            "status": "H_secondary_or_unstable_structure_dimension",
-            "evidence": "; ".join(f"{r.mode}:{r.mapping_type}:drop={r.skill_drop:.3f},{r.contribution_class}" for r in pos.itertuples()),
-            "route_implication": "H structural role remains candidate-level only; do not upgrade without target-specific support.",
+            "status": "not_evaluated_object_contribution_skipped",
+            "evidence": "Remove-one-source contribution was skipped by runtime policy.",
+            "route_implication": "Use H-specific pairwise mapping only; do not claim H is key/non-key from object-contribution tables.",
         })
     else:
-        rows.append({
-            "decision_item": "H_E2_structure_contribution",
-            "status": "H_not_supported_in_current_structure_mapping",
-            "evidence": "Removing H did not reduce primary-mode mapping skill.",
-            "route_implication": "Current structure metrics do not support H as a mapping dimension; this is not a causal exclusion.",
-        })
+        h_rows = contrib_df[(contrib_df["mode"].isin(settings.primary_modes)) & (contrib_df["source_removed"] == "H")]
+        key_h = h_rows[h_rows["contribution_class"] == "key_structure_mapping_dimension"]
+        if not key_h.empty:
+            rows.append({
+                "decision_item": "H_E2_structure_contribution",
+                "status": "H_key_structure_mapping_dimension",
+                "evidence": "; ".join(f"{r.mode}:{r.mapping_type}:drop={r.skill_drop:.3f},p={r.permutation_p:.3f}" for r in key_h.itertuples()),
+                "route_implication": "Retain H as a possible W33 structural preconfiguration dimension; require spatial/physical audit.",
+            })
+        elif not h_rows.empty and (h_rows["skill_drop"] > 0).any():
+            pos = h_rows[h_rows["skill_drop"] > 0].sort_values("skill_drop", ascending=False).head(3)
+            rows.append({
+                "decision_item": "H_E2_structure_contribution",
+                "status": "H_secondary_or_unstable_structure_dimension",
+                "evidence": "; ".join(f"{r.mode}:{r.mapping_type}:drop={r.skill_drop:.3f},{r.contribution_class}" for r in pos.itertuples()),
+                "route_implication": "H structural role remains candidate-level only; do not upgrade without target-specific support.",
+            })
+        else:
+            rows.append({
+                "decision_item": "H_E2_structure_contribution",
+                "status": "H_not_supported_in_current_structure_mapping",
+                "evidence": "Removing H did not reduce primary-mode mapping skill.",
+                "route_implication": "Current structure metrics do not support H as a mapping dimension; this is not a causal exclusion.",
+            })
 
     h_pair = pair_df[(pair_df["mode"].isin(settings.primary_modes)) & (pair_df["source_object"] == "H")]
     h_support = h_pair[h_pair["support_class"].isin(["clear_structure_mapping_support", "weak_structure_mapping_support"])]
@@ -1037,25 +1237,65 @@ def write_summary(settings: Settings, out: Path, route_df: pd.DataFrame, skill_d
 
 # ------------------------- pipeline -----------------------------------------
 
-def run_w45_structure_transition_mapping_v10_7_k(project_root: str | Path | None = None) -> dict[str, Any]:
+def run_w45_structure_transition_mapping_v10_7_k(
+    project_root: str | Path | None = None,
+    n_permutation: int | None = None,
+    n_bootstrap: int | None = None,
+    n_jobs: int | None = None,
+    progress_every: int | None = None,
+    pairwise_scope: str | None = None,
+    pairwise_bootstrap_policy: str | None = None,
+    multivariate_policy: str | None = None,
+    multivariate_n_permutation: int | None = None,
+    object_contribution_policy: str | None = None,
+) -> dict[str, Any]:
     settings = Settings()
+    # HOTFIX01: allow explicit runtime overrides from the entry script.
+    # Environment variables are still supported by Settings.__post_init__, but
+    # command-line arguments are more reliable across CMD/PowerShell/IDE launches.
+    if n_permutation is not None:
+        settings.n_permutation = int(n_permutation)
+    if n_bootstrap is not None:
+        settings.n_bootstrap = int(n_bootstrap)
+    if n_jobs is not None:
+        settings.n_jobs = max(1, int(n_jobs))
+    if progress_every is not None:
+        settings.progress_every = max(1, int(progress_every))
+    if pairwise_scope is not None:
+        settings.pairwise_scope = str(pairwise_scope)
+    if pairwise_bootstrap_policy is not None:
+        settings.pairwise_bootstrap_policy = str(pairwise_bootstrap_policy)
+    if multivariate_policy is not None:
+        settings.multivariate_policy = str(multivariate_policy)
+    if multivariate_n_permutation is not None:
+        settings.multivariate_n_permutation = int(multivariate_n_permutation)
+    if object_contribution_policy is not None:
+        settings.object_contribution_policy = str(object_contribution_policy)
     if project_root is not None:
         settings.with_project_root(Path(project_root))
     out = settings.output_root()
     clean_output_root(out)
+    print(f"[V10.7_k] output_root = {out}", flush=True)
+    print("[V10.7_k] stage 1/9 load smoothed fields", flush=True)
     npz = load_npz(settings)
 
+    print("[V10.7_k] stage 2/9 build daily structure metrics", flush=True)
     input_audit, daily_metrics, years, days = build_daily_structure_metrics(settings, npz)
     if len(years) < settings.min_years:
         warnings.warn(f"Only {len(years)} years detected; mapping may be underpowered.")
+    print("[V10.7_k] stage 3/9 build feature vectors", flush=True)
     feature_df = build_feature_values(settings, daily_metrics, years, days)
 
+    print("[V10.7_k] stage 4/9 pairwise structure mapping", flush=True)
     pair_df = pairwise_mapping(settings, feature_df, years)
+    print("[V10.7_k] stage 5/9 multivariate ridge mapping", flush=True)
     skill_df, _ = multivariate_mapping(settings, feature_df, years)
+    print("[V10.7_k] stage 6/9 remove-one-source contribution", flush=True)
     contrib_df = remove_one_source(settings, feature_df, years, skill_df)
     h_specific_df = pair_df[pair_df["source_object"] == "H"].copy()
     route_df = build_route_decision(settings, pair_df, skill_df, contrib_df)
 
+    print("[V10.7_k] stage 7/9 write tables", flush=True)
     # Write tables.
     write_dataframe(input_audit, out / "tables" / "w45_structure_metric_input_audit_v10_7_k.csv")
     write_dataframe(feature_df, out / "tables" / "w45_structure_vectors_by_year_v10_7_k.csv")
@@ -1065,12 +1305,14 @@ def run_w45_structure_transition_mapping_v10_7_k(project_root: str | Path | None
     write_dataframe(h_specific_df, out / "tables" / "w45_h_e2_structure_to_m_target_mapping_v10_7_k.csv")
     write_dataframe(route_df, out / "tables" / "w45_structure_transition_route_decision_v10_7_k.csv")
 
+    print("[V10.7_k] stage 8/9 write figures", flush=True)
     # Figures.
     plot_pairwise_heatmap(pair_df, out / "figures" / "w45_structure_pairwise_mapping_heatmap_v10_7_k.png", mode="anomaly", mapping_type="E2_state_to_M_state")
     plot_mapping_skill(skill_df, out / "figures" / "w45_structure_mapping_skill_vs_null_v10_7_k.png")
     plot_contribution(contrib_df, out / "figures" / "w45_structure_object_contribution_v10_7_k.png", mode="anomaly", mapping_type="E2_state_to_M_state")
     plot_h_specific(h_specific_df, out / "figures" / "w45_h_e2_structure_target_mapping_v10_7_k.png")
 
+    print("[V10.7_k] stage 9/9 write summary and run_meta", flush=True)
     summary_path = write_summary(settings, out, route_df, skill_df)
     meta = {
         "version": settings.version,
@@ -1089,6 +1331,9 @@ def run_w45_structure_transition_mapping_v10_7_k(project_root: str | Path | None
             "not causal inference",
             "tests structure state/transition mapping",
             "allows H_E2 to map to non-H M structure",
+            "HOTFIX02: pairwise permutation/bootstrap pairs can run in parallel via n_jobs",
+            "HOTFIX03: stage progress, pairwise progress, optional pairwise scope and bootstrap policy",
+            "HOTFIX04: optional skip/fast multivariate ridge mapping and object contribution policies",
         ],
         "outputs": {
             "input_audit": "tables/w45_structure_metric_input_audit_v10_7_k.csv",
