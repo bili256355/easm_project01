@@ -1,1 +1,1 @@
-"""Stage partition V10.7 utilities."""
+"""stage_partition_v10_7 patch namespace."""
