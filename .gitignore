@@ -1,25 +1,25 @@
 # ==============================================================================
 # .gitignore for easm_project01
 # ==============================================================================
-# Purpose:
-# - Keep source code, root-level handoff logs, README/manifest files, and small
-#   configuration files under version control.
-# - Ignore Python cache, notebook checkpoints, local environments, temporary files,
-#   scattered old logs, and large generated scientific outputs.
-# - This file does NOT delete existing tracked files. If a file is already tracked,
-#   use `git rm --cached <path>` to stop tracking it while keeping it locally.
+# Policy:
+# - Do NOT ignore directories merely because they are named output/outputs/result/
+#   results/figure/figures/plot/plots/artifact/artifacts.
+# - Normal small result files are allowed by default, including:
+#   .csv, .json, .txt, .md, .png, .jpg, .jpeg, .pdf, .docx, .xlsx, .pptx.
+# - Large scientific/binary data outputs remain ignored, including:
+#   .nc, .npy, .npz, .pkl, .pickle, .joblib, .h5, .hdf5, .zarr, archives.
+#
+# Important:
+# - .gitignore only affects untracked files.
+# - Files already tracked by Git will continue to appear in changed files until
+#   they are removed from the Git index with `git rm --cached`.
 # ==============================================================================
 
-# ------------------------------------------------------------------------------
-# 1. Keep the new root-level consolidated logs tracked
-# ------------------------------------------------------------------------------
-# These are the replacement root logs intended to remain after old scattered logs
-# are deleted or ignored.
-!ROOT_LOG_*.md
-!ROOT_LOG_INDEX_OLD_LOGS_CONSOLIDATION_TABLE.csv
-!README_root_log_consolidation_v1_a.md
 
-# Keep common project documentation / manifests tracked.
+# ------------------------------------------------------------------------------
+# 1. Project documentation and root-level durable logs
+# ------------------------------------------------------------------------------
+
 !README.md
 !**/README.md
 !STRUCTURE_MANIFEST.txt
@@ -29,9 +29,15 @@
 !DEPENDENCY_MANIFEST.json
 !**/DEPENDENCY_MANIFEST.json
 
+!ROOT_LOG_*.md
+!ROOT_LOG_INDEX_OLD_LOGS_CONSOLIDATION_TABLE.csv
+!README_root_log_consolidation_v1_a.md
+
+
 # ------------------------------------------------------------------------------
 # 2. Python cache and build artifacts
 # ------------------------------------------------------------------------------
+
 __pycache__/
 **/__pycache__/
 *.py[cod]
@@ -39,6 +45,7 @@ __pycache__/
 *.so
 *.pyd
 .Python
+
 build/
 dist/
 .eggs/
@@ -46,36 +53,48 @@ dist/
 *.egg
 pip-wheel-metadata/
 
+
 # ------------------------------------------------------------------------------
-# 3. Jupyter / notebook temporary files
+# 3. Jupyter temporary files
 # ------------------------------------------------------------------------------
+
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
 
 # ------------------------------------------------------------------------------
 # 4. Local virtual environments and local-only configuration
 # ------------------------------------------------------------------------------
+
 .venv/
 venv/
 env/
 ENV/
+
 .env
 .env.*
 *.env
 .python-version
 
-# IDE / editor local files
+
+# ------------------------------------------------------------------------------
+# 5. IDE / editor / OS local files
+# ------------------------------------------------------------------------------
+
 .idea/
 .vscode/
 *.code-workspace
 *.sublime-project
 *.sublime-workspace
+
 .DS_Store
 Thumbs.db
 
+
 # ------------------------------------------------------------------------------
-# 5. Temporary / backup files
+# 6. Temporary / backup files
 # ------------------------------------------------------------------------------
+
 *.tmp
 *.temp
 *.bak
@@ -87,14 +106,17 @@ Thumbs.db
 ~$*
 *~
 
+
 # ------------------------------------------------------------------------------
-# 6. Runtime logs and ad-hoc scattered logs
+# 7. Runtime logs and old scattered engineering logs
 # ------------------------------------------------------------------------------
 # New durable logs should be written at the project root as ROOT_LOG_*.md.
-# Old-style scattered logs are ignored to prevent log sprawl from returning.
+# Old-style scattered logs remain ignored to prevent log sprawl.
+
 *.log
 **/logs/
 **/log/
+
 **/UPDATE_LOG*.md
 **/ROOT_PROJECT_LOG*.md
 **/CURRENT_ENGINEERING_MANIFEST*.md
@@ -107,74 +129,49 @@ Thumbs.db
 !ROOT_LOG_INDEX_OLD_LOGS_CONSOLIDATION_TABLE.csv
 !README_root_log_consolidation_v1_a.md
 
+
 # ------------------------------------------------------------------------------
-# 7. Large scientific data and generated binary outputs
+# 8. Large scientific data and generated binary array outputs
 # ------------------------------------------------------------------------------
-# Keep source code and small metadata in Git; keep large input/output arrays local
-# unless a specific file is intentionally promoted to version control.
+# These stay ignored even when located inside output/outputs/results directories.
+# If a specific file must be versioned, add it intentionally with:
+#   git add -f path\to\file.npz
+
 *.nc
 *.nc4
 *.grib
 *.grb
 *.grb2
+
 *.h5
 *.hdf
 *.hdf5
 *.zarr/
+
 *.npy
 *.npz
 *.pkl
 *.pickle
 *.joblib
 
-# ------------------------------------------------------------------------------
-# 8. Generated analysis outputs
-# ------------------------------------------------------------------------------
-# These can be regenerated from scripts. If a small summary table is meant to be
-# preserved, add it explicitly with `git add -f <file>` or place it in a curated
-# docs/results-summary location.
-**/outputs/
-**/output/
-**/figures/
-**/plots/
-**/results/
-**/result/
-**/artifacts/
-**/cache/
-**/tmp/
-**/temp/
 
 # ------------------------------------------------------------------------------
-# 9. Large rendered figures / documents generated by runs
+# 9. Large archives / compressed bundles
 # ------------------------------------------------------------------------------
-*.png
-*.jpg
-*.jpeg
-*.tif
-*.tiff
-*.svg
-*.pdf
-*.pptx
-*.docx
-*.xlsx
-*.xls
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
 
 # ------------------------------------------------------------------------------
-# 10. Optional: allow curated documentation assets if you intentionally create them
+# 10. Directory policy note
 # ------------------------------------------------------------------------------
-# Uncomment and adjust these if you later decide to keep selected final figures,
-# tables, or documents in Git.
-# !shared_docs/**
-# !docs/**
-# !figures/final/**
-# !tables/final/**
-
-# ------------------------------------------------------------------------------
-# 11. Safety notes
-# ------------------------------------------------------------------------------
-# If a file was already committed before being added here, Git will still track it.
-# To stop tracking but keep the local copy:
-#   git rm --cached <file>
-#   git rm -r --cached <directory>
-# Then commit the change.
+# output/, outputs/, result/, results/, figure/, figures/, plot/, plots/,
+# artifact/, and artifacts/ are intentionally NOT ignored by directory name.
+# Small files inside them can be tracked normally.
+# Empty directories are still not tracked by Git; add a .gitkeep file if needed.
 # ==============================================================================

@@ -1,0 +1,21 @@
+﻿variable_name,object_name,formula,project_meaning
+P_main_band_share,P,Main(24-35N) / Total_P(10-40N),主雨带份额
+P_south_band_share_18_24,P,South(18-24N) / Total_P(10-40N),南带份额
+P_main_minus_south,P,P_main_band_share - P_south_band_share_18_24,主带对南带竞争差值
+P_spread_lat,P,"sqrt(Σ(P(φ)*(φ-μ)^2)/ΣP(φ)), φ∈10-40N",总带纬向展宽
+P_north_band_share_35_45,P,North(35-45N) / Total_P_late(10-50N),盛夏北带份额
+P_north_minus_main_35_45,P,P_north_band_share_35_45 - Main(24-35N)/Total_P_late(10-50N),北带相对主带接替差值
+P_total_centroid_lat_10_50,P,"Σ(P(φ)*φ)/ΣP(φ), φ∈10-50N",整体降水带重心纬度
+V_strength,V,mean_{φ∈10-30N} V(φ),V 整体强度
+V_pos_centroid_lat,V,"Σ(V+(φ)*φ)/ΣV+(φ), φ∈10-30N",正向活动带重心纬度
+V_NS_diff,V,Σ_{15-30N}V(φ) - Σ_{10-15N}V(φ),南北差结构量
+H_strength,H,mean(H | H >= q90(core)),H 高核强度
+H_centroid_lat,H,"Σ(w*φ)/Σw, w=max(H-q90,0)",H 重心纬度
+H_west_extent_lon,H,"weighted q10(lon, Σφw)",H 西伸位置
+H_zonal_width,H,weighted q90 - weighted q10,H 纬向展宽
+Je_strength,Je,mean(profile | profile >= q90(profile)),Je 强度
+Je_axis_lat,Je,"Σ(w*φ)/Σw, w=max(profile-q90,0)",Je 轴线纬度
+Je_meridional_width,Je,"weighted q90(lat,w) - weighted q10(lat,w)",Je 纬向宽度
+Jw_strength,Jw,mean(profile | profile >= q90(profile)),Jw 强度
+Jw_axis_lat,Jw,"Σ(w*φ)/Σw, w=max(profile-q90,0)",Jw 轴线纬度
+Jw_meridional_width,Jw,"weighted q90(lat,w) - weighted q10(lat,w)",Jw 纬向宽度
