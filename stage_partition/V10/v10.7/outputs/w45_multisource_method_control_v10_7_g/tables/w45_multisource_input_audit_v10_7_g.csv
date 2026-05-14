@@ -1,0 +1,6 @@
+﻿object,status,source_key,lat_range,lon_range,reducer,source_note,note,n_years,n_days,n_lat,n_lon,added_year_axis
+H,loaded,z500_smoothed,15.0-35.0,110.0-140.0,spatial_rms,H object domain,,45,183,81,121,False
+P,loaded,precip_smoothed,15.0-35.0,110.0-140.0,spatial_rms,precip object proxy domain,,45,183,81,121,False
+V,loaded,v850_smoothed,15.0-35.0,110.0-140.0,spatial_rms,v850 object proxy domain,,45,183,81,121,False
+Je,loaded,u200_smoothed,25.0-45.0,120.0-150.0,jet_q90_strength,"derived from u200 eastern sector: 120-150E, 25-45N",,45,183,81,121,False
+Jw,loaded,u200_smoothed,25.0-45.0,80.0-110.0,jet_q90_strength,"derived from u200 western sector: 80-110E, 25-45N",,45,183,81,121,False

@@ -1,0 +1,6 @@
+﻿object,source_field,loaded,lat_range,lon_range,metrics,notes
+P,precip_smoothed,True,"(15.0, 35.0)","(110.0, 140.0)","P_total_strength,P_centroid_lat,P_spread_lat,P_main_band_share,P_south_band_share_18_24,P_main_minus_south",precip object structure domain
+V,v850_smoothed,True,"(15.0, 35.0)","(110.0, 140.0)","V_strength,V_NS_diff,V_pos_centroid_lat",v850 object structure domain
+H,z500_smoothed,True,"(15.0, 35.0)","(110.0, 140.0)","H_strength,H_centroid_lat,H_west_extent_lon,H_zonal_width,H_north_edge_lat,H_south_edge_lat",H/WPSH-like object structure domain
+Je,u200_smoothed,True,"(25.0, 45.0)","(120.0, 150.0)","Je_strength,Je_axis_lat,Je_meridional_width",derived from u200 eastern jet sector
+Jw,u200_smoothed,True,"(25.0, 45.0)","(80.0, 110.0)","Jw_strength,Jw_axis_lat,Jw_meridional_width",derived from u200 western jet sector

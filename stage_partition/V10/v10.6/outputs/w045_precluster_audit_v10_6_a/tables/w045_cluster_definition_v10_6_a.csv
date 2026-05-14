@@ -1,0 +1,5 @@
+cluster_id,center_day,day_min,day_max,role_seed,included_in_order_test
+E1_early_precluster,18,12,23,"early precluster around day16-19; joint/P/V/H expected, Jw absent",True
+E2_second_precluster,33,27,38,"second object-layer precluster around day30-35; P/V/H/Je expected, Jw absent",True
+M_w045_main_cluster,45,40,48,"W045 main cluster around day41-46; joint/P/V/Je/Jw expected, H absence under audit",True
+H_post_reference,57,52,62,"post-W045 H reference candidate around day57; reference only, not W045 main order",False

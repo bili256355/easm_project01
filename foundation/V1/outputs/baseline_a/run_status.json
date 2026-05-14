@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "started_at": "2026-04-20T22:31:02",
+  "finished_at": "2026-04-20T22:50:50",
+  "elapsed_seconds": 1188.48,
+  "project_name": "easm_project01",
+  "layer_name": "foundation",
+  "version_name": "V1",
+  "project_root": "D:\\easm_project01",
+  "layer_root": "D:\\easm_project01\\foundation\\V1",
+  "data_root": "D:\\工作目录\\data\\my_data",
+  "outputs_root": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a",
+  "logs_root": "D:\\easm_project01\\foundation\\V1\\logs\\baseline_a\\mainline",
+  "package_name": "foundation_v1",
+  "package_version": "1.0.0"
+}

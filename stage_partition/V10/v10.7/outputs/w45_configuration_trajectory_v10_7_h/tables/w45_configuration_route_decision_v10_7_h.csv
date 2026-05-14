@@ -1,0 +1,6 @@
+﻿decision_item,status,evidence,route_implication
+E2_to_M_configuration_coupling,not_above_null,obs=-0.03114; null_p90=0.05788; p=0.487,E2 multi-object activity should not be treated as organized W45 preconfiguration under this metric/mode.
+E1_to_E2_preconfiguration,strong_coupled_above_null,obs=0.2298; null_p90=0.1324; p=0.001996,"If coupled, early pre-window multi-object activity may form an organized preconfiguration sequence; if not, E1 should not be over-linked to E2."
+E1_to_M_direct_link,not_above_null,obs=-0.1443; null_p90=-0.008656; p=0.8064,Direct E1-M coupling would support a longer pre-window trajectory; absence suggests E1 cannot be directly tied to M without E2 evidence.
+H_contribution_to_E2_M_coupling,secondary_dimension,drop=0.06638; null_p90=0.06865; p=0.1178,"H contributes weakly/secondarily; retain only as a secondary E2 component, not a standalone precursor."
+W45_configuration_route,E2_not_supported_as_M_preconfiguration,"primary_mode=anomaly; primary_metric=cosine; E2_M=not_above_null; H_contribution=secondary_dimension; positive_objects=H,Jw,Je","Do not interpret E1/E2 activity, including H35, as W45 preconfiguration without further evidence."

@@ -1,0 +1,238 @@
+{
+  "version": "v10.7_e",
+  "task": "H35 existence attribution audit",
+  "created_at_utc": "2026-05-14T01:47:42.041044+00:00",
+  "project_root": "D:\\easm_project01",
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\h35_existence_attribution_v10_7_e",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "version": "v10.7_e",
+    "output_tag": "h35_existence_attribution_v10_7_e",
+    "smoothed_env_var": "V10_7_SMOOTHED_FIELDS",
+    "field_key_candidates": [
+      "z500_smoothed",
+      "z500",
+      "H",
+      "hgt500",
+      "geopotential_500",
+      "zg500"
+    ],
+    "lat_key_candidates": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "lon_key_candidates": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "year_key_candidates": [
+      "year",
+      "years"
+    ],
+    "day_key_candidates": [
+      "day",
+      "days",
+      "day_index"
+    ],
+    "object_lat_range": [
+      15.0,
+      35.0
+    ],
+    "object_lon_range": [
+      110.0,
+      140.0
+    ],
+    "events": [
+      {
+        "event_id": "H18",
+        "pre_days": [
+          14,
+          17
+        ],
+        "post_days": [
+          19,
+          22
+        ],
+        "background_range": [
+          8,
+          28
+        ],
+        "target_day": 18
+      },
+      {
+        "event_id": "H35",
+        "pre_days": [
+          31,
+          34
+        ],
+        "post_days": [
+          36,
+          39
+        ],
+        "background_range": [
+          25,
+          43
+        ],
+        "target_day": 35
+      },
+      {
+        "event_id": "H45",
+        "pre_days": [
+          40,
+          43
+        ],
+        "post_days": [
+          45,
+          48
+        ],
+        "background_range": [
+          36,
+          52
+        ],
+        "target_day": 45
+      },
+      {
+        "event_id": "H57",
+        "pre_days": [
+          52,
+          55
+        ],
+        "post_days": [
+          57,
+          60
+        ],
+        "background_range": [
+          48,
+          66
+        ],
+        "target_day": 57
+      }
+    ],
+    "pseudo_events": [
+      {
+        "event_id": "PSEUDO_22_30",
+        "pre_days": [
+          22,
+          25
+        ],
+        "post_days": [
+          27,
+          30
+        ],
+        "background_range": [
+          16,
+          34
+        ],
+        "target_day": 26
+      },
+      {
+        "event_id": "PSEUDO_24_32",
+        "pre_days": [
+          24,
+          27
+        ],
+        "post_days": [
+          29,
+          32
+        ],
+        "background_range": [
+          18,
+          36
+        ],
+        "target_day": 28
+      },
+      {
+        "event_id": "PSEUDO_48_56",
+        "pre_days": [
+          48,
+          51
+        ],
+        "post_days": [
+          53,
+          56
+        ],
+        "background_range": [
+          42,
+          62
+        ],
+        "target_day": 52
+      },
+      {
+        "event_id": "PSEUDO_60_68",
+        "pre_days": [
+          60,
+          63
+        ],
+        "post_days": [
+          65,
+          68
+        ],
+        "background_range": [
+          54,
+          74
+        ],
+        "target_day": 64
+      }
+    ],
+    "score_half_width": 10,
+    "top_year_fraction": 0.2,
+    "few_year_top_share_threshold": 0.5,
+    "residual_not_special_quantile": 0.9,
+    "score_drop_large_threshold": 0.5,
+    "contribution_topn": 5,
+    "random_seed": 20260514
+  },
+  "input_status": {
+    "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "field_key": "z500_smoothed",
+    "original_shape": [
+      45,
+      183,
+      201,
+      521
+    ],
+    "object_domain_shape_year_day_lat_lon": [
+      45,
+      183,
+      81,
+      121
+    ],
+    "object_domain_lat": [
+      15.0,
+      35.0
+    ],
+    "object_domain_lon": [
+      110.0,
+      140.0
+    ],
+    "year_dimension": "detected",
+    "available_modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "anomaly_status": "computed_from_year_mean_daily_climatology"
+  },
+  "final_attribution_decision": [
+    {
+      "decision_item": "H35 existence attribution",
+      "status": "method_score_shoulder_or_background",
+      "evidence": "primary=anomaly/object_domain_spatial; H35 residual_fraction median=0.769, pseudo q90=0.989; median score drop after H18-like removal=0.15; median score drop after background removal=0.424; top 20% year score share=0.335; top feature contribution overlap=0.2",
+      "route_implication": "H35 exists as method-level candidate but has no stable independent attribution"
+    },
+    {
+      "decision_item": "E2 multi-object component",
+      "status": "not_tested_in_v10_7_e",
+      "evidence": "V10.7_e is H-only. Cross-object E2 requires P/V/Je/Jw inputs.",
+      "route_implication": "test separately only if H package remains relevant"
+    }
+  ],
+  "method_boundary": [
+    "not causal inference",
+    "not H35 -> W045 cross-object audit",
+    "not detector rerun",
+    "explains why H35 exists as an H-only candidate by testing H18-like, background, year-concentration, and method-shoulder evidence"
+  ]
+}

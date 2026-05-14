@@ -1,0 +1,3 @@
+﻿ridge_id,day_min,day_max,day_center_weighted,sigma_min,sigma_max,sigma_count,persistence_fraction,max_energy_norm,mean_energy_norm,max_energy_day,max_energy_sigma,nearest_target_label,nearest_target_day,nearest_target_distance,role_hint
+R001,18,26,20.377308482114056,2.0,14.0,8,1.0,1.0,0.999028951382867,19,2.0,H19,19,1,candidate_scale_structure
+R002,35,36,35.68460006311585,2.0,4.0,3,0.375,0.798907980434484,0.761018833769641,36,2.0,H35,35,1,candidate_scale_structure

@@ -1,0 +1,3 @@
+﻿decision_item,status,evidence,route_implication
+H package line,downgrade_H_for_W45_main_explanation,No target shows incremental support from H_package after E2 controls under primary mode.,Shift W45 explanation toward P/V/Je/Jw main-cluster structure; do not continue H package as a primary line.
+input coverage,partial_inputs,Je:missing; Jw:missing,"Interpret missing-object targets/controls as unavailable, not as negative evidence."

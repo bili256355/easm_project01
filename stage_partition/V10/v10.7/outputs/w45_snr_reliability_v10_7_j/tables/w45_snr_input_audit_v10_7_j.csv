@@ -1,0 +1,6 @@
+﻿object,loaded,source_field,derived_from,lat_range,lon_range,strength_method,n_years,n_days,n_lat,n_lon,added_year_dimension,notes
+P,True,precip_smoothed,precip_smoothed,15.0-35.0,110.0-140.0,spatial_rms,45,183,81,121,False,precip object proxy domain
+V,True,v850_smoothed,v850_smoothed,15.0-35.0,110.0-140.0,spatial_rms,45,183,81,121,False,v850 object proxy domain
+H,True,z500_smoothed,z500_smoothed,15.0-35.0,110.0-140.0,spatial_rms,45,183,81,121,False,H object domain
+Je,True,u200_smoothed,u200_smoothed sector profile,25.0-45.0,120.0-150.0,jet_q90_strength,45,183,81,121,False,"derived from u200 eastern sector: 120-150E, 25-45N"
+Jw,True,u200_smoothed,u200_smoothed sector profile,25.0-45.0,80.0-110.0,jet_q90_strength,45,183,81,121,False,"derived from u200 western sector: 80-110E, 25-45N"

@@ -1,0 +1,9 @@
+﻿baseline_candidate_day,matched_widths,n_matched_widths,min_day,max_day,max_shift_abs,stable_under_width_flag,matched_candidate_days_by_width,interpretation_note
+19,12;16;20;24,4,19,19,0.0,True,w12:19;w16:19;w20:19;w24:19,width-stable baseline H candidate
+35,12;16;20;24,4,34,36,1.0,True,w12:36;w16:36;w20:35;w24:34,width-stable baseline H candidate
+57,16;20,2,55,57,2.0,False,w16:55;w20:57,width-sensitive or weakly matched H candidate
+77,12;16;20;24;28,5,77,77,0.0,True,w12:77;w16:77;w20:77;w24:77;w28:77,width-stable baseline H candidate
+95,12;16;20;24;28,5,95,96,1.0,True,w12:95;w16:95;w20:95;w24:95;w28:96,width-stable baseline H candidate
+115,12;16;20;24;28,5,114,115,1.0,True,w12:114;w16:115;w20:115;w24:115;w28:114,width-stable baseline H candidate
+129,12;16;20;24,4,129,131,2.0,True,w12:129;w16:129;w20:129;w24:131,width-stable baseline H candidate
+155,12;16;20;24;28,5,153,155,2.0,True,w12:155;w16:155;w20:155;w24:154;w28:153,width-stable baseline H candidate

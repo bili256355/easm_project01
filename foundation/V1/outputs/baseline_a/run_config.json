@@ -1,0 +1,36 @@
+{
+  "project_name": "easm_project01",
+  "layer_name": "foundation",
+  "version_name": "V1",
+  "package_name": "foundation_v1",
+  "package_version": "1.0.0",
+  "runtime_tag": "baseline_a",
+  "paths": {
+    "project_root": "D:\\easm_project01",
+    "data_root": "D:\\工作目录\\data\\my_data",
+    "layer_root": "D:\\easm_project01\\foundation\\V1",
+    "outputs_root": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a",
+    "logs_root": "D:\\easm_project01\\foundation\\V1\\logs\\baseline_a\\mainline",
+    "preprocess_root": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess",
+    "indices_root": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\indices"
+  },
+  "preprocess": {
+    "smooth_window": 9,
+    "require_odd_window": true,
+    "full_window_only": true,
+    "anomaly_definition": "smoothed_minus_daily_climatology"
+  },
+  "indices": {
+    "compute_anomaly_after_index_build": true,
+    "source_bundle_name": "smoothed_fields.npz"
+  },
+  "input_files": {
+    "precip": "precip.npy",
+    "u200": "u200.npy",
+    "z500": "z500.npy",
+    "v850": "v850.npy",
+    "lat": "lat.npy",
+    "lon": "lon.npy",
+    "years": "years.npy"
+  }
+}

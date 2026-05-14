@@ -1,0 +1,233 @@
+{
+  "version": "v10.7_d",
+  "task": "H35 residual/anomaly independence audit with conditional H18 predictive test",
+  "created_at_utc": "2026-05-14T01:37:22.328820+00:00",
+  "project_root": "D:\\easm_project01",
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\h35_residual_independence_v10_7_d",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "version": "v10.7_d",
+    "output_tag": "h35_residual_independence_v10_7_d",
+    "smoothed_env_var": "V10_7_SMOOTHED_FIELDS",
+    "field_key_candidates": [
+      "z500_smoothed",
+      "z500",
+      "H",
+      "hgt500",
+      "geopotential_500",
+      "zg500"
+    ],
+    "lat_key_candidates": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "lon_key_candidates": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "year_key_candidates": [
+      "year",
+      "years"
+    ],
+    "day_key_candidates": [
+      "day",
+      "days",
+      "day_index"
+    ],
+    "object_lat_range": [
+      15.0,
+      35.0
+    ],
+    "object_lon_range": [
+      110.0,
+      140.0
+    ],
+    "events": [
+      {
+        "event_id": "H18",
+        "pre_days": [
+          14,
+          17
+        ],
+        "post_days": [
+          19,
+          22
+        ],
+        "background_range": [
+          8,
+          28
+        ]
+      },
+      {
+        "event_id": "H35",
+        "pre_days": [
+          31,
+          34
+        ],
+        "post_days": [
+          36,
+          39
+        ],
+        "background_range": [
+          25,
+          43
+        ]
+      },
+      {
+        "event_id": "H45",
+        "pre_days": [
+          40,
+          43
+        ],
+        "post_days": [
+          45,
+          48
+        ],
+        "background_range": [
+          36,
+          52
+        ]
+      },
+      {
+        "event_id": "H57",
+        "pre_days": [
+          52,
+          55
+        ],
+        "post_days": [
+          57,
+          60
+        ],
+        "background_range": [
+          48,
+          66
+        ]
+      }
+    ],
+    "pseudo_events": [
+      {
+        "event_id": "PSEUDO_22_30",
+        "pre_days": [
+          22,
+          25
+        ],
+        "post_days": [
+          27,
+          30
+        ],
+        "background_range": [
+          16,
+          34
+        ]
+      },
+      {
+        "event_id": "PSEUDO_24_32",
+        "pre_days": [
+          24,
+          27
+        ],
+        "post_days": [
+          29,
+          32
+        ],
+        "background_range": [
+          18,
+          36
+        ]
+      },
+      {
+        "event_id": "PSEUDO_48_56",
+        "pre_days": [
+          48,
+          51
+        ],
+        "post_days": [
+          53,
+          56
+        ],
+        "background_range": [
+          42,
+          62
+        ]
+      },
+      {
+        "event_id": "PSEUDO_60_68",
+        "pre_days": [
+          60,
+          63
+        ],
+        "post_days": [
+          65,
+          68
+        ],
+        "background_range": [
+          54,
+          74
+        ]
+      }
+    ],
+    "primary_modes_for_decision": [
+      "anomaly",
+      "local_background_removed"
+    ],
+    "null_quantile": 0.9,
+    "residual_fraction_moderate": 0.35,
+    "residual_fraction_strong": 0.5,
+    "n_bootstrap": 1000,
+    "n_permutation": 2000,
+    "random_seed": 20260514
+  },
+  "input_status": {
+    "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "field_key": "z500_smoothed",
+    "original_shape": [
+      45,
+      183,
+      201,
+      521
+    ],
+    "object_domain_shape_year_day_lat_lon": [
+      45,
+      183,
+      81,
+      121
+    ],
+    "year_dimension": "detected",
+    "object_domain_lat": [
+      15.0,
+      35.0
+    ],
+    "object_domain_lon": [
+      110.0,
+      140.0
+    ],
+    "available_modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "anomaly_status": "computed_from_year_mean_daily_climatology"
+  },
+  "final_route_decision": [
+    {
+      "decision_item": "H35 single-point line",
+      "status": "not_independent",
+      "evidence": "mode=anomaly, domain=object_domain_spatial, residual_fraction_median=0.769, pseudo_q90=0.989, consistency_median=-0.094",
+      "route_implication": "stop_H35_single_point_line; use H18-H35 package only if H remains relevant"
+    },
+    {
+      "decision_item": "H18 precursor to H35 residual",
+      "status": "not_tested_because_H35_not_independent",
+      "evidence": "mode=anomaly, domain=object_domain_spatial, spearman_r=-0.0914, perm_p=0.536, loo_sign=1",
+      "route_implication": "invalid_question_under_current_evidence"
+    }
+  ],
+  "method_boundary": [
+    "not causal inference",
+    "not H35 -> W045 cross-object audit",
+    "not detector rerun",
+    "H18 precursor-to-H35 only interpreted if H35 residual independence passes gate"
+  ]
+}

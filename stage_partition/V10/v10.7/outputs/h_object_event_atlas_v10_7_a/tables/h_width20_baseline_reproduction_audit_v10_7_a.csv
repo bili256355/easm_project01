@@ -1,0 +1,9 @@
+﻿expected_candidate_day,nearest_actual_candidate_day,abs_offset,matched_within_tolerance
+19,19,0,True
+35,35,0,True
+57,57,0,True
+77,77,0,True
+95,95,0,True
+115,115,0,True
+129,129,0,True
+155,155,0,True

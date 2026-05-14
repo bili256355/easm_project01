@@ -1,0 +1,5 @@
+﻿decision_item,status,evidence,route_implication
+E2_to_M_cross_object_mapping,no_mapping,"cv_r2=-0.181, p=0.448, null_p90=-0.117",No scalar cross-object mapping detected; W33 should not yet be treated as W45 preconfiguration.
+H_E2_contribution_to_E2_M_mapping,negative_or_unstable_dimension,"skill_drop=-0.008, p=0.159, null_p90=-0.001",Do not interpret H contribution because overall E2-to-M mapping is not established.
+H_E2_target_specific_mapping,H_E2_maps_to_M_target,"M_Je:weak_mapping_support,r=-0.29,p=0.065","If H_E2 maps to non-H M targets, retain H as preconfiguration candidate; otherwise H remains unresolved/secondary."
+W33_to_W45_route,W33_not_connected_to_W45_by_this_scalar_mapping,mapping=no_mapping; H_contribution=negative_or_unstable_dimension; H_target_mapping=H_E2_maps_to_M_target,W18-W33 sequence may be pre-window activity not connected to W45 under scalar mapping; consider richer position/shape metrics before final rejection.

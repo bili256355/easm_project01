@@ -1,0 +1,3 @@
+﻿decision_item,status,evidence,route_implication
+H35 existence attribution,method_score_shoulder_or_background,"primary=anomaly/object_domain_spatial; H35 residual_fraction median=0.769, pseudo q90=0.989; median score drop after H18-like removal=0.15; median score drop after background removal=0.424; top 20% year score share=0.335; top feature contribution overlap=0.2",H35 exists as method-level candidate but has no stable independent attribution
+E2 multi-object component,not_tested_in_v10_7_e,V10.7_e is H-only. Cross-object E2 requires P/V/Je/Jw inputs.,test separately only if H package remains relevant

@@ -1,0 +1,3 @@
+﻿decision_item,status,evidence,route_implication
+H_E2_structure_to_M_P_rainband_spatial_verification,spatial_metric_support_for_H_to_P_structure_mapping_candidate,primary significant P rainband metric rows=9; total candidate rows=9,Proceed to physical sign interpretation and targeted spatial-profile discussion; not causal proof.
+sign_direction_interpretation,manual_direction_audit_required,H_west_extent_lon sign depends on longitude convention: smaller west_extent means farther west active edge.,Do not write physical sign explanation before checking direction audit table and maps.

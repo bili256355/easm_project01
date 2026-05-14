@@ -1,0 +1,16 @@
+﻿mode,target_object_M,spearman_r,pearson_r,permutation_p,support_class,interpretation_hint
+anomaly,P,-0.15928853754940708,-0.1229073095852755,0.30845771144278605,no_mapping_support,No evidence that H_E2 maps to M_P under this scalar diagnostic.
+anomaly,V,-0.11581027667984188,-0.06776058857667283,0.48756218905472637,no_mapping_support,No evidence that H_E2 maps to M_V under this scalar diagnostic.
+anomaly,H,0.15349143610013175,0.22358615926650954,0.3034825870646766,no_mapping_support,No evidence that H_E2 maps to M_H under this scalar diagnostic.
+anomaly,Je,-0.2872200263504611,-0.36395794299273926,0.06467661691542288,weak_mapping_support,H_E2 maps to M_Je; candidate evidence for H as a preconfiguration dimension for non-H W45 object.
+anomaly,Jw,-0.047562582345191035,-0.05570424272733327,0.746268656716418,no_mapping_support,No evidence that H_E2 maps to M_Jw under this scalar diagnostic.
+local_background_removed,P,-0.02411067193675889,-0.05768800595327772,0.8905472636815921,no_mapping_support,No evidence that H_E2 maps to M_P under this scalar diagnostic.
+local_background_removed,V,0.13412384716732542,0.1467063966774672,0.3333333333333333,no_mapping_support,No evidence that H_E2 maps to M_V under this scalar diagnostic.
+local_background_removed,H,0.11146245059288536,0.1614756640436591,0.5024875621890548,no_mapping_support,No evidence that H_E2 maps to M_H under this scalar diagnostic.
+local_background_removed,Je,-0.17839262187088273,-0.12407679751264439,0.26865671641791045,no_mapping_support,No evidence that H_E2 maps to M_Je under this scalar diagnostic.
+local_background_removed,Jw,-0.027404479578392617,-0.043039279409554654,0.8706467661691543,no_mapping_support,No evidence that H_E2 maps to M_Jw under this scalar diagnostic.
+raw,P,-0.04874835309617918,-0.10417221643238618,0.7562189054726368,no_mapping_support,No evidence that H_E2 maps to M_P under this scalar diagnostic.
+raw,V,0.2540184453227931,0.2764519157772084,0.13930348258706468,weak_mapping_support,H_E2 maps to M_V; candidate evidence for H as a preconfiguration dimension for non-H W45 object.
+raw,H,0.47404479578392617,0.5164030151272008,0.004975124378109453,clear_mapping_support,"H_E2 maps to H_M; this is same-object persistence, not the main W45 reorganization hypothesis."
+raw,Je,-0.341897233201581,-0.4179252060570452,0.014925373134328358,clear_mapping_support,H_E2 maps to M_Je; candidate evidence for H as a preconfiguration dimension for non-H W45 object.
+raw,Jw,-0.014756258234519102,-0.05529331470083318,0.8955223880597015,no_mapping_support,No evidence that H_E2 maps to M_Jw under this scalar diagnostic.

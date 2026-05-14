@@ -1,0 +1,21 @@
+﻿window_id,window_center,window_start,window_end,detector_width,h_inside_window_candidates,h_pre_window_candidates,h_post_window_candidates,window_auc_score,window_max_score,window_max_score_day,nearest_candidate_day,nearest_candidate_score,nearest_candidate_distance,h_role_class,h_event_package_summary
+W045,45,40,48,12,46,36,54,0.26505352185551434,0.14000486847061788,40,46,0.018627168735842536,1,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[36]; inside=[46]; post=[54]
+W045,45,40,48,16,,36,55,0.5400146192182,0.2685854368048504,40,36,0.5525283966081277,9,pre_and_post_without_inside,role=pre_and_post_without_inside; pre=[36]; inside=none; post=[55]
+W045,45,40,48,20,,35,57,1.1487158388264973,0.4332613075802144,40,35,0.9190171447661464,10,pre_and_post_without_inside,role=pre_and_post_without_inside; pre=[35]; inside=none; post=[57]
+W045,45,40,48,24,,34,,2.373375381231417,0.6824420654794963,40,34,1.376549229515868,11,pre_window_candidate_only,role=pre_window_candidate_only; pre=[34]; inside=none; post=none
+W045,45,40,48,28,,,,4.405883642110904,1.039174550705527,40,77,2.7759500810671547,32,window_absent,role=window_absent; pre=none; inside=none; post=none
+W081,81,75,87,12,77,,95,2.721873034564861,0.33449441119697176,77,77,0.33449441119697176,4,inside_and_post_candidate,role=inside_and_post_candidate; pre=none; inside=[77]; post=[95]
+W081,81,75,87,16,77,55,95,6.159468297318585,0.7133491397840082,77,77,0.7133491397840082,4,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[55]; inside=[77]; post=[95]
+W081,81,75,87,20,77,57,95,11.417168139947233,1.2271510502887968,77,77,1.2271510502887968,4,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[57]; inside=[77]; post=[95]
+W081,81,75,87,24,77,,95,18.629169285090736,1.901045948572841,77,77,1.901045948572841,4,inside_and_post_candidate,role=inside_and_post_candidate; pre=none; inside=[77]; post=[95]
+W081,81,75,87,28,77,,96,27.82014987833373,2.7759500810671547,77,77,2.7759500810671547,4,inside_and_post_candidate,role=inside_and_post_candidate; pre=none; inside=[77]; post=[96]
+W113,113,108,118,12,114,95,129,7.0771920002824755,0.9813955621030381,114,114,0.9813955621030381,1,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[95]; inside=[114]; post=[129]
+W113,113,108,118,16,115,95,129,14.606937036351663,1.933987396389258,115,115,1.933987396389258,2,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[95]; inside=[115]; post=[129]
+W113,113,108,118,20,115,95,129,24.369527198464784,3.146096839637366,115,115,3.146096839637366,2,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[95]; inside=[115]; post=[129]
+W113,113,108,118,24,115,95,131,35.368023505740766,4.351796701605672,115,115,4.351796701605672,2,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[95]; inside=[115]; post=[131]
+W113,113,108,118,28,114,96,132,47.08744808625872,5.506301540637404,114,114,5.506301540637404,1,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[96]; inside=[114]; post=[132]
+W160,160,155,165,12,155;164,142,171,1.5393386204649888,0.4168031168275916,155,164,0.05314097506531069,4,pre_and_inside_candidate,"role=pre_and_inside_candidate; pre=[142]; inside=[155, 164]; post=[171]"
+W160,160,155,165,16,155,143,,2.3793763532854446,0.6861017332658154,155,155,0.6861017332658154,5,pre_and_inside_candidate,role=pre_and_inside_candidate; pre=[143]; inside=[155]; post=none
+W160,160,155,165,20,155,,,3.2558569939930324,0.886077308321052,155,155,0.886077308321052,5,inside_window_main_candidate,role=inside_window_main_candidate; pre=none; inside=[155]; post=none
+W160,160,155,165,24,,154,,4.669737536942123,0.9953738607365001,155,154,1.0333744845035808,6,pre_window_candidate_only,role=pre_window_candidate_only; pre=[154]; inside=none; post=none
+W160,160,155,165,28,,153,,6.580472995547278,1.2087676278258181,155,153,1.2680715584148776,7,pre_window_candidate_only,role=pre_window_candidate_only; pre=[153]; inside=none; post=none

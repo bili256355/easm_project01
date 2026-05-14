@@ -1,0 +1,222 @@
+{
+  "version": "v10.7_c",
+  "task": "H W045 H18/H35/H45 event-content audit",
+  "created_utc": "2026-05-13T14:43:37.300989+00:00",
+  "project_root": "D:\\easm_project01",
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\h_w045_event_content_audit_v10_7_c",
+  "config": {
+    "version": "v10.7_c",
+    "output_tag": "h_w045_event_content_audit_v10_7_c",
+    "event_windows": [
+      {
+        "event_id": "H18",
+        "target_day": 18,
+        "pre_min": 14,
+        "pre_max": 17,
+        "post_min": 19,
+        "post_max": 22,
+        "role_seed": "early H adjustment candidate"
+      },
+      {
+        "event_id": "H35",
+        "target_day": 35,
+        "pre_min": 31,
+        "pre_max": 34,
+        "post_min": 36,
+        "post_max": 39,
+        "role_seed": "second pre-window H local structure"
+      },
+      {
+        "event_id": "H45",
+        "target_day": 45,
+        "pre_min": 40,
+        "pre_max": 43,
+        "post_min": 45,
+        "post_max": 48,
+        "role_seed": "W045 main-cluster H control"
+      },
+      {
+        "event_id": "H57",
+        "target_day": 57,
+        "pre_min": 52,
+        "pre_max": 55,
+        "post_min": 57,
+        "post_max": 60,
+        "role_seed": "post-W045 H reference"
+      }
+    ],
+    "lon_range": [
+      20.0,
+      150.0
+    ],
+    "lat_range": [
+      10.0,
+      60.0
+    ],
+    "object_lon_range": [
+      110.0,
+      140.0
+    ],
+    "object_lat_range": [
+      15.0,
+      35.0
+    ],
+    "possible_h_field_keys": [
+      "z500_smoothed",
+      "z500",
+      "H",
+      "h",
+      "hgt500",
+      "geopotential_500",
+      "Z500",
+      "zg500"
+    ],
+    "possible_lat_keys": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "possible_lon_keys": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "possible_year_keys": [
+      "years",
+      "year",
+      "time_years"
+    ],
+    "representative_sigmas": [
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      9.0,
+      14.0
+    ],
+    "feature_contribution_sigmas": {
+      "H18": [
+        3.0,
+        5.0,
+        9.0,
+        14.0
+      ],
+      "H35": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "H45": [
+        3.0,
+        5.0,
+        9.0
+      ],
+      "H57": [
+        3.0,
+        5.0,
+        9.0
+      ]
+    }
+  },
+  "method_boundary": [
+    "not influence test",
+    "not causal inference",
+    "not lead-lag test",
+    "not detector rerun",
+    "event content audit only"
+  ],
+  "input_status": {
+    "profile_status": "reconstructed_from_smoothed_fields",
+    "spatial_status": "loaded",
+    "v10_7_b_scale_context": "loaded",
+    "yearwise_status": "computed"
+  },
+  "h_state_meta": {
+    "state_reconstruction_source": "V10.7_a H profile builder + foundation smoothed_fields.npz",
+    "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "h_profile_field_key": "z500_smoothed",
+    "h_profile_lat_range": [
+      15.0,
+      35.0
+    ],
+    "h_profile_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_profile_shape_year_day_feature": [
+      45,
+      183,
+      11
+    ],
+    "state_matrix_shape": [
+      175,
+      11
+    ],
+    "valid_day_count": 175
+  },
+  "spatial_input_meta": {
+    "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+    "available_keys": [
+      "lat",
+      "lon",
+      "precip_smoothed",
+      "u200_smoothed",
+      "v850_smoothed",
+      "years",
+      "z500_smoothed"
+    ],
+    "field_key_detected": "z500_smoothed",
+    "lat_key_detected": "lat",
+    "lon_key_detected": "lon",
+    "year_key_detected": "years",
+    "spatial_status": "loaded",
+    "field_shape_year_day_lat_lon": [
+      45,
+      183,
+      201,
+      521
+    ],
+    "field_shape_status": "assumed_year_day_lat_lon",
+    "has_year_dim": true,
+    "n_years": 45,
+    "n_days": 183
+  },
+  "feature_contribution_meta": {
+    "feature_contribution_backend": "scipy_gaussian_filter1d",
+    "n_derivative_features": 11
+  },
+  "spatial_composite_meta_full_domain": {
+    "spatial_composite_status": "computed_full_domain_context",
+    "domain_label": "full_domain_context",
+    "domain_lat_range": [
+      10.0,
+      60.0
+    ],
+    "domain_lon_range": [
+      20.0,
+      150.0
+    ],
+    "n_lat_selected": 201,
+    "n_lon_selected": 521,
+    "lat_sort_applied": true,
+    "lon_sort_applied": false
+  },
+  "spatial_composite_meta_object_domain": {
+    "spatial_composite_status": "computed_h_object_domain",
+    "domain_label": "h_object_domain",
+    "domain_lat_range": [
+      15.0,
+      35.0
+    ],
+    "domain_lon_range": [
+      110.0,
+      140.0
+    ],
+    "n_lat_selected": 81,
+    "n_lon_selected": 121,
+    "lat_sort_applied": true,
+    "lon_sort_applied": false
+  },
+  "spatial_plot_backend_full_domain": "cartopy",
+  "spatial_plot_backend_object_domain": "cartopy"
+}

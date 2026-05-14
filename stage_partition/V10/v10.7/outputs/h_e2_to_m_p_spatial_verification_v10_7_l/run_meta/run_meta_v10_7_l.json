@@ -1,0 +1,91 @@
+{
+  "version": "v10.7_l",
+  "task": "H_E2 structure to M_P rainband spatial verification",
+  "started_or_completed_utc": "2026-05-14T12:22:11.883888+00:00",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "n_perm": 5000,
+    "n_boot": 1000,
+    "group_frac": 0.3,
+    "progress": true,
+    "smoothed_fields_path_override": null,
+    "version": "v10.7_l",
+    "output_tag": "h_e2_to_m_p_spatial_verification_v10_7_l",
+    "random_seed": 20260514,
+    "e2_pre": [
+      27,
+      31
+    ],
+    "e2_post": [
+      34,
+      38
+    ],
+    "m_pre": [
+      40,
+      43
+    ],
+    "m_post": [
+      45,
+      48
+    ],
+    "m_full": [
+      40,
+      48
+    ],
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "p_lat_range": [
+      15.0,
+      35.0
+    ],
+    "p_lon_range": [
+      110.0,
+      140.0
+    ],
+    "h_metrics_main": [
+      "H_west_extent_lon_transition",
+      "H_zonal_width_transition",
+      "H_north_edge_lat_transition"
+    ],
+    "h_metrics_aux": [
+      "H_strength_transition",
+      "H_centroid_lat_transition"
+    ],
+    "p_metrics_main": [
+      "P_centroid_lat_transition",
+      "P_main_band_share_transition",
+      "P_south_band_share_18_24_transition",
+      "P_main_minus_south_transition",
+      "P_spread_lat_transition"
+    ],
+    "modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "primary_modes": [
+      "anomaly",
+      "local_background_removed"
+    ]
+  },
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "has_cartopy": true,
+  "n_years": 45,
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\h_e2_to_m_p_spatial_verification_v10_7_l",
+  "analysis_meta": {
+    "route_status": "spatial_metric_support_for_H_to_P_structure_mapping_candidate",
+    "candidate_rows": 9
+  },
+  "method_boundary": [
+    "not causal inference",
+    "not full E2-to-M mapping",
+    "not control-regression",
+    "H-source/P-target narrow verification"
+  ]
+}

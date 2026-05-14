@@ -1,0 +1,6 @@
+﻿comparison,event_a,event_b,profile_cosine_similarity,profile_pearson_correlation,profile_same_sign_fraction,profile_top_feature_overlap_top5,profile_top_feature_overlap_top10,spatial_pattern_correlation,spatial_cosine_similarity,spatial_same_sign_fraction,interpretation_hint,spatial_domain_used
+H18_vs_H35,H18,H35,0.9779794017911145,0.9562065828172541,0.7272727272727273,1.0,0.9,0.8309035446279883,0.9296171532309578,0.8766723006846764,similar_content_candidate_same_type_adjustment,full_domain_context
+H18_vs_H45,H18,H45,-0.5668131369008004,-0.043729073219936444,0.18181818181818182,0.6,1.0,0.4425870237855562,0.7228244973183411,0.800383877159309,low_similarity_candidate_distinct_content,full_domain_context
+H35_vs_H45,H35,H45,-0.6029959632947027,-0.19545105113887973,0.2727272727272727,0.6,0.9,0.33046943991535704,0.6637435392725495,0.811565970531221,low_similarity_candidate_distinct_content,full_domain_context
+H35_vs_H57,H35,H57,0.9837958002129733,0.9650179336320133,0.9090909090909091,1.0,0.9,0.822752440964384,0.9136406071337958,0.9159671890069805,similar_content_candidate_same_type_adjustment,full_domain_context
+H18_vs_H57,H18,H57,0.994669462837197,0.9884990189536796,0.8181818181818182,1.0,0.9,0.8100501446306145,0.9078831180486197,0.8864315657795475,similar_content_candidate_same_type_adjustment,full_domain_context

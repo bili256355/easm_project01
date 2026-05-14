@@ -1,0 +1,162 @@
+{
+  "task_scope": "field_level_preprocess_only",
+  "project_name": "easm_project01",
+  "layer_name": "foundation",
+  "version_name": "V1",
+  "hard_constraints": {
+    "no_stage_generation": true,
+    "no_window_detection": true,
+    "no_pathway_inference": true
+  },
+  "input_manifest": {
+    "precip": {
+      "path": "D:\\工作目录\\data\\my_data\\precip.npy",
+      "size_bytes": 3449509868,
+      "mtime": 1774671092.0923007,
+      "sha256": "35f5b27fb19018d0d476791c1f06030ef488f2c401697653877c3451a02b37ce"
+    },
+    "u200": {
+      "path": "D:\\工作目录\\data\\my_data\\u200.npy",
+      "size_bytes": 3449509868,
+      "mtime": 1774671044.2265663,
+      "sha256": "31dca95ddcb885e894313b1cde9e5e0dd59e92fb03fa45957d1d57585e36baeb"
+    },
+    "z500": {
+      "path": "D:\\工作目录\\data\\my_data\\z500.npy",
+      "size_bytes": 3449509868,
+      "mtime": 1774671129.9070046,
+      "sha256": "eaa90d2d098d765ac99925821cc6376da60fc80d8fe0e745b91f0c7ffcb09aa1"
+    },
+    "v850": {
+      "path": "D:\\工作目录\\data\\my_data\\v850.npy",
+      "size_bytes": 3449509868,
+      "mtime": 1774671114.5672083,
+      "sha256": "203d16a4274d02f39701d3ad5ac079e5c65c0f313f4a0cfb3c0aa7eeb6ff2157"
+    },
+    "lat": {
+      "path": "D:\\工作目录\\data\\my_data\\lat.npy",
+      "size_bytes": 932,
+      "mtime": 1774671217.116093,
+      "sha256": "723d297cecbaa476530219b0e6905c2006648a1c285b3f74a626d14e789de8fd"
+    },
+    "lon": {
+      "path": "D:\\工作目录\\data\\my_data\\lon.npy",
+      "size_bytes": 2212,
+      "mtime": 1774671221.9829774,
+      "sha256": "a919fd692057535ecffdc273d2fae98550d242586417a3522b9e9929271c7747"
+    },
+    "years": {
+      "path": "D:\\工作目录\\data\\my_data\\years.npy",
+      "size_bytes": 308,
+      "mtime": 1775297010.646382,
+      "sha256": "f84a90f133e82490b90b7ec70356752d6db15ed3c7ab0c1c407cec5f5c8e4fd5"
+    }
+  },
+  "shape_report": {
+    "field_shapes": {
+      "precip": [
+        45,
+        183,
+        201,
+        521
+      ],
+      "u200": [
+        45,
+        183,
+        201,
+        521
+      ],
+      "z500": [
+        45,
+        183,
+        201,
+        521
+      ],
+      "v850": [
+        45,
+        183,
+        201,
+        521
+      ],
+      "lat": [
+        201
+      ],
+      "lon": [
+        521
+      ],
+      "years": [
+        45
+      ]
+    },
+    "field_dtypes": {
+      "precip": "float32",
+      "u200": "float32",
+      "z500": "float32",
+      "v850": "float32",
+      "lat": "float32",
+      "lon": "float32",
+      "years": "int32"
+    },
+    "checks": {
+      "main_fields_are_4d": true,
+      "main_fields_same_shape": true,
+      "lat_matches": true,
+      "lon_matches": true,
+      "years_matches": true,
+      "main_shape_contract": "(year, day, lat, lon)"
+    }
+  },
+  "finite_summary": {
+    "precip": {
+      "total_count": 862377435.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    },
+    "u200": {
+      "total_count": 862377435.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    },
+    "z500": {
+      "total_count": 862377435.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    },
+    "v850": {
+      "total_count": 862377435.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    },
+    "lat": {
+      "total_count": 201.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    },
+    "lon": {
+      "total_count": 521.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    },
+    "years": {
+      "total_count": 45.0,
+      "nan_count": 0.0,
+      "inf_count": 0.0,
+      "nan_fraction": 0.0,
+      "inf_fraction": 0.0
+    }
+  },
+  "smooth_window": 9,
+  "anomaly_definition": "smoothed_minus_daily_climatology"
+}

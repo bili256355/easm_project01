@@ -1,0 +1,229 @@
+{
+  "version": "v10.7_h",
+  "task": "W45 E1-E2-M multi-object configuration trajectory audit",
+  "status": "completed",
+  "created_at_utc": "2026-05-14T04:08:53.975181+00:00",
+  "project_root": "D:\\easm_project01",
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\w45_configuration_trajectory_v10_7_h",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "version": "v10.7_h",
+    "output_tag": "w45_configuration_trajectory_v10_7_h",
+    "smoothed_env_var": "V10_7_SMOOTHED_FIELDS",
+    "lat_key_candidates": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "lon_key_candidates": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "year_key_candidates": [
+      "year",
+      "years"
+    ],
+    "day_key_candidates": [
+      "day",
+      "days",
+      "day_index"
+    ],
+    "object_specs": [
+      {
+        "object_name": "P",
+        "source_key_candidates": [
+          "precip_smoothed",
+          "precip",
+          "P",
+          "pr",
+          "rain",
+          "tp"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "reducer": "spatial_rms",
+        "source_note": "precip object proxy domain"
+      },
+      {
+        "object_name": "V",
+        "source_key_candidates": [
+          "v850_smoothed",
+          "v850",
+          "V",
+          "v",
+          "vwind850"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "reducer": "spatial_rms",
+        "source_note": "v850 object proxy domain"
+      },
+      {
+        "object_name": "H",
+        "source_key_candidates": [
+          "z500_smoothed",
+          "z500",
+          "H",
+          "hgt500",
+          "geopotential_500",
+          "zg500"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "reducer": "spatial_rms",
+        "source_note": "H object domain"
+      },
+      {
+        "object_name": "Je",
+        "source_key_candidates": [
+          "u200_smoothed",
+          "u200",
+          "u",
+          "uwnd200"
+        ],
+        "lat_range": [
+          25.0,
+          45.0
+        ],
+        "lon_range": [
+          120.0,
+          150.0
+        ],
+        "reducer": "jet_q90_strength",
+        "source_note": "derived from u200 eastern sector: 120-150E, 25-45N"
+      },
+      {
+        "object_name": "Jw",
+        "source_key_candidates": [
+          "u200_smoothed",
+          "u200",
+          "u",
+          "uwnd200"
+        ],
+        "lat_range": [
+          25.0,
+          45.0
+        ],
+        "lon_range": [
+          80.0,
+          110.0
+        ],
+        "reducer": "jet_q90_strength",
+        "source_note": "derived from u200 western sector: 80-110E, 25-45N"
+      }
+    ],
+    "windows": [
+      {
+        "name": "E1",
+        "days": [
+          12,
+          23
+        ]
+      },
+      {
+        "name": "E2",
+        "days": [
+          27,
+          38
+        ]
+      },
+      {
+        "name": "M",
+        "days": [
+          40,
+          48
+        ]
+      }
+    ],
+    "modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "primary_mode": "anomaly",
+    "object_order": [
+      "P",
+      "V",
+      "H",
+      "Je",
+      "Jw"
+    ],
+    "pair_order": [
+      "E1_E2",
+      "E2_M",
+      "E1_M"
+    ],
+    "similarity_metrics": [
+      "cosine",
+      "pearson",
+      "neg_euclidean"
+    ],
+    "primary_similarity_metric": "cosine",
+    "local_background_windows": {
+      "E1": [
+        0,
+        30
+      ],
+      "E2": [
+        18,
+        48
+      ],
+      "M": [
+        30,
+        60
+      ]
+    },
+    "n_permutation": 500,
+    "random_seed": 20260514,
+    "min_years_for_coupling": 8,
+    "coupled_p_threshold": 0.1,
+    "strongly_coupled_p_threshold": 0.05
+  },
+  "method_boundary": [
+    "not a regression-control experiment",
+    "not causal inference",
+    "does not control away W45 component objects",
+    "configuration coupling against shuffled-year null"
+  ],
+  "smoothed_fields_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "npz_keys": [
+    "lat",
+    "lon",
+    "precip_smoothed",
+    "u200_smoothed",
+    "v850_smoothed",
+    "years",
+    "z500_smoothed"
+  ],
+  "n_objects_loaded": 5,
+  "objects_loaded": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "n_configuration_rows": 2025,
+  "n_coupling_rows": 27,
+  "n_contribution_rows": 135,
+  "completed_at_utc": "2026-05-14T04:11:12.783790+00:00"
+}

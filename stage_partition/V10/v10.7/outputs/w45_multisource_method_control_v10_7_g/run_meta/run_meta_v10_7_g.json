@@ -1,0 +1,262 @@
+{
+  "version": "v10.7_g",
+  "task": "W45 multisource method-control audit",
+  "start_time_utc": "2026-05-14T02:32:59.587664+00:00",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "version": "v10.7_g",
+    "output_tag": "w45_multisource_method_control_v10_7_g",
+    "smoothed_env_var": "V10_7_SMOOTHED_FIELDS",
+    "lat_key_candidates": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "lon_key_candidates": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "year_key_candidates": [
+      "year",
+      "years"
+    ],
+    "day_key_candidates": [
+      "day",
+      "days",
+      "day_index"
+    ],
+    "object_specs": [
+      {
+        "object_name": "H",
+        "source_key_candidates": [
+          "z500_smoothed",
+          "z500",
+          "H",
+          "hgt500",
+          "geopotential_500",
+          "zg500"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "reducer": "spatial_rms",
+        "source_note": "H object domain"
+      },
+      {
+        "object_name": "P",
+        "source_key_candidates": [
+          "precip_smoothed",
+          "precip",
+          "P",
+          "pr",
+          "rain",
+          "tp"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "reducer": "spatial_rms",
+        "source_note": "precip object proxy domain"
+      },
+      {
+        "object_name": "V",
+        "source_key_candidates": [
+          "v850_smoothed",
+          "v850",
+          "V",
+          "v",
+          "vwind850"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ],
+        "reducer": "spatial_rms",
+        "source_note": "v850 object proxy domain"
+      },
+      {
+        "object_name": "Je",
+        "source_key_candidates": [
+          "u200_smoothed",
+          "u200",
+          "u",
+          "uwnd200"
+        ],
+        "lat_range": [
+          25.0,
+          45.0
+        ],
+        "lon_range": [
+          120.0,
+          150.0
+        ],
+        "reducer": "jet_q90_strength",
+        "source_note": "derived from u200 eastern sector: 120-150E, 25-45N"
+      },
+      {
+        "object_name": "Jw",
+        "source_key_candidates": [
+          "u200_smoothed",
+          "u200",
+          "u",
+          "uwnd200"
+        ],
+        "lat_range": [
+          25.0,
+          45.0
+        ],
+        "lon_range": [
+          80.0,
+          110.0
+        ],
+        "reducer": "jet_q90_strength",
+        "source_note": "derived from u200 western sector: 80-110E, 25-45N"
+      }
+    ],
+    "e1": {
+      "name": "E1",
+      "days": [
+        12,
+        23
+      ]
+    },
+    "e2": {
+      "name": "E2",
+      "days": [
+        27,
+        38
+      ]
+    },
+    "h_e1": {
+      "name": "H_E1",
+      "days": [
+        14,
+        22
+      ]
+    },
+    "h_e2": {
+      "name": "H_E2",
+      "days": [
+        31,
+        39
+      ]
+    },
+    "target_windows": {
+      "P": {
+        "name": "P45",
+        "days": [
+          42,
+          48
+        ]
+      },
+      "V": {
+        "name": "V45",
+        "days": [
+          42,
+          48
+        ]
+      },
+      "Je": {
+        "name": "Je46",
+        "days": [
+          43,
+          48
+        ]
+      },
+      "Jw": {
+        "name": "Jw41",
+        "days": [
+          39,
+          43
+        ]
+      }
+    },
+    "modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "primary_mode": "anomaly",
+    "min_years_for_regression": 8,
+    "n_bootstrap": 100,
+    "n_permutation": 100,
+    "random_seed": 20260514,
+    "clear_delta_r2_threshold": 0.05,
+    "weak_delta_r2_threshold": 0.02,
+    "sign_stability_threshold": 0.7,
+    "permutation_p_threshold": 0.1
+  },
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\w45_multisource_method_control_v10_7_g",
+  "status": "success",
+  "input_objects_loaded": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "n_strength_rows": 2160,
+  "n_wide_rows": 135,
+  "method_decision": [
+    {
+      "decision_item": "method control",
+      "status": "method_has_detectable_cross_object_signal",
+      "evidence": "Non-H cross-target supports: clear=28, weak=2.",
+      "route_implication": "Use this to decide whether H negative results are meaningful or whether the audit lacks power."
+    },
+    {
+      "decision_item": "H package",
+      "status": "H_package_has_cross_object_support",
+      "evidence": "H clear=1, weak=0 cross-target supports.",
+      "route_implication": "Keep H package as preconditioning candidate for supported targets only."
+    }
+  ],
+  "object_decision": [
+    {
+      "source_object": "H",
+      "status": "keep_as_cross_object_candidate",
+      "evidence": "pre_package->Jw",
+      "route_implication": "Eligible for gated spatial high/low composite on supported targets."
+    },
+    {
+      "source_object": "P",
+      "status": "keep_as_cross_object_candidate",
+      "evidence": "main_cluster_source->V; main_cluster_source->Je; main_cluster_source->M; main_cluster_source->joint_proxy; main_cluster_source->M_minus_P; main_cluster_source->M_minus_V; main_cluster_source->M_minus_Je; main_cluster_source->M_minus_Jw",
+      "route_implication": "Eligible for gated spatial high/low composite on supported targets."
+    },
+    {
+      "source_object": "V",
+      "status": "keep_as_cross_object_candidate",
+      "evidence": "main_cluster_source->P; main_cluster_source->Je; main_cluster_source->M; main_cluster_source->joint_proxy; main_cluster_source->M_minus_P; main_cluster_source->M_minus_V; main_cluster_source->M_minus_Je; main_cluster_source->M_minus_Jw",
+      "route_implication": "Eligible for gated spatial high/low composite on supported targets."
+    },
+    {
+      "source_object": "Je",
+      "status": "keep_as_cross_object_candidate",
+      "evidence": "pre_package->Jw; main_cluster_source->P; main_cluster_source->V; main_cluster_source->M; main_cluster_source->joint_proxy; main_cluster_source->M_minus_P; main_cluster_source->M_minus_V; main_cluster_source->M_minus_Je; main_cluster_source->M_minus_Jw",
+      "route_implication": "Eligible for gated spatial high/low composite on supported targets."
+    },
+    {
+      "source_object": "Jw",
+      "status": "keep_as_cross_object_candidate",
+      "evidence": "main_cluster_source->M_minus_P; main_cluster_source->M_minus_V; main_cluster_source->M_minus_Je",
+      "route_implication": "Eligible for gated spatial high/low composite on supported targets."
+    }
+  ],
+  "end_time_utc": "2026-05-14T02:33:56.911131+00:00"
+}

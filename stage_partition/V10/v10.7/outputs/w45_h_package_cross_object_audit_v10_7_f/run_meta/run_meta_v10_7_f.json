@@ -1,0 +1,220 @@
+{
+  "version": "v10.7_f",
+  "task": "W45 H-package to main-cluster cross-object audit",
+  "start_time_utc": "2026-05-14T02:06:36.648037+00:00",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "version": "v10.7_f",
+    "output_tag": "w45_h_package_cross_object_audit_v10_7_f",
+    "smoothed_env_var": "V10_7_SMOOTHED_FIELDS",
+    "lat_key_candidates": [
+      "lat",
+      "latitude",
+      "lats"
+    ],
+    "lon_key_candidates": [
+      "lon",
+      "longitude",
+      "lons"
+    ],
+    "year_key_candidates": [
+      "year",
+      "years"
+    ],
+    "day_key_candidates": [
+      "day",
+      "days",
+      "day_index"
+    ],
+    "field_specs": [
+      {
+        "object_name": "H",
+        "key_candidates": [
+          "z500_smoothed",
+          "z500",
+          "H",
+          "hgt500",
+          "geopotential_500",
+          "zg500"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ]
+      },
+      {
+        "object_name": "P",
+        "key_candidates": [
+          "precip_smoothed",
+          "precip",
+          "P",
+          "pr",
+          "rain",
+          "tp"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ]
+      },
+      {
+        "object_name": "V",
+        "key_candidates": [
+          "v850_smoothed",
+          "v850",
+          "V",
+          "v",
+          "vwind850"
+        ],
+        "lat_range": [
+          15.0,
+          35.0
+        ],
+        "lon_range": [
+          110.0,
+          140.0
+        ]
+      },
+      {
+        "object_name": "Je",
+        "key_candidates": [
+          "u200_east_smoothed",
+          "Je",
+          "je",
+          "u200_east",
+          "u200_je"
+        ],
+        "lat_range": [
+          25.0,
+          45.0
+        ],
+        "lon_range": [
+          110.0,
+          150.0
+        ]
+      },
+      {
+        "object_name": "Jw",
+        "key_candidates": [
+          "u200_west_smoothed",
+          "Jw",
+          "jw",
+          "u200_west",
+          "u200_jw"
+        ],
+        "lat_range": [
+          25.0,
+          45.0
+        ],
+        "lon_range": [
+          60.0,
+          110.0
+        ]
+      }
+    ],
+    "h_e1": {
+      "name": "H_E1",
+      "days": [
+        14,
+        22
+      ]
+    },
+    "h_e2": {
+      "name": "H_E2",
+      "days": [
+        31,
+        39
+      ]
+    },
+    "e2_control": {
+      "name": "E2_CONTROL",
+      "days": [
+        27,
+        38
+      ]
+    },
+    "target_windows": [
+      {
+        "name": "joint45",
+        "days": [
+          40,
+          48
+        ]
+      },
+      {
+        "name": "P45",
+        "days": [
+          42,
+          48
+        ]
+      },
+      {
+        "name": "V45",
+        "days": [
+          42,
+          48
+        ]
+      },
+      {
+        "name": "Je46",
+        "days": [
+          43,
+          48
+        ]
+      },
+      {
+        "name": "Jw41",
+        "days": [
+          39,
+          43
+        ]
+      }
+    ],
+    "modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "primary_mode": "anomaly",
+    "min_years_for_regression": 8,
+    "n_bootstrap": 500,
+    "n_permutation": 500,
+    "random_seed": 20260514,
+    "clear_delta_r2_threshold": 0.05,
+    "weak_delta_r2_threshold": 0.02,
+    "sign_stability_threshold": 0.7,
+    "permutation_p_threshold": 0.1
+  },
+  "output_root": "D:\\easm_project01\\stage_partition\\V10\\v10.7\\outputs\\w45_h_package_cross_object_audit_v10_7_f",
+  "status": "success",
+  "input_objects_loaded": [
+    "H",
+    "P",
+    "V"
+  ],
+  "n_strength_rows": 810,
+  "n_wide_rows": 135,
+  "route_decision_records": [
+    {
+      "decision_item": "H package line",
+      "status": "downgrade_H_for_W45_main_explanation",
+      "evidence": "No target shows incremental support from H_package after E2 controls under primary mode.",
+      "route_implication": "Shift W45 explanation toward P/V/Je/Jw main-cluster structure; do not continue H package as a primary line."
+    },
+    {
+      "decision_item": "input coverage",
+      "status": "partial_inputs",
+      "evidence": "Je:missing; Jw:missing",
+      "route_implication": "Interpret missing-object targets/controls as unavailable, not as negative evidence."
+    }
+  ],
+  "end_time_utc": "2026-05-14T02:07:12.437965+00:00"
+}

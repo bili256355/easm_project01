@@ -8,6 +8,7 @@
 #   .csv, .json, .txt, .md, .png, .jpg, .jpeg, .pdf, .docx, .xlsx, .pptx.
 # - Large scientific/binary data outputs remain ignored, including:
 #   .nc, .npy, .npz, .pkl, .pickle, .joblib, .h5, .hdf5, .zarr, archives.
+# - Local oversized files moved into _large_untracked_files/ are ignored.
 #
 # Important:
 # - .gitignore only affects untracked files.
@@ -168,7 +169,16 @@ Thumbs.db
 
 
 # ------------------------------------------------------------------------------
-# 10. Directory policy note
+# 10. Local oversized files moved out of normal Git tracking
+# ------------------------------------------------------------------------------
+# This folder is local-only. It can contain oversized CSV files or other files
+# that should not be uploaded to GitHub.
+
+_large_untracked_files/
+
+
+# ------------------------------------------------------------------------------
+# 11. Directory policy note
 # ------------------------------------------------------------------------------
 # output/, outputs/, result/, results/, figure/, figures/, plot/, plots/,
 # artifact/, and artifacts/ are intentionally NOT ignored by directory name.

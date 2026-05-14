@@ -1,0 +1,3 @@
+﻿decision_item,status,evidence,route_implication
+method control,method_has_detectable_cross_object_signal,"Non-H cross-target supports: clear=28, weak=2.",Use this to decide whether H negative results are meaningful or whether the audit lacks power.
+H package,H_package_has_cross_object_support,"H clear=1, weak=0 cross-target supports.",Keep H package as preconditioning candidate for supported targets only.
