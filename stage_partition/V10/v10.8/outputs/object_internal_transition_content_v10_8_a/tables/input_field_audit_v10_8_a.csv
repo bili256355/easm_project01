@@ -1,0 +1,6 @@
+﻿object,source_field,loaded,lat_range,lon_range,n_lat,n_lon,n_days,notes
+P,precip_smoothed,True,"[15.0, 39.0]","[105.0, 125.0]",97,81,183,reconstructed object-state vector = lat profile bins + semantic object metrics
+V,v850_smoothed,True,"[10.0, 30.0]","[105.0, 125.0]",81,81,183,reconstructed object-state vector = lat profile bins + semantic object metrics
+H,z500_smoothed,True,"[15.0, 35.0]","[110.0, 140.0]",81,121,183,reconstructed object-state vector = lat profile bins + semantic object metrics
+Je,u200_smoothed,True,"[25.0, 45.0]","[120.0, 150.0]",81,121,183,reconstructed object-state vector = lat profile bins + semantic object metrics
+Jw,u200_smoothed,True,"[25.0, 45.0]","[80.0, 110.0]",81,121,183,reconstructed object-state vector = lat profile bins + semantic object metrics

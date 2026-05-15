@@ -1,0 +1,69 @@
+{
+  "version": "v10.8_a",
+  "created_utc": "2026-05-15T07:27:14.717203+00:00",
+  "started_utc": "2026-05-15T07:26:50.080035+00:00",
+  "task": "object-internal transition content audit",
+  "method_boundary": {
+    "does_not_rerun_breakpoint_detection": true,
+    "does_not_use_joint_windows": true,
+    "does_not_align_to_accepted_windows": true,
+    "does_not_do_cross_object_interpretation": true,
+    "does_not_do_precursor_analysis": true,
+    "does_not_do_causal_inference": true,
+    "detector_native_reconstruction_note": "Uses V10.2 detector width to reconstruct left/right flanks around each object-native break day; this decomposes reconstructed detector-content changes and does not claim exact ruptures internal score attribution."
+  },
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "progress": true,
+    "version": "v10.8_a",
+    "output_tag": "object_internal_transition_content_v10_8_a",
+    "v10_2_output_tag": "object_native_peak_discovery_v10_2",
+    "detector_width_override": null,
+    "flank_half_width_override": null,
+    "smoothed_fields_path_override": null,
+    "clean_output": true,
+    "write_root_log": true,
+    "make_figures": true
+  },
+  "input_paths": {
+    "v10_2_windows": "D:\\easm_project01\\stage_partition\\V10\\v10.2\\outputs\\object_native_peak_discovery_v10_2\\cross_object\\object_native_derived_windows_all_objects_v10_2.csv",
+    "v10_2_config": "D:\\easm_project01\\stage_partition\\V10\\v10.2\\outputs\\object_native_peak_discovery_v10_2\\config_used.json",
+    "smoothed_fields": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz"
+  },
+  "detector_width_from_v10_2": 20,
+  "reconstructed_flank_half_width": 10,
+  "lat_step_deg": 2.0,
+  "n_object_windows": 39,
+  "objects_loaded": [
+    "H",
+    "Je",
+    "Jw",
+    "P",
+    "V"
+  ],
+  "outputs": {
+    "tables": [
+      "input_field_audit_v10_8_a.csv",
+      "object_breakpoint_content_interpretation_v10_8_a.csv",
+      "object_breakpoint_feature_group_contribution_v10_8_a.csv",
+      "object_breakpoint_lat_profile_delta_v10_8_a.csv",
+      "object_detector_native_change_decomposition_v10_8_a.csv",
+      "object_field_delta_summary_v10_8_a.csv",
+      "object_internal_breakpoint_content_sequence_v10_8_a.csv",
+      "object_semantic_metric_translation_v10_8_a.csv",
+      "object_window_inventory_v10_8_a.csv"
+    ],
+    "figures": [
+      "H_breakpoint_profile_delta_panel_v10_8_a.png",
+      "H_detector_feature_group_contribution_v10_8_a.png",
+      "Je_breakpoint_profile_delta_panel_v10_8_a.png",
+      "Je_detector_feature_group_contribution_v10_8_a.png",
+      "Jw_breakpoint_profile_delta_panel_v10_8_a.png",
+      "Jw_detector_feature_group_contribution_v10_8_a.png",
+      "P_breakpoint_profile_delta_panel_v10_8_a.png",
+      "P_detector_feature_group_contribution_v10_8_a.png",
+      "V_breakpoint_profile_delta_panel_v10_8_a.png",
+      "V_detector_feature_group_contribution_v10_8_a.png"
+    ]
+  }
+}
