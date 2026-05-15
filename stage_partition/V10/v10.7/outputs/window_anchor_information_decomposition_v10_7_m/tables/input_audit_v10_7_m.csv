@@ -1,0 +1,3 @@
+﻿object,source_field,lat_range,lon_range,loaded,notes
+H,z500_smoothed,"(15.0, 35.0)","(110.0, 140.0)",True,H structure from z500-like field.
+P,precip_smoothed,"(15.0, 35.0)","(110.0, 140.0)",True,P rainband structure from precip-like field.

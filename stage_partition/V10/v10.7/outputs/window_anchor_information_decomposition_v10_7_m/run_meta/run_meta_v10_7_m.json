@@ -1,0 +1,141 @@
+{
+  "created_utc": "2026-05-15T02:23:00.467775+00:00",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "n_perm": 5000,
+    "n_boot": 1000,
+    "group_frac": 0.3,
+    "n_random_windows": 1000,
+    "random_seed": 20260515,
+    "progress": true,
+    "smoothed_fields_path_override": null,
+    "version": "v10.7_m",
+    "output_tag": "window_anchor_information_decomposition_v10_7_m",
+    "e2_pre": [
+      27,
+      31
+    ],
+    "e2_post": [
+      34,
+      38
+    ],
+    "m_pre": [
+      40,
+      43
+    ],
+    "m_post": [
+      45,
+      48
+    ],
+    "source_anchor_len": 12,
+    "source_anchor_internal_pre_len": 5,
+    "source_anchor_internal_gap_len": 2,
+    "source_anchor_internal_post_len": 5,
+    "source_anchor_min_start": 0,
+    "source_anchor_max_end": 39,
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "p_lat_range": [
+      15.0,
+      35.0
+    ],
+    "p_lon_range": [
+      110.0,
+      140.0
+    ],
+    "modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "primary_modes": [
+      "anomaly",
+      "local_background_removed"
+    ],
+    "h_component_metrics": [
+      "H_strength",
+      "H_centroid_lat",
+      "H_west_extent_lon",
+      "H_zonal_width",
+      "H_north_edge_lat",
+      "H_south_edge_lat"
+    ],
+    "p_target_metrics": [
+      "P_total_strength",
+      "P_centroid_lat",
+      "P_spread_lat",
+      "P_main_band_share",
+      "P_south_band_share_18_24",
+      "P_main_minus_south"
+    ],
+    "p_rainband_metrics": [
+      "P_main_band_share_transition",
+      "P_south_band_share_18_24_transition",
+      "P_main_minus_south_transition"
+    ],
+    "p_v10_7_l_primary_metrics": [
+      "P_centroid_lat_transition",
+      "P_main_band_share_transition",
+      "P_south_band_share_18_24_transition",
+      "P_main_minus_south_transition"
+    ]
+  },
+  "input_npz_path": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "questions_answered": {
+    "Q2": "information form decomposition: transition/state/mean/slope/background proxy",
+    "Q1_Q4": "E2/W33 anchor specificity against E1/shifted/sliding/random source windows",
+    "Q3": "scalarized transition representation vs signed structural-component transition representation",
+    "Q5_minimal": "source/target metric specificity within H -> P narrow channel"
+  },
+  "method_boundary": [
+    "not causal inference",
+    "not full W33-to-W45 mapping",
+    "not full object-network audit",
+    "not proof that transition windows represent all object information",
+    "does not control away P/V/Je/Jw",
+    "does not replace V10.7_l; decomposes and stress-tests its interpretation",
+    "random/sliding anchor specificity uses rank-only screening by default; formal permutation/bootstrap remains on fixed/named relation tables and representation comparison"
+  ],
+  "forbidden_interpretations": [
+    "Do not state H causes P",
+    "Do not state H controls W45",
+    "Do not generalize to full E2->M or W33->W45 mapping",
+    "Do not say strength class failed; V10.7_i only constrains scalarized transition mapping",
+    "Do not say transition windows represent most object information unless future full-series/memory audit supports it"
+  ],
+  "outputs": {
+    "tables": [
+      "anchor_specificity_all_windows_v10_7_m.csv",
+      "e2_anchor_rank_summary_v10_7_m.csv",
+      "h_zonal_width_information_form_route_decision_v10_7_m.csv",
+      "information_form_decomposition_v10_7_m.csv",
+      "input_audit_v10_7_m.csv",
+      "metric_specificity_route_decision_v10_7_m.csv",
+      "random_window_null_summary_v10_7_m.csv",
+      "representation_comparison_v10_7_m.csv",
+      "scalar_vs_signed_component_route_decision_v10_7_m.csv",
+      "source_anchor_definitions_v10_7_m.csv",
+      "source_metric_specificity_v10_7_m.csv",
+      "target_metric_specificity_v10_7_m.csv",
+      "yearly_representation_source_features_v10_7_m.csv",
+      "yearly_source_features_v10_7_m.csv",
+      "yearly_target_features_v10_7_m.csv"
+    ],
+    "figures": [
+      "e2_anchor_percentile_anomaly_v10_7_m.png",
+      "e2_anchor_percentile_local_background_removed_v10_7_m.png",
+      "information_form_rank_h_zonal_width_anomaly_v10_7_m.png",
+      "information_form_rank_h_zonal_width_local_background_removed_v10_7_m.png",
+      "scalar_vs_signed_component_anomaly_v10_7_m.png",
+      "scalar_vs_signed_component_local_background_removed_v10_7_m.png",
+      "target_family_specificity_anomaly_v10_7_m.png",
+      "target_family_specificity_local_background_removed_v10_7_m.png"
+    ]
+  }
+}

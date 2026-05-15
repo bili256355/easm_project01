@@ -1,0 +1,11 @@
+V10.7_m patch package
+
+Add these files to the project root D:\easm_project01 preserving relative paths:
+
+README_APPLY_V10_7_M.md
+root_log_append/ROOT_LOG_03_VERSION_STATUS_AND_EXECUTION_CHAIN__V10_7_M_APPEND.md
+root_log_append/ROOT_LOG_05_PENDING_TASKS_AND_FORBIDDEN_INTERPRETATIONS__V10_7_M_APPEND.md
+stage_partition/V10/v10.7/scripts/run_window_anchor_information_decomposition_v10_7_m.py
+stage_partition/V10/v10.7/src/stage_partition_v10_7/window_anchor_information_decomposition_pipeline.py
+
+No existing files need to be overwritten.

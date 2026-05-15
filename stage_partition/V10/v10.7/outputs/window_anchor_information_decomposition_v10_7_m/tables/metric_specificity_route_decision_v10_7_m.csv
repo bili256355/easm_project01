@@ -1,0 +1,3 @@
+﻿mode,top_source_metric,top_target_family,metric_specificity_decision
+anomaly,H_zonal_width,P_position,target_not_rainband_specific
+local_background_removed,H_zonal_width,P_position,target_not_rainband_specific
