@@ -1,0 +1,13 @@
+﻿mode,component,corr_with_P_NS_reorganization_index,component_std,dominance_flag
+anomaly,z_P_centroid_lat_transition,0.9295969764720066,0.9999999999999999,True
+anomaly,z_P_main_band_share_transition,0.9612073181684638,0.9999999999999999,True
+anomaly,z_P_south_band_share_18_24_transition,-0.9161846691574328,1.0,True
+anomaly,z_P_main_minus_south_transition,0.9929443940655872,1.0,True
+local_background_removed,z_P_centroid_lat_transition,0.9455823057792205,0.9999999999999999,True
+local_background_removed,z_P_main_band_share_transition,0.9651152262788135,1.0,True
+local_background_removed,z_P_south_band_share_18_24_transition,-0.9369113924466137,1.0,True
+local_background_removed,z_P_main_minus_south_transition,0.9942754528973389,1.0,True
+raw,z_P_centroid_lat_transition,0.9579164222514001,1.0,True
+raw,z_P_main_band_share_transition,0.9775218127686193,0.9999999999999999,True
+raw,z_P_south_band_share_18_24_transition,-0.9578040318400342,1.0,True
+raw,z_P_main_minus_south_transition,0.9956298670067253,1.0,True

@@ -1,0 +1,179 @@
+{
+  "version": "v10.7_n",
+  "task": "h_zonal_width_background_target_preinfo_v10_7_n",
+  "created_at_utc": "2026-05-15T03:37:44.660470+00:00",
+  "settings": {
+    "project_root": "D:\\easm_project01",
+    "n_perm": 5000,
+    "n_boot": 1000,
+    "n_random_windows": 1000,
+    "group_frac": 0.3,
+    "random_seed": 20260515,
+    "progress": true,
+    "experiment_a_policy": "screen",
+    "screen_n_perm": 199,
+    "screen_n_boot": 199,
+    "smoothed_fields_path_override": null,
+    "version": "v10.7_n",
+    "output_tag": "h_zonal_width_background_target_preinfo_v10_7_n",
+    "e1_full": [
+      12,
+      23
+    ],
+    "e2_pre": [
+      27,
+      31
+    ],
+    "e2_post": [
+      34,
+      38
+    ],
+    "e2_full": [
+      27,
+      38
+    ],
+    "m_pre": [
+      40,
+      43
+    ],
+    "m_post": [
+      45,
+      48
+    ],
+    "m_full": [
+      40,
+      48
+    ],
+    "pre_e2_full": [
+      0,
+      26
+    ],
+    "e1_to_e2_full": [
+      12,
+      38
+    ],
+    "pre_m_full": [
+      0,
+      39
+    ],
+    "pre_m_near_full": [
+      28,
+      39
+    ],
+    "post_m_full": [
+      49,
+      60
+    ],
+    "source_anchor_len": 12,
+    "source_anchor_pre_len": 5,
+    "source_anchor_gap_len": 2,
+    "source_anchor_post_len": 5,
+    "source_anchor_min_start": 0,
+    "source_anchor_max_end": 39,
+    "h_lat_range": [
+      15.0,
+      35.0
+    ],
+    "h_lon_range": [
+      110.0,
+      140.0
+    ],
+    "p_lat_range": [
+      15.0,
+      35.0
+    ],
+    "p_lon_range": [
+      110.0,
+      140.0
+    ],
+    "modes": [
+      "anomaly",
+      "local_background_removed",
+      "raw"
+    ],
+    "primary_modes": [
+      "anomaly",
+      "local_background_removed"
+    ],
+    "h_main_metric": "H_zonal_width",
+    "p_position_metric": "P_centroid_lat_transition",
+    "p_rainband_metrics": [
+      "P_main_band_share_transition",
+      "P_south_band_share_18_24_transition",
+      "P_main_minus_south_transition"
+    ],
+    "p_all_transition_metrics": [
+      "P_total_strength_transition",
+      "P_centroid_lat_transition",
+      "P_spread_lat_transition",
+      "P_main_band_share_transition",
+      "P_south_band_share_18_24_transition",
+      "P_main_minus_south_transition"
+    ]
+  },
+  "input_file": "D:\\easm_project01\\foundation\\V1\\outputs\\baseline_a\\preprocess\\smoothed_fields.npz",
+  "parent_versions": [
+    "V10.7_l",
+    "V10.7_m"
+  ],
+  "base_logic_inherited_from": [
+    "V10.7_l H/P metric construction style",
+    "V10.7_m relation scoring and permutation/bootstrap style"
+  ],
+  "questions_answered": {
+    "Qn1": "local E2 H_zonal_width information vs broad pre-M background",
+    "Qn2": "P target redefinition: position-only vs rainband-only vs NS reorganization",
+    "Qn3": "weak preinformation value vs common-year/background explanation"
+  },
+  "mode_definitions": {
+    "raw": "raw smoothed domain field",
+    "anomaly": "field minus daily climatology across years",
+    "local_background_removed": "field minus same-day domain mean, then daily climatology removed from the local residual"
+  },
+  "method_boundary": [
+    "not causal inference",
+    "not full W33-to-W45 mapping",
+    "not full P/V/H/Je/Jw object-network audit",
+    "not proof that transition windows represent most object information",
+    "does not control away P/V/Je/Jw",
+    "does not re-test scalarized transition failure",
+    "tests local-vs-background H_zonal_width information",
+    "tests P target redefinition",
+    "tests weak preinformation value, not causality"
+  ],
+  "forbidden_interpretations": [
+    "Do not state H causes P",
+    "Do not state H controls W45",
+    "Do not state E2 is the unique source window unless evidence supports it",
+    "Do not state transition window represents most H information",
+    "Do not state P target is rainband-only if position/composite is stronger",
+    "Do not interpret scalarized transition failure as strength-class failure"
+  ],
+  "outputs": {
+    "tables": [
+      "decade_block_sensitivity_v10_7_n.csv",
+      "h_zonal_width_background_increment_v10_7_n.csv",
+      "h_zonal_width_local_vs_background_relation_v10_7_n.csv",
+      "h_zonal_width_sliding_background_rank_v10_7_n.csv",
+      "h_zonal_width_sliding_window_features_v10_7_n.csv",
+      "h_zonal_width_source_features_v10_7_n.csv",
+      "input_audit_v10_7_n.csv",
+      "p_lat_profile_contrast_v10_7_n.csv",
+      "p_ns_composite_component_dominance_v10_7_n.csv",
+      "p_ns_reorganization_index_components_v10_7_n.csv",
+      "p_target_candidates_v10_7_n.csv",
+      "p_target_family_route_decision_v10_7_n.csv",
+      "p_target_redefinition_v10_7_n.csv",
+      "route_decision_v10_7_n.csv",
+      "time_order_negative_control_v10_7_n.csv",
+      "year_influence_preinformation_v10_7_n.csv"
+    ],
+    "figures": [
+      "local_vs_background_h_zonal_width_score_v10_7_n.png",
+      "p_ns_reorganization_components_v10_7_n.png",
+      "p_target_redefinition_score_v10_7_n.png",
+      "time_order_negative_control_v10_7_n.png",
+      "year_influence_preinformation_v10_7_n.png"
+    ]
+  }
+}

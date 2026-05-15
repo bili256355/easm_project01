@@ -1,0 +1,23 @@
+V10.7_n HOTFIX02
+=================
+
+Reason:
+- Fix KeyError: 'mode' in decide_routes() when experiment A2/A3 are skipped.
+
+Replaced files:
+- stage_partition/V10/v10.7/scripts/run_h_zonal_width_background_target_preinfo_v10_7_n.py
+- stage_partition/V10/v10.7/src/stage_partition_v10_7/h_zonal_width_background_target_preinfo_pipeline.py
+
+Added docs:
+- README_APPLY_V10_7_N_HOTFIX02.md
+- PATCH_MANIFEST_V10_7_N_HOTFIX02.txt
+
+Validation:
+- python -m py_compile passed.
+- Synthetic run passed with --experiment-a-policy skip_heavy.
+- Synthetic run passed with --experiment-a-policy screen.
+
+Boundary:
+- Does not change scientific questions.
+- Does not alter V10.7_l or V10.7_m.
+- full remains formal; screen/skip_heavy are not final statistical evidence.
